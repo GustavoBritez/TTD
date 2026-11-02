@@ -7,12 +7,23 @@ import pytesseract
 
 TEMPLATES_DIR = os.path.join(os.path.dirname(__file__), "templates")
 
+# Asegurar ruta de Tesseract en Windows si no est en PATH
+TESSERACT_PATHS = [
+    r"C:\Program Files\Tesseract-OCR\tesseract.exe",
+    r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe",
+    os.path.expanduser(r"~\AppData\Local\Programs\Tesseract-OCR\tesseract.exe")
+]
+for t_path in TESSERACT_PATHS:
+    if os.path.exists(t_path):
+        pytesseract.pytesseract.tesseract_cmd = t_path
+        break
+
 class VisionSystem:
     def __init__(self):
         self.sct = mss.mss()
 
     def grab_screen(self):
-        """Captura toda la pantalla de forma ultrarrápida en formato OpenCV BGR"""
+        """Captura toda la pantalla de forma ultrarrpida en formato OpenCV BGR"""
         monitor = self.sct.monitors[1]
         screenshot = np.array(self.sct.grab(monitor))
         return cv2.cvtColor(screenshot, cv2.COLOR_BGRA2BGR)
@@ -47,30 +58,49 @@ class VisionSystem:
 
     def read_money(self) -> int:
         """
-        Lee el dinero actual en pantalla mediante OCR en la zona inferior central.
-        Detecta números como $300, $400, $2310 de forma robusta.
+        Lee el dinero actual aislando el color verde brillante ($XXXX) por encima de la hotbar.
+        Filtra con HSV, binariza y genera 'debug_money_ocr.png'.
+        Devuelve el dinero o -1 si falla.
         """
         try:
             screen = self.grab_screen()
             h, w = screen.shape[:2]
 
-            # Zona inferior central donde aparece el dinero
-            crop = screen[int(h * 0.78):int(h * 0.94), int(w * 0.40):int(w * 0.58)]
-            text = pytesseract.image_to_string(crop, config='--psm 6')
-            nums = re.findall(r'\d+', text)
+            # Recorte ajustado: solo la franja del dinero (arriba de los slots de tropas)
+            crop = screen[int(h * 0.78):int(h * 0.88), int(w * 0.42):int(w * 0.58)]
 
-            candidates = [int(n) for n in nums if len(n) <= 6]
-            if candidates:
-                for val in candidates:
-                    if val >= 50:
-                        return val
-                return candidates[0]
-        except Exception:
+            # Escalar x3 para que Tesseract lea perfecto los nmeros pequeos
+            crop_large = cv2.resize(crop, None, fx=3, fy=3, interpolation=cv2.INTER_CUBIC)
+
+            # Aislar el color verde claro/brillante del texto de dinero en TTD (HSV)
+            hsv = cv2.cvtColor(crop_large, cv2.COLOR_BGR2HSV)
+            lower_green = np.array([35, 60, 100])
+            upper_green = np.array([95, 255, 255])
+            mask = cv2.inRange(hsv, lower_green, upper_green)
+
+            # Engrosar ligeramente las letras y poner texto negro sobre fondo blanco
+            kernel = np.ones((2, 2), np.uint8)
+            mask = cv2.dilate(mask, kernel, iterations=1)
+            processed = cv2.bitwise_not(mask)
+
+            # Guardar imagen de depuracin para verificar el recorte en vivo
+            debug_path = os.path.join(os.path.dirname(__file__), "debug_money_ocr.png")
+            cv2.imwrite(debug_path, processed)
+
+            # PSM 7 = Tratar la imagen como una sola lnea de texto, solo dgitos
+            custom_config = r'--psm 7 -c tessedit_char_whitelist=0123456789'
+            text = pytesseract.image_to_string(processed, config=custom_config)
+
+            nums = re.findall(r'\d+', text)
+            if nums:
+                full_num = "".join(nums)
+                return int(full_num)
+        except Exception as e:
             pass
-        return 0
+        return -1
 
     def find_skip_button(self):
-        """Busca el botón 'Saltar' en la barra superior (soporta clean y normal)."""
+        """Busca el botn 'Saltar' en la barra superior (soporta clean y normal)."""
         res = self.find_template("btn_saltar_clean.png", threshold=0.70)
         if res is None:
             res = self.find_template("btn_saltar_oleada.png", threshold=0.65)
@@ -84,11 +114,11 @@ class VisionSystem:
         return res
 
     def find_upgrade_button(self):
-        """Busca el botón verde 'Mejora' del Gerente de Unidad automáticament con OpenCV"""
+        """Busca el botn verde 'Mejora' del Gerente de Unidad automticamente con OpenCV"""
         return self.find_template("btn_mejora.png", threshold=0.70)
 
     def find_close_button(self):
-        """Busca el botón rojo 'Salida' del Gerente de Unidad automáticament con OpenCV"""
+        """Busca el botn rojo 'Salida' del Gerente de Unidad automticamente con OpenCV"""
         res = self.find_template("btn_salida_clean.png", threshold=0.70)
         if res is None:
             res = self.find_template("btn_salida.png", threshold=0.65)
@@ -96,7 +126,7 @@ class VisionSystem:
 
     def find_reference_landmark(self):
         """
-        Detecta el portal amarillo superior para calibrar la posición del personaje en el mapa.
+        Detecta el portal amarillo superior para calibrar la posicin del personaje en el mapa.
         Retorna (center_x, center_y) del portal o None.
         """
         try:
@@ -119,15 +149,15 @@ class VisionSystem:
 
     def is_in_game(self) -> bool:
         """
-        Determina si terminó la pantalla de carga y ya estamos dentro de la partida.
-        Devuelve True si el icono del libro 'Unidades' está visible o si se detecta dinero.
+        Determina si termin la pantalla de carga y ya estamos dentro de la partida.
+        Devuelve True si el icono del libro 'Unidades' est visible o si se detecta dinero.
         """
         return self.find_book_icon() is not None or self.read_money() > 0
 
     def find_replay_button(self):
         """
-        Detecta el botón verde 'Jugar de nuevo' en la pantalla de derrota/victoria.
-        Prioriza la plantilla exacta btn_jugar_nuevo.png con fallback a detección de contorno verde.
+        Detecta el botn verde 'Jugar de nuevo' en la pantalla de derrota/victoria.
+        Prioriza la plantilla exacta btn_jugar_nuevo.png con fallback a deteccin de contorno verde.
         """
         tpl_pt = self.find_template("btn_jugar_nuevo.png", threshold=0.70)
         if tpl_pt:
@@ -155,8 +185,8 @@ class VisionSystem:
 
     def is_autoskip_red(self, x: int, y: int, radius: int = 15) -> bool:
         """
-        Verifica si la casilla de 'Saltar automáticamente' está en rojo (desactivada).
-        Si está roja, devuelve True para hacer clic y activarla a verde.
+        Verifica si la casilla de 'Saltar automticamente' est en rojo (desactivada).
+        Si est roja, devuelve True para hacer clic y activarla a verde.
         """
         try:
             screen = self.grab_screen()
@@ -186,7 +216,7 @@ class VisionSystem:
         Analiza el mapa en vivo identificando:
         1. La cinta/pista oscura donde caminan los enemigos.
         2. La lava circundante (prohibido colocar).
-        3. La franja óptima de combate en piedra alrededor de la pista (25-50 px).
+        3. La franja ptima de combate en piedra alrededor de la pista (25-50 px).
         """
         if screen is None:
             screen = self.grab_screen()
@@ -224,8 +254,8 @@ class VisionSystem:
     def snap_to_safe_strip(self, target_x: int, target_y: int, screen=None) -> tuple:
         """
         Verifica si (target_x, target_y) cae sobre lava o sobre la pista de enemigos.
-        Si no es seguro, ajusta matemáticamente el clic al punto de piedra seguro
-        más cercano en la franja adyacente a la cinta.
+        Si no es seguro, ajusta matemticamente el clic al punto de piedra seguro
+        ms cercano en la franja adyacente a la cinta.
         """
         try:
             if screen is None:
@@ -252,7 +282,7 @@ class VisionSystem:
         """
         Calcula el desplazamiento (dx, dy) del mapa actual en pantalla respecto al mapa base de referencia
         debido al spawn aleatorio del personaje, utilizando OpenCV ORB Feature Matching.
-        Soporta galería multi-ángulo de Mapa_Endless para máxima robustez ante diferentes rotaciones de cámara.
+        Soporta galera multi-ngulo de Mapa_Endless para mxima robustez ante diferentes rotaciones de cmara.
         Retorna (dx, dy) en pixeles.
         """
         try:
