@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "slot": 1,
+        "name": "Granja",
+        "cost": 200,
+        "canvas_x": 539,
+        "canvas_y": 186,
+        "game_x": 981,
+        "game_y": 298
+    },
+    {
+        "id": 2,
+        "slot": 1,
+        "name": "Granja",
+        "cost": 200,
+        "canvas_x": 474,
+        "canvas_y": 368,
+        "game_x": 863,
+        "game_y": 591
+    },
+    {
+        "id": 3,
+        "slot": 1,
+        "name": "Granja",
+        "cost": 200,
+        "canvas_x": 570,
+        "canvas_y": 327,
+        "game_x": 1038,
+        "game_y": 525
+    },
+    {
+        "id": 4,
+        "slot": 1,
+        "name": "Granja",
+        "cost": 200,
+        "canvas_x": 568,
+        "canvas_y": 262,
+        "game_x": 1034,
+        "game_y": 420
+    },
+    {
+        "id": 5,
+        "slot": 2,
+        "name": "Mejor Guerrero",
+        "cost": 1200,
+        "canvas_x": 474,
+        "canvas_y": 242,
+        "game_x": 863,
+        "game_y": 388
+    },
+    {
+        "id": 6,
+        "slot": 3,
+        "name": "Titanes",
+        "cost": 1050,
+        "canvas_x": 483,
+        "canvas_y": 281,
+        "game_x": 879,
+        "game_y": 451
+    },
+    {
+        "id": 7,
+        "slot": 3,
+        "name": "Titanes",
+        "cost": 1050,
+        "canvas_x": 481,
+        "canvas_y": 315,
+        "game_x": 876,
+        "game_y": 506
+    },
+    {
+        "id": 8,
+        "slot": 3,
+        "name": "Titanes",
+        "cost": 1050,
+        "canvas_x": 518,
+        "canvas_y": 372,
+        "game_x": 943,
+        "game_y": 597
+    },
+    {
+        "id": 9,
+        "slot": 3,
+        "name": "Titanes",
+        "cost": 1050,
+        "canvas_x": 437,
+        "canvas_y": 290,
+        "game_x": 795,
+        "game_y": 465
+    }
+]

@@ -1,0 +1,45 @@
+{
+    "resolution": {
+        "width": 1366,
+        "height": 768
+    },
+    "positions": {
+        "farm_1": {
+            "x": 301,
+            "y": 683
+        },
+        "farm_2": {
+            "x": 352,
+            "y": 680
+        },
+        "farm_3": {
+            "x": 404,
+            "y": 679
+        },
+        "farm_4": {
+            "x": 472,
+            "y": 680
+        },
+        "titan_1": {
+            "x": 683,
+            "y": 380
+        },
+        "autoskip_button": {
+            "x": 461,
+            "y": 166
+        },
+        "upgrade_button": null,
+        "play_again_button": {
+            "x": 683,
+            "y": 500
+        },
+        "titan_2": {
+            "x": 600,
+            "y": 380
+        },
+        "close_manager_button": {
+            "x": 683,
+            "y": 520
+        }
+    }
+}
