@@ -581,8 +581,11 @@ class TTDGuiApp(ctk.CTk):
                     if can_place:
                         target_x = max(30, min(1336, next_unit["game_x"] + dx))
                         target_y = max(30, min(738, next_unit["game_y"] + dy))
-                        self.log(f"Colocando {next_unit['name']} (Slot {next_unit['slot']}) en ({target_x}, {target_y}) [Plano: ({next_unit['game_x']}, {next_unit['game_y']}) + Offset ({dx}, {dy})]")
-                        self.controller.place_unit(next_unit["slot"], target_x, target_y)
+                        
+                        # Ajuste inteligente a la franja de combate adyacente a la cinta de enemigos
+                        safe_x, safe_y = self.vision.snap_to_safe_strip(target_x, target_y)
+                        self.log(f"Colocando {next_unit['name']} (Slot {next_unit['slot']}) en ({safe_x}, {safe_y}) [Alineado a la cinta]")
+                        self.controller.place_unit(next_unit["slot"], safe_x, safe_y)
                         pending_units.pop(0)
                         time.sleep(1.2)
 
@@ -598,11 +601,14 @@ class TTDGuiApp(ctk.CTk):
                             upgrade_pt = self.vision.find_upgrade_button()
                             if upgrade_pt:
                                 self.controller.click_at(upgrade_pt[0], upgrade_pt[1], delay=0.2)
-                                self.log(f"Mejora aplicada en Gerente (Dinero: ${money})")
+                                self.log(f"Mejora aplicada en Gerente de Unidad (Dinero: ${money})")
+                                time.sleep(0.2)
 
                             close_pt = self.vision.find_close_button()
                             if close_pt:
                                 self.controller.click_at(close_pt[0], close_pt[1], delay=0.2)
+                            else:
+                                self.controller.click_at(book_pt[0], book_pt[1], delay=0.2)
 
                 # D. Anti-AFK periódico (cada 2 minutos, no cada 2.5s)
                 if int(elapsed) > 0 and int(elapsed) % 120 == 0:
