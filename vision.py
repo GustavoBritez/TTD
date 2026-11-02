@@ -124,60 +124,105 @@ class VisionSystem:
             res = self.find_template("btn_salida.png", threshold=0.65)
         return res
 
-    def get_lava_center_from_image(self, bgr_img):
+    def get_lava_center_from_image(self, bgr_img, save_debug: bool = False):
         """
-        Calcula el centro geomtrico (x, y) de la zona de lava/portal en cualquier imagen BGR.
+        Detecta EXCLUSIVAMENTE el pozo central de lava con rocas dentro de la isla de piedra,
+        ignorando por completo el mar de lava gigante que rodea el mapa exterior.
         """
         h, w = bgr_img.shape[:2]
         hsv = cv2.cvtColor(bgr_img, cv2.COLOR_BGR2HSV)
-        
-        # Rango HSV para la lava brillante (naranja/amarillo) de Mapa Endless
-        lower_lava = np.array([10, 130, 140])
-        upper_lava = np.array([35, 255, 255])
-        mask = cv2.inRange(hsv, lower_lava, upper_lava)
+        gray = cv2.cvtColor(bgr_img, cv2.COLOR_BGR2GRAY)
 
-        # Ignorar bordes de la interfaz (barra superior de oleadas y hotbar inferior)
-        mask[:int(h * 0.12), :] = 0
-        mask[int(h * 0.82):, :] = 0
-        mask[:, :int(w * 0.08)] = 0
-        mask[:, int(w * 0.92):] = 0
+        # 1. Aislar la plataforma central de piedra oscura + camino negro
+        # La piedra y pista tienen brillo bajo/medio y saturación baja (a diferencia de la lava brillante)
+        stone_mask = ((hsv[:, :, 1] < 110) & (gray > 10) & (gray < 135)).astype(np.uint8) * 255
+        stone_mask[:int(h * 0.10), :] = 0
+        stone_mask[int(h * 0.84):, :] = 0
 
-        # Unir bloques cercanos de lava y calcular su centro de masa (momentos)
-        kernel = np.ones((15, 15), np.uint8)
-        mask = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, kernel)
+        # Cerrar huecos pequeños para obtener el polígono envolvente (Convex Hull) de toda la isla de piedra
+        kernel_close = np.ones((21, 21), np.uint8)
+        stone_closed = cv2.morphologyEx(stone_mask, cv2.MORPH_CLOSE, kernel_close)
+        contours_stone, _ = cv2.findContours(stone_closed, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
-        M = cv2.moments(mask)
-        if M["m00"] > 500:  # Asegurar que hay suficiente lava visible
-            cx = int(M["m10"] / M["m00"])
-            cy = int(M["m01"] / M["m00"])
-            return (cx, cy)
+        island_interior_mask = np.zeros((h, w), dtype=np.uint8)
+        if contours_stone:
+            # Tomar el contorno más grande (la isla principal del mapa) y su Convex Hull
+            largest_stone = max(contours_stone, key=cv2.contourArea)
+            hull = cv2.convexHull(largest_stone)
+            cv2.drawContours(island_interior_mask, [hull], -1, 255, thickness=cv2.FILLED)
+            # Erodir 35px hacia adentro para cortar cualquier contacto con el mar de lava exterior
+            island_interior_mask = cv2.erode(island_interior_mask, np.ones((35, 35), np.uint8), iterations=1)
+
+        # 2. Detectar píxeles de lava amarilla/naranja brillante
+        lower_lava = np.array([12, 130, 150])
+        upper_lava = np.array([38, 255, 255])
+        lava_mask = cv2.inRange(hsv, lower_lava, upper_lava)
+
+        # Quédate SOLO con la lava que está ADENTRO de la isla de piedra
+        inner_lava = cv2.bitwise_and(lava_mask, island_interior_mask)
+        inner_lava = cv2.morphologyEx(inner_lava, cv2.MORPH_CLOSE, np.ones((15, 15), np.uint8))
+
+        # 3. Buscar los parches internos de lava (el pozo central con rocas y la ranura izquierda)
+        contours_lava, _ = cv2.findContours(inner_lava, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+        valid_patches = []
+        img_cx, img_cy = w // 2, h // 2
+
+        for c in contours_lava:
+            area = cv2.contourArea(c)
+            # El pozo central de lava con rocas mide entre 1500 y 35000 px en 1366x768
+            if 1200 < area < 40000:
+                M = cv2.moments(c)
+                if M["m00"] > 0:
+                    cx = int(M["m10"] / M["m00"])
+                    cy = int(M["m01"] / M["m00"])
+                    # Priorizar el pozo que es más ancho/cuadrado (el central con rocas) sobre la ranura fina
+                    x, y, cw, ch = cv2.boundingRect(c)
+                    aspect_ratio = float(min(cw, ch)) / max(cw, ch) if max(cw, ch) > 0 else 0
+                    dist_to_center = np.hypot(cx - img_cx, cy - img_cy)
+                    score = (aspect_ratio * 2.0) - (dist_to_center / 500.0)
+                    valid_patches.append((score, cx, cy, c))
+
+        if valid_patches:
+            valid_patches.sort(key=lambda item: item[0], reverse=True)
+            _, best_cx, best_cy, best_c = valid_patches[0]
+
+            if save_debug:
+                dbg = bgr_img.copy()
+                cv2.drawContours(dbg, [best_c], -1, (0, 255, 0), 3)
+                cv2.circle(dbg, (best_cx, best_cy), 8, (0, 0, 255), -1)
+                cv2.circle(dbg, (img_cx, img_cy), 8, (255, 0, 255), 2)
+                cv2.line(dbg, (img_cx, img_cy), (best_cx, best_cy), (0, 255, 255), 2)
+                cv2.imwrite(os.path.join(os.path.dirname(__file__), "debug_lava_center.png"), dbg)
+
+            return (best_cx, best_cy)
         return None
 
     def find_reference_landmark(self):
-        """Detecta en vivo el centro de la lava en la pantalla actual."""
+        """Detecta en vivo el pozo central de lava con rocas y guarda debug_lava_center.png"""
         try:
             screen = self.grab_screen()
             if screen.shape[:2] != (768, 1366):
                 screen = cv2.resize(screen, (1366, 768))
-            return self.get_lava_center_from_image(screen)
+            return self.get_lava_center_from_image(screen, save_debug=True)
         except Exception:
             return None
 
     def get_base_map_lava_target(self):
         """
-        Obtiene la coordenada (x, y) exacta donde est la lava en assets/map_endless.jpg
-        para que el personaje se alinee exactamente igual que en el Blueprint.
+        Punto exacto de la pantalla (x, y) donde debe quedar ubicado el pozo central de lava
+        para que el jugador quede parado justo al lado del centro de lava con rocas (como en la Foto 1).
         """
         default_map = os.path.join(os.path.dirname(__file__), "assets", "map_endless.jpg")
         if os.path.exists(default_map):
             base_img = cv2.imread(default_map, cv2.IMREAD_COLOR)
             if base_img is not None:
                 base_resized = cv2.resize(base_img, (1366, 768))
-                pt = self.get_lava_center_from_image(base_resized)
+                pt = self.get_lava_center_from_image(base_resized, save_debug=False)
                 if pt:
                     return pt
-        # Fallback al centro estndar si no encuentra el archivo
-        return (640, 360)
+        # En 1366x768, cuando el jugador está parado junto al pozo central con rocas (Foto 1),
+        # el centroide del pozo de lava queda justo encima del personaje en (650, 350):
+        return (650, 350)
 
     def is_in_game(self) -> bool:
         """
@@ -383,3 +428,51 @@ class VisionSystem:
             pass
 
         return (0, 0)
+
+    def transform_blueprint_point(self, game_x: int, game_y: int) -> tuple:
+        """
+        Transforma una coordenada (game_x, game_y) del Blueprint (map_endless.jpg)
+        a la pantalla en vivo actual corrigiendo TANTO traslación (dx, dy) COMO rotación de cámara.
+        """
+        try:
+            default_map = os.path.join(os.path.dirname(__file__), "assets", "map_endless.jpg")
+            if not os.path.exists(default_map):
+                dx, dy = self.get_map_offset()
+                return (game_x + dx, game_y + dy)
+
+            screen = self.grab_screen()
+            screen_gray = cv2.cvtColor(screen, cv2.COLOR_BGR2GRAY)
+            if screen_gray.shape[:2] != (768, 1366):
+                screen_gray = cv2.resize(screen_gray, (1366, 768))
+
+            base_img = cv2.imread(default_map, cv2.IMREAD_GRAYSCALE)
+            base_gray = cv2.resize(base_img, (1366, 768))
+
+            # Enmascarar la UI para que ORB solo compare las rocas y el camino del mapa
+            mask = np.zeros((768, 1366), dtype=np.uint8)
+            mask[95:630, 120:1240] = 255
+
+            orb = cv2.ORB_create(3000)
+            kp_b, desc_b = orb.detectAndCompute(base_gray, mask)
+            kp_s, desc_s = orb.detectAndCompute(screen_gray, mask)
+
+            if desc_b is not None and desc_s is not None and len(kp_b) > 20 and len(kp_s) > 20:
+                matcher = cv2.BFMatcher(cv2.NORM_HAMMING, crossCheck=True)
+                matches = matcher.match(desc_b, desc_s)
+                if len(matches) >= 12:
+                    matches = sorted(matches, key=lambda x: x.distance)[:120]
+                    pts_b = np.float32([kp_b[m.queryIdx].pt for m in matches]).reshape(-1, 1, 2)
+                    pts_s = np.float32([kp_s[m.trainIdx].pt for m in matches]).reshape(-1, 1, 2)
+
+                    # Estimar matriz de Rotación + Traslación con RANSAC
+                    M, inliers = cv2.estimateAffinePartial2D(pts_b, pts_s, method=cv2.RANSAC, ransacReprojThreshold=15.0)
+                    if M is not None and np.sum(inliers) >= 8:
+                        pt = np.array([[[float(game_x), float(game_y)]]], dtype=np.float32)
+                        transformed = cv2.transform(pt, M)[0][0]
+                        return (int( transformed[0] ), int( transformed[1] ))
+        except Exception:
+            pass
+
+        dx, dy = self.get_map_offset()
+        return (game_x + dx, game_y + dy)
+

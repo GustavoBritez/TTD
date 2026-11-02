@@ -1131,15 +1131,11 @@ class TTDGuiApp(ctk.CTk):
 
 
                     if can_place:
+                        # Transforma la coordenada del plano corrigiendo desfase y rotación de cámara
+                        raw_x, raw_y = self.vision.transform_blueprint_point(next_unit["game_x"], next_unit["game_y"])
+                        target_x = max(50, min(1316, raw_x))
+                        target_y = max(80, min(650, raw_y))
 
-                        target_x = max(30, min(1336, next_unit["game_x"] + dx))
-
-                        target_y = max(30, min(738, next_unit["game_y"] + dy))
-
-                        
-
-                        # Solo ajustar a la orilla de la pista si es unidad de pelea (Slot 2, 3, 4)
-                        # Las granjas (Slot 1) respetan su posición lejana en el Blueprint
                         if next_unit["slot"] != 1:
                             safe_x, safe_y = self.vision.snap_to_safe_strip(target_x, target_y)
                         else:
