@@ -124,28 +124,60 @@ class VisionSystem:
             res = self.find_template("btn_salida.png", threshold=0.65)
         return res
 
+    def get_lava_center_from_image(self, bgr_img):
+        """
+        Calcula el centro geomtrico (x, y) de la zona de lava/portal en cualquier imagen BGR.
+        """
+        h, w = bgr_img.shape[:2]
+        hsv = cv2.cvtColor(bgr_img, cv2.COLOR_BGR2HSV)
+        
+        # Rango HSV para la lava brillante (naranja/amarillo) de Mapa Endless
+        lower_lava = np.array([10, 130, 140])
+        upper_lava = np.array([35, 255, 255])
+        mask = cv2.inRange(hsv, lower_lava, upper_lava)
+
+        # Ignorar bordes de la interfaz (barra superior de oleadas y hotbar inferior)
+        mask[:int(h * 0.12), :] = 0
+        mask[int(h * 0.82):, :] = 0
+        mask[:, :int(w * 0.08)] = 0
+        mask[:, int(w * 0.92):] = 0
+
+        # Unir bloques cercanos de lava y calcular su centro de masa (momentos)
+        kernel = np.ones((15, 15), np.uint8)
+        mask = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, kernel)
+
+        M = cv2.moments(mask)
+        if M["m00"] > 500:  # Asegurar que hay suficiente lava visible
+            cx = int(M["m10"] / M["m00"])
+            cy = int(M["m01"] / M["m00"])
+            return (cx, cy)
+        return None
+
     def find_reference_landmark(self):
-        """
-        Detecta el portal amarillo superior para calibrar la posicin del personaje en el mapa.
-        Retorna (center_x, center_y) del portal o None.
-        """
+        """Detecta en vivo el centro de la lava en la pantalla actual."""
         try:
             screen = self.grab_screen()
-            hsv = cv2.cvtColor(screen, cv2.COLOR_BGR2HSV)
-            lower_yellow = np.array([20, 180, 180])
-            upper_yellow = np.array([35, 255, 255])
-            mask = cv2.inRange(hsv, lower_yellow, upper_yellow)
-            
-            h, w = screen.shape[:2]
-            mask_top = mask[:int(h * 0.45), :]
-            contours, _ = cv2.findContours(mask_top, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-            for c in sorted(contours, key=cv2.contourArea, reverse=True):
-                if cv2.contourArea(c) > 100:
-                    x, y, cw, ch = cv2.boundingRect(c)
-                    return (x + cw // 2, y + ch // 2)
+            if screen.shape[:2] != (768, 1366):
+                screen = cv2.resize(screen, (1366, 768))
+            return self.get_lava_center_from_image(screen)
         except Exception:
-            pass
-        return None
+            return None
+
+    def get_base_map_lava_target(self):
+        """
+        Obtiene la coordenada (x, y) exacta donde est la lava en assets/map_endless.jpg
+        para que el personaje se alinee exactamente igual que en el Blueprint.
+        """
+        default_map = os.path.join(os.path.dirname(__file__), "assets", "map_endless.jpg")
+        if os.path.exists(default_map):
+            base_img = cv2.imread(default_map, cv2.IMREAD_COLOR)
+            if base_img is not None:
+                base_resized = cv2.resize(base_img, (1366, 768))
+                pt = self.get_lava_center_from_image(base_resized)
+                if pt:
+                    return pt
+        # Fallback al centro estndar si no encuentra el archivo
+        return (640, 360)
 
     def is_in_game(self) -> bool:
         """
