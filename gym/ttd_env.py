@@ -117,7 +117,7 @@ class TTDEndlessGymEnv(gym.Env):
 
     metadata = {"render_modes": ["rgb_array"], "render_fps": 30}
 
-    def __init__(self, max_waves: int = 150, render_mode: Optional[str] = None):
+    def __init__(self, max_waves: int = 200, render_mode: Optional[str] = None):
         super().__init__()
         self.max_waves = max_waves
         self.render_mode = render_mode
@@ -391,8 +391,6 @@ class TTDEndlessGymEnv(gym.Env):
             u_def = self.units_catalog[u["slot"]]
             aoe_mult = 2.4 if ("aoe_360" in u_def["role"] or "splash" in u_def["role"]) else 1.0
             cov = self._point_to_track_coverage(int(u["x"]), int(u["y"]), int(rng_px))
-            if u["slot"] == 1:
-                cov = max(0.15, cov)
             total += dps * aoe_mult * cov
         return total
 
@@ -414,7 +412,9 @@ class TTDEndlessGymEnv(gym.Env):
                 cnt = max(1, int(item.get("count") or 3))
                 en_name = item["enemy"]
                 en = self.enemies_by_name.get(en_name, {})
-                hp = float(en.get("health") or (160.0 * (1.16 ** wave_num)))
+                # Los mobs comunes escalan gradualmente; no deben superar el 5% de la vida de un jefe en oleadas altas
+                default_mob_hp = min(3_200_000.0, 160.0 * (1.108 ** min(wave_num, 110)))
+                hp = float(en.get("health") or default_mob_hp)
                 tier = en.get("speed_tier") or "Average"
                 spd = SPEED_PX_PER_SEC.get(tier, 38.0)
                 total_hp += cnt * hp
@@ -441,25 +441,25 @@ class TTDEndlessGymEnv(gym.Env):
                     "is_boss": True,
                 })
         else:
-            # Curva exponencial calibrada con los jefes reales de Endless Mode (Wave 10..190)
+            # Curva calibrada con los jefes reales de Endless Mode (Wave 10..190)
             has_boss = (wave_num % 10 == 0)
-            base_wave_hp = 360.0 * (1.162 ** wave_num)
             if has_boss and wave_num in self.bosses_by_wave:
                 b_info = self.bosses_by_wave[wave_num]
-                b_hp = float(b_info.get("hp") or base_wave_hp * 0.6)
+                b_hp = float(b_info.get("hp") or (14500.0 * (1.205 ** max(0, wave_num - 10))))
                 b_name = b_info.get("boss", f"Boss W{wave_num}")
-                mob_hp = base_wave_hp * 0.55
+                mob_hp = b_hp * 0.18
                 total_hp = mob_hp + b_hp
                 descriptors.append({"name": f"Escuadrón W{wave_num}", "count": 5, "hp": mob_hp / 5.0, "speed": 42.0, "is_boss": False})
                 descriptors.append({"name": b_name, "count": 1, "hp": b_hp, "speed": SPEED_PX_PER_SEC["Slow"], "is_boss": True})
             else:
+                base_wave_hp = min(80_000_000.0, 360.0 * (1.115 ** min(wave_num, 120)))
                 total_hp = base_wave_hp
                 descriptors.append({
                     "name": f"Inodoros W{wave_num}",
                     "count": 6,
                     "hp": total_hp / 6.0,
                     "speed": 38.0 + min(35.0, wave_num * 0.22),
-                    "is_boss": has_boss,
+                    "is_boss": False,
                 })
             speeds.append(38.0 + min(35.0, wave_num * 0.22))
 
@@ -511,8 +511,6 @@ class TTDEndlessGymEnv(gym.Env):
             _, _, rng_px, dps = self._compute_unit_effective_stats(u, has_boss=has_boss)
             aoe_mult = 2.4 if ("aoe_360" in u_def["role"] or "splash" in u_def["role"]) else 1.0
             coverage = self._point_to_track_coverage(int(u["x"]), int(u["y"]), int(rng_px))
-            if u["slot"] == 1:
-                coverage = max(0.15, coverage)
 
             total_damage_dealt += dps * aoe_mult * coverage * time_on_track
 
@@ -639,20 +637,16 @@ class TTDEndlessGymEnv(gym.Env):
             u_def = self.units_catalog[u["slot"]]
             dmg, cd, rng_px, dps = self._compute_unit_effective_stats(u, has_boss=any(e["is_boss"] for e in self.visual_enemies))
 
-            # Buscar enemigos dentro del rango (Objetivo: Primero -> mayor 'dist')
-            eff_rng = max(rng_px, 160.0) if u["slot"] == 1 else rng_px
+            # Buscar enemigos ESTRICTAMENTE dentro del rango (Objetivo: Primero -> mayor 'dist')
             in_range = [
                 e for e in self.visual_enemies
-                if e["hp"] > 0 and math.hypot(e["x"] - u["x"], e["y"] - u["y"]) <= eff_rng
+                if e["hp"] > 0 and math.hypot(e["x"] - u["x"], e["y"] - u["y"]) <= rng_px
             ]
-            if not in_range and u["slot"] in (1, 2, 4):
-                # Daño de unidades invocadas (spawners) o ataque de soporte en la pista
-                in_range = [e for e in self.visual_enemies if e["hp"] > 0]
 
             if in_range:
                 in_range.sort(key=lambda e: e["dist"], reverse=True)
                 target = in_range[0]
-                shot_dmg = dps * cd * 2.2
+                shot_dmg = dps * cd * 1.5
 
                 if "aoe_360" in u_def["role"]:
                     for e in in_range:

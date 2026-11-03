@@ -159,6 +159,7 @@ def evaluate_genome(
     env.reset()
     q = list(genome)
 
+    last_info = {}
     while not env.terminated:
         # 1. Colocar todas las unidades de la cola en orden si el dinero alcanza
         placed_any = True
@@ -186,13 +187,18 @@ def evaluate_genome(
                             env.money -= up_cost
                             u["level"] += 1
 
-        _, _, done, _, _ = env.step_wave()
+        _, _, done, _, info = env.step_wave()
+        last_info = info
         if done:
             break
 
     team_dps = env.compute_current_team_dps()
+    frac = 0.0
+    if last_info and "damage" in last_info and "wave_hp" in last_info:
+        frac = min(0.999, max(0.0, float(last_info["damage"]) / max(1.0, float(last_info["wave_hp"]))))
+    continuous_wave = float(env.wave) + frac
     return (
-        env.wave,
+        continuous_wave,
         team_dps,
         env.money,
         copy.deepcopy(env.placement_history),
@@ -204,7 +210,7 @@ def evaluate_genome(
 _worker_env: Optional[TTDEndlessGymEnv] = None
 
 
-def _eval_worker(genome: List[Tuple[int, int]]) -> Tuple[int, float, int, List[Dict], List[Dict]]:
+def _eval_worker(genome: List[Tuple[int, int]]) -> Tuple[float, float, int, List[Dict], List[Dict]]:
     global _worker_env
     if _worker_env is None:
         _worker_env = TTDEndlessGymEnv(max_waves=160)
@@ -265,15 +271,16 @@ class TTDOptimizerTrainer:
     y Optuna (Optimización Bayesiana TPE) sobre TTDEndlessGymEnv.
     """
 
-    def __init__(self, max_waves: int = 160, pop_size: int = 36, num_workers: int = 6):
+    def __init__(self, max_waves: int = 200, pop_size: int = 36, num_workers: int = 6):
         self.env = TTDEndlessGymEnv(max_waves=max_waves)
         self.pop_size = pop_size
         self.generation = 0
+        self.stagnation_counter = 0
         self.num_workers = min(num_workers, max(1, (os.cpu_count() or 4) - 1))
         self.executor = ProcessPoolExecutor(max_workers=self.num_workers)
 
         # Estado del Campeón Histórico
-        self.best_wave = 0
+        self.best_wave = 0.0
         self.best_dps = 0.0
         self.best_money = 0
         self.best_genome: List[Tuple[int, int]] = []
@@ -300,7 +307,7 @@ class TTDOptimizerTrainer:
 
     def _update_champion(
         self,
-        wave: int,
+        wave: float,
         dps: float,
         money: int,
         genome: List[Tuple[int, int]],
@@ -308,8 +315,8 @@ class TTDOptimizerTrainer:
         placed_units: List[Dict],
         source: str,
     ) -> bool:
-        score_new = (wave, round(dps, 1), money)
-        score_cur = (self.best_wave, round(self.best_dps, 1), self.best_money)
+        score_new = (round(wave, 3), round(dps, 1), money)
+        score_cur = (round(self.best_wave, 3), round(self.best_dps, 1), self.best_money)
         if score_new > score_cur:
             self.best_wave = wave
             self.best_dps = dps
@@ -422,6 +429,17 @@ class TTDOptimizerTrainer:
                     if self.population:
                         self.population[-1] = deap_creator.IndividualTTD(copy.deepcopy(genome))
 
+        # Mecanismo Anti-Estancamiento: Si pasan 6 generaciones sin mejorar, inyectar diversidad
+        if improved:
+            self.stagnation_counter = 0
+        else:
+            self.stagnation_counter += 1
+            if self.stagnation_counter >= 6:
+                n_inject = max(6, len(self.population) // 3)
+                for i in range(len(self.population) - n_inject, len(self.population)):
+                    self.population[i] = deap_creator.IndividualTTD(create_random_genome())
+                self.stagnation_counter = 0
+
         elapsed = time.time() - t0
         slot_summary = {1: 0, 2: 0, 3: 0, 4: 0}
         for item in self.best_blueprint:
@@ -432,9 +450,10 @@ class TTDOptimizerTrainer:
             "mode": mode.upper(),
             "evals": eval_count,
             "elapsed_s": round(elapsed, 3),
-            "gen_best_wave": gen_best_wave,
+            "gen_best_wave": int(gen_best_wave),
             "gen_best_dps": gen_best_dps,
-            "champion_wave": self.best_wave,
+            "champion_wave": int(self.best_wave),
+            "champion_wave_fraction": round(self.best_wave, 2),
             "champion_dps": self.best_dps,
             "champion_money": self.best_money,
             "improved": improved,

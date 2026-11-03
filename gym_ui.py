@@ -71,8 +71,8 @@ class TTDGymWindow(ctk.CTkToplevel):
         self.scale_y = self.canvas_h / 768.0
 
         # Entorno y Entrenador
-        self.trainer = TTDOptimizerTrainer(max_waves=160, pop_size=28)
-        self.play_env = TTDEndlessGymEnv(max_waves=160)
+        self.trainer = TTDOptimizerTrainer(max_waves=200, pop_size=28)
+        self.play_env = TTDEndlessGymEnv(max_waves=200)
 
         # Estado de Entrenamiento y Reproducción (Play)
         self.is_training = False
