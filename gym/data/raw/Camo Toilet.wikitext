@@ -1,0 +1,21 @@
+{{SeeAlsoNotice|Note1=[[Camo Toilet (Unit)]]}}{{Stub}}
+
+== Overview ==
+{{Toilet Infobox|image1=Screenshot 2024-08-31 155404.png|species=Toilet|health=3500|speed=Fast|wave_debut=Wave 6|modes=Drill World from Drill event
+Halloween Graveyard 2024|title1=Camo Toilet}}
+'''Camo Toilet''' is a secret [[Enemies|enemy]] that can only be spawned by admins and spawns in the Easy Drill Mode with 3500 health, and when spawned it has a base health of 51.
+
+== Trivia ==
+
+* The Camo Toilet was discovered by a Youtuber Name '''manofTaj'''.
+* The Camo Toilet was inspired from the '''Camo Toilet''' from the original series, either the ones in 18th episode or 32.[https://skibidi-toilet.fandom.com/wiki/Camo_Skibidi_Toilet?so=search]
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Non-Stun Toilets]]
+[[Category:Toilet]]
+[[Category:Small]]
+[[Category:Fast]]
+[[Category:Fast toilets]]
+[[Category:Male Characters]]
+[[Category:Incomplete pages]]
+[[Category:Stub]]

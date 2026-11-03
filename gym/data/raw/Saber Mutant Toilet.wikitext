@@ -1,0 +1,186 @@
+{{DISPLAYTITLE:{{Exclusive|{{PAGENAME}}}}}}{{Stub|reason=Needs extra info}}{{Unobtainable}}{{MetaUnit|DPS/Endless/Early Game/Support| Very powerful}}
+{{Units infobox (this one)|unit_name={{Exclusive|Saber Mutant Toilet}} / 
+
+{{Exclusive|Buzzsaw Mutant Toilet}}|cost=$500|base_sell_price=$250|type=[[Piercing]], Burn, Slowing|levels=5|rarity={{Exclusive|[[Exclusive]]}}|species=[[Toilets (Units)|Toilets]]|special_abilities=Piercing, Burn damage which can do 40% slowing.|image1=SaberMutantToilet.png}}
+
+==Overview & Obtainment==
+The Saber Mutant Toilet is an [[Exclusive]] [[Units|Unit]] that was added in the [[Episode 77 Part 2 Update]].
+
+It could've been obtained from the [[Shop]] for 199 Robux. you can also get it by [[Trading]], buying from the [[Marketplace]], or being gifted it in the [[Post Office]].
+==Appearance==
+He wears a helmet, has a jetpack in the back, its arm replaced with a buzzsaw with a laser, has a sword with him all the time, a very armored toilet body, headphones, and a black suit.
+
+==Stats Table==
+<tabber>
+|-|Normal=
+{| class="fandom-table"
+|+Upgrades
+!'''Level'''
+!'''Price'''
+!'''Total Price'''
+!'''Damage'''
+!'''Range'''
+!'''Cooldown'''
+!'''DPS'''
+!'''Slowing'''
+|-
+|1
+|$500
+|$500
+|3000
+|25
+|1
+|3000
+|40%
+|-
+|2
+|$1000
+|$1500
+|8000
+|25
+|1
+|8000
+|40%
+|-
+|3
+|$3000
+|$4500
+|4000
+|50
+|0.2
+|20000
+|40%
+|-
+|4
+|$4000
+|$8500
+|7000
+|55
+|0.2
+|35000
+|40%
+|-
+|5
+|$8000
+|$16500
+|14000
+|60
+|0.2
+|70000
+|40%
+|}
+
+|-|Shiny=
+{| class="fandom-table"
+|+Upgrades
+!'''Level'''
+!'''Price'''
+!'''Total Price'''
+!'''Damage'''
+!'''Range'''
+!'''Cooldown'''
+!'''DPS'''
+!'''Slowing'''
+|-
+|1
+|$500
+|$500
+|4500
+|25
+|1
+|4500
+|40%
+|-
+|2
+|$1000
+|$1500
+|12000
+|25
+|1
+|12000
+|40%
+|-
+|3
+|$3000
+|$4500
+|6000
+|50
+|0.2
+|30000
+|40%
+|-
+|4
+|$4000
+|$8500
+|10500
+|55
+|0.2
+|52500
+|40%
+|-
+|5
+|$8000
+|$16500
+|21000
+|60
+|0.2
+|105000
+|40%
+|}
+</tabber>
+At max level, damage breakdown can be observed as 4k per tick (every .2 seconds) as the damage from the laser attack (does not have piercing), 50k per second from the sword attack (has piercing, slow, and burns for 10k per second afterwards for 10 seconds).
+
+==Strategies== 
+
+*Burn damage has been proven to stack on the same target, resulting in up to an additional 100k damage per second after 10 sword attacks on the same target.
+*Try to optimize space as possible, so that when placing boosters, there is way more space for to place more.
+*If not upgraded, set target to last to optimize Piercing damage.
+*Try to use support units such as [[Leprechaun Cameraman]] to use as a external stun-bait, but also as a booster unit, [[Mewing TV Man]], to stun units by 5 seconds, any time-stop unit (e.g.: [[Future Large Clockman]]).
+*This unit can solo the Halloween 2024 Map, so you can by this unit to beat it in 17 minutes!
+*With [[Astro Upgraded Titan Cameraman]] (place 1 for slowing), Mewing TV Man (place 1 or 2 for stunning toilets), and Leprechaun Cameraman (booster unit + stunbait), and [[Santa TV Man]], and proper usage of these units with Saber Mutant Toilet being the main DPS unit, you can get to wave 100+ in [[Endless Mode]] in just around 30 minutes (full auto-skip), which is probably perfect for XP grinders.
+*
+*
+
+==Trivia== 
+
+*This unit can solo every gamemode, and every limited-time modes. Below are the lists and times this unit solos every gamemode. (<small>cannot or can solo [[Sand Isles]])</small>
+**This unit can solo 2024 Halloween Event Map, for only 17 minutes + '''autoskip'''.
+**This unit can solo [[Ohio Mode]] (if you happen to get it) + '''autoskip'''.
+**This unit can solo the default modes '''([[Nightmare Mode]]/[[Hard Mode]]/[[Medium Mode]]/[[Easy Mode]]) all in under 20 minutes + autoskip.'''
+**This unit can solo the [[Easter Event 2024]] gamemode (if you happen to survive w/ low health base) '''+ autoskip.'''
+*This unit is based off the [https://skibidi-toilet.fandom.com/wiki/Buzzsaw_Mutant_Skibidi_Toilet Buzzsaw Mutant Toilet] from the original series.
+*Even without boosters, it can get up to waves 80-90 fully autoskip, and reaches up to Wave 114 without autoskip, just '''by itself. (a person has tested this to be true, and the fact you can do it with just 15 max units placement)'''
+*Considered as one of the best starter units.
+*
+*This is one of the best P2W units so far, surpassing units such as [[Astro Upgraded Titan Cameraman]] and [[Chair]], but still better by some units. However, [[Zombie Titan TV Man]] has now surpassed Saber Mutant Toilet.
+*It is highly recommended that you should buy this unit, it is so cheap with a high DPS and Range.
+*
+*This unit is considered as '''the ultimate unit''' for one-unit runs just because of it '''cheap placement cost,''' has '''Piercing (hit multiple targets), Slowing (Level 3-5 exclusive)''', high range and '''top-tier starter damage.''' However, this unit has been beaten by [[Zombie Titan TV Man]] and [[Titan Samurai Cameraman]] in cost and performance as both are cheaper than Saber.
+
+==Gallery==
+<gallery>
+Saber Mutant Toilet Lvl 1.png
+Saber Mutant Toilet Lvl 2.png
+Saber Mutant Toilet Lvl 3.png
+Saber Mutant Toilet Lvl 4.png
+Saber Mutant Toilet Lvl 5.png
+</gallery>
+
+==Changes== 
+
+* ??/??/24- The tower's size changed to be much smaller, proving extra space to place more Saber Mutant Toilets in a concentrated area.[https://skibidi-toilet.fandom.com/wiki/Buzzsaw_Mutant_Skibidi_Toilet]
+[[Category:Exclusive]]
+[[Category:Mutants]]
+[[Category:Toilets]]
+[[Category:Toilet Units]]
+[[Category:Units]]
+[[Category:Male Units]]
+[[Category:Laser users]]
+[[Category:Meta Units]]
+[[Category:Mid-air]]
+[[Category:Male Characters]]
+[[Category:Pierce]]
+[[Category:Slowing Units]]
+[[Category:Unobtainable]]
+[[Category:Piercing]]
+[[Category:2024]]

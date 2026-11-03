@@ -1,0 +1,108 @@
+{{DISPLAYTITLE:{{Godly|Boss Toilet (Unit)}}}}
+{{Stub}}{{SeeAlsoNotice|PagesNumber=5|Note1=[[Boss Toilet]]|Note2=[[Boss Toilet 2.0]]|Note3=[[Boss Toilet 3.0]]|Note4=[[Boss Toilet 4.0]]|Note5=[[Helmet Boss Toilet 4.0]]}}Or are you are looking for [[Boss Toilet 5.0]]?{{Units infobox (this one)|unit_name={{Godly|Boss Toilet}}|cost=$1000|base_sell_price=$500|type=Single Target, Slowing|levels=4|other_information=TBA|rarity={{Godly|[[Godly]]}}|species=[[Toilets (Units)|Toilets]]|image1=BossToiletUnit.png|special_abilities=Slows down [[Enemies]] by 55%}}
+
+== Overview ==
+The '''Boss Toilet''' is a '''[[Godly]] [[Units|unit]]''' that was added in the [[Episode 77 Part 1 Update|'''Episode 77 Part 1 Update''']], it can be obtained by summoning it from the [[Advanced Toilet Crate|'''Advanced Toilet Crate''']] with a 0.1% chance. It is one of the most expensive units to upgrade in-game.
+
+== Appearance ==
+Boss toilet when placed looks like the [[Boss Toilet|'''Boss Toilet''']] but with hair and a different face his second upgraded look likes [[Boss Toilet 2.0|'''Boss Toilet 2.0''']] but with different face and laser his third upgrade look like [[Boss Toilet 3.0|'''Boss Toilet 3.0''']] with different amour and different laser and his final upgrade looks like [[Helmet Boss Toilet 4.0|'''Helmet Boss Toilet 4.0''']] with some difference.
+
+== Obtainment ==
+You can obtain the Boss Toilet by summoning it from the [[Advanced Toilet Crate|'''Advanced Toilet Crate''']] with a 0.1% chance, or by '''[[Trading]]''' for it, or by buying it from the '''[[Marketplace]]'''. 
+
+== Stats Table ==
+{| class="fandom-table"
+|+Upgrades
+!Level
+!Price
+!Total Price
+!Damage
+!Cooldown
+!Range
+!Stun Blocks
+!DPS
+!Sell Price
+!DPS/$
+|-
+|1
+|$1000
+|$1000
+|1500
+|0.5
+|30
+|0
+|3000
+|$500
+|3/$
+|-
+|2
+|$5000
+|$6000
+|7500
+|0.5
+|40
+|2
+|15000
+|$3000
+|2.5/$
+|-
+|3
+|$20000
+|$26000
+|15000
+|0.2
+|45
+|4
+|75000
+|$13000
+|2.88/$
+|-
+|4
+|$35000
+|$61000
+|24000
+|0.2
+|60
+|6
+|120000
+|$30500
+|1.96/$
+|}
+
+== Strategy ==
+It is not very good at tanking stuns, its maximum being 6, so bring an unstun unit like [[Medic Cameraman|Medic]]. Or this could be solved by placing this unit far away from the track to utilize its massive range. If this is the only unit placed down, however, it will not work.
+
+== Trivia ==
+
+* This unit is great for its very high DPS and overall good stats. Its only weakness is the absurd prices it requires at levels 3-4. This can easily be solved by getting farm units to speed up the progress tremendously.
+* This unit actually slows down by 55%.
+* It is cheaper than [[Upgraded Titan Cinemaman|'''Upgraded Titan Cinemaman''']] by 8000, while he has 120k DPS, meanwhile [[Upgraded Titan Cinemaman|'''Upgraded Titan Cinemaman''']] has 71K DPS for 69k.
+* This unit is based on [https://skibidi-toilet.fandom.com/wiki/G-Toilet '''G-Toilet'''] in Skibidi Toilet series. 
+* Its other version is the [[Boss Toilet 5.0]] doing the same DPS, less range, and no slowing, but this unit costs $1000 while Boss Toilet 5.0 cost $600. And Boss Toilet 5.0 can spawn toilet allies.
+* He is not titan-sized in the game, despite being titan-sized in the series.
+* He is missing his 2 upper lasers at the top of the toilet tank at max level.
+
+== Value ==
+This unit is currently valued at around 1.2k-2k (as of ''12/25/24'').
+
+This unit's demand is low-medium at the current date, likely having a demand of between 3-5/10. 
+
+== Gallery ==
+<gallery>
+File:Boss Toilet Unit.png|Boss Toilet's Icon.
+Boss Toilet Lvl 1.png|Level 1
+Boss Toilet Lvl 2.png|Level 2
+Boss Toilet Lvl 3.png|Level 3
+Boss Toilet Lvl 4.png|Level 4
+</gallery>
+[[Category:Godly]]
+[[Category:Units]]
+[[Category:Boss Toilets]]
+[[Category:Toilet Units]]
+[[Category:Crate Units]]
+[[Category:Toilets]]
+[[Category:Laser users]]
+[[Category:Summons]]
+[[Category:Summoning]]
+[[Category:Toilet]]
+[[Category:4 Upgrades]]

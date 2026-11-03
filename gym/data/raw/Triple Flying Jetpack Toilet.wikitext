@@ -1,0 +1,27 @@
+{{Toilet_Infobox|image1=Triple Flying Jetpack Toilet.png|caption-image1=Bathtub.|description=|species=Bathtub|health=1,216,000|speed=Slow|wave_debut=???|modes=Nightmare+|ability_1=Rocket Shoot: Shoots a rocket at a unit, stunning it.}}
+== Overview ==
+The '''Triple Flying Jetpack Toilet''' is a strong [[Enemies|enemy]] added in the [[Episode 51 Update]]. It only appears in [[Nightmare Mode]] and [[Endless Mode]].
+== Appearance: ==
+The Triple Flying Jetpack Toilet has three heads attached to a bathtub. It has 5 rockets and a jetpack. The individual heads use different faces and skin tones.
+== Waves ==
+''To be added''
+
+== Health ==
+''1,216,000''
+
+== Abilities ==
+* Rocket: Shoots a rocket at a [[Units|unit]], stunning it.
+== Trivia ==
+
+* The Triple Flying Jetpack Toilet is based off of the [https://skibidi-toilet.fandom.com/wiki/Jetpack_Rocketeer_Skibidi_Bathtub Jetpack Rocketeer Skibidi Bathtub] from the series.
+
+[[Category:Toilets]]
+[[Category:Stunners]]
+[[Category:Enemies]]
+[[Category:Jetpack]]
+
+
+[[Category:Characters]]
+[[Category:Incomplete pages]]
+[[Category:Rockets]]
+[[Category:Small]]

@@ -1,0 +1,40 @@
+{{Toilet_Infobox|title1=Massive Buzzsaw Oven|image1=big oven.png|species=Toilet (urinal)|health=1,804,000|speed=Slow|wave_debut=Wave 49|modes=Nightmare+ Endless+}}
+
+==Overview==
+The Massive Buzzsaw Oven is a strong enemy that only appears in [[Nightmare Mode]] and [[Abysmal Mode|Abysmal Mode.]] It uses its oven with saws inside to stun nearby [[units]] for 5 seconds.
+
+==Appearance==
+Its body is a large oven with many buzzsaws inside followed by 8 wheels and 2 some sort of shields. It also has a sort of confident face.
+==Waves==
+=== Nightmare Mode ===
+Wave 49: x1
+
+Wave 50: x1
+==Health==
+=== Nightmare Mode ===
+Wave 49: 1,804,000
+
+Wave 50: 1,837,000
+=== Endless Mode ===
+Wave 40:  ??? HP
+
+Wave 50: 1,837,000 HP
+
+Wave 60: 6,370,623 HP
+
+Wave 70: 8,342,482 HP
+==Strategy==
+*This unit is very strong with over 1.5M HP so high DPS units like [[Upgraded Titan Cameraman]] would be really helpful. It can also stun units so [[Medic Cameraman]] or [[Camera Repair Drone]] would be a good unit to have in your loadout.
+==Trivia==
+*It is based off of the [https://skibidi-toilet.fandom.com/wiki/Giant_Buzzsaw_Executioner_Skibidi_Urinal Giant Buzzsaw Executioner Skibidi Urinal] from the series.
+*This is the first enemy that isn't a toilet, is an oven or without the name toilet.
+*The toilet was leaked while being attacking by the [[Glitch Cameraman]].
+*this toilet is based off  the  [https://skibidi-toilet.fandom.com/wiki/Incinerator_Skibidi_Urinal Incinerator Skibidi  Urinal]
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Stunners]]
+[[Category:Characters]]
+[[Category:Off-Track Enemies]]
+[[Category:Giant Toilets]]
+[[Category:Saw]]
+[[Category:Valentines Event 2025]]

@@ -1,0 +1,43 @@
+{{Toilet_Infobox|image1=skulltoxic.png|caption-image1=Toilet.|description=|species=Toilet|health=876,000 HP First appearance|speed=Slow|wave_debut=Wave 43|modes=Nightmare+|ability_1=Acid Spew: Spews acid out of its mouth, stunning a unit.}}''Looking for [[Skeleton Toilet]], or its unit counterpart, the [[Flamethrower Toilet (Unit)]]?''
+
+== Overview ==
+'''Toxic Skull Toilet''' is a late game [[Toilets|enemy]] that was added in [[Episode 55 Update]]. It can stun units by spewing acid out of its mouth. 
+
+It has a lot of health but it is slow. when it reaches your units it stuns them, and [[Medic Cameraman]] here doesn't work, because if the unit is stunned and it gets healed AND the toxic skull is still there, it stuns it again and again and again. However, this will provide extra time for your DPS units to attack.
+
+== Strategy ==
+* To defeat this enemy, you should use a high DPS unit, such as [[Juggernaut Titan TV Man]] or [[Titan Samurai Speakerwoman]].
+* You should also place a [[Farms|Farm]] near the track, so it absorbs all the stuns.
+* [[Medic Cameraman]] or [[Speaker Repair Drone]] can unstun units stunned by this enemy.
+*You can use [[Secret Agent]] to do extremely high damage to this enemy. However, the Toxic Skull Toilet may stun your Secret Agent, forcing you to wait until it is unstunned to sell and replace it.
+== Waves ==
+
+=== Nightmare Mode ===
+
+Wave 43: x1
+Wave 49: x1
+Wave 50: x1
+
+== Health ==
+=== Nightmare Mode ===
+
+Wave 43: 876,000 HP
+
+Wave 49: 984,000 HP
+
+Wave 50: 1,002,000 HP
+
+== Trivia ==
+* Currently, there is a glitch where it does not face the unit it is stunning. This may have been fixed.
+* There was a glitch  where even if it dies, the units near it will keep getting stunned even if it gets unstunned by [[Medic Cameraman]] or [[Camera Repair Drone|Camera Repair Drone.]] This has been fixed.
+* This enemy is based on the [https://skibidi-toilet.fandom.com/wiki/Skull_Dismantler_Skibidi_Toilet Skull Dismantler Skibidi Toilet].
+
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Stunners]]
+[[Category:Characters]]
+
+
+[[Category:Slow Toilets]]
+[[Category:Acid]]
+[[Category:Valentines Event 2025]]

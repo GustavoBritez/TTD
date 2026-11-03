@@ -1,0 +1,50 @@
+{{SeeAlsoNotice|Note1=[[Upgraded Giant Turkey Toilet]] or [[Turkey Toilet]]}}{{Toilet_Infobox|image1=<gallery>
+GiantTurkeyToiletBossIcon.png|Icon
+Giant boss turkey.png|In-Game
+</gallery>|description=|species=Toilet/turkies|health=4,175,000|speed=Very Slow|wave_debut=50 (Thanksgiving Event's Abysmal Mode)
+70 (Endless Mode)|modes=Abyssal (Thanksgiving Event)
+Endless Mode|ability_1=Laser Eye: Shoots a red laser out of its eye which can stun multiple units on the map.}}
+==Overview==
+The '''Giant Turkey Toilet''' is the final boss of [[Abysmal Mode (Thanksgiving Event)]] and appears on Turkey Town. It is the third strongest enemy in the game, having 4,175,000 HP. This is only beaten by the Mutant Pumpkin Toilet with 8,350,000 HP, being the final boss of [[Abysmal Mode (Halloween Event)]].        
+
+The '''Giant Turkey Toilet's''' special ability is that it can use its red laser eye to '''stun multiple units across the map'''.
+
+==Appearance==
+It is a toilet that has a turkey head on it. It wearing red half-glasses, and have a shield in front of the body. The red laser from its eye can be used to stun [[units]]. Behind the toilet are turkey feathers. It has the  [https://skibidi-toilet.fandom.com/wiki/Chief_Scientist_Skibidi_Toilet#Chief_Scientist_Skibidi_Toilet_Mech Scientist Toilet] red eye cannon thats the reason why its so powerful. 
+==Waves==
+
+=== [[Abysmal Mode (Thanksgiving Event)|Abysmal Mode]] ===
+
+* Wave 50: x1 (4,175,000 HP)
+
+=== [[Endless Mode]] ===
+
+* Wave 70  x1 ( 22,647,492 HP)
+* Wave 85 x5 (36,603,576 HP)
+
+==Strategy==
+*Use high DPS units to defeat this enemy as it has a high amount of health.
+*'''ALWAYS''' bring [[Medic Cameraman|Medic]] or [[Camera Repair Drone]] as it able to stun your units.
+*Mech Cameraman, or TV Woman can be used to slow this enemy down. However, TV Woman or Mech Cameraman cannot be used as your main source of DPS.
+*[[Upgraded Titan Cinemaman]] can stun the Giant Turkey Toilet entirely for up to 5 seconds, making it much easier to defeat.
+*This is the most annoying toilet in endless mode
+*This toilet has an upgraded version called the [[Upgraded Giant Turkey Toilet]].
+==Trivia==
+*It used to be the second strongest enemy but was overthrown by the Astro Toilet with 130m+ health.
+==Gallery==
+<gallery>
+File:Laser eyes.png|Giant Turkey Toilet uses its laser eye.
+</gallery>
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Stunners]]
+[[Category:Event Enemies]]
+[[Category:Characters]]
+[[Category:AoE]]
+[[Category:Laser]]
+[[Category:Giant]]
+[[Category:Endless Bosses]]
+[[Category:Thanksgiving event]]
+[[Category:Animals]]
+[[Category:360 AoE]]
+[[Category:Giant Toilets]]

@@ -1,0 +1,56 @@
+{{Toilet_Infobox|image1=<gallery>
+AstroToiletBossIcon.png|Boss Icon
+Astro Toilet.PNG.png|In-Game
+</gallery>|species=[[Astro Toilets|Astro]]|health=121,753,992 (Wave 120 on endless mode only) 259,497,952 (Wave 153 on endless mode only)|speed=Fast|wave_debut=Wave 120|modes=[[Endless Mode]], can spawn on [[Ohio Mode]]
+[[Sand Isles]]|ability_1=Laser: Combines his claws together to fire a laser beam to stun units for 8 seconds.|ability_2=Claw Attack: Attacks a unit with his claw, stunning it for 3 seconds.|title1=Astro Toilet}}
+
+== Overview ==
+The '''Astro Toilet''' is an enemy with one of the highest health in the entire game and is one of the fastest toilets. He consists of a black toilet with a helmet and black armor plating on the bowl. He also has three constantly turning claws attachments, with electricity between each one.
+[[File:Astro toilet.png|thumb|''Boss Healthbar of [[Astro Toilet]] in game'']]
+He has a base HP of 68,896,584(Multiplies depending on amount of players in the match). 
+== Appearance ==
+He appears to be a black toilet with a black helmet and black armor plating on the bowl. He lacks a cistern, and the bowl looks different from other toilets. He also has three constantly turning claws attachments, which look like 2 pronged spears, with orange electricity crackling between each one.
+== Waves ==
+The Astro Toilet spawns on Wave 110 and beyond (Endless Mode).
+
+The Astro Toilet also spawns in Ohio Mode, with a 1% chance of spawning each wave.
+
+The Astro Toilet also spawns in Abysmal Mode during late game.
+
+== Abilities ==
+Ability 1: Laser: Combines his claws together to fire a laser beam to stun units Or Can Hold 3 Toilets sometimes ''5-7,5% for it'' 
+
+Ability 2:Claw Attack: Attacks a unit with it's claw, stunning it and A no DMG/DPS For 5-10 secs 
+
+== Strategy ==
+Use towers with the pierce ability (e.g. [[Titan Centurion Speakerman]], [[Titan Luckbringer Drillman]])
+Also try using towers that can slow (e.g. [[Chained Watchman Of Doom]], [[Gravity Gun Cameraman]], and [[Headless Camerawoman]]) to combat its speed.
+
+== Trivia ==
+*He is based off of the [https://skibidi-toilet.fandom.com/wiki/Detainer_Astro_Toilet#Upgraded_Detainer_Astro_Toilet_(2.0) Upgraded Detainer Astro Toilet] from the series, which appears in episode 70 (part 1).
+*He used to have 68,896,584 HP before It was buffed to 121.753.992 HP.
+*His name does not specify what type of Astro Toilet he is, but we know that he is Detainer Astro Toilet. This is because he came out during a time when we only knew his race's name, so he was subbed "Astro Toilet."
+*His render/boss icon used to not have its face on it. It is unknown why but is was end up fixed.
+== Gallery ==
+<gallery>
+File:Astro Toilet laser stun.png|
+File:Astro toilet possible.png
+</gallery>
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:UFO]]
+[[Category:Boss Toilets]]
+[[Category:Characters]]
+[[Category:Stunners]]
+[[Category:Stubs]]
+[[Category:Laser]]
+[[Category:Bosses]]
+
+[[Category:Toilet]]
+
+[[Category:Male Characters]]
+[[Category:Flying]]
+[[Category:Boss]]
+[[Category:Mid-air]]
+[[Category:Endless Bosses]]
+[[Category:Astro Toilets]]

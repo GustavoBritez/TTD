@@ -1,0 +1,25 @@
+{{Toilet_Infobox|image1=spider no bg.png|caption-image1=Toilet.|description=|species=Toilet|health=640|speed=Average|wave_debut=5|modes=All}}
+== Overview ==
+'''Spider Toilet''' is a big toilet and is the third weakest toilet in the game. It’s toilet is white, and has spider legs which is why it’s called the spider toilet. Spider Toilets are a bit tougher than the regular toilet, as they're standard issue ground troops. It has a stronger version with a lot more HP and stunning power, the [[Turret Spider Toilet]]. This is a bad design, it looks nothing like the series.  
+== Appearances ==
+
+* [[Toilet City]]
+* [[Desert]]
+* [[Cameraman HQ]]
+* [[Toilet HQ]]
+* [[Palm Paradise]]
+== Strategy ==
+*Most towers should be able to defeat this if you have enough towers. It is slightly faster than the Normal Toilet. These often come in tight groups, so place low cooldown attacking units.
+== Trivia ==
+
+* It is based off of the [https://skibidi-toilet.fandom.com/wiki/Strider_Skibidi_Toilet Strider Skibidi Toilet] from the series.
+* In the series, it has a turret that can be used to attack. It can also attack by using its legs to spear cameramen.
+* It also do 40 damage to the base
+
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Characters]]
+[[Category:Spiders]]
+[[Category:Toilet]]
+[[Category:Animals]]
+[[Category:Valentines Event 2025]]

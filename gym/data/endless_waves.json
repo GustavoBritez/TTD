@@ -1,0 +1,4254 @@
+[
+ {
+  "wave": 1,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Small Toilet",
+    "label": "Small Toilet",
+    "count": 6,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 2,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Toilet",
+    "label": "Toilet",
+    "count": 10,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 3,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Toilet",
+    "label": "Toilet",
+    "count": 15,
+    "count_known": true
+   },
+   {
+    "enemy": "Spider Toilet",
+    "label": "Spider Toilet",
+    "count": 2,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 4,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Small Toilet",
+    "label": "Small Toilet",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "DJ Toilet",
+    "label": "DJ Toilet",
+    "count": 1,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 5,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Toilet",
+    "label": "Toilet",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Police Toilet",
+    "label": "Police Toilet",
+    "count": 3,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 6,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Toilet",
+    "label": "Toilet",
+    "count": 20,
+    "count_known": true
+   },
+   {
+    "enemy": "Spider Toilet",
+    "label": "Spider Toilet",
+    "count": 2,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 7,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Small Toilet",
+    "label": "Small Toilet",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Police Toilet",
+    "label": "Police Toilet",
+    "count": 3,
+    "count_known": true
+   },
+   {
+    "enemy": "DJ Toilet",
+    "label": "DJ Toilet",
+    "count": 2,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 8,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Police Toilet",
+    "label": "Police Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Spider Toilet",
+    "label": "Spider Toilet",
+    "count": 5,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 9,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Toilet",
+    "label": "Toilet",
+    "count": 20,
+    "count_known": true
+   },
+   {
+    "enemy": "Glasses Toilet",
+    "label": "Glasses Toilet",
+    "count": 4,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 10,
+  "is_boss_wave": true,
+  "boss": "Large Glasses Toilet",
+  "boss_page": "Large Glasses Toilet",
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Toilet",
+    "label": "Toilet",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "DJ Toilet",
+    "label": "DJ Toilet",
+    "count": 4,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 11,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "DJ Toilet",
+    "label": "DJ Toilet",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Large Toilet",
+    "label": "Large Toilet",
+    "count": 2,
+    "count_known": true
+   },
+   {
+    "enemy": "Dual Claw Toilet",
+    "label": "Dual Claw Toilet",
+    "count": 2,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 12,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Spider Toilet",
+    "label": "Spider Toilet",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Assassin Toilet",
+    "label": "Assassin Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Minigun Toilet",
+    "label": "Minigun Toilet",
+    "count": 1,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 13,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Large Toilet",
+    "label": "Large Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Glasses Toilet",
+    "label": "Glasses Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Dual Claw Toilet",
+    "label": "Dual Claw Toilet",
+    "count": 4,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 14,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Toilet",
+    "label": "Toilet",
+    "count": 20,
+    "count_known": true
+   },
+   {
+    "enemy": "Police Toilet",
+    "label": "Police Toilet",
+    "count": 20,
+    "count_known": true
+   },
+   {
+    "enemy": "Minigun Toilet",
+    "label": "Minigun Toilet",
+    "count": 2,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 15,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "DJ Toilet",
+    "label": "DJ Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Dual Claw Toilet",
+    "label": "Dual Claw Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Glasses Toilet",
+    "label": "Glasses Toilet",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Assassin Toilet",
+    "label": "Assassin Toilet",
+    "count": 5,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 16,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Spider Toilet",
+    "label": "Spider Toilet",
+    "count": 20,
+    "count_known": true
+   },
+   {
+    "enemy": "Minigun Toilet",
+    "label": "Minigun Toilet",
+    "count": 2,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 17,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Large Glasses Toilet",
+    "label": "Large Glasses Toilet",
+    "count": 2,
+    "count_known": true
+   },
+   {
+    "enemy": "Glasses Toilet",
+    "label": "Glasses Toilet",
+    "count": 20,
+    "count_known": true
+   },
+   {
+    "enemy": "Boss Toilet",
+    "label": "Boss Toilet",
+    "count": 2,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 18,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "DJ Toilet",
+    "label": "DJ Toilet",
+    "count": 20,
+    "count_known": true
+   },
+   {
+    "enemy": "Minigun Toilet",
+    "label": "Minigun Toilet",
+    "count": 4,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 19,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Glasses Toilet",
+    "label": "Glasses Toilet",
+    "count": 20,
+    "count_known": true
+   },
+   {
+    "enemy": "Dual Claw Toilet",
+    "label": "Dual Claw Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Large Toilet",
+    "label": "Large Toilet",
+    "count": 4,
+    "count_known": true
+   },
+   {
+    "enemy": "Boss Toilet",
+    "label": "Boss Toilet",
+    "count": 1,
+    "count_known": true
+   },
+   {
+    "enemy": "Mutant Toilet",
+    "label": "Mutant Toilet",
+    "count": 1,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 20,
+  "is_boss_wave": true,
+  "boss": "Mutant Toilet 2.0",
+  "boss_page": "Mutant Toilet 2.0",
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Spider Toilet",
+    "label": "Spider Toilet",
+    "count": 20,
+    "count_known": true
+   },
+   {
+    "enemy": "Dual Claw Toilet",
+    "label": "Dual Claw Toilet",
+    "count": 5,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 21,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Parasite Toilet",
+    "label": "Parasite Toilet",
+    "count": 2,
+    "count_known": true
+   },
+   {
+    "enemy": "Mutant Toilet",
+    "label": "Mutant Toilet",
+    "count": 2,
+    "count_known": true
+   },
+   {
+    "enemy": "Dual Blade Toilet",
+    "label": "Dual Blade Toilet",
+    "count": 2,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 22,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Dual Claw Toilet",
+    "label": "Dual Claw Toilet",
+    "count": 12,
+    "count_known": true
+   },
+   {
+    "enemy": "Jetpack Police Toilet",
+    "label": "Jetpack Police Toilet",
+    "count": 2,
+    "count_known": true
+   },
+   {
+    "enemy": "Giant Glasses Toilet",
+    "label": "Giant Glasses Toilet",
+    "count": 1,
+    "count_known": true
+   },
+   {
+    "enemy": "Dual Blade Toilet",
+    "label": "Dual Blade Toilet",
+    "count": 1,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 23,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Glasses Toilet",
+    "label": "Glasses Toilet",
+    "count": 20,
+    "count_known": true
+   },
+   {
+    "enemy": "Minigun Toilet",
+    "label": "Minigun Toilet",
+    "count": 4,
+    "count_known": true
+   },
+   {
+    "enemy": "Parasite Toilet",
+    "label": "Parasite Toilet",
+    "count": 2,
+    "count_known": true
+   },
+   {
+    "enemy": "Boss Toilet",
+    "label": "Boss Toilet",
+    "count": 3,
+    "count_known": true
+   },
+   {
+    "enemy": "Explosive Flying Toilet",
+    "label": "Explosive Flying Toilet",
+    "count": 1,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 24,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Boss Toilet",
+    "label": "Boss Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Dual Blade Toilet",
+    "label": "Dual Blade Toilet",
+    "count": 2,
+    "count_known": true
+   },
+   {
+    "enemy": "Mutant Toilet",
+    "label": "Mutant Toilet",
+    "count": 4,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 25,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Assassin Toilet",
+    "label": "Assassin Toilet",
+    "count": 20,
+    "count_known": true
+   },
+   {
+    "enemy": "Flying Buzzsaw Toilet",
+    "label": "Flying Buzzsaw Toilet",
+    "count": 2,
+    "count_known": true
+   },
+   {
+    "enemy": "Cat Toilet",
+    "label": "Cat Toilet",
+    "count": 2,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 26,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Mutant Toilet",
+    "label": "Mutant Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Giant Glasses Toilet",
+    "label": "Giant Glasses Toilet",
+    "count": 2,
+    "count_known": true
+   },
+   {
+    "enemy": "Jetpack Police Toilet",
+    "label": "Jetpack Police Toilet",
+    "count": 4,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 27,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Toxic Barrel Toilet",
+    "label": "Toxic Flying Toilet",
+    "count": 2,
+    "count_known": true
+   },
+   {
+    "enemy": "Boss Toilet",
+    "label": "Boss Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Vacuum Toilet",
+    "label": "Vacuum Toilet",
+    "count": 2,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 28,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Dual Blade Toilet",
+    "label": "Dual Blade Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Flying Buzzsaw Toilet",
+    "label": "Flying Buzzsaw Toilet",
+    "count": 3,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 29,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Multi-Claw Jetpack Toilet",
+    "label": "Multi-Claw Jetpack Toilet",
+    "count": 2,
+    "count_known": true
+   },
+   {
+    "enemy": "Parasite Toilet",
+    "label": "Parasite Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Flying Rocket Launcher Toilet",
+    "label": "Flying Rocket Launcher Toilet",
+    "count": 2,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 30,
+  "is_boss_wave": true,
+  "boss": "Dual Flying Buzzsaw Toilet",
+  "boss_page": "Dual Flying Buzzsaw Toilet",
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Mutant Toilet",
+    "label": "Mutant Toilet",
+    "count": 10,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 31,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Large Heart Toilet",
+    "label": "Large Heart Toilet",
+    "count": 3,
+    "count_known": true
+   },
+   {
+    "enemy": "Giant Blind Toilet",
+    "label": "Giant Blind Toilet",
+    "count": 2,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 32,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Mutant Toilet",
+    "label": "Mutant Toilet",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Mutant Toilet 2.0",
+    "label": "Mutant Toilet 2.0",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Buzzsaw Mutant Toilet",
+    "label": "Buzzsaw Mutant Toilet",
+    "count": 2,
+    "count_known": true
+   },
+   {
+    "enemy": "Dual Rocket Launcher Toilet",
+    "label": "Dual Rocket Launcher Toilet",
+    "count": 1,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 33,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Turret Spider Toilet",
+    "label": "Turret Spider Toilet",
+    "count": 3,
+    "count_known": true
+   },
+   {
+    "enemy": "Toxic Barrel Toilet",
+    "label": "Toxic Flying Toilet",
+    "count": 2,
+    "count_known": true
+   },
+   {
+    "enemy": "Vacuum Toilet",
+    "label": "Vacuum Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Giant Glasses Toilet",
+    "label": "Giant Glasses Toilet",
+    "count": 4,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 34,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Flying Rocket Launcher Toilet",
+    "label": "Flying Rocket Launcher Toilet",
+    "count": 3,
+    "count_known": true
+   },
+   {
+    "enemy": "Dual Buzzsaw Toilet Car",
+    "label": "Dual Buzzsaw Toilet Car",
+    "count": 2,
+    "count_known": true
+   },
+   {
+    "enemy": "UFO Toilet",
+    "label": "UFO Toilet",
+    "count": 2,
+    "count_known": true
+   },
+   {
+    "enemy": "TV Dual Claw Toilet",
+    "label": "TV Dual Claw Toilet",
+    "count": 1,
+    "count_known": true
+   },
+   {
+    "enemy": "Jetpack Police Toilet",
+    "label": "Jetpack Police Toilet",
+    "count": 4,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 35,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Forklift Toilet",
+    "label": "Forklift Toilet",
+    "count": 2,
+    "count_known": true
+   },
+   {
+    "enemy": "Welder Toilet",
+    "label": "Welder Toilet",
+    "count": 2,
+    "count_known": true
+   },
+   {
+    "enemy": "Boss Toilet",
+    "label": "Boss Toilet",
+    "count": 5,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 36,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 37,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 38,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 39,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Large Heart Toilet",
+    "label": "Large Heart Toilet",
+    "count": 3,
+    "count_known": true
+   },
+   {
+    "enemy": "Assassin Toilet",
+    "label": "Assassin Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Giant Blind Toilet",
+    "label": "Giant Blind Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Giant Dual Blade Toilet",
+    "label": "Giant Dual Blade Toilet",
+    "count": 2,
+    "count_known": true
+   },
+   {
+    "enemy": "Flamethrower Toilet",
+    "label": "Flamethrower Toilet",
+    "count": 1,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 40,
+  "is_boss_wave": true,
+  "boss": "Glitch Toilet",
+  "boss_page": "Glitch Toilet",
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Toxic Skull Toilet",
+    "label": "Toxic Skull Toilet",
+    "count": 2,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 41,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Vacuum Toilet",
+    "label": "Vacuum Toilet",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Dual Blade Toilet",
+    "label": "Dual Blade Toilet",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Giant Dual Blade Toilet",
+    "label": "Giant Dual Blade Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Mutant Assassin Toilet",
+    "label": "Mutant Assassin Toilet",
+    "count": 3,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 42,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Boss Toilet",
+    "label": "Boss Toilet",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Boss Toilet 2.0",
+    "label": "Boss Toilet 2.0",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Boss Toilet 3.0",
+    "label": "Boss Toilet 3.0",
+    "count": 2,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 43,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 44,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 45,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Ultra Laser Toilet",
+    "label": "Ultra Laser Toilet",
+    "count": null,
+    "count_known": false
+   }
+  ]
+ },
+ {
+  "wave": 46,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Infected Titan Speakerman",
+    "label": "Infected Titan Speakerman",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Mutant Assassin Toilet",
+    "label": "Mutant Assassin Toilet",
+    "count": 3,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 47,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 48,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 49,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 50,
+  "is_boss_wave": true,
+  "boss": "Giant Smooth Toilet",
+  "boss_page": "Giant Smooth Toilet",
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Flamethrower Toilet",
+    "label": "Flamethrower Toilet",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Octo Rocket Toilet",
+    "label": "Octo Rocket Toilet",
+    "count": 1,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 51,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Turkey Toilet",
+    "label": "Turkey Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Helicopter Bomb Toilet",
+    "label": "Helicopter Bomb Toilet",
+    "count": 3,
+    "count_known": true
+   },
+   {
+    "enemy": "Scientist Toilet",
+    "label": "Scientist Toilet",
+    "count": 2,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 52,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Glitch Toilet",
+    "label": "Glitch Toilet",
+    "count": 2,
+    "count_known": true
+   },
+   {
+    "enemy": "Octo Rocket Toilet",
+    "label": "Octo Rocket Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Jetpack Mutant Toilet",
+    "label": "Jetpack Mutant Toilet",
+    "count": 1,
+    "count_known": true
+   },
+   {
+    "enemy": "Octo Rocket Soldier Toilet",
+    "label": "Octo Rocket Soldier Toilet",
+    "count": 1,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 53,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 54,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Dual Blade Toilet",
+    "label": "Dual Blade Toilet",
+    "count": 20,
+    "count_known": true
+   },
+   {
+    "enemy": "Strider Rocket Toilet",
+    "label": "Strider Rocket Toilet",
+    "count": 3,
+    "count_known": true
+   },
+   {
+    "enemy": "Helicopter Camo Toilet",
+    "label": "Helicopter Camo Toilet",
+    "count": 2,
+    "count_known": true
+   },
+   {
+    "enemy": "Boss Toilet 4.0",
+    "label": "Boss Toilet 4.0",
+    "count": 1,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 55,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Frost Toilet",
+    "label": "Frost Toilet",
+    "count": 35,
+    "count_known": true
+   },
+   {
+    "enemy": "Boss Toilet 3.0",
+    "label": "Boss Toilet 3.0",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Military Rocket Launcher Toilet",
+    "label": "Military Rocket Launcher Toilet",
+    "count": 2,
+    "count_known": true
+   },
+   {
+    "enemy": "Dual Claw Laser Toilet",
+    "label": "Dual Claw Laser Toilet",
+    "count": 2,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 56,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 57,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Vacuum Toilet",
+    "label": "Vacuum Toilet",
+    "count": 20,
+    "count_known": true
+   },
+   {
+    "enemy": "Dual Buzzsaw Toilet Car",
+    "label": "Dual Buzzsaw Toilet Car",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Dual Claw Laser Toilet",
+    "label": "Dual Claw Laser Toilet",
+    "count": 2,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 58,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Dual Buzzsaw Toilet Car",
+    "label": "Dual Buzzsaw Toilet Car",
+    "count": 1,
+    "count_known": true
+   },
+   {
+    "enemy": "Quad-Blade Strider Toilet",
+    "label": "Quad-Blade Strider Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Helicopter Camo Toilet",
+    "label": "Helicopter Camo Toilet",
+    "count": 2,
+    "count_known": true
+   },
+   {
+    "enemy": "Strider Rocket Toilet",
+    "label": "Strider Rocket Toilet",
+    "count": 3,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 59,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 60,
+  "is_boss_wave": true,
+  "boss": "Frost Skeleton Toilet",
+  "boss_page": "Frost Skeleton Toilet",
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Toxic Barrel Toilet",
+    "label": "Toxic Barrel Toilet",
+    "count": 3,
+    "count_known": true
+   },
+   {
+    "enemy": "Giant Blind Toilet",
+    "label": "Giant Blind Toilet",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Forklift Toilet",
+    "label": "Forklift Toilet",
+    "count": 10,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 61,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Turkey Toilet",
+    "label": "Turkey Toilet",
+    "count": 32,
+    "count_known": true
+   },
+   {
+    "enemy": "Frost Toilet",
+    "label": "Frost Toilet",
+    "count": 32,
+    "count_known": true
+   },
+   {
+    "enemy": "Vacuum Toilet",
+    "label": "Vacuum Toilet",
+    "count": 32,
+    "count_known": true
+   },
+   {
+    "enemy": "Phantom Toilet",
+    "label": "Phantom Toilet",
+    "count": 3,
+    "count_known": true
+   },
+   {
+    "enemy": "Police Mutant Toilet",
+    "label": "Police Mutant Toilet",
+    "count": 1,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 62,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 63,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Airplane Toilet",
+    "label": "Airplane Toilet",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Helicopter Bomb Toilet",
+    "label": "Helicopter Bomb Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Small Scientist Toilet",
+    "label": "Small Scientist Toilet",
+    "count": 4,
+    "count_known": true
+   },
+   {
+    "enemy": "Boss Toilet",
+    "label": "Boss Toilet",
+    "count": 6,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 64,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 65,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 66,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Military Rocket Launcher Toilet",
+    "label": "Military Rocket Launcher Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Soldier Rocket Toilet",
+    "label": "Soldier Rocket Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Glitch Toilet",
+    "label": "Glitch Toilet",
+    "count": 1,
+    "count_known": true
+   },
+   {
+    "enemy": "Massive Buzzsaw Oven",
+    "label": "Massive Buzzsaw Oven",
+    "count": 1,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 67,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Boss Toilet",
+    "label": "Boss Toilet",
+    "count": 17,
+    "count_known": true
+   },
+   {
+    "enemy": "Boss Toilet 2.0",
+    "label": "Boss Toilet 2.0",
+    "count": 17,
+    "count_known": true
+   },
+   {
+    "enemy": "Boss Toilet 3.0",
+    "label": "Boss Toilet 3.0",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Boss Toilet 4.0",
+    "label": "Boss Toilet 4.0",
+    "count": 1,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 68,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Parasite Toilet",
+    "label": "Parasite Toilet",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Small Scientist Toilet",
+    "label": "Small Scientist Toilet",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Scientist Toilet",
+    "label": "Scientist Toilet",
+    "count": 1,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 69,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 70,
+  "is_boss_wave": true,
+  "boss": "Giant Turkey Toilet",
+  "boss_page": "Giant Turkey Toilet",
+  "no_normal_enemies": true,
+  "documented": true,
+  "enemies": []
+ },
+ {
+  "wave": 71,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Boss Toilet",
+    "label": "Boss Toilet",
+    "count": 20,
+    "count_known": true
+   },
+   {
+    "enemy": "Boss Toilet 2.0",
+    "label": "Boss Toilet 2.0",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Ultra Laser Toilet",
+    "label": "Ultra Laser Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "TV Dual Claw Toilet",
+    "label": "TV Dual Claw Toilet",
+    "count": 2,
+    "count_known": true
+   },
+   {
+    "enemy": "Ultra Rocket Launcher Toilet",
+    "label": "Ultra Rocket Launcher Toilet",
+    "count": 5,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 72,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Claw Toilet",
+    "label": "Claw Toilet",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Dual Rocket Laser Toilet",
+    "label": "Dual Rocket Laser Toilet",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Balaclava Spider Toilet",
+    "label": "Balaclava Spider Toilet",
+    "count": 2,
+    "count_known": true
+   },
+   {
+    "enemy": "Frost Skeleton Toilet",
+    "label": "Frost Skeleton Toilet",
+    "count": 2,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 73,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "TV Dual Claw Toilet",
+    "label": "TV Dual Claw Toilet",
+    "count": 3,
+    "count_known": true
+   },
+   {
+    "enemy": "Phantom Toilet",
+    "label": "Phantom Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Skeleton Toilet",
+    "label": "Skeleton Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Glitch Toilet",
+    "label": "Glitch Toilet",
+    "count": 2,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 74,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 75,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 76,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 77,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 78,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Scientist Toilet",
+    "label": "Scientist Toilet",
+    "count": 3,
+    "count_known": true
+   },
+   {
+    "enemy": "Small Scientist Toilet",
+    "label": "Small Scientist Toilet",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Dual Claw Laser Toilet",
+    "label": "Dual Claw Laser Toilet",
+    "count": 4,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 79,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Frost Skeleton Toilet",
+    "label": "Frost Skeleton Toilet",
+    "count": 4,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 80,
+  "is_boss_wave": true,
+  "boss": "Dual Cargo Toilet",
+  "boss_page": "Dual Cargo Toilet",
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Massive Buzzsaw Oven",
+    "label": "Massive Buzzsaw Oven",
+    "count": 10,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 81,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 82,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 83,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 84,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 85,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Giant Dual Blade Toilet",
+    "label": "Giant Dual Blade Toilet",
+    "count": 3,
+    "count_known": true
+   },
+   {
+    "enemy": "Giant Turkey Toilet",
+    "label": "Giant Turkey Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Giant Smooth Toilet",
+    "label": "Giant Smooth Toilet",
+    "count": 2,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 86,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Boss Toilet 3.0",
+    "label": "Boss Toilet 3.0",
+    "count": 4,
+    "count_known": true
+   },
+   {
+    "enemy": "Boss Toilet 4.0",
+    "label": "Boss Toilet 4.0",
+    "count": 8,
+    "count_known": true
+   },
+   {
+    "enemy": "Helmet Boss Toilet 4.0",
+    "label": "Helmet Boss Toilet 4.0",
+    "count": 1,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 87,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 88,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Glitch Toilet",
+    "label": "Glitch Toilet",
+    "count": 4,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 89,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 90,
+  "is_boss_wave": true,
+  "boss": "Broken Heart Toilet",
+  "boss_page": "Broken Heart Toilet",
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Flying Quad Buzzsaw Toilet",
+    "label": "Flying Quad Buzzsaw Toilet",
+    "count": 9,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 91,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Giant Turkey Toilet",
+    "label": "Giant Turkey Toilet",
+    "count": 2,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 92,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Boss Toilet 2.0",
+    "label": "Boss Toilet 2.0",
+    "count": 5,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 93,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Giant Smooth Toilet",
+    "label": "Giant Smooth Toilet",
+    "count": 4,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 94,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Ultra Rocket Launcher Toilet",
+    "label": "Ultra Rocket Launcher Toilet",
+    "count": 9,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 95,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Glitch Toilet",
+    "label": "Glitch Toilet",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Jetpack Mutant Toilet",
+    "label": "Jetpack Mutant Toilet",
+    "count": 10,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 96,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 97,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Giant Turkey Toilet",
+    "label": "Giant Turkey Toilet",
+    "count": 4,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 98,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 99,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 100,
+  "is_boss_wave": true,
+  "boss": "DJ Toilet 2.0",
+  "boss_page": "DJ Toilet 2.0",
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Mutant Assassin Toilet",
+    "label": "Mutant Assassin Toilet",
+    "count": 4,
+    "count_known": true
+   },
+   {
+    "enemy": "Interceptor Astro Toilet",
+    "label": "Interceptor Astro Toilet",
+    "count": 2,
+    "count_known": true
+   },
+   {
+    "enemy": "Small Scientist Toilet",
+    "label": "Small Scientist Toilet",
+    "count": 3,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 101,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Glitch Toilet",
+    "label": "Glitch Toilet",
+    "count": 6,
+    "count_known": true
+   },
+   {
+    "enemy": "Quad Rocket Mutant Toilet",
+    "label": "Quad Rocket Mutant Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Scientist Toilet",
+    "label": "Scientist Toilet",
+    "count": null,
+    "count_known": false
+   }
+  ]
+ },
+ {
+  "wave": 102,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Quad Rocket Toilet Car",
+    "label": "Quad Rocket Toilet Car",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Flying Quad Laser Toilet",
+    "label": "Flying Quad Laser Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Quad Rocket Shield Toilet",
+    "label": "Quad Rocket Shield Toilet",
+    "count": 4,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 103,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "DJ Toilet 2.0",
+    "label": "DJ Toilet 2.0",
+    "count": 2,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 104,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Quad Rocket Mutant Toilet",
+    "label": "Quad Rocket Mutant Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Quad Rocket Shield Toilet",
+    "label": "Quad Rocket Shield Toilet",
+    "count": null,
+    "count_known": false
+   }
+  ]
+ },
+ {
+  "wave": 105,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 106,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Quad Rocket Shield Toilet",
+    "label": "Quad Rocket Shield Toilet",
+    "count": 9,
+    "count_known": true
+   },
+   {
+    "enemy": "Giant Turkey Toilet",
+    "label": "Giant Turkey Toilet",
+    "count": 4,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 107,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "DJ Toilet 2.0",
+    "label": "DJ Toilet 2.0",
+    "count": 2,
+    "count_known": true
+   },
+   {
+    "enemy": "Glitch Toilet",
+    "label": "Glitch Toilet",
+    "count": 3,
+    "count_known": true
+   },
+   {
+    "enemy": "DJ Toilet",
+    "label": "DJ Toilet",
+    "count": null,
+    "count_known": false
+   }
+  ]
+ },
+ {
+  "wave": 108,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Helicopter Camo Toilet",
+    "label": "Helicopter Camo Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Ultra Rocket Launcher Toilet",
+    "label": "Ultra Rocket Launcher Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Soldier Rocket Toilet",
+    "label": "Soldier Rocket Toilet",
+    "count": null,
+    "count_known": false
+   }
+  ]
+ },
+ {
+  "wave": 109,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Giant Dual Blade Toilet",
+    "label": "Giant Dual Blade Toilet",
+    "count": 2,
+    "count_known": true
+   },
+   {
+    "enemy": "Giant Smooth Toilet",
+    "label": "Giant Smooth Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Mutant Pumpkin Toilet",
+    "label": "Mutant Pumpkin Toilet",
+    "count": 1,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 110,
+  "is_boss_wave": true,
+  "boss": "Mutant Pumpkin Toilet",
+  "boss_page": "Mutant Pumpkin Toilet",
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "UFO Toilet",
+    "label": "UFO Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Laser UFO Toilet",
+    "label": "Laser UFO Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Claw Toilet",
+    "label": "Claw Toilet",
+    "count": null,
+    "count_known": false
+   }
+  ]
+ },
+ {
+  "wave": 111,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Frost Skeleton Toilet",
+    "label": "Frost Skeleton Toilet",
+    "count": 9,
+    "count_known": true
+   },
+   {
+    "enemy": "Mutant Pumpkin Toilet",
+    "label": "Mutant Pumpkin Toilet",
+    "count": 2,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 112,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Boss Toilet 3.0",
+    "label": "Boss Toilet 3.0",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Toxic Mutant Toilet",
+    "label": "Toxic Mutant Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Boss Toilet 4.0",
+    "label": "Boss Toilet 4.0",
+    "count": null,
+    "count_known": false
+   }
+  ]
+ },
+ {
+  "wave": 113,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Phantom Toilet",
+    "label": "Phantom Toilet",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Skeleton Toilet",
+    "label": "Skeleton Toilet",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Frost Skeleton Toilet",
+    "label": "Frost Skeleton Toilet",
+    "count": 4,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 114,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Giant Dual Blade Toilet",
+    "label": "Giant Dual Blade Toilet",
+    "count": 2,
+    "count_known": true
+   },
+   {
+    "enemy": "Glitch Toilet",
+    "label": "Glitch Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Police Mutant Toilet",
+    "label": "Police Mutant Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Scientist Toilet",
+    "label": "Scientist Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "DJ Toilet 2.0",
+    "label": "DJ Toilet 2.0",
+    "count": 1,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 115,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Massive Buzzsaw Oven",
+    "label": "Massive Buzzsaw Oven",
+    "count": 3,
+    "count_known": true
+   },
+   {
+    "enemy": "DJ Toilet 2.0",
+    "label": "DJ Toilet 2.0",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Mutant Pumpkin Toilet",
+    "label": "Mutant Pumpkin Toilet",
+    "count": 1,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 116,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Giant Smooth Toilet",
+    "label": "Giant Smooth Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Boss Toilet 4.0",
+    "label": "Boss Toilet 4.0",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Cat Toilet",
+    "label": "Cat Toilet",
+    "count": 2,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 117,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Security Guard Toilet",
+    "label": "Security Guard Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Boss Toilet 4.0",
+    "label": "Boss Toilet 4.0",
+    "count": null,
+    "count_known": false
+   }
+  ]
+ },
+ {
+  "wave": 118,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Security Guard Toilet",
+    "label": "Security Guard Toilet",
+    "count": 4,
+    "count_known": true
+   },
+   {
+    "enemy": "DJ Toilet 2.0",
+    "label": "DJ Toilet 2.0",
+    "count": 5,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 119,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Rocket Toilet",
+    "label": "Rocket Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Dual Claw Laser Toilet",
+    "label": "Dual Claw Laser Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Quad Rocket Shield Toilet",
+    "label": "Quad Rocket Shield Toilet",
+    "count": null,
+    "count_known": false
+   }
+  ]
+ },
+ {
+  "wave": 120,
+  "is_boss_wave": true,
+  "boss": "Astro Toilet",
+  "boss_page": "Astro Toilet",
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Security Guard Toilet",
+    "label": "Security Guard Toilet",
+    "count": 19,
+    "count_known": true
+   },
+   {
+    "enemy": "Giant Turkey Toilet",
+    "label": "Giant Turkey Toilet",
+    "count": 3,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 121,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Glitch Toilet",
+    "label": "Glitch Toilet",
+    "count": 8,
+    "count_known": true
+   },
+   {
+    "enemy": "DJ Toilet 2.0",
+    "label": "DJ Toilet 2.0",
+    "count": 2,
+    "count_known": true
+   },
+   {
+    "enemy": "Mutant Pumpkin Toilet",
+    "label": "Mutant Pumpkin Toilet",
+    "count": 3,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 122,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Skeleton Toilet",
+    "label": "Skeleton Toilet",
+    "count": 2,
+    "count_known": true
+   },
+   {
+    "enemy": "Frost Skeleton Toilet",
+    "label": "Frost Skeleton Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Mutant Pumpkin Toilet",
+    "label": "Mutant Pumpkin Toilet",
+    "count": 4,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 123,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Strider Rocket Toilet",
+    "label": "Strider Rocket Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Military Rocket Launcher Toilet",
+    "label": "Military Rocket Launcher Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Quad Rocket Shield Toilet",
+    "label": "Quad Rocket Shield Toilet",
+    "count": 2,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 124,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "TV Dual Claw Toilet",
+    "label": "TV Dual Claw Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Balaclava Spider Toilet",
+    "label": "Balaclava Spider Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Security Guard Toilet",
+    "label": "Security Guard Toilet",
+    "count": null,
+    "count_known": false
+   }
+  ]
+ },
+ {
+  "wave": 125,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 126,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Glitch Toilet",
+    "label": "Glitch Toilet",
+    "count": 2,
+    "count_known": true
+   },
+   {
+    "enemy": "Mutant Pumpkin Toilet",
+    "label": "Mutant Pumpkin Toilet",
+    "count": 7,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 127,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Quad Rocket Shield Toilet",
+    "label": "Quad Rocket Shield Toilet",
+    "count": 1,
+    "count_known": true
+   },
+   {
+    "enemy": "Giant Smooth Toilet",
+    "label": "Giant Smooth Toilet",
+    "count": 19,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 128,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Security Guard Toilet",
+    "label": "Security Guard Toilet",
+    "count": null,
+    "count_known": false
+   }
+  ]
+ },
+ {
+  "wave": 129,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Phantom Toilet",
+    "label": "Phantom Toilet",
+    "count": null,
+    "count_known": false
+   }
+  ]
+ },
+ {
+  "wave": 130,
+  "is_boss_wave": true,
+  "boss": "Rabid Rabbit Toilet",
+  "boss_page": "Rapid Rabbit Toilet",
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Ultra Rocket Launcher Toilet",
+    "label": "Ultra Rocket Launcher Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Ultra Laser Toilet",
+    "label": "Ultra Laser Toilet",
+    "count": null,
+    "count_known": false
+   }
+  ]
+ },
+ {
+  "wave": 131,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Massive Buzzsaw Oven",
+    "label": "Massive Buzzsaw Oven",
+    "count": 1,
+    "count_known": true
+   },
+   {
+    "enemy": "DJ Toilet 2.0",
+    "label": "DJ Toilet 2.0",
+    "count": 8,
+    "count_known": true
+   },
+   {
+    "enemy": "Mutant Pumpkin Toilet",
+    "label": "Mutant Pumpkin Toilet",
+    "count": 1,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 132,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Police Mutant Toilet",
+    "label": "Police Mutant Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Beret Rocket Launcher Toilet",
+    "label": "Beret Rocket Launcher Toilet",
+    "count": null,
+    "count_known": false
+   }
+  ]
+ },
+ {
+  "wave": 133,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Boss Toilet 3.0",
+    "label": "Boss Toilet 3.0",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Boss Toilet 4.0",
+    "label": "Boss Toilet 4.0",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Astro Toilet",
+    "label": "Astro Toilet",
+    "count": 3,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 134,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Glitch Toilet",
+    "label": "Glitch Toilet",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Security Guard Toilet",
+    "label": "Security Guard Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Flying Quad Buzzsaw Toilet",
+    "label": "Flying Quad Buzzsaw Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Massive Buzzsaw Oven",
+    "label": "Massive Buzzsaw Oven",
+    "count": null,
+    "count_known": false
+   }
+  ]
+ },
+ {
+  "wave": 135,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Flamethrower Toilet",
+    "label": "Flamethrower Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Toxic Skull Toilet",
+    "label": "Toxic Skull Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Phantom Toilet",
+    "label": "Phantom Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "UFO Toilet",
+    "label": "UFO Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "DJ Toilet 2.0",
+    "label": "DJ Toilet 2.0",
+    "count": 2,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 136,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Skeleton Toilet",
+    "label": "Skeleton Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Scientist Toilet",
+    "label": "Scientist Toilet",
+    "count": null,
+    "count_known": false
+   }
+  ]
+ },
+ {
+  "wave": 137,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Airplane Toilet",
+    "label": "Airplane Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Dual Cargo Toilets",
+    "label": "Dual Cargo Toilets",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Giant Smooth Toilet",
+    "label": "Giant Smooth Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Boss Toilet 4.0",
+    "label": "Boss Toilet 4.0",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Astro Toilet",
+    "label": "Astro Toilet",
+    "count": 1,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 138,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Giant Smooth Toilet",
+    "label": "Giant Smooth Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Giant Turkey Toilet",
+    "label": "Giant Turkey Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Glitch Toilet",
+    "label": "Glitch Toilet",
+    "count": 3,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 139,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Helmet Boss Toilet 4.0",
+    "label": "Helmet Boss Toilet 4.0",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Frost Skeleton Toilet",
+    "label": "Frost Skeleton Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Mutant Pumpkin Toilet",
+    "label": "Mutant Pumpkin Toilet",
+    "count": 5,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 140,
+  "is_boss_wave": true,
+  "boss": "Secutor Astro Toilet",
+  "boss_page": "Secutor Astro Toilet",
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "UFO Toilet",
+    "label": "UFO Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Laser UFO Toilet",
+    "label": "Laser UFO Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Dual Cargo Toilet",
+    "label": "Dual Cargo Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Astro Toilet",
+    "label": "Astro Toilet",
+    "count": 3,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 141,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Helmet Boss Toilet 4.0",
+    "label": "Helmet Boss Toilet 4.0",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Frost Skeleton Toilet",
+    "label": "Frost Skeleton Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Giant Turkey Toilet",
+    "label": "Giant Turkey Toilet",
+    "count": 4,
+    "count_known": true
+   },
+   {
+    "enemy": "Astro Toilet",
+    "label": "Astro Toilet",
+    "count": 1,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 142,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Dual Cargo Toilet",
+    "label": "Dual Cargo Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Glitch Toilet",
+    "label": "Glitch Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Astro Toilet",
+    "label": "Astro Toilet",
+    "count": 3,
+    "count_known": true
+   },
+   {
+    "enemy": "Broken Heart Toilet",
+    "label": "Broken Heart Toilet",
+    "count": 5,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 143,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Astro Toilet",
+    "label": "Astro Toilet",
+    "count": 2,
+    "count_known": true
+   },
+   {
+    "enemy": "Secutor Astro Toilet",
+    "label": "Secutor Astro Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Broken Heart Toilet",
+    "label": "Broken Heart Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Laser UFO Toilet",
+    "label": "Laser UFO Toilet",
+    "count": null,
+    "count_known": false
+   }
+  ]
+ },
+ {
+  "wave": 144,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Giant Smooth Toilet",
+    "label": "Giant Smooth Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Frost Skeleton Toilet",
+    "label": "Frost Skeleton Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Giant Turkey Toilet",
+    "label": "Giant Turkey Toilet",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Mutant Pumpkin Toilet",
+    "label": "Mutant Pumpkin Toilet",
+    "count": null,
+    "count_known": false
+   }
+  ]
+ },
+ {
+  "wave": 145,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Airplane Toilet",
+    "label": "Airplane Toilet",
+    "count": 15,
+    "count_known": true
+   },
+   {
+    "enemy": "Secutor Astro Toilet",
+    "label": "Secutor Astro Toilet",
+    "count": 2,
+    "count_known": true
+   },
+   {
+    "enemy": "Broken Heart Toilet",
+    "label": "Broken Heart Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Skeleton Toilet",
+    "label": "Skeleton Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Phantom Toilet",
+    "label": "Phantom Toilet",
+    "count": 5,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 146,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Airplane Toilet",
+    "label": "Airplane Toilet",
+    "count": 20,
+    "count_known": true
+   },
+   {
+    "enemy": "Interceptor Astro Toilet",
+    "label": "Interceptor Astro Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Phantom Toilet",
+    "label": "Phantom Toilet",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Skeleton Toilet",
+    "label": "Skeleton Toilet",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Laser UFO Toilet",
+    "label": "Laser UFO Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Broken Heart Toilet",
+    "label": "Broken Heart Toilet",
+    "count": 3,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 147,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Secutor Astro Toilet",
+    "label": "Secutor Astro Toilet",
+    "count": 50,
+    "count_known": true
+   },
+   {
+    "enemy": "Airplane Toilet",
+    "label": "Airplane Toilet",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Broken Heart Toilet",
+    "label": "Broken Heart Toilet",
+    "count": null,
+    "count_known": false
+   }
+  ]
+ },
+ {
+  "wave": 148,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Skeleton Toilet",
+    "label": "Skeleton Toilet",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Dual Cargo Toilet",
+    "label": "Dual Cargo Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Giant Turkey Toilet",
+    "label": "Giant Turkey Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Astro Toilet",
+    "label": "Astro Toilet",
+    "count": 5,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 149,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Secutor Astro Toilet",
+    "label": "Secutor Astro Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Dual Cargo Toilet",
+    "label": "Dual Cargo Toilet",
+    "count": 3,
+    "count_known": true
+   },
+   {
+    "enemy": "Broken Heart Toilet",
+    "label": "Broken Heart Toilet",
+    "count": 10,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 150,
+  "is_boss_wave": true,
+  "boss": "Secutor Astro Toilet",
+  "boss_page": "Secutor Astro Toilet",
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Secutor Astro Toilet",
+    "label": "Secutor Astro Toilet",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Dual Cargo Toilet",
+    "label": "Dual Cargo Toilet",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Boss Toilet 4.0",
+    "label": "Boss Toilet 4.0",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Helmet Boss Toilet 4.0",
+    "label": "Helmet Boss Toilet 4.0",
+    "count": null,
+    "count_known": false
+   }
+  ]
+ },
+ {
+  "wave": 151,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Specialist Astro Toilet",
+    "label": "Specialist Astro Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "DJ Toilet 2.0",
+    "label": "DJ Toilet 2.0",
+    "count": null,
+    "count_known": false
+   }
+  ]
+ },
+ {
+  "wave": 152,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Glitch Toilet",
+    "label": "Glitch Toilet",
+    "count": 6,
+    "count_known": true
+   },
+   {
+    "enemy": "Quad Rocket Mutant Toilet",
+    "label": "Quad Rocket Mutant Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Scientist Toilet",
+    "label": "Scientist Toilet",
+    "count": null,
+    "count_known": false
+   }
+  ]
+ },
+ {
+  "wave": 153,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Astro Spider Toilet",
+    "label": "Astro Spider Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Astro Toilet",
+    "label": "Astro Toilet",
+    "count": null,
+    "count_known": false
+   }
+  ]
+ },
+ {
+  "wave": 154,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 155,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Glitch Toilet",
+    "label": "Glitch Toilet",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Dual Cargo Toilet",
+    "label": "Dual Cargo Toilet",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Phantom Toilet",
+    "label": "Phantom Toilet",
+    "count": 15,
+    "count_known": true
+   },
+   {
+    "enemy": "Skeleton Toilet",
+    "label": "Skeleton Toilet",
+    "count": 20,
+    "count_known": true
+   },
+   {
+    "enemy": "Broken Heart Toilet",
+    "label": "Broken Heart Toilet",
+    "count": 3,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 156,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 157,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 158,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 159,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 160,
+  "is_boss_wave": true,
+  "boss": "Carrier Astro Toilet",
+  "boss_page": "Carrier Astro Toilet",
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Juggernaut Astro Toilet",
+    "label": "Juggernaut Astro Toilet",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Rabid Rabbit Toilet",
+    "label": "Rabid Rabbit Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Mutant Pumpkin Toilet",
+    "label": "Mutant Pumpkin Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Secutor Astro Toilet",
+    "label": "Secutor Astro Toilet",
+    "count": 20,
+    "count_known": true
+   },
+   {
+    "enemy": "Interceptor Astro Toilet",
+    "label": "Interceptor Astro Toilet",
+    "count": 25,
+    "count_known": true
+   },
+   {
+    "enemy": "Destructor Astro Toilet",
+    "label": "Destructor Astro Toilet",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Airplane Toilet",
+    "label": "Airplane Toilet",
+    "count": 30,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 161,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 162,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 163,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 164,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 165,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 166,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 167,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 168,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Carrier Astro Toilet",
+    "label": "Carrier Astro Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Mutant Pumpkin Toilet",
+    "label": "Mutant Pumpkin Toilet",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Astro Toilet",
+    "label": "Astro Toilet",
+    "count": 3,
+    "count_known": true
+   },
+   {
+    "enemy": "Frost Skeleton Toilet",
+    "label": "Frost Skeleton Toilet",
+    "count": 10,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 169,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Magnet Titan Toilet",
+    "label": "Magnet Titan Toilet",
+    "count": null,
+    "count_known": false
+   },
+   {
+    "enemy": "Carrier Astro Toilet",
+    "label": "Carrier Astro Toilet",
+    "count": 3,
+    "count_known": true
+   },
+   {
+    "enemy": "Astro Toilet",
+    "label": "Astro Toilet",
+    "count": 10,
+    "count_known": true
+   },
+   {
+    "enemy": "Dual Cargo Toilet",
+    "label": "Dual Cargo Toilet",
+    "count": 40,
+    "count_known": true
+   },
+   {
+    "enemy": "Mutant Pumpkin Toilet",
+    "label": "Mutant Pumpkin Toilet",
+    "count": 3,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 170,
+  "is_boss_wave": true,
+  "boss": "Astro Duchess Toilet",
+  "boss_page": "Astro Duchess Toilet",
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": [
+   {
+    "enemy": "Evil Toilet Crab",
+    "label": "Evil Toilet Crab",
+    "count": 5,
+    "count_known": true
+   },
+   {
+    "enemy": "Giant Smooth Toilet",
+    "label": "Giant Smooth Toilet",
+    "count": 25,
+    "count_known": true
+   },
+   {
+    "enemy": "Dual Cargo Toilet",
+    "label": "Dual Cargo Toilet",
+    "count": 16,
+    "count_known": true
+   },
+   {
+    "enemy": "Magnet Titan Toilet",
+    "label": "Magnet Titan Toilet",
+    "count": 5,
+    "count_known": true
+   }
+  ]
+ },
+ {
+  "wave": 171,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 172,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 173,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 174,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 175,
+  "is_boss_wave": true,
+  "boss": "Upgraded Astro Duchess",
+  "boss_page": "Upgraded Astro Duchess",
+  "no_normal_enemies": false,
+  "documented": true,
+  "enemies": []
+ },
+ {
+  "wave": 176,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 177,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 178,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 179,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 180,
+  "is_boss_wave": true,
+  "boss": "The Mothership",
+  "boss_page": "The Mothership",
+  "no_normal_enemies": true,
+  "documented": true,
+  "enemies": []
+ },
+ {
+  "wave": 181,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 182,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 183,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 184,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 185,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 186,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 187,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 188,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 189,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 190,
+  "is_boss_wave": true,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 191,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 192,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 193,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 194,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 195,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 196,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 197,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 198,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 199,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 200,
+  "is_boss_wave": true,
+  "boss": "1x1x1x1",
+  "boss_page": "1x1x1x1",
+  "no_normal_enemies": true,
+  "documented": true,
+  "enemies": []
+ },
+ {
+  "wave": 201,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 202,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 203,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 204,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 205,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 206,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 207,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 208,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ },
+ {
+  "wave": 209,
+  "is_boss_wave": false,
+  "boss": null,
+  "boss_page": null,
+  "no_normal_enemies": false,
+  "documented": false,
+  "enemies": []
+ }
+]

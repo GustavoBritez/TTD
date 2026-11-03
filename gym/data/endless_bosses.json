@@ -1,0 +1,116 @@
+[
+ {
+  "wave": 10,
+  "boss": "Large Glasses Toilet",
+  "hp": 14500,
+  "note": ""
+ },
+ {
+  "wave": 20,
+  "boss": "Mutant Toilet 2.0",
+  "hp": 175883,
+  "note": ""
+ },
+ {
+  "wave": 30,
+  "boss": "Dual Flying Buzzsaw Toilet",
+  "hp": 703743,
+  "note": ""
+ },
+ {
+  "wave": 40,
+  "boss": "Glitch Toilet",
+  "hp": 1588449,
+  "note": ""
+ },
+ {
+  "wave": 50,
+  "boss": "Giant Smooth Toilet",
+  "hp": 7168218,
+  "note": ""
+ },
+ {
+  "wave": 60,
+  "boss": "Frost Skeleton Toilet",
+  "hp": 13912987,
+  "note": ""
+ },
+ {
+  "wave": 70,
+  "boss": "Giant Turkey Toilet",
+  "hp": 24729238,
+  "note": ""
+ },
+ {
+  "wave": 80,
+  "boss": "Dual Cargo Toilets",
+  "hp": 6909851,
+  "note": ""
+ },
+ {
+  "wave": 90,
+  "boss": "Broken Heart Toilet",
+  "hp": 95222192,
+  "note": ""
+ },
+ {
+  "wave": 100,
+  "boss": "DJ Toilet 2.0",
+  "hp": 129788504,
+  "note": ""
+ },
+ {
+  "wave": 110,
+  "boss": "Mutant Pumpkin Toilet",
+  "hp": 175318256,
+  "note": "[First spawns on Wave 109]"
+ },
+ {
+  "wave": 120,
+  "boss": "Astro Toilet",
+  "hp": 141029824,
+  "note": ""
+ },
+ {
+  "wave": 130,
+  "boss": "Rabid Rabbit Toilet",
+  "hp": 375763584,
+  "note": ""
+ },
+ {
+  "wave": 140,
+  "boss": "Secutor Astro Toilet",
+  "hp": 165959136,
+  "note": ""
+ },
+ {
+  "wave": 150,
+  "boss": "Juggernaut Astro Toilet",
+  "hp": 328283136,
+  "note": ""
+ },
+ {
+  "wave": 160,
+  "boss": "Carrier Astro Toilet",
+  "hp": 3019493632,
+  "note": ""
+ },
+ {
+  "wave": 170,
+  "boss": "Astro Duchess Toilet",
+  "hp": 10346702848,
+  "note": ""
+ },
+ {
+  "wave": 180,
+  "boss": "The Mothership",
+  "hp": 12263027712,
+  "note": ""
+ },
+ {
+  "wave": 190,
+  "boss": "Upgraded Astro Duchess",
+  "hp": 7973910016,
+  "note": ""
+ }
+]

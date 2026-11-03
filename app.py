@@ -330,7 +330,18 @@ class TTDGuiApp(ctk.CTk):
 
         )
 
-        self.btn_toggle.pack(fill="x", padx=15, pady=(15, 10))
+        self.btn_toggle.pack(fill="x", padx=15, pady=(15, 6))
+
+        self.btn_open_gym = ctk.CTkButton(
+            left_frame,
+            text="🧬 ABRIR GYM & ENTRENADOR IA (DEAP + OPTUNA)",
+            font=ctk.CTkFont(size=13, weight="bold"),
+            fg_color="#8e44ad",
+            hover_color="#732d91",
+            height=38,
+            command=self.open_gym_window
+        )
+        self.btn_open_gym.pack(fill="x", padx=15, pady=(0, 8))
 
 
 
@@ -828,16 +839,27 @@ class TTDGuiApp(ctk.CTk):
 
 
     def log(self, text: str):
-
         timestamp = time.strftime("%H:%M:%S")
-
         if hasattr(self, "log_textbox"):
-
             self.log_textbox.insert("end", f"[{timestamp}] {text}\n")
-
             self.log_textbox.see("end")
 
+    def open_gym_window(self):
+        try:
+            from gym_ui import TTDGymWindow
+            if hasattr(self, "_gym_win") and self._gym_win is not None and self._gym_win.winfo_exists():
+                self._gym_win.focus()
+                self._gym_win.lift()
+                return
+            self._gym_win = TTDGymWindow(master=self, on_blueprint_exported=self._on_gym_blueprint_exported)
+            self.log("🧬 Ventana GYM (Endless Mode | DEAP + Optuna) abierta.")
+        except Exception as e:
+            messagebox.showerror("Error al abrir GYM", f"No se pudo abrir la interfaz del GYM:\n{e}")
 
+    def _on_gym_blueprint_exported(self, new_blueprint):
+        self.blueprint_items = self.load_blueprint()
+        self.redraw_blueprint_pins()
+        self.log(f"🏆 ¡Estrategia Campeona del GYM cargada en el Bot ({len(self.blueprint_items)} unidades)!")
 
     def test_camera(self):
 
@@ -1149,14 +1171,22 @@ class TTDGuiApp(ctk.CTk):
 
 
 
-                            upgrade_pt = self.vision.find_upgrade_button()
-
-                            if upgrade_pt:
-
-                                self.controller.click_at(upgrade_pt[0], upgrade_pt[1], delay=0.2)
-
-                                self.log(f"Mejora aplicada en Gerente de Unidad (Dinero: ${money})")
-
+                            upgrades = self.vision.find_all_upgrade_buttons()
+                            if upgrades:
+                                applied_count = 0
+                                avail_money = money
+                                for u in upgrades:
+                                    if avail_money <= 0 or avail_money >= u["cost"]:
+                                        self.controller.click_at(u["x"], u["y"], delay=0.18)
+                                        applied_count += 1
+                                        if avail_money > 0:
+                                            avail_money = max(0, avail_money - u["cost"])
+                                            self.current_money = avail_money
+                                if applied_count == 0:
+                                    u0 = upgrades[0]
+                                    self.controller.click_at(u0["x"], u0["y"], delay=0.18)
+                                    applied_count = 1
+                                self.log(f"Gerente de Unidad: {applied_count}/{len(upgrades)} mejoras aplicadas (Dinero: ${money})")
                                 time.sleep(0.2)
 
 

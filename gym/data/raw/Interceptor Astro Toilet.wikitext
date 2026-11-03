@@ -1,0 +1,27 @@
+{{Toilet_Infobox|image1=Interceptor_Astro_Toilet.png|species=Astro|health=81,083,776|speed=Fast|wave_debut=Wave 77 (Unconfirmed)
+Wave 37 (Sand Isles)|modes=[[Endless Mode]] 
+[[Sand Isles]]|ability_1=Laser Cannon Shoot: Shoots a laser at a unit, stunning it for 5 seconds 5 times.|ability_2=Immunity to all [[Fanman|Fanmans]].|title1=Interceptor Astro Toilet|description=A fast astro toilet.}}
+{{Stub}}
+
+== Overview ==
+It was added in the [[Episode 75 Update]], and it spawns in on wave 79 of [[Endless Mode]]. It is a fast Astro Toilet that has 81,083,776 million base HP.
+
+== Appearance ==
+The Interceptor Astro Toilet takes on the appearance of a black toilet, cladded with armor, and what appears to be a turret on the bottom of its toilet. Notably, it has about 10 wing on its sides with varying size, and two smaller wings placed vertically on the top and bottom. the one on the top has a jet engine. This toilet has a helmet with a red glowing eye cover, and the middle of the toilet has a red glowing laser, possibly stunning units. It’s only spawns if a [[Carrier Astro Toilet]] is there.
+
+== Gallery ==
+<gallery>
+File:Shown in Sand Isles.png|This toilet in the [[Sand Isles]] map.
+File:Interceptor Astro Toilet.png|No Background Image
+File:Interceptor.png|In-game, about to die
+</gallery>
+
+[[Category:Jetpack]]
+[[Category:Toilets]]
+
+[[Category:Enemies]]
+
+[[Category:Spawner Minion]]
+[[Category:Stun Blocker]]
+[[Category:Valentines Event 2025]]
+[[Category:Astro Toilets]]

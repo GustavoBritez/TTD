@@ -1,0 +1,28 @@
+{{Toilet_Infobox|image1=student.png|species=Toilet|health=Depends on Wave|speed=Unknown|wave_debut=Evil Wave|modes=All}}
+== Overview ==
+The '''Student Toilet''' is an enemy.
+== Appearance ==
+The Student Toilet is a darkish yellow toilet, with a neon yellow shirt. He is seen smirking, and wears a black beanie, slightly covering the top of his eyes.
+== Waves ==
+The Student Toilet is not restricted to any wave and can spawn at any time. Every time a wave ends, there is 0.1% chance that the wave will turn to "evil wave" and this enemy and the [[Teacher Toilet]] will spawn.
+== Abilities ==
+When near units, it becomes invulnerable for a few seconds 
+
+== Strategy ==
+Place down units to defeat the Student Toilet.
+
+Avoid its *student rizz* ability in order to not get stunned by it.
+== Trivia ==
+
+* He is based off the [https://skibidi-toilet.fandom.com/wiki/Jesse_Pinkman_Skibidi_Toilet?so=search Jesse Pinkman Skibidi Toilet] in the skibidi toilet series.
+* He is based off [https://breakingbad.fandom.com/wiki/Jesse_Pinkman?so=search Jesse Pinkman] from the Breaking Bad series, along with the [[Teacher Toilet]], who is based off [https://breakingbad.fandom.com/wiki/Walter_White?so=search Walter White].
+* This enemy does huge amounts of damage to your base, so it is better to kill it than ignore it.
+
+== Gallery ==
+== Update Log ==
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Characters]]
+
+[[Category:Incomplete pages]]
+[[Category:Male Characters]]

@@ -1,0 +1,65 @@
+__NOTOC__{{Toilet_Infobox|image1=<gallery>
+BossToilet3.0BossIcon.png|Boss Icon
+Boss 3.0.png|In-game
+HardModeBoss 3.0.png|Badge Icon
+</gallery>|caption-image1=Toilet.|description=|species=Toilet|health=835,000 HP|speed=Slow|wave_debut=Hard Mode: Wave 50
+
+Nightmare Mode: Wave 35|modes=Hard+|ability_1=Laser Shoot: Shoots its lasers at 6 different units, stunning them all. Damn thats crazy ngl}}
+==Overview==
+[[Boss Toilet 3.0]] is a stronger version of [[Boss Toilet 2.0]]. It can stun towers with its lasers. It appears as the final boss of [[Hard Mode]] and one of the mid and late game bosses of [[Nightmare Mode]]. It is slower than [[Boss Toilet 2.0]], but has much more health.  
+==Waves==
+===[[Hard Mode]]===
+Wave 50: x1 (835,000 HP)
+===[[Nightmare Mode]]===
+Wave 35 : x1 (610,000 HP)
+
+Wave 42: x1 (700,000 HP)
+
+Wave 45 : x1 (745,000 HP)
+
+Wave 47: x1 (790,000 HP)
+
+Wave 49: x1 (820,000 HP)
+
+Wave 50: x1 (835,000 HP)
+===[[Abysmal Mode (Halloween Event)]]===
+''TBA.''
+===[[Abysmal Mode (Thanksgiving Event)]]===
+Wave 22: x1 (415,000 HP)
+
+===[[Christmas Mode]]===
+''TBA''
+
+=== Others ===
+[[Godly|Wave]] 1: 100000 HP
+
+==Strategy==
+*Boss Toilet 3.0 has a lot of health, so you should use high DPS units. Units like [[Jetpack Cameraman|Jetpack Cameraman,]] [[Titan Cameraman|Titan Cameraman,]] or any [[Mythic]]  [[Godly]] [[Ultimate]] and some [[Legendary]]<nowiki/>s will probably work.
+
+==Gallery==
+<gallery>
+File:HardModeBoss 3.0.png|Boss icon
+File:Boss toilet 3.0 boss toilet 3.0.png|In-game
+File:Boss 3.0.png|Transparent
+</gallery>
+
+==Trivia==
+
+*It has yellow glasses and headphones but is not immune to any [[TVs]] or [[Speakers]] in the game.
+*It is based off of the [https://skibidi-toilet.fandom.com/wiki/G-Man_Skibidi_Toilet#G-Man_Skibidi_Toilet_3.0 G-Man Skibidi Toilet 3.0].
+
+[[Category:Toilets]]
+[[Category:Stunners]]
+[[Category:Boss Toilets]]
+[[Category:Slow Toilets]]
+[[Category:Characters]]
+[[Category:Enemies]]
+[[Category:Jetpack]]
+[[Category:Laser]]
+[[Category:Toilet]]
+[[Category:Mid-air]]
+[[Category:Bosses]]
+[[Category:Laser users]]
+[[Category:Glasses Toilets]]
+[[Category:Man Face]]
+[[Category:Valentines Event 2025]]

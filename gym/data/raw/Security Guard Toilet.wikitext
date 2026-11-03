@@ -1,0 +1,27 @@
+{{Toilet_Infobox|image1=security guard t.png|species=[[Enemies|Toilets]]|health=1,220,000|speed=Slow|wave_debut=35|modes=Nightmare, Endless|ability_1=Laser Attack: Stun unit}}
+
+==Overview==
+The '''security guard toilet''' is an enemy that was added in update 70 (Part 2). It has a very high amount of health and appears in the late game. It appears in [[Nightmare Mode]]. It has 2 lasers that it can use to stun units. It is an incredibly powerful toilet that can charge through your defenses.
+
+He has a grey toilet, a light grey amour plate, 2 darker grey lasers, a black helmet with a flashlight with a similar appearance to the lasers he has, he also has the same roblox face as the [[Soldier Rocket Toilet]] and the [[Toxic Mutant Toilet]].
+
+== Abilities ==
+*Laser Attack: Attacks a unit with its lasers, stunning it for (??) seconds.
+
+==Strategy==
+
+*The '''Security Guard Toilet''' has a lot of health, but is very slow, so you should use high DPS units to defeat this enemy such as: the [[Jetpack Cameraman]], [[Jetpack Mace Cameraman]], [[Upgraded Titan Cameraman]] etc.
+*It stuns units but not that frequently so don't worry, still recommended to bring a healing unit such as: [[Medic Cameraman]], [[Camera Repair Drone]] or [[Speaker Repair Drone]].
+
+==Trivia==
+
+*The '''Security Guard Toilet''' is based off the [https://skibidi-toilet.fandom.com/wiki/Laser_Guardian_Skibidi_Toilet#Flashlight_Laser_Guardian_Skibidi_Toilet Flashlight Laser Guardian Skibidi Toilet]. 
+
+[[Category:Enemies]]
+[[Category:Toilets]]
+[[Category:Stunners]]
+
+[[Category:Characters]]
+
+[[Category:Laser]]
+[[Category:Valentines Event 2025]]

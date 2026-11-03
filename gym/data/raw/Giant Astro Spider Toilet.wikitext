@@ -1,0 +1,34 @@
+{{Stub}}{{SeeAlsoNotice|PagesNumber=1|Note1=[[Astro Spider Toilet|Its normal variant]]}}{{Toilet_Infobox|title1=Giant Astro Spider Toilet|image1=Astro Spider Toilet_Invis.png|species=[[Astro Toilets]]|health=2.276.578.560 (Endless Mode) 29,100,000 (Abysmal Mode)|speed=Faster than normal|wave_debut=156 (Endless Mode) 59 (Abysmal Mode)|modes=Endless|abilities=Laser to units|appearances=Spider laser|ability_1=Shoots His Orbs To Nearby Units, it stunning for 10 second. (Can Shoot 3 Times)}}
+
+==Overview==
+The Giant Spider Astro Toilet is an enemy added in the [[Episode 76 Part 2 Update]]. It is the boss of wave 59 in Abysmal mode and appears in wave 168 [[Endless Mode]].
+
+==Appearance==
+The Giant Spider Astro Toilet is a black toilet with a red glowing evil eyed grinning face, a small goatee and black helmet. It has four spider-like robotic legs that move it in a way that is locomotion. The toilet tank has a circle on the back with spaces and electricity crackles inside the circle.
+
+==Strategy==
+[[Endless Mode]]: It is recommended to bring a high DPS unit with more than 70k DPS (eg. [[Hyper Upgraded Titan Speakerman]], [[Upgraded Titan Cinemaman]], [[Titan Fanman]],…) as this enemy has an immense amount of health and also slowing units to beat it because it has 2.276.578.560 HP.
+
+==Trivia==
+
+* This unit has no boss icon
+* This unit is based off of the [https://skibidi-toilet.fandom.com/wiki/Impactor_Astro_Toilet Impactor Astro Toilet] from the original series
+* Unlike his [[Astro Spider Toilet|original]] version, he is not immune to all slowing.
+== Gallery ==
+<gallery>
+File:Astro Spider Toilet Invis.png|A transparent version of him in the leak video.
+File:Astro Spider Toilet.png|As Shown In the Leak Video
+</gallery>
+
+[[Category:Astro Toilet]]
+[[Category:Astro toilets]]
+[[Category:Toilet]]
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Fast]]
+[[Category:Upcoming]]
+[[Category:Stub]]
+[[Category:Stubs]]
+[[Category:Spiders]]
+[[Category:Bosses]]
+[[Category:Giant Toilets]]

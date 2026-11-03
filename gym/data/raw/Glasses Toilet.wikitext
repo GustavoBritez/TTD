@@ -1,0 +1,44 @@
+{{Toilet_Infobox|image1=Glass toilet no background test.png|caption-image1=Toilet.|description=|species=[[Enemies|Toilets]]|health=3700|speed=Slow|wave_debut=19|modes=All|ability_1=TV Immunity: Immune to All TVs except for TV Woman, Spider TV, Speaker Large TV Man, Titan Cinemaman, and Upgraded Titan Cinemaman.}}
+[[File:Floating glasses toilet.png|thumb|3x3px]]
+
+== Overview ==
+The '''Glasses Toilet''' is a normal-sized [[Enemies|toilet]] which is slower than normal but has more health, and has glasses which makes it immune to most types of [[TVs]]. It has a [[Large Glass Toilet|large]] and [[Giant Glass Toilet|giant]] variant like most other normal-sized toilets. 
+== Appearance ==
+The Glasses Toilet looks much like a normal [[Toilet]] but with a gray colored bowl and cistern. It has shades on its eyes to protect itself from [[TVs]].   
+== Waves ==
+=== Easy Mode ===
+Wave 19: x3 Glasses Toilet
+=== Medium Mode ===
+TBA
+=== Hard Mode ===
+TBA
+=== Nightmare Mode ===
+TBA
+=== Endless Mode ===
+Wave 10: x1 [[Giant Glasses Toilet]] with 14000 HP
+
+== Strategy ==
+* In most modes, '''Glasses Toilet''' does not appear until midgame, and usually at that time, you have multiple types of units down, so you do not have to worry. However, in [[Nightmare Mode]], Glasses Toilet appears very early on with a lot of HP, and also does 100 damage to the base. Do not use any types of TV units other than Spider TV for Nightmare Mode early game.
+
+== Trivia ==
+*This toilet can be affected by [[Large TV Man]] and [[TV Man]] if used in the start of the map.
+*Most TV men cannot attack this enemy, even though it is shown they can in the series. [[TV Woman]], [[Spider TV]], and [[Titan Cinemaman]], and [[Upgraded Titan Cinemaman]] can attack this enemy.
+*It is based off of the [https://skibidi-toilet.fandom.com/wiki/Glass_Skibidi_Toilet?so=search Glasses Skibidi Toilet] from the series.
+*The Glasses are based on [https://www.roblox.com/catalog/11748356/Clockworks-Shades Clockwork's Shades] (Roblox Face Accessory)
+
+== Gallery ==
+<gallery>
+File:Glass toilet.png|Glasses Toilet in the Desert map.
+File:Glassy.webp|Glasses Toilet from the front
+File:Floating glasses toilet.png|Glasses Toilets slightly floating.
+</gallery>
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Characters]]
+[[Category:Large Units]]
+[[Category:Incomplete pages]]
+[[Category:Stub]]
+[[Category:Stubs]]
+[[Category:Glasses Toilet]]
+[[Category:Non-Stun Toilets]]
+[[Category:Glasses Toilets]]

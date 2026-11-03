@@ -1,0 +1,58 @@
+{{Toilet_Infobox|image1=Skeleton Toilet.png|species=Toilet|health=1,464,000|speed=Slow|wave_debut=Wave 31|modes=[[Abysmal Mode (Halloween Event)]], [[Endless Mode]]|ability_1=Skeleton Bite: Bites a unit, stunning it.|ability_2=His stun cannot be healed}}''Looking for [[Toxic Skull Toilet]] or [[Frost Skeleton Toilet]]?'' 
+
+== Overview ==
+The '''Skeleton Toilet''' is a special [[Enemies|enemy]] that spawned in the Halloween event [[Abysmal Mode]] and [[Endless Mode|Endless Mode.]] It has a lot of health and can bite units to stun them. It was released in the [[Episode 66 Update]].
+
+His stun is different from the normal stun of other [[Enemies]], because instead of a 💤 emoji appearing, a 💀 emoji appears, which causes healer units to not have the ability to heal them.
+
+== Waves ==
+
+=== Abysmal Mode ===
+Wave 31: x1
+
+Wave 35: x1
+
+Wave 43: x2
+
+Wave 49: x2
+
+Wave 50: x1
+
+=== Endless Mode ===
+Wave 62: x5
+
+== Health ==
+1,464,000 Health in Abysmal Mode Wave 50
+
+== Strategy ==
+*High DPS units are recommended to defeat this enemy due to its high health.
+*Healers are not recommended when this toilet shows up as they cannot heal troops with the 💀 emoji from this toilet.
+*Use units with stun blocking to defeat this enemy. Bald Toilet is recommended because he blocks 100 stuns. Unstunnable units are recommended the most.
+
+== Trivia ==
+
+* Fun Fact: This toilet has actually appeared in the actual series, as in [https://skibidi-toilet.fandom.com/wiki/Skibidi_toilet_69#undefined Episode 69 Part 1] in the series, there were actual skeleton toilets. However, when this update was released, there were no actual skeleton toilets.
+
+== Gallery ==
+<gallery>
+File:Skeleton stun.png|Skeleton Toilet stunning a Scientist Cameraman.
+File:Skeleton Toilet.png
+File:SkeletonToilet.png|Ditto, but non-transparent
+</gallery>
+
+== Update Log ==
+October 28th, 2023: Added in the [[Episode 66 Update|Halloween Event Update]]
+
+November 20th 2023: Removed in the [[Episode 67 Part 3 Update|Thanksgiving Event Update]]
+
+January 12th 2024: Readded in the [[Endless Update]]
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Event Enemies]]
+[[Category:Stunners]]
+
+
+[[Category:2023 updates/events]]
+[[Category:2023]]
+[[Category:Slow Toilets]]
+[[Category:Male Characters]]

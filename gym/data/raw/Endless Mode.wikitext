@@ -1,0 +1,189 @@
+{{SeeAlsoNotice
+|PagesNumber=2|Note1=the map, [[Toilet Fortress]]|Note2=[[Endless Mode/Wave Structure|the wave structure]]}}
+{{Maps infobox|title={{Mythic|Endless Mode}}|image1=EndlessMode2.PNG|map=[[Toilet Fortress]]|difficulty=Impossible (due to it being endless, hence unbeatable)|reward=[[Coins]], Endless Exp for [[Endless Ranks]], {{Ultimate|[[Upgraded Titan Drill Man]]}} (Formerly, now) {{Ultimate|[[Sinister Titan Clockman]]}} and [[Gems]] (Placing Top 100)|recommended_units=[[Santa TV Man]], [[Scientist Cameraman]], [[Speakerwoman's Rose Farm]], [[Pumpkin Farmer]], 
+[[Green Laser Cameraman]], [[Mace Camerawoman]],
+[[Hyper Upgraded Titan Speakerman]], [[Titan Clock Man]], 
+[[Titan Luckbringer Drillman]], 
+[[Sinister Titan TV Man]], 
+[[DJ TV Man]], 
+[[Speaker Repair Drone]], [[Camera Repair Drone]],
+[[Leprechaun Cameraman]], [[Mewing TV Man]], [[Cupid Camerawoman]],
+[[Titan Clover Man]],
+[[Upgraded Titan Drill Man]],
+[[Astro Upgraded Titan Cameraman]], [[Upgraded Titan Clock Man]], [[Titan Fanman]], [[Fanman]], [[Large Fanman]], [[Scientist Clockman]], [[Clockwoman]], [[Guardian Clockman]], [[Future Large Clockman]], [[Golden Future Large Clockman]], [[Large Clockman]], [[Chief Clockman]], [[Upgraded Large Laser Cameraman]], [[Upgraded Titan Drilldragon]], [[Sigma Drillman]], [[Telanthric]], [[Quantum Cameraman]], [[Zombie Horde Cameraman]], [[Titan Warlord Clockman]], [[Bald Toilet]],[[Titan Forcefield Man]], [[Fallen Clockman]], [[Rainbow Future Large Clockman]]}}
+== Overview ==
+As the name suggests, Endless Mode is a mode with an infinite number of waves, where you are tasked with getting as far as you can without losing to the toilets. There will be rewards when you beat a wave. It is confirmed by Telanthric that completing at least 50% of one wave can get the reward of the wave.  
+
+{{Notice|This mode is much harder than [[Nightmare Mode|Nightmare]] mode, replacing Nightmare as the hardest mode}}
+== Strategy ==
+
+Use units with high DPS, units with slowing, and units with time stop for an ideal loadout. 
+
+A few recommended units are Green Laser Cameraman, [[Hyper Upgraded Titan Speakerman|Hyper UTS]], Large Clockman, [[Astro Upgraded Titan Cameraman|Astro UTC]], and Santa TV Man. These units are very powerful and will ensure you get a high wave in Endless, since they have good support and damage.
+
+Healer units are also very useful for the large amounts of stuns in Endless. They ensure your units are not stunned and can deal the most amounts of damage, which is needed for Endless.
+
+Booster units are unlike any other unit. Instead of giving money, DPS, or slowing, they give boosts to your units. [[Announcer Cameraman]], or, if you can afford it, [[DJ TV Man]] or [[Titan Warlord Clockman]], are very helpful in Endless since they boost your unit's damage by a large amount.
+
+This mode is not recommended for grinding coins, but instead, this mode is great for grinding Endless XP and Clan Coins.
+
+Unsure which units to use in Endless? Below, there will be a list of cheap and expensive loadouts you can use to score high on endless.
+
+[[Santa TV Man]], [[Green Laser Cameraman]], [[Zombie Toilet]], [[DJ TV Man]], [[Speaker Repair Drone]] (By lucksieunhan)
+
+[[Santa TV Man]], [[Bald Toilet]], [[Astro Upgraded Titan Cameraman|Astro UTC]], [[Leprechaun Cameraman]], [[Announcer Cameraman]]
+
+[[Santa TV Man]], [[Bald Toilet]], [[Announcer Cameraman]], [[Leprechaun Cameraman]], [[Mewing TV Man]]
+
+[[Titan Forcefield Man]], [[Octopus VIP]], [[Fallen Clockman]], [[King Drillman]], [[The Golden Skibidi]], [[Chill Clock Guy]]
+
+[[Titan Glacier TV Man]], [[Octopus VIP]], [[Titan Warlord Clockman]], [[King Drillman]], [[Upgraded Titan Clockman]], [[Chief Clockman]]
+
+[[Santa TV Man]], [[King Drillman]], [[Titan Warlord Clockman]], [[Chief Clockman]], [[Quantum Cameraman]], [[Upgraded Titan Clockman]] (Manoftaj)
+
+[[Titan Chimney Man]], [[Titan Fast Armored Cameraman]], [[Santa TV Man]], [[Sergeant Drillman]], [[Fallen Clockman]] (dragoon77ttd)
+
+Rainbow Future Large Clockman, Any Cooldown booster unit, Speaker Repair Drone, Santa TV Man, Titan Printer Man. (arjunr4321)
+
+Upgraded Titan Drilldragon, Speaker Repair Drone, Octopus VIP, Titan Printer man, Any booster (best is Dj tv man)  . (Eaglekiller1l)
+
+Carrot Farmer Cameraman, Quantum Cameraman, Sergeant Drill, Watchman Of Doom, Mafia Boss/Titan Swat Cameraman, Plasma Upgraded Titan Cameraman. (deadloin123/ZKG)
+
+[[Carrot Farmer Bunnyman]], [[Sergeant Drillman]], [[The Golden Skibidi]], [[Titan Forcefield Man]], [[Titan Reaper Speakerman]] (RedFlare_YT)
+
+note to editors: just add some more unit loadouts here.
+
+== Boss Gallery ==
+
+==== *Note:Astro Toilet to upgraded Astro duchess didn’t change health ====
+<gallery>
+File:Large glasses boss.png|Wave 10-[[Large Glasses Toilet]] 15.0k
+File:Mutant.png|Wave 20-[[Mutant Toilet 2.0]] 189.3k
+File:Dual Flying.png|Wave 30-[[Dual Flying Buzzsaw Toilet]] 785.5k
+File:Glitch Toilet.png|Wave 40-[[Glitch Toilet]] 1.8
+File:Giant Smooth Toilet with no background.png|Wave 50-[[Giant Smooth Toilet]] 8.6M
+File:FrostSkeleton.png|Wave 60-[[Frost Skeleton Toilet]] 17.3M
+File:Giant boss turkey.png|Wave 70-[[Giant Turkey Toilet]] 31.9M
+File:Dual.png|Wave 80-[[Dual Cargo Toilets]] 9.2M
+File:1708826554869.png|Wave 90-[[Broken Heart Toilet]] 132.4k
+File:DJ TOILET 2.0 (REWORKED).png|Wave 100-[[DJ Toilet 2.0]] 187.2M HP
+File:Mutant pumpkin but really bad.png|Wave 110-[[Mutant Pumpkin Toilet]] 262.3M HP
+File:Astro Toilet.PNG.png|Wave 120-[[Astro Toilet]] 141M HP
+File:RabidRabbitToilet.png|Wave 130-[[Rabid Rabbit Toilet]] 375.7M HP
+File:Secutor Astro toilet.png|Wave 140-[[Secutor Astro Toilet]] 165.9M HP
+File:Juggernaut Astro Toilet.png|Wave 150-[[Juggernaut Astro Toilet]] 658,5M HP
+File:Better Carrier Astro Toilet.png|Wave 160-[[Carrier Astro Toilet]] 3.02B
+File:Removal-233.png|Wave 170-[[Astro Duchess Toilet]] 10.34B
+File:Astro Mothership Boss Icon.png|Wave 180-[[The Mothership]] 12.26B
+File:Upgraded Astro Duchess.PNG.png|Wave 190-[[Upgraded Astro Duchess]] 7.97B
+</gallery>
+
+== Boss List ==
+[[File:Large glasses boss.png|35px]]Wave 10-[[Large Glasses Toilet]]-14.500 HP
+
+[[File:Mutant.png|35px]]Wave 20-[[Mutant Toilet 2.0]]-175.883 HP
+
+[[File:Dual Flying.png|35px]]Wave 30-[[Dual Flying Buzzsaw Toilet|Flying Dual Buzzsaw Toilet]]-703.743 HP
+
+[[File:Glitch Toilet.png|35px]]Wave 40-[[Glitch Toilet]]-1.588.449 HP
+
+[[File:Giant smooth.png|35px]]Wave 50-[[Giant Smooth Toilet]]-7.168.218 HP
+
+[[File:FrostSkeleton.png|35px]]Wave 60-[[Frost Skeleton Toilet]]-13.912.987 HP
+
+[[File:Giant boss turkey.png|35px]]Wave 70-[[Giant Turkey Toilet]]-24.729.238 HP
+
+[[File:Dual.png|35px]]Wave 80-[[Dual Cargo Toilets]]-6.909.851 HP
+
+[[File:1708826554869.png|48x48px]]Wave 90-[[Broken Heart Toilet]]-95.222.192 HP
+
+[[File:DJ TOILET 2.0 (REWORKED).png|53x53px]]Wave 100-[[DJ Toilet 2.0]]-129.788.504 HP
+
+[[File:Mutant pumpkin but really bad.png|35px]]Wave 110-[[Mutant Pumpkin Toilet]]-175.318.256 HP [First spawns on Wave 109]
+
+[[File:Astro Toilet.PNG.png|35px]]Wave 120-[[Astro Toilet]]-141.029.824 HP
+
+[[File:RabidRabbitToilet.png|35px]]Wave 130-[[Rabid Rabbit Toilet]]-375.763.584 HP
+
+[[File:Secutor Astro toilet.png|35px]]Wave 140-[[Secutor Astro Toilet]]-165.959.136 HP
+
+[[File:Juggernaut Astro Toilet.png|47x47px]]Wave 150-[[Juggernaut Astro Toilet]]-328.283.136 HP
+
+[[File:Better Carrier Astro Toilet.png|45x45px]]Wave 160-[[Carrier Astro Toilet]]-3,019,493,632HP
+[[File:Removal-233.png|left|33x33px]]
+Wave 170-[[Astro Duchess Toilet]]-10,346,702,848HP
+
+[[File:Astro Mothership Boss Icon.png|41x41px]]Wave 180-[[The Mothership]]-12.263.027.712 HP
+[[File:Upgraded Astro Duchess.PNG.png|left|thumb|32x32px]]
+Wave 190-[[Upgraded Astro Duchess]]-7,973,910,016 HP
+
+== Trivia ==
+* This is the only mode to have every [[Enemies|Enemy]] in the game.
+* Toilet Fortress is the only map that has endless difficulty currently.
+* The Episode 70 Part 1 update made this mode have more unique boss and the boss cycle ends at wave 100 with '''[[Mutant Pumpkin Toilet]]''' pushed from being the boss in wave 80 to 90.
+* When Endless Mode came out, there was a UGC item called [https://www.roblox.com/catalog/15921511009/Toilet-Wings Toilet Wings] that could have been obtained via beating wave 40 of Endless Mode which isn't obtainable anymore
+* This mode can summon event Enemies.
+* [[Upgraded Titan Drill Man]] used to be the Endless Reward for being in the Top 100, but was replaced by [[Sinister Titan Clockman]].
+* The first 50 waves here are even harder than Nightmare mode
+
+==Update Log==
+===1/22/24===
+* Added Endless Mode.
+* Added Endless Mode Leaderboard.
+* Added a new UGC item, the [https://www.roblox.com/catalog/15921511009/Toilet-Wings Toilet Wings]. (They have now sold out and can no longer be obtained).
+===1/22/24===
+* '''[[Astro Toilet]]''' became the new boss at wave 100.
+* '''[[DJ Toilet 2.0]]''' became the new boss at wave 80.
+* '''[[Mutant Pumpkin Toilet]]''' became the boss of wave 90.
+===2/14/24===
+* '''[[Broken Heart Toilet]]''' became the new boss at wave 80.
+* '''[[DJ Toilet 2.0]]''', '''[[Mutant Pumpkin Toilet]]''' and '''[[Astro Toilet]]''' forward by 10 waves.
+===3/3/24===
+*'''[[Dual Cargo Toilets]]''' became the new boss at wave 80
+* '''[[DJ Toilet 2.0]]''', '''[[Mutant Pumpkin Toilet]]''', '''[[Broken Heart Toilet]]''' and '''[[Astro Toilet]]''' pushed back by 10 waves.
+===4/7/24===
+* '''[[Helmet Boss Toilet 4.0]]''' and '''[[Secutor Astro Toilet]]''' Was Added to Endless.
+* [[Secutor Astro Toilet|'''Secutor Astro Toile'''t]] Became the Strongest Boss in the Update.
+
+=== 5/23/24 ===
+
+* [[Staff#Community Manager|Inhe]]'s boat near the portal was removed.
+
+=== 6/10/24 ===
+
+* Buffed every enemy in endless mode, making endless mode harder
+
+=== 7/4/24 ===
+
+* '''[[Juggernaut Astro Toilet]]''', '''[[Carrier Astro Toilet]]''' and '''[[The Mothership]]''' Was Added to Endless.
+* '''The Mothership''' Became the New Strongest Boss in Endless.
+
+=== 26/07/24 ===
+
+* '''[[Astro Duchess Toilet]]''' Was Added to Endless.
+
+=== 9/7/24 ===
+Added 2x speed to endless. (2x faster matches). Must be endless rank 10 to host.
+
+=== (?)/10/24 ===
+Buffed every enemy again in endless mode, making endless mode harder.
+
+=== 12/28/24 ===
+Added the Unit Index, where if you get 40 shiny units, you will permanently get +50% Endless XP Boost.
+
+=== 2/15/25 ===
+Added 3x speed in endless.(3x matches). Must be rank 16 to host
+
+And Buffed every enemy yet again in endless mode, making endless mode even harder.
+
+== Gallery ==
+<blockquote><gallery>
+File:Telanthricboat.png|The telanthric boat
+File:Iamevan-coding-endless-mode.png|Iamevan coding
+</gallery></blockquote>
+[[Category:Gamemode]]
+[[Category:Modes]]
+[[Category:Endless bosses]]
+[[Category:Endless Bosses]]
+[[Category:Maps]]
+[[Category:Mechanic]]

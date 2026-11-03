@@ -1,0 +1,55 @@
+{{Toilet_Infobox|image1=<gallery>
+Vacuum.png|Icon
+vacuum yes.png|Model
+</gallery>|caption-image1=Toilet.|description=spin|species=Toilet|health=62,000|speed=Fast|wave_debut=Wave 15 (Medium)
+Wave 13 or 14 (Hard)|modes=Medium+|ability_1=It will spin around specific sections of the map stunning nearby small units for 10 seconds.}}
+== Overview ==
+The '''Vacuum Toilet''' is a fast and tough [[Toilets|toilet]] that first appears in the [[Desert]] map. Its main gimmick is that at specific sections of the map, it will spin; sucking up and disabling any nearby small units for 10 seconds (fact-checked), and after some time it continues to move forward.
+
+It does 300 damage to the base, so you can tank it (unless you on [[Abysmal Mode (The Void)|Abysmal Mode]]).
+
+== Appearances ==
+
+=== Medium Mode ===
+
+* Wave 15: 62,000 HP x1
+* Wave 20: 77,000 HP x2
+* Wave 25: 92,000 HP x2
+
+=== Hard Mode ===
+
+* Wave 15 : 62,000 HP x1
+* ???
+
+=== Nightmare Mode ===
+
+* Wave 15 : 62,000 HP x1
+* ???
+
+=== Abysmal Mode ===
+
+* Wave 15 : 62,000 HP x1
+* ???
+
+== Strategy ==
+* The '''Vacuum Toilet''' is very hard to defeat for new players, as it not only has more than double the health of [[Boss Toilet]] it is also very fast.
+* With just [[Rare]] units alone, you are not able to defeat it(you could with [[Speaker Helicopter]] in the old Desert). 
+* Any [[Epic]] unit can probably take this down except for possibly [[Large TV Man]]. 
+* Make sure to memorize where the Vacuum Toilet uses its abilities, and place units around there to do the most damage.
+* Any high DPS unit can take this down given you upgrade it enough.
+* If Vacuum Toilet gets too far, you can use [[Secret Agent]] to bring a quick defeat to it.
+* With any Legendary Unit, you can easily kill this and defeat Medium Mode.
+
+== Trivia ==
+
+* It is based on the [https://skibidi-toilet.fandom.com/wiki/Vacuum_Skibidi_Urinal?so=search Vacuum Skibidi Urinal] from the series (it is a urinal).
+**Despite being a urinal both in the series and in the game, it is called a toilet in game.
+* It was the main centerpiece of the [[Desert]] in the update it was added; being the 'boss' and being the main factor in making the map hard.
+* This is the first [[Enemies|toilet]] added to the game which can "stun" your units.
+
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Characters]]
+[[Category:Stunners]]
+[[Category:Bosses]]
+[[Category:Valentines Event 2025]]

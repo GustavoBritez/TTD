@@ -1,0 +1,109 @@
+{{SeeAlsoNotice|Note1=[[Boss Toilet (Unit)]]|Note2=[[Boss Toilet]]|Note3=[[Boss Toilet 2.0]]|PagesNumber=5|Note4=[[Boss Toilet 3.0]]|Note5=[[Boss Toilet 4.0]]}}{{Unobtainable}}
+{{DISPLAYTITLE:{{Exclusive|Boss Toilet 5.0}}}}
+{{MetaUnit|dps/support|great}}{{Stub}}{{Units infobox (this one)|unit_name={{Exclusive|Boss Toilet 5.0}}|species=[[Toilets (Units)|Toilets]]|rarity={{Exclusive|[[Exclusive]]}}|image1=GToilet5.0.png|levels=5|cost=600|base_sell_price=300|special_abilities=Summons a random toilet ally|type=🗣️{{Exclusive|Spawner}}🗣️
+{{Basic|Single-Target}}}}
+==Overview==
+Boss Toilet 5.0 is an Exclusive Unit released in the [[Episode 77 Part 4 Update]]. 
+=='''Obtainment''' ==
+It can be obtained from the Exclusive Shop for a price of [[File:Robux.png|frameless|27x27px]]599. It can also be traded for in the [[Trading Plaza]] or bought in the [[Marketplace]] or being gifted from the [[Post Office]]. 
+== Stats Table ==
+{| class="fandom-table"
+|+Upgrades
+!'''Levels'''
+!'''Price'''
+!'''Total Price'''
+!'''Damage'''
+!'''Cooldown'''
+!'''DPS'''
+!'''DPS/$'''
+!'''Range'''
+!'''Ally DPS'''
+!'''Ally Health'''
+!'''Ally Cooldown'''
+|-
+|LV1 
+|$600
+|$600
+|4,000
+|0.25
+|16,000
+|26.67/$
+|35
+|0
+|25,000
+|20
+|-
+|LV2
+|$900
+|$1,500
+|5,500
+|0.25
+|22,000
+|14.67/$
+|40
+|0
+|100,000
+|20
+|-
+|LV3
+|$2,500
+|$4,000
+|7,500
+|0.25
+|30,000
+|7.5/$
+|40
+|0
+|200,000
+|20
+|-
+|LV4
+|$11,500
+|$15,500
+|13,750
+|0.25
+|55,000
+|3.55/$
+|45
+|0
+|450,000
+|20
+|-
+|LV5
+|$18,000
+|$33,500
+|30,000
+|0.25
+|120,000
+|5.1/$
+|50
+|0
+|700,000
+|20 
+|}
+
+==Trivia==
+*The unit has a weird icon, the logo of the boss toilet 4.0 unit in front of a toilet, it's probably a placeholder icon.
+*As of 04/03/25, it is unlikely to be a placeholder now. 
+*Best starter so far with a DPS of 16,000 and a placement cost of $600 at level 1.
+*It's a pretty good unit as it spawns toilets and does a whopping 175,000 DPS AND the ally health (when maxed out) is 1,000,000.
+*This unit, currently has '''one of the highest cost efficiency,''' reaching '''A WHOOPING 26.67,''' only to be beaten by [[Titan Samurai Cameraman]] with '''116,666.''' 
+== Gallery ==
+<gallery>
+Boss Toilet 5.0 Lvl 1.png|LVL 1
+Boss Toilet 5.0 Lvl 2.png|LVL 2
+Boss Toilet 5.0 Lvl 3.png|LVL 3
+Boss Toilet 5.0 Lvl 4.png|LVL 4
+Boss Toilet 5.0 Lvl 5.png|LVL 5
+</gallery>
+[[Category:Units]]
+[[Category:Laser Units]]
+[[Category:Toilet Units]]
+[[Category:Boss Toilets]]
+[[Category:Expensive]]
+[[Category:Exclusive]]
+[[Category:Robux]]
+[[Category:Spawner]]
+[[Category:Upgraded characters]]
+[[Category:Toilets]]
+[[Category:5 Upgrades]]

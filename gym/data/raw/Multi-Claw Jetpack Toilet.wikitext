@@ -1,0 +1,27 @@
+{{Toilet_Infobox|image1=Multi-Claw Jetpack.png|caption-image1=Toilet.|description=|species=Toilet|health=73750|speed=Fast|wave_debut=???|modes=Hard+|ability_1=Claw Attack: Uses its claws to stun a unit near it.}}
+==Overview==
+'''Multi-Claw Jetpack Toilet''' is an enemy that can stun units. It also has a high amount of health.
+==Waves==
+=== Hard Mode ===
+=== Nightmare Mode ===
+=== Abysmal Mode ===
+==Strategy==
+*You can use Medic Cameraman or Camera Repair Drone to unstun units stunned by the Multi-Claw Jetpack Toilet.
+*Use high DPS units to defeat this enemy.
+==Trivia==
+*This enemy is based off of the [https://skibidi-toilet.fandom.com/wiki/Jetpack_Claw_Skibidi_Toilet Jetpack Claw Skibidi Toilet].
+== Update Log ==
+10/20/2023: Added Multi-Claw Jetpack Toilet.
+
+== Gallery ==
+<gallery>
+File:Claw stun.png|Multi-Claw Jetpack Toilet stuns Glitch Cameraman.
+</gallery>
+[[Category:Enemies]]
+[[Category:Stunners]]
+[[Category:Toilets]]
+[[Category:Toilet]]
+[[Category:Characters]]
+[[Category:Jetpack]]
+[[Category:Fast]]
+[[Category:Valentines Event 2025]]

@@ -1,0 +1,33 @@
+{{Stub}}{{Toilet_Infobox|image1=ultra laser.png|species=Toilets|health=???|speed=Average|wave_debut=???|modes=Nightmare+|abilities=Ultra Laser Shoot: Shoots all of its lasers on a unit, stunning it for 5 seconds.|title1=}}
+== Overview ==
+The '''Ultra Laser Toilet''' is an [[Enemies|enemy]] from the [[Episode 67 Part 4 Update|Episode 67 (Part 4) Update]]. Its lasers will all target one [[Units|unit]] and stun it for 5 seconds (unless you have a healing unit). It has 1.2M health. The Ultra Laser Toilet is also seen in [[Nightmare Mode]], and it is recommended to have [[Legendary]] or [[Mythic]][[Godly|+]] to beat it.
+== Appearance ==
+The Ultra Laser Toilet has a similar appearance to the [[Boss Toilet 4.0]], with the exception of it having a diamond plate in the middle, eleven lasers, a yellow shirt instead of the regular blue, and a jetpack. It has a grey toilet and shades aswell.
+
+== Waves ==
+TBA
+
+== Abilities ==
+It can stun units with it's lasers.
+
+== Strategy ==
+Use an unstun [[Units|unit]] as it stuns for a long time, and have a good damage unit. It has lots of health, so you should bring a slowing unit to prevent losing the game.
+
+== Gallery ==
+<gallery>
+File:Ultra Laser Toilet.png
+File:Ultra laser.png
+</gallery>
+
+[[Category:Enemies]]
+[[Category:Characters]]
+[[Category:Toilets]]
+[[Category:Stunners]]
+[[Category:Stubs]]
+[[Category:Laser]]
+[[Category:Toilet]]
+[[Category:Laser users]]
+[[Category:Jetpack]]
+[[Category:Mid-air]]
+[[Category:Man Face]]
+[[Category:Valentines Event 2025]]

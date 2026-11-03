@@ -56,48 +56,84 @@ class VisionSystem:
             return (center_x, center_y)
         return None
 
+    def read_money_from_crop(self, crop) -> int:
+        """
+        Extrae el valor numérico exacto de un recorte con el texto '$XXXX' de TTD:
+        1. Usa el contorno verde para localizar la caja exacta del dinero (ignorando lava y carteles).
+        2. Extrae el relleno BLANCO SÓLIDO interior de los dígitos (evitando letras huecas).
+        3. Elimina automáticamente el primer componente izquierdo (el símbolo '$') para que
+           Tesseract jamás confunda '$' con un '6', '5' u '8'.
+        """
+        try:
+            crop_large = cv2.resize(crop, None, fx=3, fy=3, interpolation=cv2.INTER_CUBIC)
+            hsv = cv2.cvtColor(crop_large, cv2.COLOR_BGR2HSV)
+
+            # 1. Máscara del borde verde para aislar la región exacta del texto '$XXXX'
+            green_mask = cv2.inRange(hsv, np.array([35, 60, 80]), np.array([92, 255, 255]))
+            cnts, _ = cv2.findContours(green_mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+            valid_boxes = [cv2.boundingRect(c) for c in cnts if cv2.contourArea(c) > 25]
+            if not valid_boxes:
+                return -1
+
+            x1 = max(0, min(bx for bx, by, bw, bh in valid_boxes) - 8)
+            y1 = max(0, min(by for bx, by, bw, bh in valid_boxes) - 8)
+            x2 = min(crop_large.shape[1], max(bx + bw for bx, by, bw, bh in valid_boxes) + 8)
+            y2 = min(crop_large.shape[0], max(by + bh for bx, by, bw, bh in valid_boxes) + 8)
+
+            roi_hsv = hsv[y1:y2, x1:x2]
+            roi_green = green_mask[y1:y2, x1:x2]
+
+            # 2. Extraer el relleno blanco sólido interior (baja saturación, alto brillo y sin borde verde)
+            white_mask = ((roi_hsv[:, :, 1] < 55) & (roi_hsv[:, :, 2] > 205) & (roi_green == 0)).astype(np.uint8) * 255
+
+            # Conservar únicamente componentes blancos rodeados por el borde verde
+            green_dilated = cv2.dilate(roi_green, np.ones((5, 5), np.uint8), iterations=1)
+            num_labels, labels, stats, _ = cv2.connectedComponentsWithStats(white_mask)
+            clean_white = np.zeros_like(white_mask)
+            char_boxes = []
+            for lbl in range(1, num_labels):
+                comp_mask = (labels == lbl).astype(np.uint8) * 255
+                if stats[lbl, cv2.CC_STAT_AREA] >= 20 and np.any(cv2.bitwise_and(comp_mask, green_dilated)):
+                    clean_white[labels == lbl] = 255
+                    char_boxes.append((stats[lbl, cv2.CC_STAT_LEFT], stats[lbl, cv2.CC_STAT_WIDTH], lbl))
+
+            if not char_boxes:
+                return -1
+
+            # 3. Ordenar de izquierda a derecha y eliminar el primer símbolo (siempre es '$')
+            char_boxes.sort(key=lambda item: item[0])
+            if len(char_boxes) >= 2:
+                first_x, first_w, first_lbl = char_boxes[0]
+                if first_w <= 65:
+                    clean_white[labels == first_lbl] = 0
+
+            digits_bw = cv2.bitwise_not(clean_white)
+            padded = cv2.copyMakeBorder(digits_bw, 20, 20, 20, 20, cv2.BORDER_CONSTANT, value=255)
+
+            debug_path = os.path.join(os.path.dirname(__file__), "debug_money_ocr.png")
+            cv2.imwrite(debug_path, padded)
+
+            custom_config = r'--psm 7 -c tessedit_char_whitelist=0123456789'
+            text = pytesseract.image_to_string(padded, config=custom_config)
+            nums = re.findall(r'\d+', text)
+            if nums:
+                return int("".join(nums))
+        except Exception:
+            pass
+        return -1
+
     def read_money(self) -> int:
         """
-        Lee el dinero actual aislando el color verde brillante ($XXXX) por encima de la hotbar.
-        Filtra con HSV, binariza y genera 'debug_money_ocr.png'.
-        Devuelve el dinero o -1 si falla.
+        Lee el dinero actual en pantalla por encima de la hotbar.
+        Devuelve el dinero exacto o -1 si no es visible.
         """
         try:
             screen = self.grab_screen()
             h, w = screen.shape[:2]
-
-            # Recorte ajustado: solo la franja del dinero (arriba de los slots de tropas)
-            crop = screen[int(h * 0.78):int(h * 0.88), int(w * 0.42):int(w * 0.58)]
-
-            # Escalar x3 para que Tesseract lea perfecto los nmeros pequeos
-            crop_large = cv2.resize(crop, None, fx=3, fy=3, interpolation=cv2.INTER_CUBIC)
-
-            # Aislar el color verde claro/brillante del texto de dinero en TTD (HSV)
-            hsv = cv2.cvtColor(crop_large, cv2.COLOR_BGR2HSV)
-            lower_green = np.array([35, 60, 100])
-            upper_green = np.array([95, 255, 255])
-            mask = cv2.inRange(hsv, lower_green, upper_green)
-
-            # Engrosar ligeramente las letras y poner texto negro sobre fondo blanco
-            kernel = np.ones((2, 2), np.uint8)
-            mask = cv2.dilate(mask, kernel, iterations=1)
-            processed = cv2.bitwise_not(mask)
-
-            # Guardar imagen de depuracin para verificar el recorte en vivo
-            debug_path = os.path.join(os.path.dirname(__file__), "debug_money_ocr.png")
-            cv2.imwrite(debug_path, processed)
-
-            # PSM 7 = Tratar la imagen como una sola lnea de texto, solo dgitos
-            custom_config = r'--psm 7 -c tessedit_char_whitelist=0123456789'
-            text = pytesseract.image_to_string(processed, config=custom_config)
-
-            nums = re.findall(r'\d+', text)
-            if nums:
-                full_num = "".join(nums)
-                return int(full_num)
-        except Exception as e:
-            pass
-        return -1
+            crop = screen[int(h * 0.77):int(h * 0.89), int(w * 0.35):int(w * 0.65)]
+            return self.read_money_from_crop(crop)
+        except Exception:
+            return -1
 
     def find_skip_button(self):
         """Busca el botón 'Saltar' en la barra superior (soporta clean y normal)."""
@@ -169,35 +205,82 @@ class VisionSystem:
             res = self.find_template("book_unidades.png", threshold=0.65)
         return res
 
-    def find_upgrade_button(self):
+    def find_all_upgrade_buttons(self, screen=None) -> list:
         """
-        Busca el botón verde 'Mejora' del Gerente de Unidad automáticamente con OpenCV.
-        Usa primero la cabecera sin precio fijo ('btn_mejora_header.png') para soportar
-        mejoras de cualquier costo ($200, $400, $1200, etc.) y verifica que sea color VERDE activo.
+        Detecta TODOS los botones verdes 'Mejora' visibles dentro del Gerente de Unidad,
+        lee el costo aproximado debajo de cada botón ($200, $1300, $3000, etc.) y devuelve
+        una lista de diccionarios [{'x': cx, 'y': cy, 'cost': cost}, ...] ordenada de menor
+        a mayor costo para mejorar todas las unidades disponibles de forma distribuida.
+        Ignora por completo los botones rojos ('Vender') y las unidades en nivel máximo (Nivel 8).
         """
+        upgrades = []
         try:
-            screen = self.grab_screen()
-            h, w = screen.shape[:2]
-            for tpl_name in ("btn_mejora_header.png", "btn_mejora.png"):
-                path = os.path.join(TEMPLATES_DIR, tpl_name)
-                if not os.path.exists(path):
-                    continue
-                tpl = cv2.imread(path, cv2.IMREAD_COLOR)
-                if tpl is None:
-                    continue
-                th, tw = tpl.shape[:2]
-                res = cv2.matchTemplate(screen, tpl, cv2.TM_CCOEFF_NORMED)
-                _, max_val, _, max_loc = cv2.minMaxLoc(res)
-                if max_val >= 0.70:
-                    cx = max_loc[0] + tw // 2
-                    cy = max_loc[1] + th // 2
-                    patch = screen[max(0, max_loc[1]):min(h, max_loc[1] + min(20, th)), max(0, max_loc[0]):min(w, max_loc[0] + tw)]
-                    if patch.size > 0:
-                        b, g, r = patch.mean(axis=(0, 1))
-                        if g > 110 and g > r * 1.15:
-                            return (cx, cy)
+            if screen is None:
+                screen = self.grab_screen()
+            sh, sw = screen.shape[:2]
+            if sw > 600 and sh > 500:
+                rx1, rx2 = int(sw * 0.15), int(sw * 0.85)
+                ry1, ry2 = int(sh * 0.14), int(sh * 0.85)
+            else:
+                rx1, rx2, ry1, ry2 = 0, sw, 0, sh
+
+            roi = screen[ry1:ry2, rx1:rx2]
+            hsv = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
+            green_mask = cv2.inRange(hsv, np.array([38, 110, 110]), np.array([85, 255, 255]))
+            cnts, _ = cv2.findContours(green_mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+
+            for c in cnts:
+                area = cv2.contourArea(c)
+                if 350 <= area <= 5000:
+                    x, y, w, h = cv2.boundingRect(c)
+                    btn_h = min(h, 27)
+                    aspect = w / float(btn_h) if btn_h > 0 else 0
+                    if 1.6 <= aspect <= 3.5:
+                        btn_hsv = hsv[y:y + btn_h, x:x + w]
+                        white_in_btn = np.count_nonzero((btn_hsv[:, :, 1] < 70) & (btn_hsv[:, :, 2] > 190))
+                        white_ratio = white_in_btn / float(w * btn_h)
+                        if 0.12 <= white_ratio <= 0.65:
+                            cy1 = max(0, y + btn_h - 3)
+                            cy2 = min(roi.shape[0], y + btn_h + 14)
+                            cx1 = max(0, x + 3)
+                            cx2 = min(roi.shape[1], x + w - 14)
+                            cost_val = 200
+                            if cy2 > cy1 and cx2 > cx1:
+                                cost_roi = roi[cy1:cy2, cx1:cx2]
+                                cost_large = cv2.resize(cost_roi, None, fx=4, fy=4, interpolation=cv2.INTER_CUBIC)
+                                chsv = cv2.cvtColor(cost_large, cv2.COLOR_BGR2HSV)
+                                cwhite = ((chsv[:, :, 1] < 80) & (chsv[:, :, 2] > 165)).astype(np.uint8) * 255
+                                nl, lbls, stats, _ = cv2.connectedComponentsWithStats(cwhite)
+                                comps = [(stats[i, cv2.CC_STAT_LEFT], stats[i, cv2.CC_STAT_WIDTH], i) for i in range(1, nl) if stats[i, cv2.CC_STAT_AREA] >= 10]
+                                comps.sort()
+                                if comps:
+                                    fx, fw, flbl = comps[0]
+                                    if fw <= 22 and len(comps) >= 2:
+                                        cwhite[lbls == flbl] = 0
+                                    else:
+                                        cwhite[:, :fx + 16] = 0
+                                cbw = cv2.bitwise_not(cwhite)
+                                cpad = cv2.copyMakeBorder(cbw, 15, 15, 15, 15, cv2.BORDER_CONSTANT, value=255)
+                                txt = pytesseract.image_to_string(cpad, config=r'--psm 7 -c tessedit_char_whitelist=0123456789')
+                                nums = re.findall(r'\d+', txt)
+                                if nums:
+                                    parsed = int("".join(nums))
+                                    if 50 <= parsed <= 100000:
+                                        cost_val = parsed
+                            real_cx = rx1 + x + w // 2
+                            real_cy = ry1 + y + btn_h // 2
+                            upgrades.append({"x": real_cx, "y": real_cy, "cost": cost_val})
+
+            upgrades.sort(key=lambda u: (u["cost"], u["y"] // 60, u["x"]))
         except Exception:
             pass
+        return upgrades
+
+    def find_upgrade_button(self):
+        """Devuelve la mejora disponible más económica (compatibilidad con llamadas individuales)."""
+        upgrades = self.find_all_upgrade_buttons()
+        if upgrades:
+            return (upgrades[0]["x"], upgrades[0]["y"])
         return None
 
     def find_close_button(self):

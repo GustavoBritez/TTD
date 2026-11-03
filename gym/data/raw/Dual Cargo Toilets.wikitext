@@ -1,0 +1,42 @@
+{{Stub}}{{Toilet_Infobox|image1=<gallery>
+Dual.png|Boss Icon
+dual cargo toilet.png|In-Game
+</gallery>|species=[[Enemies|Toilets]]|health=6,200,000|speed=Average|wave_debut=Wave 80 (Endless)
+Wave 40-50? (Clock/Rewind Event)|modes=[[Endless Mode]]
+[[Time Factory]]|ability_1=Cargo Spawn: Upon death, spawns in 2 [[Glitch Toilet]]s|abilities=Spawns in 2 [[Glitch Toilet]]|title1=Dual Cargo Toilets}}
+== Overview ==
+The '''Dual Cargo Toilets''' are an [[Enemies|Enemy]] that appear on Wave 80 of [[Endless Mode]]. This is the first enemy with the ability to spawn other toilet enemies. Added in the [[Episode 71 Update]].
+
+== Appearance ==
+
+The '''Dual Cargo Toilets''' look like 2 toilets attached to each other, similar to the toilets welded by the [[Welder Toilet]]. They have a large container attached below their toilet bowl.
+== Abilities ==
+On death, spawns 2 glitch toilets from the cargo container. This is a deadly ability, as one glitch toilet tends to be a bit of a struggle, but two might be hard for many players. It is recommended to have good AoE units for this.
+== Trivia ==
+
+* This is based of off the [https://skibidi-toilet.fandom.com/wiki/Double_Transporter_Skibidi_Toilet?so=search Double Transporter Skibidi Toilet] in the series.
+* This is currently the first toilet to be a Spawner, for it can spawn 2 [[Glitch Toilet|Glitch Toilets]] upon its death.
+* There is a glitch that the glitch toilets don’t get affected by the health of the dual cargo toilets.
+
+== Gallery ==
+<gallery>
+File:Dualcargoname.png|Dual Cargo Toilet [BOSS] in update log UI
+File:Dual cargo toilets.png|Dual Cargo Toilet In-game
+File:Dual.png|Dual cargo boss Pop-up in endless
+File:Dual cargo toilet.png|Ditto
+File:Dual cargo toilets.png
+</gallery>
+[[Category:Enemies]]
+[[Category:Toilets]]
+[[Category:Helicopters]]
+[[Category:Stub]]
+[[Category:Bosses]]
+[[Category:Endless Bosses]]
+[[Category:Boss Toilets]]
+[[Category:Toilet]]
+[[Category:Mid-air]]
+[[Category:Slow Toilets]]
+[[Category:Endless bosses]]
+[[Category:Flying]]
+[[Category:Spawner]]
+[[Category:Valentines Event 2025]]

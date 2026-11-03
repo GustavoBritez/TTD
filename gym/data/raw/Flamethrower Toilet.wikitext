@@ -1,0 +1,38 @@
+{{Toilet_Infobox|image1=<gallery>
+FlameToilet.png|Icon
+flame toilet.png|Model
+</gallery>|caption-image1=Toilet.|description=|species=Toilet|health=100k base health|speed=Slow|wave_debut=Wave 34(Nightmare mode)|modes=Nightmare+}}
+''Were you looking for [[Flamethrower Cameraman]]?''
+== Overview ==
+The Flamethrower Toilet can stun units with its flamethrower mouth. Once a unit has been stunned, it will be on fire which will constantly stun it until the fire is over. If a unit on fire gets unstuned by [[Camera Repair Drone]] or [[Medic Cameraman]], it will get stunned again.
+== Waves ==
+=== Nightmare Mode ===
+* Wave 34: x1
+* Wave 40: x1
+* Wave 44: x1
+* Wave 49: x1
+* Wave 50: x1
+== Health ==
+=== Nightmare Mode ===
+Wave 34: 595,000 HP
+
+Wave 40: 645,000 HP
+
+Wave 44: 745,000 HP
+
+Wave 49: 820,000 HP
+
+Wave 50: 835,000 HP
+
+== Strategy ==
+High DPS units are recommended for this toilet, like [[Mech Cameraman|Mech Cameraman,]] [[Laser Cameraman Car|Titan Speakerman,]] etc. [[Secret Agent]] could be useful if it gets too far from your main defense.
+
+== Trivia ==
+* A similar toilet with the same ability is the [[Toxic Skull Toilet|Toxic Skull Toilet]], except that he uses acid instead of fire.
+* This toilet is based on the [https://skibidi-toilet.fandom.com/wiki/Giant_Blind_Flamethrower_Skibidi_Toilet?so=search Giant Blind Flamethrower Skibidi Toilet].
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Stunners]]
+[[Category:Characters]]
+[[Category:Slow Toilets]]
+[[Category:Toilet]]

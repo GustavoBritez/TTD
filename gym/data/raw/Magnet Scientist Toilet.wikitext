@@ -1,0 +1,26 @@
+{{SeeAlsoNotice|Note1=[[Scientist Toilet]] or [[Magnet Scientist Toilet 3.0]]}}{{Toilet Infobox|title1=Magnet Scientist Toilet|image1=magnetscience.jpg|species=[[Enemies|Toilets]]|health=5,100,000|speed=Average|appearances=[[Time Factory]]|wave_debut=50|modes=[[Time Factory]]|abilities=Can stun units by attaching on top}}
+== Overview ==
+The '''Magnet Scientist Toilet''' is a [[Scientist Toilet]] but with more upgraded weapons. It has the second most health in the [[Time Factory]] Mode. It is exclusive on the og event
+== Appearance ==
+A [[Scientist Toilet]] with more weapons, some magnets around the arms with a machine gun hanging on its head. 
+More information will be added soon after the update.
+== Strategies ==
+Use [[Camera Repair Drone]],[[Speaker Repair Drone]]or [[Medic Cameraman]] if needed, use high dps unit such as [[Astro Upgraded Titan Cameraman]] [[Hyper Upgraded Titan Speakerman]] to damage this unit.
+== Trivia ==
+*This toilet is from the series Skibidi Toilet Multiverse.
+*For some reason its called Magnet Scientist Toilet 3.0 in the game
+*small ver [[Small Magnet Scientist Toilet]]
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Bosses]]
+[[Category:Event Enemies]]
+[[Category:Boss Toilets]]
+[[Category:Scientist]]
+[[Category:Magnet users]]
+[[Category:Magnet toilets]]
+[[Category:Multiverse toilets]]
+[[Category:Characters]]
+[[Category:Toilet]]
+[[Category:Slow Toilets]]
+[[Category:Mech]]
+[[Category:Beard]]

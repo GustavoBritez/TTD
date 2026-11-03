@@ -1,0 +1,56 @@
+[[Category:Toilets]]
+[[Category:Event Enemies]]
+[[Category:Boss Toilets]]
+[[Category:Slow Toilets]]
+{{Toilet_Infobox|species=Toilets, Bunny|health=11,820,000|speed=Average|wave_debut=Wave 60 and Wave 130 (Endless Mode)|modes=[[Egg Island|Easter Mode]] and [[Endless Mode]]|ability_1=2 Minutes stunning: He stuns a unit 120 seconds (2 minutes)|image1=Rabbit Rapid.png}}
+[[File:RabidRabbitToilet.png|thumb]]
+
+==Overview==
+The Rabid Rabbit Toilet is the new boss [[toilet]] for the Easter event. It can stun [[units]] by using its powers. When it stuns a unit, instead of the normal "💤" emoji appearing, text stating "''💀 2 min💀''", which stuns units for 120 seconds (2 minutes) and is the only toilet to do this. 
+
+This is the new strongest event enemy (1.2M base health), dethroning the [[Mutant Pumpkin Toilet]] (1M base health). The strongest toilet in the game is the [[The Mothership]]. 
+
+==Waves==
+
+=== [[Egg Island|Easter Mode]] ===
+
+* Wave 60
+
+== Health ==
+[[Easter Event 2024|Easter Mode]]
+
+Wave 60: 11,820,000
+
+=== Others: ===
+Wave 1: 1,200,000
+
+== Strategy ==
+Spawns on Wave 60 on [[Egg Island]], you must use an unstunning unit (like [[Speaker Repair Drone]]) or an unstunnable [[Units|Unit]] (like [[Leprechaun Cameraman]]). Use high DPS [[Units]] to defeat him. use [[Shield Cameraman]] for the boss to try to stun your problems are gone. Use units that can block a decent amount of stuns with high DPS, such as [[Sword Large Cameraman]] or [[Saber Mutant Toilet]].
+
+== Trivia ==
+
+* This enemy has the second longest stunning, beaten by [[The Grim Reaper]] who has infinite stun duration
+* An alternative of [[Shield Cameraman]] is [[Upgraded Large Laser Cameraman]]. However, he only gets his shield at max level, so use [[Shield Cameraman]] for this.
+* It's confirmed that its stun cannot be healed.
+
+==Gallery==
+<gallery>
+File:Toxicstunned.png|A Toxic Upgraded Titan Cameraman stunned by the Rabid Rabbit Toilet
+File:RobloxScreenShot20240318 165325472.png|Rabid Rabbit Toilet in game.
+File:Rapid bunny toilet Image.png|in game with 11million in a duo
+File:Rabbit Rapid.png|Boss Icon
+</gallery>
+[[Category:Jetpack]]
+[[Category:Easter]]
+[[Category:Endless Bosses]]
+[[Category:Endless bosses]]
+[[Category:Bosses]]
+[[Category:Stunners]]
+[[Category:Mid-air]]
+[[Category:Laser]]
+[[Category:Easter event]]
+[[Category:Laser users]]
+
+[[Category:Boss]]
+[[Category:Animals]]
+[[Category:Flying]]

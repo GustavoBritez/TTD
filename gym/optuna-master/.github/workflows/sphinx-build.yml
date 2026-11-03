@@ -1,0 +1,113 @@
+name: Sphinx
+
+on:
+  push:
+    branches:
+      - master
+  pull_request: {}
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref == 'refs/heads/master' && github.run_number || github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  documentation:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+    - name: Install the latest version of uv
+      uses: astral-sh/setup-uv@07a047e608db84b3d8c06cd9a7c7dcc9c355c18e # v10.3.2
+      with:
+        python-version: 3.12
+        enable-cache: true
+
+    # note (crcrpar): We've not updated tutorial frequently enough so far thus
+    # it'd be okay to discard cache by any small changes including typo fix under tutorial directory.
+    - name: Sphinx Gallery Cache
+      uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+      env:
+        cache-name: sphx-glry-documentation
+      with:
+        path: |
+          tutorial/MNIST
+          docs/source/tutorial
+        key: py3.12-${{ env.cache-name }}-${{ hashFiles('tutorial/**/*') }}
+
+    - name: Install Dependencies
+      run: |
+        sudo apt-get install optipng graphviz
+        uv sync --extra document
+
+    - name: Output installed packages
+      run: |
+        uv pip freeze
+    - name: Output dependency tree
+      run: |
+        uv tree
+
+    - name: Build Document
+      run: |
+        cd docs
+        uv run make html
+        cd ../
+
+    - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+      with:
+        name: built-html
+        path: |
+            docs/build/html
+
+    - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+      with:
+        name: tutorial
+        path: |
+            docs/source/tutorial
+
+  doctest:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+    - name: Install the latest version of uv
+      uses: astral-sh/setup-uv@07a047e608db84b3d8c06cd9a7c7dcc9c355c18e # v10.3.2
+      with:
+        python-version: 3.12
+        enable-cache: true
+
+    - name: Sphinx Gallery Cache
+      uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+      env:
+        cache-name: sphx-glry-doctest
+      with:
+        path: |
+          tutorial/MNIST
+          docs/source/tutorial
+        key: py3.12-${{ env.cache-name }}-${{ hashFiles('tutorial/**/*') }}
+
+    - name: Install Dependencies
+      run: |
+        sudo apt-get install optipng graphviz
+        uv sync --extra document
+
+    - name: Output installed packages
+      run: |
+        uv pip freeze
+    - name: Output dependency tree
+      run: |
+        uv tree
+
+    - name: Run Doctest
+      run: |
+        cd docs
+        uv run make doctest

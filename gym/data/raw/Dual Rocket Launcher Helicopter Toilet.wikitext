@@ -1,0 +1,27 @@
+{{Stub}}{{Toilet_Infobox|image1=dual rocket toilet2.png|caption-image1=Toilet.|description=|species=Toilet|health=???|speed=Average|wave_debut=???|modes=Nightmare+|ability_1=Rocket Launcher: Shoots rockets at 2 different units, stunning them for 5 seconds.|title1=Dual Rocket Launcher Toilet}}
+
+==Overview==
+'''Dual Rocket Launcher Toilet''' is a slow enemy with a lot of health that can stun units. It appears in [[Nightmare Mode|nightmare mode]].
+
+==Appearance ==
+It has two rockets on its sides and a helicopter rotor. It also is a dark toilet.
+==Health ==
+???
+
+==Strategy==
+*The '''Dual Rocket Launcher Toilet''' is a strong toilet, so high DPS units are recommended to take this down. This toilet also stuns units very frequently as it has 2 rockets. You can use Medic Cameraman or Camera Repair Drone to unstun units that are stunned by this enemy. You can use Level 5/6 Upgraded Titan Cameraman, TV Woman, or Mech Cameraman to slow this enemy down, making it an easier target.
+
+== Facts ==
+It is based off of the [[https://skibidi-toilet.fandom.com/wiki/Dual%20Launcher%20Helicopter%20Skibidi%20Toilet Dual Rocket Launcher Toilet]]
+ 
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Stunners]]
+[[Category:Characters]]
+[[Category:Helicopters]]
+[[Category:Toilet]]
+[[Category:Rocket]]
+[[Category:Rockets]]
+[[Category:Slow Toilets]]
+[[Category:Flying]]
+[[Category:Male]]

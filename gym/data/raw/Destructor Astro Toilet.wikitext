@@ -1,0 +1,34 @@
+{{Stub}}{{Toilet Infobox|title1=Destructor Astro Toilet|image1=Destructor_Astro_Toilet.png|species=Astro|health=81,083,776|speed=Average|wave_debut=114 (Endless) 40 (Abysmal) 45 (Halloween Mode)|modes=[[Endless Mode]]  [[Sand Isles]] [[Abysmal Mode (The Void)]]|ability_1=Shoots  His Orbs To The Nearby Unit, it stunning for 5 seconds (THE RANGE IS VERY FAR)|ability_2=Uses His Laser To Stun Nearby Units, it stunning for 5 seconds. (The Laser Can be Seperated)}}
+
+== Overview ==
+The [[Destructor Astro Toilet]] is an enemy that was added in the [[Episode 75 Update]].
+
+It has 81,083,776 million HP.
+
+== Appearance ==
+The '''Destructor Astro toilet''' has 7 lasers, it wears a helmet, and has a black metal mask.
+
+== Trivia ==
+
+* It's also based off [https://skibidi-toilet.fandom.com/wiki/Destructor_Astro_Toilet?so=search Destructor Astro Toilet] from the series.
+
+* Underneath the helmet, his face is a default smile face.
+
+== Gallery ==
+<gallery>
+File:Possible Astro destructor photo .jpg|Model of Destructor Astro Toilet
+File:Screenshot 2024-07-08 201922.png|Destructor Astro Toilet In game
+</gallery>
+[[Category:Toilets]]
+
+[[Category:Enemies]]
+
+[[Category:Stub]]
+[[Category:Endless Bosses]]
+
+
+
+[[Category:Male Characters]]
+[[Category:Bosses]]
+[[Category:Valentines Event 2025]]
+[[Category:Astro Toilets]]

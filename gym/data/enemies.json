@@ -1,0 +1,4807 @@
+[
+ {
+  "name": "1x1x1x1",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/1x1x1x1",
+  "health_raw": "623,103 HP",
+  "health": 623103,
+  "health_index_page": null,
+  "speed_raw": "Fast",
+  "speed_tier": "Fast",
+  "wave_debut": "Evil Wave",
+  "modes": "All",
+  "species": "Robloxian",
+  "abilities": [],
+  "tags": [
+   "Boss",
+   "Event",
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Bosses",
+   "Characters",
+   "Enemies",
+   "Event Enemies"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Airplane Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Airplane_Toilet",
+  "health_raw": "2000 - easy wave 20 - 25000 - medium wave 30 - 180000 - hard wave 50 - 250000 - nightmare wave 50",
+  "health": 2000,
+  "health_index_page": null,
+  "speed_raw": "Very Fast",
+  "speed_tier": "Very Fast",
+  "wave_debut": "Wave ? (Hard Mode)\nWave 15 (Nightmare Mode\nWave ? (Abysmal Mode (Halloween Event))\nWave ? (Abysmal Mode (Thanksgiving Event))",
+  "modes": "",
+  "species": "Toilets",
+  "abilities": [],
+  "tags": [
+   "Strong"
+  ],
+  "is_boss": false,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Fast",
+   "Fast toilets",
+   "Flying",
+   "Mid-air",
+   "Non-Stun Toilets",
+   "Toilet",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Angelic Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Angelic_Toilet",
+  "health_raw": "286",
+  "health": 286,
+  "health_index_page": null,
+  "speed_raw": "Moderately Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "N/A",
+  "modes": "Drill Event\nHalloween graveyard 2024",
+  "species": "Toilet",
+  "abilities": [
+   "Stun the units"
+  ],
+  "tags": [
+   "Normal",
+   "Stun"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Enemies",
+   "Incomplete pages",
+   "Large",
+   "Male Characters",
+   "Slow Toilets",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Assassin Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Assassin_Toilet",
+  "health_raw": "250",
+  "health": 250,
+  "health_index_page": null,
+  "speed_raw": "Very Fast",
+  "speed_tier": "Very Fast",
+  "wave_debut": "Wave 9",
+  "modes": "All",
+  "species": "Toilet",
+  "abilities": [],
+  "tags": [
+   "Normal"
+  ],
+  "is_boss": false,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Fast",
+   "Fast toilets",
+   "Non-Stun Toilets",
+   "Toilet",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Astro Duchess",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Astro_Duchess",
+  "health_raw": "10 billion Endless Mode\n49,250,000 Abysmal Mode (legacy)",
+  "health": 10,
+  "health_index_page": null,
+  "speed_raw": "Average-Fast, possibly 50% of an Assassin Toilet",
+  "speed_tier": "Fast",
+  "wave_debut": "170 Endless Mode\n60 Abysmal Mode (legacy)",
+  "modes": "Endless Mode\nAbysmal Mode (legacy)",
+  "species": "Astro",
+  "abilities": [
+   "Shooting 6 Lasers that stuns 6 different Units for 15 seconds for 5 times.",
+   ""
+  ],
+  "tags": [],
+  "is_boss": true,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "Astro Toilets",
+   "Bosses",
+   "Enemies",
+   "Female Characters",
+   "Large",
+   "Laser",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Astro Duchess Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Astro_Duchess_Toilet",
+  "health_raw": "10 billion Endless Mode\n49,250,000 Abysmal Mode (legacy)",
+  "health": 10,
+  "health_index_page": null,
+  "speed_raw": "Average-Fast, possibly 50% of an Assassin Toilet",
+  "speed_tier": "Fast",
+  "wave_debut": "170 Endless Mode\n60 Abysmal Mode (legacy)",
+  "modes": "Endless Mode\nAbysmal Mode (legacy)",
+  "species": "Astro",
+  "abilities": [
+   "Shooting 6 Lasers that stuns 6 different Units for 15 seconds for 5 times.",
+   ""
+  ],
+  "tags": [
+   "Boss",
+   "Stun",
+   "Very Strong"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Astro Toilets",
+   "Bosses",
+   "Enemies",
+   "Female Characters",
+   "Large",
+   "Laser",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Astro Soldier Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Astro_Soldier_Toilet",
+  "health_raw": "4100000 (Wave 49)",
+  "health": 4100000,
+  "health_index_page": null,
+  "speed_raw": "Extremely Fast",
+  "speed_tier": "Extremely Fast",
+  "wave_debut": "42 (Sand Isles)",
+  "modes": "Endless Mode And Sand Isles.",
+  "species": "Astro",
+  "abilities": [
+   "Does The Same Stun for 10 seconds Type As Glitch Toilet."
+  ],
+  "tags": [
+   "Stun",
+   "Very Strong"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": true,
+  "categories": [
+   "Astro Toilets",
+   "Enemies",
+   "Fast toilets",
+   "Flying",
+   "Incomplete pages",
+   "Jetpack",
+   "Laser users",
+   "Mid-air",
+   "Off-Track Enemies",
+   "Stub",
+   "Stubs",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Astro Spider Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Astro_Spider_Toilet",
+  "health_raw": "1.7 Million Health (Wave 58)\n578 Million Health (Wave 153)",
+  "health": 1,
+  "health_index_page": null,
+  "speed_raw": "Fast",
+  "speed_tier": "Fast",
+  "wave_debut": "Wave 58 Abysmal Mode (The Void)\nWave 153 Endless Mode",
+  "modes": "Abysmal Mode (The Void)\nEndless Mode",
+  "species": "Astro",
+  "abilities": [
+   "Laser Cannon Shoot: Shoots a laser at a unit, stunning it for 45 seconds.",
+   "Cannot be slowed down"
+  ],
+  "tags": [
+   "Stun",
+   "Very Strong"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Astro Toilet",
+   "Astro toilets",
+   "Enemies",
+   "Fast",
+   "Fast toilets",
+   "Laser",
+   "Laser users",
+   "Spiders",
+   "Stub",
+   "Stubs",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Astro Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Astro_Toilet",
+  "health_raw": "121,753,992 (Wave 120 on endless mode only) 259,497,952 (Wave 153 on endless mode only)",
+  "health": 121753992,
+  "health_index_page": null,
+  "speed_raw": "Fast",
+  "speed_tier": "Fast",
+  "wave_debut": "Wave 120",
+  "modes": "Endless Mode, can spawn on Ohio Mode\nSand Isles",
+  "species": "Astro",
+  "abilities": [
+   "Laser: Combines his claws together to fire a laser beam to stun units for 8 seconds.",
+   "Claw Attack: Attacks a unit with his claw, stunning it for 3 seconds."
+  ],
+  "tags": [
+   "Boss",
+   "Stun",
+   "Very Strong"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Astro Toilets",
+   "Boss",
+   "Boss Toilets",
+   "Bosses",
+   "Characters",
+   "Endless Bosses",
+   "Enemies",
+   "Flying",
+   "Laser",
+   "Male Characters",
+   "Mid-air",
+   "Stubs",
+   "Stunners",
+   "Toilet",
+   "Toilets",
+   "UFO"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Balaclava Spider Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Balaclava_Spider_Toilet",
+  "health_raw": "344000",
+  "health": 344000,
+  "health_index_page": null,
+  "speed_raw": "Average",
+  "speed_tier": "Average",
+  "wave_debut": "47",
+  "modes": "Nightmare Mode",
+  "species": "Toilets",
+  "abilities": [],
+  "tags": [
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Acid",
+   "Enemies",
+   "Jetpack",
+   "Male Characters",
+   "Spiders",
+   "Stunners",
+   "Toilet",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Beret Rocket Launcher Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Beret_Rocket_Launcher_Toilet",
+  "health_raw": "2.74M",
+  "health": 2740000,
+  "health_index_page": 2740000,
+  "speed_raw": "Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "40",
+  "modes": "Nightmare, Endless",
+  "species": "Toilet",
+  "abilities": [],
+  "tags": [
+   "Stun",
+   "Very Strong"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Boss Toilets",
+   "Bosses",
+   "Characters",
+   "Enemies",
+   "Incomplete pages",
+   "Rockets",
+   "Slow Toilets",
+   "Stunners",
+   "Toilet",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Boss Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Boss_Toilet",
+  "health_raw": "∼15000",
+  "health": 15000,
+  "health_index_page": null,
+  "speed_raw": "Very Slow",
+  "speed_tier": "Very Slow",
+  "wave_debut": "Easy: Wave 20\nMedium: Wave 15\nHard: Wave 10\nNightmare: Wave 5",
+  "modes": "All",
+  "species": "Toilets",
+  "abilities": [],
+  "tags": [
+   "Boss",
+   "Normal"
+  ],
+  "is_boss": true,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "Boss Toilets",
+   "Bosses",
+   "Characters",
+   "Enemies",
+   "Male",
+   "Man Face",
+   "Non-Stun Toilets",
+   "Slow Toilets",
+   "Toilet",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Boss Toilet 2.0",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Boss_Toilet_2.0",
+  "health_raw": "214000",
+  "health": 214000,
+  "health_index_page": null,
+  "speed_raw": "Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "Medium Mode: 30 Wave\n\nHard Mode:17 Wave",
+  "modes": "All",
+  "species": "Toilet",
+  "abilities": [
+   "Laser Shoot: Shoots its lasers at 2 different units, stunning them both."
+  ],
+  "tags": [
+   "Boss",
+   "Medium",
+   "Stun"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Boss Toilets",
+   "Bosses",
+   "Characters",
+   "Dual Wield",
+   "Enemies",
+   "Jetpack",
+   "Laser",
+   "Laser users",
+   "Slow Toilets",
+   "Stunners",
+   "Toilet",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Boss Toilet 3.0",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Boss_Toilet_3.0",
+  "health_raw": "835,000 HP",
+  "health": 835000,
+  "health_index_page": null,
+  "speed_raw": "Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "Hard Mode: Wave 50\n\nNightmare Mode: Wave 35",
+  "modes": "Hard+",
+  "species": "Toilet",
+  "abilities": [
+   "Laser Shoot: Shoots its lasers at 6 different units, stunning them all. Damn thats crazy ngl"
+  ],
+  "tags": [
+   "Boss",
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Boss Toilets",
+   "Bosses",
+   "Characters",
+   "Enemies",
+   "Glasses Toilets",
+   "Jetpack",
+   "Laser",
+   "Laser users",
+   "Man Face",
+   "Mid-air",
+   "Slow Toilets",
+   "Stunners",
+   "Toilet",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Boss Toilet 4.0",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Boss_Toilet_4.0",
+  "health_raw": "1,370,000 HP",
+  "health": 1370000,
+  "health_index_page": null,
+  "speed_raw": "Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "Wave 40 On Nightmare Mode",
+  "modes": "",
+  "species": "Toilet",
+  "abilities": [],
+  "tags": [
+   "Boss",
+   "Stun",
+   "Very Strong"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Boss Toilets",
+   "Bosses",
+   "Enemies",
+   "Glasses Toilets",
+   "Jetpack",
+   "Laser",
+   "Male Units",
+   "Man Face",
+   "Mid-air",
+   "Stunners",
+   "Toilet",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Broken Heart Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Broken_Heart_Toilet",
+  "health_raw": "62,649,392",
+  "health": 62649392,
+  "health_index_page": 62649392,
+  "speed_raw": "Normal",
+  "speed_tier": "Average",
+  "wave_debut": "Wave 90 and Wave 40 and 50 on Hearts Garden",
+  "modes": "Endless Mode Hearts Garden",
+  "species": "Toilets",
+  "abilities": [
+   "Minigun Shoot: Shoots its miniguns at a unit, stunning it. This has a 50% chance to be used."
+  ],
+  "tags": [
+   "Boss",
+   "Event",
+   "Stun",
+   "Very Strong"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Boss Toilets",
+   "Bosses",
+   "Endless Bosses",
+   "Endless bosses",
+   "Enemies",
+   "Event Enemies",
+   "Incomplete pages",
+   "Male Characters",
+   "Man Face",
+   "Miniguns",
+   "Slow Toilets",
+   "Stub",
+   "Stubs",
+   "Stunners",
+   "Toilet",
+   "Toilets",
+   "Valentines Day Event",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 1
+ },
+ {
+  "name": "Buff Mutant Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Buff_Mutant_Toilet",
+  "health_raw": "6.8m (around wave 50)",
+  "health": 6800000,
+  "health_index_page": null,
+  "speed_raw": "Average",
+  "speed_tier": "Average",
+  "wave_debut": "Around wave 50",
+  "modes": "Endless Mode",
+  "species": "Mutant Toilet",
+  "abilities": [],
+  "tags": [
+   "Boss",
+   "Stun",
+   "Very Strong"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Bosses",
+   "Characters",
+   "Enemies",
+   "Incomplete pages",
+   "Laser",
+   "Laser users",
+   "Male Characters",
+   "Mutants",
+   "Toilet",
+   "Toilets",
+   "Upcoming",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Buzzsaw Mutant Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Buzzsaw_Mutant_Toilet",
+  "health_raw": "",
+  "health": null,
+  "health_index_page": null,
+  "speed_raw": "",
+  "speed_tier": null,
+  "wave_debut": "Episode 62 Update",
+  "modes": "Nightmare Mode, Abysmal Mode",
+  "species": "Toilet",
+  "abilities": [],
+  "tags": [
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Male Characters",
+   "Male Units",
+   "Mutants",
+   "Saw",
+   "Stunners",
+   "Toilet",
+   "Toilets"
+  ],
+  "endless_rows": 1
+ },
+ {
+  "name": "Camo Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Camo_Toilet",
+  "health_raw": "3500",
+  "health": 3500,
+  "health_index_page": null,
+  "speed_raw": "Fast",
+  "speed_tier": "Fast",
+  "wave_debut": "Wave 6",
+  "modes": "Drill World from Drill event\nHalloween Graveyard 2024",
+  "species": "Toilet",
+  "abilities": [],
+  "tags": [],
+  "is_boss": false,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "Enemies",
+   "Fast",
+   "Fast toilets",
+   "Incomplete pages",
+   "Male Characters",
+   "Non-Stun Toilets",
+   "Small",
+   "Stub",
+   "Toilet",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Camo Toilet (Enemy)",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Camo_Toilet_(Enemy)",
+  "health_raw": "3500",
+  "health": 3500,
+  "health_index_page": null,
+  "speed_raw": "Fast",
+  "speed_tier": "Fast",
+  "wave_debut": "Wave 6",
+  "modes": "Drill World from Drill event\nHalloween Graveyard 2024",
+  "species": "Toilet",
+  "abilities": [],
+  "tags": [
+   "Normal"
+  ],
+  "is_boss": false,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "Enemies",
+   "Fast",
+   "Fast toilets",
+   "Incomplete pages",
+   "Male Characters",
+   "Non-Stun Toilets",
+   "Small",
+   "Stub",
+   "Toilet",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Carrier Astro Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Carrier_Astro_Toilet",
+  "health_raw": "1,181,364,352",
+  "health": 1181364352,
+  "health_index_page": null,
+  "speed_raw": "Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "Wave 160",
+  "modes": "Endless Mode",
+  "species": "Astro Toilet",
+  "abilities": [
+   "Spawn Interceptor Astro Toilet",
+   "Spin Up. Use Three Lasers To Stun The Nearby Units."
+  ],
+  "tags": [
+   "Boss",
+   "Stun",
+   "Summon",
+   "Very Strong"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Astro Toilets",
+   "Boss Toilets",
+   "Bosses",
+   "EP 75 Toilets",
+   "Enemies",
+   "Fast toilets",
+   "Male Characters",
+   "Slow Toilets",
+   "Spawner",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Cat Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Cat_Toilet",
+  "health_raw": "30,000",
+  "health": 30000,
+  "health_index_page": null,
+  "speed_raw": "Extremely Fast",
+  "speed_tier": "Extremely Fast",
+  "wave_debut": "Wave 25",
+  "modes": "Nightmare Mode+",
+  "species": "Toilet",
+  "abilities": [],
+  "tags": [
+   "Boss",
+   "Medium"
+  ],
+  "is_boss": true,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "Animals",
+   "Characters",
+   "Enemies",
+   "Fast",
+   "Fast toilets",
+   "Non-Stun Toilets",
+   "Small",
+   "Toilet",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 3
+ },
+ {
+  "name": "Classic 1x1x1x1",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Classic_1x1x1x1",
+  "health_raw": "1,433,137 HP",
+  "health": 1433137,
+  "health_index_page": null,
+  "speed_raw": "Normal",
+  "speed_tier": "Average",
+  "wave_debut": "Evil Wave",
+  "modes": "All",
+  "species": "Robloxian",
+  "abilities": [],
+  "tags": [
+   "Boss",
+   "Event",
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Bosses",
+   "Characters",
+   "Enemies",
+   "Event Enemies"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Claw Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Claw_Toilet",
+  "health_raw": "712000 hp",
+  "health": 712000,
+  "health_index_page": null,
+  "speed_raw": "Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "???",
+  "modes": "Nightmare and Endless",
+  "species": "Toilet",
+  "abilities": [
+   "Claw Grab: Grabs a unit, stunning it.",
+   "Claw Attack: Uses a different claw to stun a unit.",
+   "Jumps one a unit stunning it"
+  ],
+  "tags": [
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": true,
+  "categories": [
+   "Astro Toilets",
+   "Characters",
+   "Enemies",
+   "Flying",
+   "Off-Track Enemies",
+   "Slow Toilets",
+   "Stunners",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Computer Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Computer_Toilet",
+  "health_raw": "10,020,000 (Easy)\n295,159,392 (Hard)",
+  "health": 10020000,
+  "health_index_page": null,
+  "speed_raw": "",
+  "speed_tier": null,
+  "wave_debut": "50",
+  "modes": "Tech City",
+  "species": "Toilet",
+  "abilities": [],
+  "tags": [
+   "Boss",
+   "Event",
+   "Summon",
+   "Very Strong"
+  ],
+  "is_boss": true,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "2025",
+   "Boss Toilets",
+   "Computers",
+   "Enemies",
+   "Event Enemies",
+   "Slow Toilets",
+   "Spawner",
+   "Tech Event 2025",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "DJ Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/DJ_Toilet",
+  "health_raw": "1250",
+  "health": 1250,
+  "health_index_page": null,
+  "speed_raw": "Average",
+  "speed_tier": "Average",
+  "wave_debut": "Varies",
+  "modes": "All",
+  "species": "Toilet",
+  "abilities": [],
+  "tags": [
+   "Normal"
+  ],
+  "is_boss": false,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Non-Stun Toilets",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "DJ Toilet 2.0",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/DJ_Toilet_2.0",
+  "health_raw": "114,827,640",
+  "health": 114827640,
+  "health_index_page": null,
+  "speed_raw": "Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "Wave 100 endless only\nWave 49 (Time Factory)",
+  "modes": "Endless Mode Time Factory And Sand Isles",
+  "species": "Toilets",
+  "abilities": [
+   "AoE Stuns (means that can multistun at once)",
+   "Shoots lasers"
+  ],
+  "tags": [
+   "AoE Stuns",
+   "Boss",
+   "Very Strong"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Bosses",
+   "Characters",
+   "Endless Bosses",
+   "Endless bosses",
+   "Enemies",
+   "Laser",
+   "Laser users",
+   "Mid-air",
+   "Slow Toilets",
+   "Speakers",
+   "Stunners",
+   "Toilet",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Destructor Astro Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Destructor_Astro_Toilet",
+  "health_raw": "81,083,776",
+  "health": 81083776,
+  "health_index_page": null,
+  "speed_raw": "Average",
+  "speed_tier": "Average",
+  "wave_debut": "114 (Endless) 40 (Abysmal) 45 (Halloween Mode)",
+  "modes": "Endless Mode Sand Isles Abysmal Mode (The Void)",
+  "species": "Astro",
+  "abilities": [
+   "Shoots His Orbs To The Nearby Unit, it stunning for 5 seconds (THE RANGE IS VERY FAR)",
+   "Uses His Laser To Stun Nearby Units, it stunning for 5 seconds. (The Laser Can be Seperated)"
+  ],
+  "tags": [
+   "Boss",
+   "Stun",
+   "Very Strong"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Astro Toilets",
+   "Bosses",
+   "Endless Bosses",
+   "Enemies",
+   "Male Characters",
+   "Stub",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Dual Blade Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Dual_Blade_Toilet",
+  "health_raw": "68,000 (Nightmare)",
+  "health": 68000,
+  "health_index_page": null,
+  "speed_raw": "Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "Wave 17 (Nightmare)",
+  "modes": "Nightmare+",
+  "species": "Toilet",
+  "abilities": [
+   "Blade Swing: Stuns a unit for 5 seconds with its blades."
+  ],
+  "tags": [
+   "Medium",
+   "Stun"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Stunners",
+   "Toilet",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Dual Buzzsaw Toilet Car",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Dual_Buzzsaw_Toilet_Car",
+  "health_raw": "214,500(Nightmare)",
+  "health": 214500,
+  "health_index_page": null,
+  "speed_raw": "Very Fast",
+  "speed_tier": "Very Fast",
+  "wave_debut": "Wave ???",
+  "modes": "Nightmare Mode, Endless Mode, Tech City, Hearts Garden",
+  "species": "Toilet",
+  "abilities": [
+   "Buzzsaw Slice: Uses its buzzsaw to stun a unit for 4 seconds."
+  ],
+  "tags": [
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Fast",
+   "Fast toilets",
+   "Incomplete pages",
+   "Male Characters",
+   "Male Units",
+   "Saw",
+   "Stubs",
+   "Stunners",
+   "Toilet",
+   "Toilets",
+   "Valentines Event 2025",
+   "Vehicles"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Dual Cargo Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Dual_Cargo_Toilet",
+  "health_raw": "6,200,000",
+  "health": 6200000,
+  "health_index_page": null,
+  "speed_raw": "Average",
+  "speed_tier": "Average",
+  "wave_debut": "Wave 80 (Endless)\nWave 40-50? (Clock/Rewind Event)",
+  "modes": "Endless Mode\nTime Factory",
+  "species": "Toilets",
+  "abilities": [
+   "Cargo Spawn: Upon death, spawns in 2 Glitch Toilets"
+  ],
+  "tags": [],
+  "is_boss": true,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "Boss Toilets",
+   "Bosses",
+   "Endless Bosses",
+   "Endless bosses",
+   "Enemies",
+   "Flying",
+   "Helicopters",
+   "Mid-air",
+   "Slow Toilets",
+   "Spawner",
+   "Stub",
+   "Toilet",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Dual Cargo Toilets",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Dual_Cargo_Toilets",
+  "health_raw": "6,200,000",
+  "health": 6200000,
+  "health_index_page": 6200000,
+  "speed_raw": "Average",
+  "speed_tier": "Average",
+  "wave_debut": "Wave 80 (Endless)\nWave 40-50? (Clock/Rewind Event)",
+  "modes": "Endless Mode\nTime Factory",
+  "species": "Toilets",
+  "abilities": [
+   "Cargo Spawn: Upon death, spawns in 2 Glitch Toilets"
+  ],
+  "tags": [
+   "Boss",
+   "Strong",
+   "Summon"
+  ],
+  "is_boss": true,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "Boss Toilets",
+   "Bosses",
+   "Endless Bosses",
+   "Endless bosses",
+   "Enemies",
+   "Flying",
+   "Helicopters",
+   "Mid-air",
+   "Slow Toilets",
+   "Spawner",
+   "Stub",
+   "Toilet",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Dual Claw Laser Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Dual_Claw_Laser_Toilet",
+  "health_raw": "2,050,000 HP",
+  "health": 2050000,
+  "health_index_page": null,
+  "speed_raw": "Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "50",
+  "modes": "Nightmare/Christmas",
+  "species": "Toilet",
+  "abilities": [
+   "2 lasers that can stun units",
+   "4 claws that can stun units",
+   "2 large metal hands that can stun units"
+  ],
+  "tags": [
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Flying",
+   "Jetpack",
+   "Laser",
+   "Laser users",
+   "Male Characters",
+   "Man Face",
+   "Mid-air",
+   "Slow Toilets",
+   "Stunners",
+   "Toilet",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Dual Claw Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Dual_Claw_Toilet",
+  "health_raw": "2900(Medium\n3200 (Hard)",
+  "health": 2900,
+  "health_index_page": null,
+  "speed_raw": "Average",
+  "speed_tier": "Average",
+  "wave_debut": "Wave 8 (Medium)\nWave 5 (Hard)\nWave 5 (Nightmare)\nWave ? (Abysmal)",
+  "modes": "Medium+",
+  "species": "Toilets",
+  "abilities": [
+   "Claw: Uses its claws to stun a unit for 4 seconds."
+  ],
+  "tags": [
+   "Normal",
+   "Stun"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Small",
+   "Stunners",
+   "Toilet",
+   "Toilet Tower Defense Wiki",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Dual Flying Buzzsaw Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Dual_Flying_Buzzsaw_Toilet",
+  "health_raw": "678,555 Nightmare Mode\n355,000 Endless Mode",
+  "health": 678555,
+  "health_index_page": null,
+  "speed_raw": "Fast",
+  "speed_tier": "Fast",
+  "wave_debut": "Wave 25 Nightmare Mode\nWave 30 Endless Mode",
+  "modes": "Nightmare Mode\nEndless Mode",
+  "species": "Toilet",
+  "abilities": [
+   "Buzzsaw, it stunning for 20 seconds."
+  ],
+  "tags": [
+   "Boss",
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Dual Wield",
+   "Endless Bosses",
+   "Enemies",
+   "Fast",
+   "Flying",
+   "Jetpack",
+   "Man Face",
+   "Saw",
+   "Stunners",
+   "Toilet",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 1
+ },
+ {
+  "name": "Dual Rocket Laser Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Dual_Rocket_Laser_Toilet",
+  "health_raw": "???",
+  "health": null,
+  "health_index_page": null,
+  "speed_raw": "Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "???",
+  "modes": "Nightmare+",
+  "species": "Toilet",
+  "abilities": [
+   "Rocket Shoot: Shoots a rocket at a unit, stunning it.",
+   "Laser Shoot: Shoots a laser from its laser cannon, stunning a unit."
+  ],
+  "tags": [
+   "Stun",
+   "Very Strong"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Flying",
+   "Helicopters",
+   "Incomplete pages",
+   "Laser",
+   "Male",
+   "Rocket",
+   "Rockets",
+   "Slow Toilets",
+   "Stubs",
+   "Toilet",
+   "Toilets",
+   "Upgraded characters"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Dual Rocket Launcher Helicopter Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Dual_Rocket_Launcher_Helicopter_Toilet",
+  "health_raw": "???",
+  "health": null,
+  "health_index_page": null,
+  "speed_raw": "Average",
+  "speed_tier": "Average",
+  "wave_debut": "???",
+  "modes": "Nightmare+",
+  "species": "Toilet",
+  "abilities": [
+   "Rocket Launcher: Shoots rockets at 2 different units, stunning them for 5 seconds."
+  ],
+  "tags": [
+   "Stun",
+   "Very Strong"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Flying",
+   "Helicopters",
+   "Male",
+   "Rocket",
+   "Rockets",
+   "Slow Toilets",
+   "Stunners",
+   "Toilet",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Dual Rocket Launcher Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Dual_Rocket_Launcher_Toilet",
+  "health_raw": "???",
+  "health": null,
+  "health_index_page": null,
+  "speed_raw": "Average",
+  "speed_tier": "Average",
+  "wave_debut": "???",
+  "modes": "Nightmare+",
+  "species": "Toilet",
+  "abilities": [
+   "Rocket Launcher: Shoots rockets at 2 different units, stunning them for 5 seconds."
+  ],
+  "tags": [],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Flying",
+   "Helicopters",
+   "Male",
+   "Rocket",
+   "Rockets",
+   "Slow Toilets",
+   "Stunners",
+   "Toilet",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Evil Toilet Crab",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Evil_Toilet_Crab",
+  "health_raw": "48,847,500\n25,050,000 (Solo)",
+  "health": 48847500,
+  "health_index_page": null,
+  "speed_raw": "Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "Wave 50",
+  "modes": "Summer Mode",
+  "species": "Toilets",
+  "abilities": [
+   "Shoot Laser At Nearby Units. (UNITS THATS CAN BLOCK STUNS WILL GET STUN INSTANTLY )"
+  ],
+  "tags": [
+   "Boss",
+   "Event",
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Animals",
+   "Boss",
+   "Boss Toilets",
+   "Event Enemies",
+   "Incomplete pages",
+   "Man Face",
+   "Slow Toilets",
+   "Stub",
+   "Stunners",
+   "Toilet",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Explosive Flying Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Explosive_Flying_Toilet",
+  "health_raw": "23,500",
+  "health": 23500,
+  "health_index_page": null,
+  "speed_raw": "Fast",
+  "speed_tier": "Fast",
+  "wave_debut": "???",
+  "modes": "Medium+",
+  "species": "Toilet",
+  "abilities": [
+   "Self Destruct"
+  ],
+  "tags": [
+   "Medium",
+   "Splash Stuns"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": true,
+  "categories": [
+   "Enemies",
+   "Flying",
+   "Large",
+   "Mid-air",
+   "Off-Track Enemies",
+   "Red toilets",
+   "Splash",
+   "Stunners",
+   "Toilet",
+   "Toilet Tower Defense Wiki",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Flamethrower Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Flamethrower_Toilet",
+  "health_raw": "100k base health",
+  "health": 100000,
+  "health_index_page": null,
+  "speed_raw": "Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "Wave 34(Nightmare mode)",
+  "modes": "Nightmare+",
+  "species": "Toilet",
+  "abilities": [],
+  "tags": [
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Slow Toilets",
+   "Stunners",
+   "Toilet",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Flashlight Rocket Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Flashlight_Rocket_Toilet",
+  "health_raw": "",
+  "health": null,
+  "health_index_page": null,
+  "speed_raw": "",
+  "speed_tier": null,
+  "wave_debut": "Episode 61 update",
+  "modes": "",
+  "species": "Toilet",
+  "abilities": [],
+  "tags": [
+   "Boss",
+   "Stun",
+   "Very strong"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Enemies",
+   "Flying",
+   "Jetpack",
+   "Man Face",
+   "Rocket",
+   "Rockets",
+   "Slow Toilets",
+   "Stunners",
+   "Toilet",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Flying Buzzsaw Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Flying_Buzzsaw_Toilet",
+  "health_raw": "23500 (Debut)",
+  "health": 23500,
+  "health_index_page": null,
+  "speed_raw": "Fast",
+  "speed_tier": "Fast",
+  "wave_debut": "10",
+  "modes": "Nightmare+",
+  "species": "Toilet",
+  "abilities": [
+   "Buzzsaw Slice: Stuns a unit for 15 seconds."
+  ],
+  "tags": [],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Fast",
+   "Fast toilets",
+   "Flying",
+   "Small",
+   "Stunners",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Flying Quad Buzzsaw Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Flying_Quad_Buzzsaw_Toilet",
+  "health_raw": "???",
+  "health": null,
+  "health_index_page": null,
+  "speed_raw": "Average",
+  "speed_tier": "Average",
+  "wave_debut": "???",
+  "modes": "Nightmare, endless",
+  "species": "Toilet",
+  "abilities": [
+   "Buzzsaw Attack: Uses its four buzzsaws to stun a unit."
+  ],
+  "tags": [
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Boss",
+   "Boss Toilets",
+   "Bosses",
+   "Characters",
+   "Enemies",
+   "Flying",
+   "Jetpack",
+   "Male Characters",
+   "Man Face",
+   "Saw",
+   "Stunners",
+   "Toilet",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Flying Quad Laser Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Flying_Quad_Laser_Toilet",
+  "health_raw": "35,000,000",
+  "health": 35000000,
+  "health_index_page": 35000000,
+  "speed_raw": "Slow-normal",
+  "speed_tier": "Slow",
+  "wave_debut": "Wave 102(endless mode)",
+  "modes": "Endless mode",
+  "species": "Toilets",
+  "abilities": [
+   "Lasers"
+  ],
+  "tags": [
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Flying",
+   "Images",
+   "Jetpack",
+   "Laser",
+   "Laser users",
+   "Mid-air",
+   "Stunners",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Flying Rocket Launcher Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Flying_Rocket_Launcher_Toilet",
+  "health_raw": "230,000",
+  "health": 230000,
+  "health_index_page": null,
+  "speed_raw": "Average",
+  "speed_tier": "Average",
+  "wave_debut": "Wave 43",
+  "modes": "Hard+",
+  "species": "Astro Toilets",
+  "abilities": [
+   "Rocket Fire: Launches a rocket at a unit, stunning them for 5 seconds."
+  ],
+  "tags": [
+   "Medium",
+   "Stun"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Astro Toilets",
+   "Characters",
+   "Enemies",
+   "Flying",
+   "Man Face",
+   "Mid-air",
+   "Outdated pages",
+   "Rocket",
+   "Rockets",
+   "Slow Toilets",
+   "Stubs",
+   "Stunners",
+   "Toilet",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Forklift Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Forklift_Toilet",
+  "health_raw": "279,500",
+  "health": 279500,
+  "health_index_page": null,
+  "speed_raw": "Average",
+  "speed_tier": "Average",
+  "wave_debut": "Wave 22",
+  "modes": "Nightmare, endless, event mode, Mount Fuji nightmare mode",
+  "species": "Toilets",
+  "abilities": [
+   "Forklift Carry: Carries a toilet that has less health and is slower than it. If this enemy dies, the Forklift Toilet can grab another one with a cooldown of 1 second."
+  ],
+  "tags": [
+   "Holdable",
+   "Strong"
+  ],
+  "is_boss": false,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "Enemies",
+   "Flying",
+   "Holdable Toilets",
+   "Jetpack",
+   "Mid-air",
+   "Toilet",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Frost Skeleton Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Frost_Skeleton_Toilet",
+  "health_raw": "3,340,000",
+  "health": 3340000,
+  "health_index_page": null,
+  "speed_raw": "Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "Wave 50 (Christmas Mode)",
+  "modes": "Christmas Mode\nEndless Mode",
+  "species": "Toilets",
+  "abilities": [
+   "Hammer Smash: Smashes its hammer against a unit, stunning it.",
+   "Ice Spikes: Spawn multiple ice spikes above an unit, stunning it."
+  ],
+  "tags": [
+   "Event",
+   "Stun",
+   "Very Strong"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Boss Toilets",
+   "Bosses",
+   "Characters",
+   "Endless Bosses",
+   "Enemies",
+   "Event Enemies",
+   "Slow Toilets",
+   "Stunners",
+   "Toilets"
+  ],
+  "endless_rows": 1
+ },
+ {
+  "name": "Frost Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Frost_Toilet",
+  "health_raw": "23600",
+  "health": 23600,
+  "health_index_page": null,
+  "speed_raw": "Fast",
+  "speed_tier": "Fast",
+  "wave_debut": "7",
+  "modes": "",
+  "species": "",
+  "abilities": [
+   "Freeze: Freezes a unit for 5 seconds. Frozen units cannot be unstuneed by Medic Cameraman, Camera Repair Drone or Speaker Repair Drone"
+  ],
+  "tags": [
+   "Event",
+   "Normal",
+   "Stun"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Christmas Event",
+   "Enemies",
+   "Event Enemies",
+   "Incomplete pages",
+   "Stunners",
+   "Toilet",
+   "Toilets"
+  ],
+  "endless_rows": 1
+ },
+ {
+  "name": "Giant Astro Spider Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Giant_Astro_Spider_Toilet",
+  "health_raw": "2.276.578.560 (Endless Mode) 29,100,000 (Abysmal Mode)",
+  "health": 2276578560,
+  "health_index_page": null,
+  "speed_raw": "Faster than normal",
+  "speed_tier": "Fast",
+  "wave_debut": "156 (Endless Mode) 59 (Abysmal Mode)",
+  "modes": "Endless",
+  "species": "Astro Toilets",
+  "abilities": [
+   "Shoots His Orbs To Nearby Units, it stunning for 10 second. (Can Shoot 3 Times)"
+  ],
+  "tags": [],
+  "is_boss": true,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "Astro Toilet",
+   "Astro toilets",
+   "Bosses",
+   "Enemies",
+   "Fast",
+   "Giant Toilets",
+   "Spiders",
+   "Stub",
+   "Stubs",
+   "Toilet",
+   "Toilets",
+   "Upcoming"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Giant Blind Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Giant_Blind_Toilet",
+  "health_raw": "355000",
+  "health": 355000,
+  "health_index_page": null,
+  "speed_raw": "Very Slow",
+  "speed_tier": "Very Slow",
+  "wave_debut": "18",
+  "modes": "Nightmare Mode, Endless Mode",
+  "species": "Toilet",
+  "abilities": [],
+  "tags": [
+   "Strong"
+  ],
+  "is_boss": false,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Giant Toilets",
+   "Giant Units",
+   "Incomplete pages",
+   "Large",
+   "Large Units",
+   "Male Units",
+   "Non-Stun Toilets",
+   "Slow Toilets",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Giant Dual Blade Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Giant_Dual_Blade_Toilet",
+  "health_raw": "535,000 HP",
+  "health": 535000,
+  "health_index_page": null,
+  "speed_raw": "Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "30 Wave",
+  "modes": "Nightmare and Endless Mode",
+  "species": "Toilet",
+  "abilities": [
+   "Giant Blade Swing: Stuns a unit for 10 seconds with its blades."
+  ],
+  "tags": [
+   "Boss",
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Bosses",
+   "Characters",
+   "Enemies",
+   "Giant",
+   "Giant Toilets",
+   "Large",
+   "Man Face",
+   "Slow Toilets",
+   "Stunners",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Giant Glasses Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Giant_Glasses_Toilet",
+  "health_raw": "17k",
+  "health": 17000,
+  "health_index_page": null,
+  "speed_raw": "Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "???",
+  "modes": "Medium+",
+  "species": "Toilet",
+  "abilities": [
+   "TV Immunity: Immune to All TVs except for TV Woman, Spider TV, Speaker Large TV Man, Titan Cinemaman and Upgraded Titan Cinemaman."
+  ],
+  "tags": [
+   "Medium"
+  ],
+  "is_boss": true,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Endless Bosses",
+   "Enemies",
+   "Giant",
+   "Giant Toilets",
+   "Glasses Toilets",
+   "Non-Stun Toilets",
+   "Slow Toilets",
+   "Toilet",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Giant Smooth Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Giant_Smooth_Toilet",
+  "health_raw": "2,505,000",
+  "health": 2505000,
+  "health_index_page": null,
+  "speed_raw": "Fast",
+  "speed_tier": "Fast",
+  "wave_debut": "50 (Nightmare Mode)",
+  "modes": "Nightmare, Christmas, Endless",
+  "species": "Toilet",
+  "abilities": [
+   "Claw Attack: Uses its claws to stun units.",
+   "Buzzsaw Slice: Uses its buzzsaws to stun units."
+  ],
+  "tags": [
+   "Boss",
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Boss Toilets",
+   "Bosses",
+   "Endless Bosses",
+   "Enemies",
+   "Giant",
+   "Giant Toilets",
+   "Saw",
+   "Slow Toilets",
+   "Stunners",
+   "Toilet",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Giant Spider Astro Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Giant_Spider_Astro_Toilet",
+  "health_raw": "2.276.578.560 (Endless Mode) 29,100,000 (Abysmal Mode)",
+  "health": 2276578560,
+  "health_index_page": null,
+  "speed_raw": "Faster than normal",
+  "speed_tier": "Fast",
+  "wave_debut": "156 (Endless Mode) 59 (Abysmal Mode)",
+  "modes": "Endless",
+  "species": "Astro Toilets",
+  "abilities": [
+   "Shoots His Orbs To Nearby Units, it stunning for 10 second. (Can Shoot 3 Times)"
+  ],
+  "tags": [
+   "Boss",
+   "Stun",
+   "Very Strong"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Astro Toilet",
+   "Astro toilets",
+   "Bosses",
+   "Enemies",
+   "Fast",
+   "Giant Toilets",
+   "Spiders",
+   "Stub",
+   "Stubs",
+   "Toilet",
+   "Toilets",
+   "Upcoming"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Giant Turkey Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Giant_Turkey_Toilet",
+  "health_raw": "4,175,000",
+  "health": 4175000,
+  "health_index_page": null,
+  "speed_raw": "Very Slow",
+  "speed_tier": "Very Slow",
+  "wave_debut": "50 (Thanksgiving Event's Abysmal Mode)\n70 (Endless Mode)",
+  "modes": "Abyssal (Thanksgiving Event)\nEndless Mode",
+  "species": "Toilet/turkies",
+  "abilities": [
+   "Laser Eye: Shoots a red laser out of its eye which can stun multiple units on the map."
+  ],
+  "tags": [
+   "AoE Stuns",
+   "Boss",
+   "Event",
+   "Very Strong"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "360 AoE",
+   "Animals",
+   "AoE",
+   "Characters",
+   "Endless Bosses",
+   "Enemies",
+   "Event Enemies",
+   "Giant",
+   "Giant Toilets",
+   "Laser",
+   "Stunners",
+   "Thanksgiving event",
+   "Toilets"
+  ],
+  "endless_rows": 2
+ },
+ {
+  "name": "Glasses Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Glasses_Toilet",
+  "health_raw": "3700",
+  "health": 3700,
+  "health_index_page": null,
+  "speed_raw": "Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "19",
+  "modes": "All",
+  "species": "Toilets",
+  "abilities": [
+   "TV Immunity: Immune to All TVs except for TV Woman, Spider TV, Speaker Large TV Man, Titan Cinemaman, and Upgraded Titan Cinemaman."
+  ],
+  "tags": [
+   "Normal"
+  ],
+  "is_boss": false,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Glasses Toilet",
+   "Glasses Toilets",
+   "Incomplete pages",
+   "Large Units",
+   "Non-Stun Toilets",
+   "Stub",
+   "Stubs",
+   "Toilets"
+  ],
+  "endless_rows": 1
+ },
+ {
+  "name": "Glitch Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Glitch_Toilet",
+  "health_raw": "835,000 HP [wave 50]",
+  "health": 835000,
+  "health_index_page": null,
+  "speed_raw": "Average \nVery Fast (Maximal after using Glitch Ram ability)",
+  "speed_tier": "Average",
+  "wave_debut": "48-50",
+  "modes": "Nightmare+ Halloween abysmal mode, endless",
+  "species": "Toilet",
+  "abilities": [
+   "Glitch Ram: Stuns a unit for 10 seconds. Changes speed to Maximal after ability is used."
+  ],
+  "tags": [
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": true,
+  "categories": [
+   "Characters",
+   "Endless Bosses",
+   "Endless bosses",
+   "Enemies",
+   "Fast toilets",
+   "Glitches",
+   "Incomplete pages",
+   "Male Characters",
+   "Off-Track Enemies",
+   "Small",
+   "Spawner Minion",
+   "Stunners",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 8
+ },
+ {
+  "name": "Helicopter Bomb Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Helicopter_Bomb_Toilet",
+  "health_raw": "???",
+  "health": null,
+  "health_index_page": null,
+  "speed_raw": "Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "???",
+  "modes": "Nightmare, endless",
+  "species": "Toilet",
+  "abilities": [
+   "Bomb Drop: Drops a bomb, creating an explosion which will stun all units near it."
+  ],
+  "tags": [
+   "AoE Stuns",
+   "Splash Stuns",
+   "Strong"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Helicopters",
+   "Rocket",
+   "Rockets",
+   "Splash",
+   "Stunners",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Helicopter Camo Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Helicopter_Camo_Toilet",
+  "health_raw": "???",
+  "health": null,
+  "health_index_page": null,
+  "speed_raw": "Average",
+  "speed_tier": "Average",
+  "wave_debut": "???",
+  "modes": "Endless Mode, Nightmare Mode",
+  "species": "Toilet",
+  "abilities": [
+   "Quad Rocket Launchers: Each rocket launcher stuns a unit nearby, draining their stun-blocks by one. Only one unit per x seconds actually gets stunned."
+  ],
+  "tags": [
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Helicopters",
+   "Incomplete pages",
+   "Rockets",
+   "Small",
+   "Stub",
+   "Stubs",
+   "Stunners",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Helicopter Parasite Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Helicopter_Parasite_Toilet",
+  "health_raw": "???",
+  "health": null,
+  "health_index_page": null,
+  "speed_raw": "Fast",
+  "speed_tier": "Fast",
+  "wave_debut": "Wave 50",
+  "modes": "Nightmare+",
+  "species": "Toilet",
+  "abilities": [
+   "Infect: Goes on a titan's back, stunning it for 10 seconds."
+  ],
+  "tags": [
+   "Medium",
+   "Stun"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": true,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Flying",
+   "Helicopters",
+   "Off-Track Enemies",
+   "Small",
+   "Stunners",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Helicopter Rocket Launcher Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Helicopter_Rocket_Launcher_Toilet",
+  "health_raw": "328000 on hard 49",
+  "health": 328000,
+  "health_index_page": null,
+  "speed_raw": "Average",
+  "speed_tier": "Average",
+  "wave_debut": "???",
+  "modes": "Nightmare+",
+  "species": "Toilet",
+  "abilities": [
+   "Rocket Launcher: Shoots its rocket at a unit, stunning it."
+  ],
+  "tags": [
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Flying",
+   "Helicopters",
+   "Incomplete pages",
+   "Mid-air",
+   "Rocket",
+   "Rockets",
+   "Small",
+   "Stunners",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Helmet Boss Toilet 4.0",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Helmet_Boss_Toilet_4.0",
+  "health_raw": "",
+  "health": null,
+  "health_index_page": null,
+  "speed_raw": "Average",
+  "speed_tier": "Average",
+  "wave_debut": "50",
+  "modes": "Nightmare Mode \nPencil World \nHalloween Mode (2024) \nDrill World Hard \nEndless Mode",
+  "species": "Toilet",
+  "abilities": [
+   "Shield",
+   "Laser Stun"
+  ],
+  "tags": [
+   "Boss",
+   "Stun",
+   "Very Strong"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Boss Toilets",
+   "Bosses",
+   "Enemies",
+   "Jetpack",
+   "Laser",
+   "Male Characters",
+   "Man Face",
+   "Shield users",
+   "Stunners",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Hoverboard Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Hoverboard_Toilet",
+  "health_raw": "Easy: TBA\nHard: TBA",
+  "health": null,
+  "health_index_page": null,
+  "speed_raw": "Fast",
+  "speed_tier": "Fast",
+  "wave_debut": "Easy: TBA\nHard: TBA",
+  "modes": "Tech City",
+  "species": "Toilet",
+  "abilities": [],
+  "tags": [
+   "Event",
+   "Normal"
+  ],
+  "is_boss": false,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "2025",
+   "Enemies",
+   "Event Enemies",
+   "Fast toilets",
+   "Flying",
+   "Incomplete pages",
+   "Small",
+   "Spawner Minion",
+   "Stubs",
+   "Tech Event 2025",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "IamEvan (Enemy)",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/IamEvan_(Enemy)",
+  "health_raw": "10 (base; can be changed by admins) (watch LTkrazy’s vid)",
+  "health": 10,
+  "health_index_page": null,
+  "speed_raw": "Extremely Fast",
+  "speed_tier": "Extremely Fast",
+  "wave_debut": "N/A (Spawned by Commands)",
+  "modes": "N/A (Spawned by Commands)",
+  "species": "Robloxian",
+  "abilities": [],
+  "tags": [],
+  "is_boss": false,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "Enemies",
+   "Fast",
+   "Human",
+   "Humans",
+   "Incomplete pages",
+   "Outdated pages",
+   "Stub"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Infected Clock Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Infected_Clock_Toilet",
+  "health_raw": "85,397,954,560",
+  "health": 85397954560,
+  "health_index_page": null,
+  "speed_raw": "",
+  "speed_tier": null,
+  "wave_debut": "200",
+  "modes": "Endless Mode",
+  "species": "Toilets",
+  "abilities": [
+   "Immune to timestops from clockmen"
+  ],
+  "tags": [],
+  "is_boss": false,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "2025",
+   "Enemies",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Infected Titan Speakerman",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Infected_Titan_Speakerman",
+  "health_raw": "620,000",
+  "health": 620000,
+  "health_index_page": null,
+  "speed_raw": "Average",
+  "speed_tier": "Average",
+  "wave_debut": "Wave 46 (Nightmare)",
+  "modes": "Nightmare and Endless",
+  "species": "Speakers",
+  "abilities": [
+   "Plasma orb: shoots a red glowing orb stunning towers."
+  ],
+  "tags": [
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Infected",
+   "Male",
+   "Male Characters",
+   "Speakers",
+   "Stunners",
+   "Titans",
+   "Toilets"
+  ],
+  "endless_rows": 3
+ },
+ {
+  "name": "Interceptor Astro Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Interceptor_Astro_Toilet",
+  "health_raw": "81,083,776",
+  "health": 81083776,
+  "health_index_page": null,
+  "speed_raw": "Fast",
+  "speed_tier": "Fast",
+  "wave_debut": "Wave 77 (Unconfirmed)\nWave 37 (Sand Isles)",
+  "modes": "Endless Mode \nSand Isles",
+  "species": "Astro",
+  "abilities": [
+   "Laser Cannon Shoot: Shoots a laser at a unit, stunning it for 5 seconds 5 times.",
+   "Immunity to all Fanmans."
+  ],
+  "tags": [
+   "Stun",
+   "Very Strong"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Astro Toilets",
+   "Enemies",
+   "Jetpack",
+   "Spawner Minion",
+   "Stun Blocker",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Jetpack Mutant Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Jetpack_Mutant_Toilet",
+  "health_raw": "1,207,500",
+  "health": 1207500,
+  "health_index_page": null,
+  "speed_raw": "Average",
+  "speed_tier": "Average",
+  "wave_debut": "48",
+  "modes": "Nightmare+",
+  "species": "Toilet",
+  "abilities": [
+   "Attack: Stuns a unit."
+  ],
+  "tags": [
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Boss",
+   "Boss Toilets",
+   "Bosses",
+   "Characters",
+   "Enemies",
+   "Jetpack",
+   "Male Characters",
+   "Mutants",
+   "Saw",
+   "Slow Toilets",
+   "Stunners",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Jetpack Police Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Jetpack_Police_Toilet",
+  "health_raw": "15400 (Wave 10)",
+  "health": 15400,
+  "health_index_page": null,
+  "speed_raw": "Fast",
+  "speed_tier": "Fast",
+  "wave_debut": "???",
+  "modes": "Medium+",
+  "species": "Toilet",
+  "abilities": [
+   "Rocket Shoot: Shoots a rocket at a unit, stunning it."
+  ],
+  "tags": [],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Fast toilets",
+   "Incomplete pages",
+   "Jetpack",
+   "Male Characters",
+   "Male Units",
+   "Stunners",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Juggernaut Astro Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Juggernaut_Astro_Toilet",
+  "health_raw": "273.189.440M",
+  "health": 273189440,
+  "health_index_page": null,
+  "speed_raw": "Fast",
+  "speed_tier": "Fast",
+  "wave_debut": "Wave 150",
+  "modes": "Endless Mode",
+  "species": "Astro Toilet",
+  "abilities": [
+   "",
+   ""
+  ],
+  "tags": [
+   "Boss",
+   "Stun",
+   "Very Strong"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Astro Toilet",
+   "Characters",
+   "Enemies",
+   "Fast toilets",
+   "Incomplete pages",
+   "Male Characters",
+   "Shield users",
+   "Stubs",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Krampus Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Krampus_Toilet",
+  "health_raw": "",
+  "health": null,
+  "health_index_page": null,
+  "speed_raw": "?",
+  "speed_tier": null,
+  "wave_debut": "50",
+  "modes": "",
+  "species": "Toilet",
+  "abilities": [],
+  "tags": [
+   "Boss",
+   "Event",
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "2024",
+   "Boss Toilets",
+   "Bosses",
+   "Christmas Event",
+   "Enemies",
+   "Event Enemies",
+   "Male Characters",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Large Astro Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Large_Astro_Toilet",
+  "health_raw": "172,241,456 (Endless Mode) 14,100,000 (Abysmal Mode)",
+  "health": 172241456,
+  "health_index_page": null,
+  "speed_raw": "Average",
+  "speed_tier": "Average",
+  "wave_debut": "Wave 149 (Endless Mode) Wave 57 (Abysmal Mode)",
+  "modes": "Endless Mode Abysmal Mode (The Void)",
+  "species": "Astro",
+  "abilities": [
+   "Uses His 6 Red Lasers To Stun Nearby Units for 10 seconds The Laser Can be Serepated.",
+   "Uses His 4 Blaster To Stun Nearby Units for 6 seconds. (The Blaster Missiles Can be Seperated)"
+  ],
+  "tags": [
+   "Stun",
+   "Very Strong"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Astro Toilets",
+   "Enemies",
+   "Flying",
+   "Incomplete pages",
+   "Large",
+   "Male Characters",
+   "Stubs",
+   "Stunners",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Large Glasses Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Large_Glasses_Toilet",
+  "health_raw": "9,000",
+  "health": 9000,
+  "health_index_page": null,
+  "speed_raw": "fast",
+  "speed_tier": "Fast",
+  "wave_debut": "10 (endless)",
+  "modes": "Medium+",
+  "species": "Toilet",
+  "abilities": [
+   "TV Immunity: Immune to All TVs except for TV Woman, Speaker Large TV Man, Titan Cinemaman, Spider TV, and Upgraded Titan Cinemaman.",
+   "can stun"
+  ],
+  "tags": [
+   "Boss",
+   "Normal"
+  ],
+  "is_boss": true,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "Bosses",
+   "Characters",
+   "Enemies",
+   "Glasses Toilets",
+   "Large",
+   "Non-Stun Toilets",
+   "Slow Toilets",
+   "Stub",
+   "Toilet",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Large Heart Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Large_Heart_Toilet",
+  "health_raw": "254.043",
+  "health": 254043,
+  "health_index_page": null,
+  "speed_raw": "Normal",
+  "speed_tier": "Average",
+  "wave_debut": "Wave 31",
+  "modes": "Endless Mode",
+  "species": "Toilets",
+  "abilities": [],
+  "tags": [
+   "Event",
+   "Medium"
+  ],
+  "is_boss": false,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "Enemies",
+   "Event Enemies",
+   "Incomplete pages",
+   "Non-Stun Toilets",
+   "Outdated pages",
+   "Toilet",
+   "Toilets",
+   "Valentines Day Event"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Large Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Large_Toilet",
+  "health_raw": "1000",
+  "health": 1000,
+  "health_index_page": null,
+  "speed_raw": "Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "Wave 20 (Easy)\nWave 15 (Medium)\nWave 12 (Hard)\nWave 2 (Abysmal)\nWave 1 (Easter)",
+  "modes": "All",
+  "species": "Toilet",
+  "abilities": [],
+  "tags": [
+   "Normal"
+  ],
+  "is_boss": false,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Large",
+   "Non-Stun Toilets",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Laser Scientist Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Laser_Scientist_Toilet",
+  "health_raw": "982,500",
+  "health": 982500,
+  "health_index_page": null,
+  "speed_raw": "Moderate-Fast",
+  "speed_tier": "Fast",
+  "wave_debut": "Wave 43 (Endless Mode)\nWave 39 (Nightmare Mode)",
+  "modes": "Nightmare Mode: wave 42\nEndless Mode: wave 38",
+  "species": "Toilet",
+  "abilities": [
+   "Laser Shoot: stuns your units"
+  ],
+  "tags": [
+   "Stun",
+   "Very Strong"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Beard",
+   "Boss Toilets",
+   "Bosses",
+   "Characters",
+   "Enemies",
+   "Flying",
+   "Jetpack",
+   "Laser",
+   "Laser users",
+   "Male Characters",
+   "Man Face",
+   "Mid-air",
+   "Scientist",
+   "Stunners",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Laser UFO Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Laser_UFO_Toilet",
+  "health_raw": "357,000 HP",
+  "health": 357000,
+  "health_index_page": null,
+  "speed_raw": "Fast",
+  "speed_tier": "Fast",
+  "wave_debut": "Wave 34",
+  "modes": "Nightmare+",
+  "species": "Toilet",
+  "abilities": [
+   "Laser Cannon Shoot: Shoots a laser at a unit, stunning it for 3 seconds 5 times.",
+   "Invisibility: Goes invisible, gaining immunity to all forms of damage except for ramming."
+  ],
+  "tags": [
+   "Stun",
+   "Very Strong"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Astro Toilets",
+   "Characters",
+   "Enemies",
+   "Laser",
+   "Laser users",
+   "Stunners",
+   "Toilets",
+   "UFO"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Laser claw toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Laser_claw_toilet",
+  "health_raw": "",
+  "health": null,
+  "health_index_page": null,
+  "speed_raw": "",
+  "speed_tier": null,
+  "wave_debut": "",
+  "modes": "",
+  "species": "",
+  "abilities": [],
+  "tags": [
+   "???",
+   "Strong"
+  ],
+  "is_boss": false,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Incomplete pages",
+   "Laser",
+   "Laser users",
+   "Outdated pages",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Lucky Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Lucky_Toilet",
+  "health_raw": "10",
+  "health": 10,
+  "health_index_page": null,
+  "speed_raw": "slow, most likely",
+  "speed_tier": "Slow",
+  "wave_debut": "",
+  "modes": "Easy, Medium, Hard, Nightmare, Abysmal, Dice World,",
+  "species": "Toilets",
+  "abilities": [],
+  "tags": [],
+  "is_boss": false,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "Event Enemies",
+   "Toilet",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Mafia Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Mafia_Toilet",
+  "health_raw": "51",
+  "health": 51,
+  "health_index_page": null,
+  "speed_raw": "Medium-fast",
+  "speed_tier": "Fast",
+  "wave_debut": "N/A (Spawned by Commands)",
+  "modes": "Drill World (Drill event)\nHalloween Graveyard 2024",
+  "species": "Toilet",
+  "abilities": [],
+  "tags": [],
+  "is_boss": false,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "Enemies",
+   "Incomplete pages",
+   "Male Characters",
+   "Non-Stun Toilets",
+   "Small",
+   "Stub",
+   "Toilet",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Mafia Toilet (Enemy)",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Mafia_Toilet_(Enemy)",
+  "health_raw": "51",
+  "health": 51,
+  "health_index_page": null,
+  "speed_raw": "Medium-fast",
+  "speed_tier": "Fast",
+  "wave_debut": "N/A (Spawned by Commands)",
+  "modes": "Drill World (Drill event)\nHalloween Graveyard 2024",
+  "species": "Toilet",
+  "abilities": [],
+  "tags": [
+   "Normal"
+  ],
+  "is_boss": false,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "Enemies",
+   "Incomplete pages",
+   "Male Characters",
+   "Non-Stun Toilets",
+   "Small",
+   "Stub",
+   "Toilet",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Magnet Scientist Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Magnet_Scientist_Toilet",
+  "health_raw": "5,100,000",
+  "health": 5100000,
+  "health_index_page": null,
+  "speed_raw": "Average",
+  "speed_tier": "Average",
+  "wave_debut": "50",
+  "modes": "Time Factory",
+  "species": "Toilets",
+  "abilities": [],
+  "tags": [
+   "Event",
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Beard",
+   "Boss Toilets",
+   "Bosses",
+   "Characters",
+   "Enemies",
+   "Event Enemies",
+   "Magnet toilets",
+   "Magnet users",
+   "Mech",
+   "Multiverse toilets",
+   "Scientist",
+   "Slow Toilets",
+   "Toilet",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Magnet Scientist Toilet 3.0",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Magnet_Scientist_Toilet_3.0",
+  "health_raw": "TBA",
+  "health": null,
+  "health_index_page": null,
+  "speed_raw": "Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "Wave 50",
+  "modes": "Time Factory",
+  "species": "Toilets",
+  "abilities": [
+   "Stun",
+   "Teleport units"
+  ],
+  "tags": [
+   "Event",
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Enemies",
+   "Event Enemies",
+   "Magnet",
+   "Magnet toilets",
+   "Magnet users",
+   "Male Characters",
+   "Scientist",
+   "Slow Toilets",
+   "Toilets",
+   "Upgraded characters"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Magnet Titan Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Magnet_Titan_Toilet",
+  "health_raw": "16,700,000",
+  "health": 16700000,
+  "health_index_page": null,
+  "speed_raw": "Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "50",
+  "modes": "",
+  "species": "Toilets",
+  "abilities": [
+   "Magnet Stun(stuns units by jumping on their head)"
+  ],
+  "tags": [
+   "Boss",
+   "Event",
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": true,
+  "categories": [
+   "Boss Toilets",
+   "Bosses",
+   "Clock Events",
+   "Enemies",
+   "Event Enemies",
+   "Flying",
+   "Giant Toilets",
+   "Incomplete pages",
+   "Magnet",
+   "Magnet toilets",
+   "Magnet users",
+   "Male Characters",
+   "Mid-air",
+   "Modes",
+   "Multiverse toilets",
+   "Off-Track Enemies",
+   "Slow Toilets",
+   "Stub",
+   "Stubs",
+   "Titans",
+   "Toilet",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Magnet Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Magnet_Toilet",
+  "health_raw": "192,500",
+  "health": 192500,
+  "health_index_page": null,
+  "speed_raw": "",
+  "speed_tier": null,
+  "wave_debut": "",
+  "modes": "Time Factory\nDrill World (Map)\nDrill Forest",
+  "species": "Toilets",
+  "abilities": [
+   "Stun",
+   ""
+  ],
+  "tags": [
+   "Boss",
+   "Event",
+   "Medium",
+   "Stun"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": true,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Event Enemies",
+   "Flying",
+   "Helicopters",
+   "Magnet",
+   "Magnet toilets",
+   "Magnet users",
+   "Mid-air",
+   "Multiverse toilets",
+   "Off-Track Enemies",
+   "Red toilets",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Massive Buzzsaw Oven",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Massive_Buzzsaw_Oven",
+  "health_raw": "1,804,000",
+  "health": 1804000,
+  "health_index_page": null,
+  "speed_raw": "Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "Wave 49",
+  "modes": "Nightmare+ Endless+",
+  "species": "Toilet (urinal)",
+  "abilities": [],
+  "tags": [
+   "Stun",
+   "Very Strong"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": true,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Giant Toilets",
+   "Off-Track Enemies",
+   "Saw",
+   "Stunners",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 4
+ },
+ {
+  "name": "Military Rocket Launcher Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Military_Rocket_Launcher_Toilet",
+  "health_raw": "980,000",
+  "health": 980000,
+  "health_index_page": 980000,
+  "speed_raw": "Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "42 Wave",
+  "modes": "Nightmare+",
+  "species": "Toilet",
+  "abilities": [
+   "Rocket Shoot: Shoots a rocket out of its rocket launcher, stunning it."
+  ],
+  "tags": [
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Incomplete pages",
+   "Rocket",
+   "Stunners",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Minigun Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Minigun_Toilet",
+  "health_raw": "30,000",
+  "health": 30000,
+  "health_index_page": null,
+  "speed_raw": "Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "TBA",
+  "modes": "Medium+",
+  "species": "Toilets",
+  "abilities": [
+   "Minigun Shoot: Shoots a minigun at units, stunning it for 5 seconds. This has a 25% chance (unconfirmed) to be used every time it passes a unit."
+  ],
+  "tags": [
+   "Medium",
+   "Stun"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Gun users",
+   "Incomplete pages",
+   "Miniguns",
+   "Stubs",
+   "Stunners",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Multi-Claw Jetpack Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Multi-Claw_Jetpack_Toilet",
+  "health_raw": "73750",
+  "health": 73750,
+  "health_index_page": null,
+  "speed_raw": "Fast",
+  "speed_tier": "Fast",
+  "wave_debut": "???",
+  "modes": "Hard+",
+  "species": "Toilet",
+  "abilities": [
+   "Claw Attack: Uses its claws to stun a unit near it."
+  ],
+  "tags": [
+   "Medium",
+   "Stun"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Fast",
+   "Jetpack",
+   "Stunners",
+   "Toilet",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Mutant Assassin Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Mutant_Assassin_Toilet",
+  "health_raw": "TBA (You guys add)",
+  "health": null,
+  "health_index_page": null,
+  "speed_raw": "Slow-Normal",
+  "speed_tier": "Slow",
+  "wave_debut": "",
+  "modes": "Nightmare Mode, Endless Mode",
+  "species": "Toilets",
+  "abilities": [],
+  "tags": [
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": true,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Incomplete pages",
+   "Mutants",
+   "Off-Track Enemies",
+   "Stub",
+   "Stunners",
+   "Toilet",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Mutant Pumpkin Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Mutant_Pumpkin_Toilet",
+  "health_raw": "2,000,000 - 8,350,000 In Halloween, 153M in Endless",
+  "health": 2000000,
+  "health_index_page": null,
+  "speed_raw": "Average",
+  "speed_tier": "Average",
+  "wave_debut": "Wave 50 (Abysmal Mode Halloween Event)\nWave 109 (Endless Mode)",
+  "modes": "Abysmal Mode, Endless Mode",
+  "species": "Toilet",
+  "abilities": [
+   "Hammer Smash: Uses its hammer to stun a unit.",
+   "Angry look : Uses its head to stun IThink"
+  ],
+  "tags": [
+   "Boss",
+   "Event",
+   "Stun",
+   "Very Strong"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Boss Toilets",
+   "Bosses",
+   "Endless Bosses",
+   "Enemies",
+   "Event Enemies",
+   "Mutants",
+   "Slow Toilets",
+   "Toilets"
+  ],
+  "endless_rows": 1
+ },
+ {
+  "name": "Mutant Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Mutant_Toilet",
+  "health_raw": "8,000",
+  "health": 8000,
+  "health_index_page": null,
+  "speed_raw": "Average",
+  "speed_tier": "Average",
+  "wave_debut": "???",
+  "modes": "Medium+",
+  "species": "",
+  "abilities": [],
+  "tags": [
+   "Medium"
+  ],
+  "is_boss": false,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "Enemies",
+   "Mutants",
+   "Non-Stun Toilets",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Mutant Toilet 2.0",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Mutant_Toilet_2.0",
+  "health_raw": "256000",
+  "health": 256000,
+  "health_index_page": null,
+  "speed_raw": "Average",
+  "speed_tier": "Average",
+  "wave_debut": "Wave 13",
+  "modes": "Hard+ And event modes",
+  "species": "",
+  "abilities": [
+   "Punch: Punches a unit, stunning it."
+  ],
+  "tags": [
+   "Boss",
+   "Medium",
+   "Stun"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Endless Bosses",
+   "Enemies",
+   "Mutants",
+   "Toilet",
+   "Toilet Tower Defense Wiki",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Octo Rocket Launcher Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Octo_Rocket_Launcher_Toilet",
+  "health_raw": "???",
+  "health": null,
+  "health_index_page": null,
+  "speed_raw": "Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "45",
+  "modes": "Nightmare+",
+  "species": "Toilet",
+  "abilities": [
+   "Octo Rocket Shoot: Shoots rockets at 8 different units, stunning them."
+  ],
+  "tags": [],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Incomplete pages",
+   "Rocket",
+   "Rockets",
+   "Stub",
+   "Stubs",
+   "Stunners",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Octo Rocket Soldier Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Octo_Rocket_Soldier_Toilet",
+  "health_raw": "1,737,632 - Can Vary.",
+  "health": 1737632,
+  "health_index_page": 1737632,
+  "speed_raw": "??? (most likely Slow or very Slow)",
+  "speed_tier": "Very Slow",
+  "wave_debut": "38",
+  "modes": "Endless",
+  "species": "Toilets",
+  "abilities": [
+   "Rocket Shoot: Shoots a rocket at a unit, stunning it for 3 seconds. This has a ? second cooldown."
+  ],
+  "tags": [
+   "Stun",
+   "Very Strong"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Rocket",
+   "Rockets",
+   "Stubs",
+   "Stunners",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Octo Rocket Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Octo_Rocket_Toilet",
+  "health_raw": "???",
+  "health": null,
+  "health_index_page": null,
+  "speed_raw": "Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "45",
+  "modes": "Nightmare+",
+  "species": "Toilet",
+  "abilities": [
+   "Octo Rocket Shoot: Shoots rockets at 8 different units, stunning them."
+  ],
+  "tags": [
+   "Stun",
+   "Very Strong"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Incomplete pages",
+   "Rocket",
+   "Rockets",
+   "Stub",
+   "Stubs",
+   "Stunners",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Parasite Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Parasite_Toilet",
+  "health_raw": "???",
+  "health": null,
+  "health_index_page": null,
+  "speed_raw": "???",
+  "speed_tier": null,
+  "wave_debut": "???",
+  "modes": "Medium, Hard,Nightmare,Endless",
+  "species": "Toilets",
+  "abilities": [
+   "Infect: Lunges onto the back of a small unit and stuns for a few seconds"
+  ],
+  "tags": [
+   "Medium",
+   "Stun"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": true,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Off-Track Enemies",
+   "Small",
+   "Stubs",
+   "Stunners",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Pencil Mech (Enemy)",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Pencil_Mech_(Enemy)",
+  "health_raw": "6.850.000",
+  "health": 6850000,
+  "health_index_page": null,
+  "speed_raw": "Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "40",
+  "modes": "Pencil Mode",
+  "species": "Pencil",
+  "abilities": [
+   "Use his minigun to stun units"
+  ],
+  "tags": [
+   "Boss",
+   "Event",
+   "Stun",
+   "Very Strong"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Bosses",
+   "Enemies",
+   "Male Characters",
+   "Pencils",
+   "Stunners"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Phantom Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Phantom_Toilet",
+  "health_raw": "400,000 [Abysmal Mode]",
+  "health": 400000,
+  "health_index_page": null,
+  "speed_raw": "super Fast",
+  "speed_tier": "Extremely Fast",
+  "wave_debut": "Wave 61 [Endless]",
+  "modes": "Abysmal Mode (Halloween Event) and endless mode",
+  "species": "Toilet",
+  "abilities": [
+   "Dash: Every 10 seconds, change speed to Maximal+ for 0.5 seconds"
+  ],
+  "tags": [
+   "Event",
+   "Strong"
+  ],
+  "is_boss": false,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Event Enemies",
+   "Fast toilets",
+   "Non-Stun Toilets",
+   "Toilets"
+  ],
+  "endless_rows": 1
+ },
+ {
+  "name": "Police Mutant Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Police_Mutant_Toilet",
+  "health_raw": "1,104,800HP",
+  "health": 110480,
+  "health_index_page": 1104800,
+  "speed_raw": "Average",
+  "speed_tier": "Average",
+  "wave_debut": "TBA",
+  "modes": "Nightmare Mode, Endless Mode",
+  "species": "Toilet",
+  "abilities": [
+   "Uses its rocket launchers to fire a rocket at a nearby unit, stunning it for 4 seconds.",
+   "Uses its scythe to stun a nearby unit.",
+   "Activates a temporary forcefield, blocking all damage.",
+   "Puts up its riot shield, presumably decreasing damage against it."
+  ],
+  "tags": [
+   "Stun",
+   "Very Strong"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Enemies",
+   "Mutants",
+   "Rocket",
+   "Rockets",
+   "Shield users",
+   "Stunners",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Police Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Police_Toilet",
+  "health_raw": "380",
+  "health": 380,
+  "health_index_page": null,
+  "speed_raw": "Average",
+  "speed_tier": "Average",
+  "wave_debut": "???",
+  "modes": "All",
+  "species": "Toilets",
+  "abilities": [],
+  "tags": [
+   "Normal"
+  ],
+  "is_boss": false,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Incomplete pages",
+   "Non-Stun Toilets",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Quad Rocket Mutant Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Quad_Rocket_Mutant_Toilet",
+  "health_raw": "1,640,000 HP",
+  "health": 1640000,
+  "health_index_page": null,
+  "speed_raw": "Very Slow",
+  "speed_tier": "Very Slow",
+  "wave_debut": "Wave 49 (Nightmare)",
+  "modes": "Nightmare + Event Modes",
+  "species": "Toilet",
+  "abilities": [
+   "Quad Rocket Shoot: Shoots rockets at 4 different units, stunning them for 5 seconds.",
+   "Double Laser Shoot: Shoots both of its lasers at a unit, stunning it for 4 seconds."
+  ],
+  "tags": [
+   "Stun",
+   "Very Strong"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Laser",
+   "Laser users",
+   "Man Face",
+   "Mutants",
+   "Rocket",
+   "Rockets",
+   "Slow Toilets",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Quad Rocket Shield Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Quad_Rocket_Shield_Toilet",
+  "health_raw": "2,505,000",
+  "health": 2505000,
+  "health_index_page": 2505000,
+  "speed_raw": "Average",
+  "speed_tier": "Average",
+  "wave_debut": "102,104,119",
+  "modes": "Endless Mode Sand Isles",
+  "species": "Toilets",
+  "abilities": [
+   "Stun",
+   "Slowing units does not affect the toilet’s speed."
+  ],
+  "tags": [
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Enemies",
+   "Glasses Toilets",
+   "Jetpack",
+   "Rocket",
+   "Rockets",
+   "Shield users",
+   "Stunners",
+   "Toilet",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Quad Rocket Toilet Car",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Quad_Rocket_Toilet_Car",
+  "health_raw": "327,500",
+  "health": 327500,
+  "health_index_page": 327500,
+  "speed_raw": "Mid",
+  "speed_tier": "Average",
+  "wave_debut": "TBA",
+  "modes": "Nightmare(?) Easter Endless,raid mode hard(?)",
+  "species": "Toilets",
+  "abilities": [
+   "Rocket shooting"
+  ],
+  "tags": [
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Rocket",
+   "Rockets",
+   "Stunners",
+   "Toilet",
+   "Toilets",
+   "Vehicles"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Quad-Blade Strider Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Quad-Blade_Strider_Toilet",
+  "health_raw": "479,500 HP",
+  "health": 479500,
+  "health_index_page": null,
+  "speed_raw": "Fast",
+  "speed_tier": "Fast",
+  "wave_debut": "40 Wave",
+  "modes": "Nightmare+",
+  "species": "Toilet",
+  "abilities": [
+   "Quad Blade Attack: Uses its four blades to stun a unit for 10 seconds."
+  ],
+  "tags": [
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Fast",
+   "Incomplete pages",
+   "Spiders",
+   "Stub",
+   "Stunners",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Rabid Rabbit Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Rabid_Rabbit_Toilet",
+  "health_raw": "11,820,000",
+  "health": 11820000,
+  "health_index_page": 11820000,
+  "speed_raw": "Average",
+  "speed_tier": "Average",
+  "wave_debut": "Wave 60 and Wave 130 (Endless Mode)",
+  "modes": "Easter Mode and Endless Mode",
+  "species": "Toilets, Bunny",
+  "abilities": [
+   "2 Minutes stunning: He stuns a unit 120 seconds (2 minutes)"
+  ],
+  "tags": [
+   "Boss",
+   "Event",
+   "Stun",
+   "Very Strong"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Animals",
+   "Boss",
+   "Boss Toilets",
+   "Bosses",
+   "Easter",
+   "Easter event",
+   "Endless Bosses",
+   "Endless bosses",
+   "Event Enemies",
+   "Flying",
+   "Jetpack",
+   "Laser",
+   "Laser users",
+   "Mid-air",
+   "Slow Toilets",
+   "Stunners",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Rapid Rabbit Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Rapid_Rabbit_Toilet",
+  "health_raw": "11,820,000",
+  "health": 11820000,
+  "health_index_page": null,
+  "speed_raw": "Average",
+  "speed_tier": "Average",
+  "wave_debut": "Wave 60 and Wave 130 (Endless Mode)",
+  "modes": "Easter Mode and Endless Mode",
+  "species": "Toilets, Bunny",
+  "abilities": [
+   "2 Minutes stunning: He stuns a unit 120 seconds (2 minutes)"
+  ],
+  "tags": [],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Animals",
+   "Boss",
+   "Boss Toilets",
+   "Bosses",
+   "Easter",
+   "Easter event",
+   "Endless Bosses",
+   "Endless bosses",
+   "Event Enemies",
+   "Flying",
+   "Jetpack",
+   "Laser",
+   "Laser users",
+   "Mid-air",
+   "Slow Toilets",
+   "Stunners",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Rocket Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Rocket_Toilet",
+  "health_raw": "115000-387,500",
+  "health": 115000,
+  "health_index_page": null,
+  "speed_raw": "Fast",
+  "speed_tier": "Fast",
+  "wave_debut": "Wave 25",
+  "modes": "Hard+ Nightmare+ Endless+",
+  "species": "Toilet",
+  "abilities": [],
+  "tags": [
+   "Medium"
+  ],
+  "is_boss": false,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Fast",
+   "Non-Stun Toilets",
+   "Rockets",
+   "Stub",
+   "Stubs",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Scientist Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Scientist_Toilet",
+  "health_raw": "2,415,000 HP(wave 48)",
+  "health": 2415000,
+  "health_index_page": null,
+  "speed_raw": "Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "Wave 48 Nightmare Mode",
+  "modes": "Nightmare mode",
+  "species": "Toilets",
+  "abilities": [
+   "Claw Attack: attacks with its claws he stuns towers with it",
+   ""
+  ],
+  "tags": [
+   "Boss",
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Beard",
+   "Boss Toilets",
+   "Bosses",
+   "Characters",
+   "Enemies",
+   "Large",
+   "Male Characters",
+   "Man Face",
+   "Scientist",
+   "Slow Toilets",
+   "Speakers",
+   "Stunners",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Security Guard Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Security_Guard_Toilet",
+  "health_raw": "1,220,000",
+  "health": 1220000,
+  "health_index_page": 1220000,
+  "speed_raw": "Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "35",
+  "modes": "Nightmare, Endless",
+  "species": "Toilets",
+  "abilities": [
+   "Laser Attack: Stun unit"
+  ],
+  "tags": [
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Laser",
+   "Stunners",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Secutor Astro Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Secutor_Astro_Toilet",
+  "health_raw": "248,680,678 HP\n3,340,000 HP Abysmal Mode",
+  "health": 248680678,
+  "health_index_page": 248680678,
+  "speed_raw": "Fast",
+  "speed_tier": "Fast",
+  "wave_debut": "140 and 150",
+  "modes": "Endless Mode",
+  "species": "Astro",
+  "abilities": [
+   "Using shield to block all damages for 10 seconds.",
+   "Stunning Units for 10 seconds with orb."
+  ],
+  "tags": [
+   "Boss",
+   "Stun",
+   "Very Strong"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Astro Toilets",
+   "Boss Toilets",
+   "Bosses",
+   "Endless Bosses",
+   "Enemies",
+   "Fast toilets",
+   "Laser",
+   "Laser users",
+   "Shield users",
+   "Shooter toilets",
+   "Stunners",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Skeleton Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Skeleton_Toilet",
+  "health_raw": "1,464,000",
+  "health": 1464000,
+  "health_index_page": null,
+  "speed_raw": "Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "Wave 31",
+  "modes": "Abysmal Mode (Halloween Event), Endless Mode",
+  "species": "Toilet",
+  "abilities": [
+   "Skeleton Bite: Bites a unit, stunning it.",
+   "His stun cannot be healed"
+  ],
+  "tags": [
+   "Event",
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "2023",
+   "2023 updates/events",
+   "Enemies",
+   "Event Enemies",
+   "Male Characters",
+   "Slow Toilets",
+   "Stunners",
+   "Toilets"
+  ],
+  "endless_rows": 1
+ },
+ {
+  "name": "Small Magnet Scientist Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Small_Magnet_Scientist_Toilet",
+  "health_raw": "TBA",
+  "health": null,
+  "health_index_page": null,
+  "speed_raw": "TBA",
+  "speed_tier": null,
+  "wave_debut": "",
+  "modes": "",
+  "species": "Toilets",
+  "abilities": [],
+  "tags": [
+   "Boss",
+   "Event",
+   "Medium",
+   "Stun"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": true,
+  "categories": [
+   "Beard",
+   "Characters",
+   "Enemies",
+   "Incomplete pages",
+   "Magnet",
+   "Magnet toilets",
+   "Magnet users",
+   "Mech",
+   "Multiverse toilets",
+   "Off-Track Enemies",
+   "Scientist",
+   "Stunners",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Small Scientist Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Small_Scientist_Toilet",
+  "health_raw": "1,002,000 HP",
+  "health": 1002000,
+  "health_index_page": 1000002,
+  "speed_raw": "Fast",
+  "speed_tier": "Fast",
+  "wave_debut": "Wave 50 (Abysmal Mode)",
+  "modes": "Nightmare+",
+  "species": "Toilets",
+  "abilities": [
+   "Laser Shoot: Shoots its laser at a unit, stunning it."
+  ],
+  "tags": [
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Beard",
+   "Characters",
+   "Enemies",
+   "Fast",
+   "Laser",
+   "Laser users",
+   "Male Characters",
+   "Man Face",
+   "Scientist",
+   "Small",
+   "Stunners",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Small Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Small_Toilet",
+  "health_raw": "50+ (usually up to 200)",
+  "health": 50,
+  "health_index_page": null,
+  "speed_raw": "Fast",
+  "speed_tier": "Fast",
+  "wave_debut": "Wave 1",
+  "modes": "All (except abysmal)",
+  "species": "Toilets",
+  "abilities": [],
+  "tags": [
+   "Normal"
+  ],
+  "is_boss": false,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Non-Stun Toilets",
+   "Small",
+   "Toilet",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Soldier Rocket Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Soldier_Rocket_Toilet",
+  "health_raw": "1,185,000 HP",
+  "health": 1185000,
+  "health_index_page": null,
+  "speed_raw": "Average/Slightly Fast",
+  "speed_tier": "Fast",
+  "wave_debut": "Episode 65 Update",
+  "modes": "",
+  "species": "Toilets",
+  "abilities": [],
+  "tags": [],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Enemies",
+   "Gun users",
+   "Incomplete pages",
+   "Jetpack",
+   "Laser",
+   "Laser users",
+   "Male Characters",
+   "Rocket",
+   "Rockets",
+   "Stunners",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Solider Rocket Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Solider_Rocket_Toilet",
+  "health_raw": "1,185,000 HP",
+  "health": 1185000,
+  "health_index_page": null,
+  "speed_raw": "Average/Slightly Fast",
+  "speed_tier": "Fast",
+  "wave_debut": "Episode 65 Update",
+  "modes": "",
+  "species": "Toilets",
+  "abilities": [],
+  "tags": [
+   "Stun",
+   "Very Strong"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Enemies",
+   "Gun users",
+   "Incomplete pages",
+   "Jetpack",
+   "Laser",
+   "Laser users",
+   "Male Characters",
+   "Rocket",
+   "Rockets",
+   "Stunners",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Specialist Astro Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Specialist_Astro_Toilet",
+  "health_raw": "9.800.000",
+  "health": 9800000,
+  "health_index_page": null,
+  "speed_raw": "Fast",
+  "speed_tier": "Fast",
+  "wave_debut": "59, 151",
+  "modes": "Abysmal Mode and Endless Mode.",
+  "species": "Astro",
+  "abilities": [],
+  "tags": [],
+  "is_boss": false,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "Astro Toilet",
+   "Enemies",
+   "Items",
+   "Male Characters"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Spider Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Spider_Toilet",
+  "health_raw": "640",
+  "health": 640,
+  "health_index_page": null,
+  "speed_raw": "Average",
+  "speed_tier": "Average",
+  "wave_debut": "5",
+  "modes": "All",
+  "species": "Toilet",
+  "abilities": [],
+  "tags": [
+   "Normal"
+  ],
+  "is_boss": false,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "Animals",
+   "Characters",
+   "Enemies",
+   "Spiders",
+   "Toilet",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Strider Rocket Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Strider_Rocket_Toilet",
+  "health_raw": "1130000",
+  "health": 1130000,
+  "health_index_page": null,
+  "speed_raw": "",
+  "speed_tier": null,
+  "wave_debut": "32",
+  "modes": "",
+  "species": "Toilet",
+  "abilities": [],
+  "tags": [
+   "Stun",
+   "Very Strong"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Enemies",
+   "Spiders",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Student Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Student_Toilet",
+  "health_raw": "Depends on Wave",
+  "health": null,
+  "health_index_page": null,
+  "speed_raw": "Unknown",
+  "speed_tier": null,
+  "wave_debut": "Evil Wave",
+  "modes": "All",
+  "species": "Toilet",
+  "abilities": [],
+  "tags": [
+   "Medium",
+   "Stun"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Incomplete pages",
+   "Male Characters",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "TV Dual Claw Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/TV_Dual_Claw_Toilet",
+  "health_raw": "320,000",
+  "health": 320000,
+  "health_index_page": null,
+  "speed_raw": "normal",
+  "speed_tier": "Average",
+  "wave_debut": "37",
+  "modes": "Hard Mode and Nightmare Mode",
+  "species": "Toilet",
+  "abilities": [
+   "He uses his claws to stun units",
+   "He uses his white TV screen as it turns red when it attacks"
+  ],
+  "tags": [
+   "AoE Stuns",
+   "Medium"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Stunners",
+   "TVs",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Teacher Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Teacher_Toilet",
+  "health_raw": "Depends on wave",
+  "health": null,
+  "health_index_page": null,
+  "speed_raw": "Average",
+  "speed_tier": "Average",
+  "wave_debut": "Evil Wave",
+  "modes": "All modes (except Endless Mode and PVP)",
+  "species": "Toilet",
+  "abilities": [],
+  "tags": [
+   "Medium",
+   "Stun"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Evil wave",
+   "Incomplete pages",
+   "Male Characters",
+   "Outdated pages",
+   "Stub",
+   "Stubs",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "The Grim Reaper",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/The_Grim_Reaper",
+  "health_raw": "16.700.000(solo)\n32.565.000(duo)",
+  "health": 16700000,
+  "health_index_page": null,
+  "speed_raw": "Average",
+  "speed_tier": "Average",
+  "wave_debut": "50",
+  "modes": "Halloween Mode",
+  "species": "",
+  "abilities": [],
+  "tags": [
+   "Boss",
+   "Event",
+   "Stun",
+   "Very Strong"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Boss",
+   "Bosses",
+   "Event",
+   "Halloween Event",
+   "Large Enemies",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "The Mothership",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/The_Mothership",
+  "health_raw": "12,635,013,632 (1 Player)",
+  "health": 12635013632,
+  "health_index_page": null,
+  "speed_raw": "Very Slow",
+  "speed_tier": "Very Slow",
+  "wave_debut": "180",
+  "modes": "Endless Mode",
+  "species": "Astro",
+  "abilities": [
+   "Walks To The Nearby Unit And Stuns Its With Jetpack Boost",
+   "Every 10 Studs, it teleports further, helping combat it's slow speed"
+  ],
+  "tags": [
+   "Boss",
+   "Stun",
+   "Very Strong"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": true,
+  "categories": [
+   "Astro Toilets",
+   "Boss",
+   "Boss Toilets",
+   "Endless Bosses",
+   "Enemies",
+   "Fast",
+   "Flying",
+   "Giant Toilets",
+   "Jetpack",
+   "Large",
+   "Male Characters",
+   "Mid-air",
+   "Off-Track Enemies",
+   "Slow Toilets",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Toilet",
+  "health_raw": "100",
+  "health": 100,
+  "health_index_page": null,
+  "speed_raw": "Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "Wave 1-2",
+  "modes": "All modes (except the Void)",
+  "species": "Toilets",
+  "abilities": [],
+  "tags": [
+   "Normal"
+  ],
+  "is_boss": false,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Non-Stun Toilets",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Toxic Barrel Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Toxic_Barrel_Toilet",
+  "health_raw": "40,000 HP",
+  "health": 40000,
+  "health_index_page": null,
+  "speed_raw": "???",
+  "speed_tier": null,
+  "wave_debut": "21 Wave",
+  "modes": "Nightmare",
+  "species": "",
+  "abilities": [
+   "Targets a unit upon range and explodes in contact, stunning other units nearby the target for 18 seconds."
+  ],
+  "tags": [
+   "Normal",
+   "Splash Stuns"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": true,
+  "categories": [
+   "Acid",
+   "Characters",
+   "Enemies",
+   "Flying",
+   "Jetpack",
+   "Off-Track Enemies",
+   "Splash",
+   "Stunners",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Toxic Mutant Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Toxic_Mutant_Toilet",
+  "health_raw": "1m+",
+  "health": 1000000,
+  "health_index_page": null,
+  "speed_raw": "Slightly Fast",
+  "speed_tier": "Fast",
+  "wave_debut": "Wave 43 (Nightmare Mode)",
+  "modes": "Nightmare Mode+",
+  "species": "Toilet",
+  "abilities": [
+   "Buzzsaw Attack",
+   "Toxic Shoot"
+  ],
+  "tags": [
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Acid",
+   "Characters",
+   "Enemies",
+   "Mutants",
+   "Saw",
+   "Stunners",
+   "Toilet",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Toxic Skull Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Toxic_Skull_Toilet",
+  "health_raw": "876,000 HP First appearance",
+  "health": 876000,
+  "health_index_page": null,
+  "speed_raw": "Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "Wave 43",
+  "modes": "Nightmare+",
+  "species": "Toilet",
+  "abilities": [
+   "Acid Spew: Spews acid out of its mouth, stunning a unit."
+  ],
+  "tags": [
+   "AoE Stuns",
+   "Very Strong"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Acid",
+   "Characters",
+   "Enemies",
+   "Slow Toilets",
+   "Stunners",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Triple Flying Jetpack Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Triple_Flying_Jetpack_Toilet",
+  "health_raw": "1,216,000",
+  "health": 1216000,
+  "health_index_page": null,
+  "speed_raw": "Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "???",
+  "modes": "Nightmare+",
+  "species": "Bathtub",
+  "abilities": [
+   "Rocket Shoot: Shoots a rocket at a unit, stunning it."
+  ],
+  "tags": [
+   "Stun",
+   "Very Strong"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Incomplete pages",
+   "Jetpack",
+   "Rockets",
+   "Small",
+   "Stunners",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Turkey Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Turkey_Toilet",
+  "health_raw": "27000",
+  "health": 27000,
+  "health_index_page": null,
+  "speed_raw": "Average",
+  "speed_tier": "Average",
+  "wave_debut": "Wave 5 (Abysmal Mode), Wave 31 (Time Factory)",
+  "modes": "Abysmal Mode (Thanksgiving Event), Time Factory (Rewind Event)",
+  "species": "Toilets",
+  "abilities": [],
+  "tags": [
+   "Event",
+   "Normal"
+  ],
+  "is_boss": false,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "Animals",
+   "Characters",
+   "Enemies",
+   "Event Enemies",
+   "Incomplete pages",
+   "Non-Stun Toilets",
+   "Stub",
+   "Stubs",
+   "Thanksgiving event",
+   "Toilet",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Turret Spider Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Turret_Spider_Toilet",
+  "health_raw": "???",
+  "health": null,
+  "health_index_page": null,
+  "speed_raw": "Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "???",
+  "modes": "Nightmare+",
+  "species": "Toilet",
+  "abilities": [
+   "Turret Shoot: Shoots at a unit with its turret, stunning it for 5 seconds."
+  ],
+  "tags": [],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Animals",
+   "Characters",
+   "Enemies",
+   "Slow Toilets",
+   "Spiders",
+   "Stunners",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "UFO Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/UFO_Toilet",
+  "health_raw": "417,500 HP (Wave 50)",
+  "health": 417500,
+  "health_index_page": null,
+  "speed_raw": "Fast",
+  "speed_tier": "Fast",
+  "wave_debut": "Wave 49 (Hard), Wave 20 (Nightmare)",
+  "modes": "Hard, Nightmare+",
+  "species": "Toilet",
+  "abilities": [
+   "Laser Cannon Shoot: Shoots a laser at a unit, stunning it for 2 seconds 5 times.",
+   "Invisibility: Goes invisible for 2 seconds, gaining immunity to all forms of damage excluding ram damage."
+  ],
+  "tags": [
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Astro Toilets",
+   "Enemies",
+   "Laser",
+   "Laser users",
+   "Stunners",
+   "Toilets",
+   "UFO",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Ultra Laser Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Ultra_Laser_Toilet",
+  "health_raw": "???",
+  "health": null,
+  "health_index_page": null,
+  "speed_raw": "Average",
+  "speed_tier": "Average",
+  "wave_debut": "???",
+  "modes": "Nightmare+",
+  "species": "Toilets",
+  "abilities": [],
+  "tags": [
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Jetpack",
+   "Laser",
+   "Laser users",
+   "Man Face",
+   "Mid-air",
+   "Stubs",
+   "Stunners",
+   "Toilet",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Ultra Rocket Launcher Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Ultra_Rocket_Launcher_Toilet",
+  "health_raw": "714000",
+  "health": 714000,
+  "health_index_page": null,
+  "speed_raw": "Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "???",
+  "modes": "Nightmare+",
+  "species": "Toilet",
+  "abilities": [
+   "Rocket Shoot: Shoots a rocket at a unit. Rockets shot cannot be reloaded."
+  ],
+  "tags": [
+   "Strong",
+   "Stun"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Man Face",
+   "Rocket",
+   "Rockets",
+   "Slow Toilets",
+   "Stunners",
+   "Toilet",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Upgraded Astro Duchess",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Upgraded_Astro_Duchess",
+  "health_raw": "5100000 (WAVE 1)",
+  "health": 5100000,
+  "health_index_page": null,
+  "speed_raw": "Very Fast",
+  "speed_tier": "Very Fast",
+  "wave_debut": "175",
+  "modes": "Endless",
+  "species": "Astros",
+  "abilities": [
+   "TBA"
+  ],
+  "tags": [],
+  "is_boss": false,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "Astro Toilets",
+   "Enemies",
+   "Female Characters",
+   "Upgraded characters"
+  ],
+  "endless_rows": 1
+ },
+ {
+  "name": "Upgraded Giant Turkey Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Upgraded_Giant_Turkey_Toilet",
+  "health_raw": "8M (8,000,000)",
+  "health": 8000000,
+  "health_index_page": null,
+  "speed_raw": "Slow",
+  "speed_tier": "Slow",
+  "wave_debut": "60",
+  "modes": "Thanksgiving Table",
+  "species": "Turkey Toilet",
+  "abilities": [],
+  "tags": [
+   "Boss",
+   "Event",
+   "Very Strong"
+  ],
+  "is_boss": true,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "Animals",
+   "Boss Toilets",
+   "Bosses",
+   "Enemies",
+   "Event Enemies",
+   "Giant Toilets",
+   "Non-Stun Toilets",
+   "Thanksgiving Event",
+   "Thanksgiving event",
+   "Toilet",
+   "Toilets",
+   "Upgraded characters"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Vacuum Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Vacuum_Toilet",
+  "health_raw": "62,000",
+  "health": 62000,
+  "health_index_page": null,
+  "speed_raw": "Fast",
+  "speed_tier": "Fast",
+  "wave_debut": "Wave 15 (Medium)\nWave 13 or 14 (Hard)",
+  "modes": "Medium+",
+  "species": "Toilet",
+  "abilities": [
+   "It will spin around specific sections of the map stunning nearby small units for 10 seconds."
+  ],
+  "tags": [
+   "Boss",
+   "Medium",
+   "Stun"
+  ],
+  "is_boss": true,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Bosses",
+   "Characters",
+   "Enemies",
+   "Stunners",
+   "Toilets",
+   "Valentines Event 2025"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "Welder Toilet",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/Welder_Toilet",
+  "health_raw": "535,000 HP",
+  "health": 535000,
+  "health_index_page": null,
+  "speed_raw": "Fast",
+  "speed_tier": "Fast",
+  "wave_debut": "Wave 30",
+  "modes": "Nightmare Mode, Endless Mode",
+  "species": "Toilet",
+  "abilities": [
+   "Picks up two toilets and welds them together, back to back."
+  ],
+  "tags": [
+   "Holdable",
+   "Strong"
+  ],
+  "is_boss": false,
+  "stuns_units": true,
+  "off_track": false,
+  "categories": [
+   "Characters",
+   "Enemies",
+   "Fast",
+   "Flying",
+   "Holdable Toilets",
+   "Jetpack",
+   "Mid-air",
+   "Stunners",
+   "Toilets"
+  ],
+  "endless_rows": 0
+ },
+ {
+  "name": "iamEvan (Enemy)",
+  "url": "https://toilet-tower-defense-game.fandom.com/wiki/iamEvan_(Enemy)",
+  "health_raw": "10 (base; can be changed by admins) (watch LTkrazy’s vid)",
+  "health": 10,
+  "health_index_page": null,
+  "speed_raw": "Extremely Fast",
+  "speed_tier": "Extremely Fast",
+  "wave_debut": "N/A (Spawned by Commands)",
+  "modes": "N/A (Spawned by Commands)",
+  "species": "Robloxian",
+  "abilities": [],
+  "tags": [
+   "???",
+   "Normal"
+  ],
+  "is_boss": false,
+  "stuns_units": false,
+  "off_track": false,
+  "categories": [
+   "Enemies",
+   "Fast",
+   "Human",
+   "Humans",
+   "Incomplete pages",
+   "Outdated pages",
+   "Stub"
+  ],
+  "endless_rows": 0
+ }
+]

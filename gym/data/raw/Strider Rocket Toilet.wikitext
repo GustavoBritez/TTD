@@ -1,0 +1,25 @@
+{{Toilet Infobox|image1=Strider rocket.png|species=Toilet|wave_debut=32|health=1130000|appearances=Nightmare}}
+
+==Overview==
+The Strider Rocket is an enemy that appears in [[Nightmare Mode]]. It has a medium amount of health, and moves at an average speed. 
+
+Strider Rocket Toilet's ability is that it can shoot rockets at units to stun them.
+==Appearance==
+The strider rocket toilet is a toilet with 3 legs, similar to a tripod and having similarties to [[Turret Spider Toilet]].
+==Health==
+On its first appearance, it is seen to have 1130000 hp.
+==Waves==
+
+* Nightmare - Wave 32
+
+==Abilities==
+*Rocket Shoot: Shoots rockets at units, stunning them.
+==Strategy==
+*TBA
+==Trivia==
+*It is based of the [https://skibidi-toilet.fandom.com/wiki/Laser_Strider_Skibidi_Toilet#Upgraded_Laser_Strider_Skibidi_Toilet Laser Strider Skibidi Toilet].
+==Gallery==
+[[Category:Toilets]]
+[[Category:Valentines Event 2025]]
+[[Category:Enemies]]
+[[Category:Spiders]]

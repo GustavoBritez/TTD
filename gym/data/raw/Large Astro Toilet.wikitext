@@ -1,0 +1,34 @@
+{{Stub}}{{Toilet Infobox|title1=Large Astro Toilet|image1=Large_Astro_Toilet.png|species=Astro|health=172,241,456 (Endless Mode) 14,100,000 (Abysmal Mode)|speed=Average|wave_debut=Wave 149 (Endless Mode)  Wave 57 (Abysmal Mode)|modes=[[Endless Mode]] [[Abysmal Mode (The Void)]]|abilities=Uses Blaster To Stun Nearby Units.|ability_1=Uses His 6 Red Lasers To Stun Nearby Units  for 10 seconds The Laser Can be Serepated.|ability_2=Uses His  4 Blaster To Stun Nearby Units for 6 seconds. (The Blaster Missiles Can be Seperated)}}
+
+== Overview ==
+The '''Large Astro Toilet''' is an [[Enemies|enemy]] that was added in the [[Episode 75 Update]].
+
+This Astro Toilet has 172,241,456 base HP, with only one player in the match. Using this math, two players would double the HP, and so on.
+
+== Appearance ==
+The Large Astro Toilet is a big black toilet, with a turret on the bottom and two large wings, each having four lasers and 2 winglets, To top it off, the Large Astro Toilet is equipped with a helmet and has two smaller winglets next to either side of it's head.
+
+== Gallery ==
+<gallery>
+File:Screenshot 2024-07-08 191741.png|Large Astro Toilet in game
+</gallery>
+
+== Trivia ==
+
+* This is based off [https://skibidi-toilet.fandom.com/wiki/Obliterator_Astro_Toilet?so=search Obliterator Astro Toilet] From The Series.
+
+[[Category:Toilets]]
+
+[[Category:Enemies]]
+[[Category:Incomplete pages]]
+[[Category:Stubs]]
+
+
+
+[[Category:Large]]
+
+
+[[Category:Stunners]]
+[[Category:Flying]]
+[[Category:Male Characters]]
+[[Category:Astro Toilets]]

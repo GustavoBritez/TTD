@@ -1,0 +1,55 @@
+{{Stub}}
+
+{{Toilet Infobox|title1=[[Helmet Boss Toilet 4.0]]|image1=Boss.png|species=Toilet|speed=Average|abilities=stuns with laser, blocks attacks|ability_1=Shield|appearances=Endless|ability_2=Laser Stun|wave_debut=50|modes=Nightmare Mode 
+Pencil World 
+Halloween Mode (2024) 
+Drill World Hard 
+Endless Mode}}
+''Were you looking for [[Giant Smooth Toilet]] or [[Boss Toilet 5.0]] or [[Boss Toilet 4.0]] or [[Boss Toilet 3.0]]?''
+
+==Overview==
+'''Helmet Boss Toilet 4.0''' is a stronger variant of the [[Boss Toilet 4.0]] in the game, with more health, along with being the strongest variation of the boss toilet. 
+==Appearance==
+His model looks exactly like the [[Boss Toilet 4.0]]'s model, however, he has a helmet instead of glasses and headphones, along with a black toilet bowl instead of a navy one.
+
+==Waves==
+He spawns in endless mode, at Wave 57, Wave 72, and Wave 86. He also spawns at Time Factory (Unconfirmed). He also spawns in Halloween Graveyard. He can spawn in Nightmare Mode in wave 42 (Unconfirmed). He can also spawn in Abysmal mode in wave 37, 52-60 (Unconfirmed).
+
+==Abilities==
+He is able to stun units with his lasers, block damage with his shield, and can move around his head.
+
+== Strategy==
+
+*Endless mode: Use [[Green Laser Cameraman]] or [[Astro Upgraded Titan Cameraman]] to slow and a unit have a lot of DPS like [[Hyper Upgraded Titan Speakerman]], and a healing unit like the [[Speaker Repair Drone]] to heal your units as it can stun your units.
+* Nightmare / event maps: Use [[Clock Spider]] or [[Classic Cameraman]] to easily defeat this toilet.
+*Abysmal mode: Use [[Clock Spider|1x Clock Spider]] or 1x [[Swat Mutant Toilet]] as a stunbait unit and use [[Guardian Clockman]] to defeat him.
+
+== Trivia==
+
+* He was added in [[Episode 72 Part 2 Update]].[[Category:Boss Toilets]]
+[[Category:Stunners]]
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Jetpack]]
+[[Category:Laser]]
+[[Category:Bosses]]
+[[Category:Shield users]]
+
+
+==Gallery==
+<gallery>
+File:Boss toilet 4.5.png|His Icon
+</gallery>
+
+==Update Log==
+April 7th, 2024: Added in [[Episode 72 Part 2 Update]]
+[[Category:Boss Toilets]]
+[[Category:Stunners]]
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Jetpack]]
+[[Category:Laser]]
+[[Category:Bosses]]
+[[Category:Shield users]]
+[[Category:Male Characters]]
+[[Category:Man Face]]

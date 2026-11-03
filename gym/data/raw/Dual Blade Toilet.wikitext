@@ -1,0 +1,16 @@
+{{Toilet_Infobox|image1=Dual Blade.png|caption-image1=Toilet.|description=|species=Toilet|health=68,000 (Nightmare)|speed=Slow|wave_debut=Wave 17 (Nightmare)|modes=Nightmare+|ability_1=Blade Swing: Stuns a unit for 5 seconds with its blades.}}{{PageNotFinished|reason=All information and clear image}}
+
+== Description ==
+The Dual Blade Toilet is a strong toilet that has two blades that it can use to stun your units. It only appears in Nightmare Mode. It can quickly kill the base if it reaches there. It has a stronger version called the Giant Dual Blade Toilet, which has more health and stuns faster.
+== Waves ==
+
+== Health ==
+
+== Trivia ==
+It is based off of the [https://skibidi-toilet.fandom.com/wiki/Dual_Blade_Skibidi_Toilet?so=search Dual Blade Skibidi Toilet] from the series.[https://skibidi-toilet.fandom.com/wiki/Dual_Blade_Skibidi_Toilet]
+[[Category:Enemies]]
+[[Category:Toilets]]
+[[Category:Stunners]]
+[[Category:Characters]]
+[[Category:Toilet]]
+[[Category:Valentines Event 2025]]

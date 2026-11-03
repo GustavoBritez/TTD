@@ -1,0 +1,21 @@
+{{Toilet_Infobox|image1=turret spider toilet.png|caption-image1=Toilet.|description=|species=Toilet|health=???|speed=Slow|wave_debut=???|modes=Nightmare+|ability_1=Turret Shoot: Shoots at a unit with its turret, stunning it for 5 seconds.}}
+== Overview ==
+The '''Turret Spider Toilet''' is an enemy that appears in [[Nightmare Mode]] and the Event Mode. It looks almost exactly like the [[Spider Toilet]] but has a turret that can stun units and it also has a ton more health. It also has the same speed as Spider Toilet. 
+== Waves ==
+...
+== Health ==
+...
+== Strategy==
+
+* The Turret Spider Toilet will stun units frequently. Medic Cameraman or Camera Repair Drone is required to unstun units stunned by this enemy so that your units will defeat the Turret Spider Toilet quicker.
+
+*
+==Trivia ==
+This is based off of the [https://skibidi-toilet.fandom.com/wiki/Strider_Skibidi_Toilet Strider Skibidi Toilet] in [https://skibidi-toilet.fandom.com/wiki/Skibidi_toilet_54 Episode 54].
+[[Category:Stunners]]
+[[Category:Toilets]]
+[[Category:Spiders]]
+[[Category:Enemies]]
+[[Category:Characters]]
+[[Category:Animals]]
+[[Category:Slow Toilets]]

@@ -1,0 +1,20 @@
+{{SeeAlsoNotice|Note1=[[Toilet (Unit)]]}}{{Toilet_Infobox|image1=Toilet1.png|caption-image1=Toilet.|description=|species=[[Enemies|Toilets]]|health=100|speed=Slow|wave_debut=Wave 1-2|modes=All modes (except the Void)}}
+''For the list of all enemies in the game, click [[Enemies|here]].''
+== Overview ==
+'''Toilet''' is a medium sized toilet and the second weakest toilet on every map. The toilet is white, and has a [[Small Toilet]] and [[Large Toilet]] variants. It is also slow but has much more health than the Small Toilet. They do 20 damage per hit to your base. 
+== Health ==
+
+* Wave 1: 100 HP
+* Wave 2: ??? HP
+
+== Strategy ==
+*The Toilet is a very easy enemy to defeat, being both low health and slow. Any unit can be used to defeat this enemy except for money troops (exception of [[Scientist Clockman]] and [[Gingerbread House]], which both do damage in both different ways) You can also let this enemy leak into the base as it only does 19 damage.
+==Trivia==
+*It is the second [[Toilets|enemy]] to appear on every map.
+*It is based off of the [https://skibidi-toilet.fandom.com/wiki/Normal_Skibidi_Toilet Normal Skibidi Toilet] from the series.
+*The Normal Skibidi Toilet first appeared in Episode 1 of the series.
+[[Category:Enemies]]
+[[Category:Characters]]
+[[Category:Toilets]]
+[[Category:Non-Stun Toilets]]
+[[Category:Valentines Event 2025]]

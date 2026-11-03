@@ -1,0 +1,26 @@
+{{Toilet_Infobox|image1=octo rocket.png|species=[[Enemies|Toilets]]|health=1,737,632 - Can Vary.|speed=??? (most likely Slow or very Slow)|wave_debut=38|modes=[[Endless Mode|Endless]]|ability_1=Rocket Shoot: Shoots a rocket at a unit, stunning it for 3 seconds. This has a ? second cooldown.}}{{Stub}}
+[[File:Octo rocket soldier.jpg|thumb]]
+
+== Overview ==
+The '''Octo Rocket Soldier Toilet''' is an enemy released in the [[Episode 71 Update]]. It only spawns in [[Endless Mode]], and nightmare
+
+== Appearance ==
+It is a toilet that has 2 rocket launchers with 4 rockets on each launcher. The toilet is wearing a helmet and is wearing armor.
+
+== Waves ==
+Octo Rocket Soldier Toilet spawns around wave 30.
+
+== Trivia ==
+
+* When Octo Rocket Soldier Toilet moves the flaps next to the rockets flap as he moves.
+
+== Gallery ==
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Stunners]]
+[[Category:Stubs]]
+[[Category:Characters]]
+
+
+[[Category:Rocket]]
+[[Category:Rockets]]

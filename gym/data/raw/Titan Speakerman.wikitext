@@ -1,0 +1,115 @@
+{{DISPLAYTITLE:{{Legendary|Titan Speakerman}}}}
+
+{{OldUnit|Release}}{{SeeAlsoNotice|PagesNumber=5|Note1=[[Hyper Upgraded Titan Speakerman]]|Note2=[[Upgraded Titan Speakerman]]|Note3=[[Knife Upgraded Titan Speakerman]]|Note4=[[Aquatitan Speakerman]]|Note5=[[Golden Titan Speakerman]]|Note6=[[Frost Titan Speakerman]]}}
+
+{{Units_infobox_(this_one)|image1=<gallery>
+Titan Speaker Man.png|Current
+Titan speakerman new icon.png|Version 2
+TitanSpeakerman.webp|Version 1</gallery>
+row1=500$|row2=[[Legendary]]|row3=[[Speakers]]|row4=5|row5=None|cost=500$|base_sell_price=250$|type=Single target|levels=5|rarity={{Legendary|[[Legendary]]}}|species=[[Speakers]]|special_abilities=None|unit_name={{Legendary|Titan Speakerman}}}}
+
+== Stats Table==
+{| class="fandom-table"
+|+Upgrades
+!Levels
+! Price
+!Damage
+!DPS
+!Cooldown
+!Atk Radius
+!Sell Price
+!Dps/$
+|-
+|LV1
+|500
+|200
+|200 
+|1
+|15
+|250
+|0.4 / $
+|-
+|LV2
+| 450
+|300
+|360
+|0.8 
+|20
+|475
+|0.38 / $
+|-
+|LV3
+| 600
+|500
+|833
+|0.6 
+|25
+|775
+|0.54 / $
+|-
+|LV4
+|900
+|1000
+|2000
+|0.5 
+|30
+|1225
+|0.82 / $
+|-
+|LV5
+|1500
+|2000
+|5000
+|0.4 
+|35
+|1975
+|1.27 / $
+
+|}
+==Strategy==
+Titan Speakerman can be a good starter game [[Units|unit]] in [[Nightmare Mode]].
+
+==Trivia==
+
+*It is the fifth cheapest legendary to place and the second cheapest titan to place, first being [[Very Important Titan]].
+*You can sell this unit for 150 Coins in the lobby.
+* This was the first legendary to be added to the game.
+*It is based off of the [https://skibidi-toilet.fandom.com/wiki/Titan_Speakerman?so=search Titan Speakerman] from the series.
+*In the series, '''Titan Speakerman''' has a red suit, but in this game, he used to have a white suit with a red tie instead. This was changed when the first Halloween update released.
+*It costs a total of 3950 to place and fully upgrade the '''Titan Speakerman'''.
+* This is one of the 5+ titans that only have single target, others being [[Titan Cameraman]], [[Saw Upgraded Titan Cameraman]], [[Upgraded Titan Drill Man]], [[Golden Titan Speakerman]], [[Volcanic Titan]], etc.
+* The [[Infected Titan Speakerman]] still has a white suit as the enemy was made before Titan Speakerman's red suit was added.
+* Apparently, if you search, "[[Titan Speakerman (Disambiguation)|poopy speakerboy]]" it will redirect you to this page.
+
+==Update Log==
+7/16/23: Added Titan Speakerman
+
+10/28/23: Remodeled and changed Titan Speakerman's Icon
+
+??/??/25: Remodeled Titan Speakerman Again
+
+=='''Gallery'''==
+<gallery>
+File:AssassinToiletRunningAwayFromTitanSpeakerman.png|Old Titan Speakerman in game
+File:Titan speakerman new icon.png|New Titan Speakerman
+File:TitanSpeakerman.webp|Old Icon
+File:New ts.png|Titan Speakerman in game (Current)
+File:Titan Speaker Man.png|Current icon
+File:Speaker titan infect.png|Its Infected self
+File:TitanSpeakermanicon.png|summoned
+File:RobloxScreenShot20230804 194306804.png
+Titan Speakerman Lvl 1.png|Titan Speakerman Lvl 1 Upgrade
+Titan Speakerman Lvl 2-5.png|Titan Speakerman Lvl 2-5 Upgrade
+File:TitanSpeakermanMiniicon.png|far away
+</gallery>
+[[Category:Units]]
+[[Category:Speakers]]
+[[Category:Titans]]
+[[Category:Legendary]]
+[[Category:Single Target]]
+[[Category:Characters]]
+[[Category:Male Units]]
+[[Category:Character Units]]
+[[Category:Male]]
+[[Category:Cheap]]
+[[Category:Obtainable]]

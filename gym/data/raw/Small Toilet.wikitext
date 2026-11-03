@@ -1,0 +1,52 @@
+{{Toilet_Infobox|image1=Small Toilet.png|caption-image1=Toilet.|description=|species=[[Enemies|Toilets]]|health=50+ (usually up to 200)|speed=Fast|wave_debut=Wave 1|modes=All (except abysmal)}}
+== Overview ==
+'''Small Toilet''' is the weakest [[Enemies|enemy]] and appears almost on every map. The toilet is white, and has a [[Normal Toilet]] and [[Large Toilet]] variants. It is also fast. Most units should be able to defeat this. If you want, you can leak this enemy as it only does 10 damage to the base.and is a lazy boy he hires his friends, he gives $3 if you defeat him
+
+== Waves ==
+
+=== Easy Mode! ===
+
+* Wave 1: x10 [[Small Toilet]]
+* Wave 2: x20 [[Small Toilet]]
+* Wave 13: '''x10 [[Small Toilet]]''' x10 [[Toilet]]
+
+=== Medium Mode ===
+TBA
+=== Hard Mode ===
+TBA
+=== Nightmare Mode ===
+TBA
+== Health ==
+=== Easy Mode ===
+50 HP
+=== Medium Mode ===
+50 HP 
+=== Hard Mode ===
+64 HP 
+=== Nightmare Mode ===
+104 HP 
+
+== Gallery ==
+<gallery>
+File:Smallpp.jpg
+File:Smallweld.png
+File:Toilet1.png
+File:Small toilet.png
+File:Small Toilet.png
+</gallery>
+
+==Trivia==
+
+* It is the first [[Toilets|enemy]] to appear on every map.
+* It is currently the weakest enemy in the game.
+* It is currently the smallest enemy in the game.
+* It is based off of the [https://skibidi-toilet.fandom.com/wiki/Mini_Skibidi_Toilet?so=search Mini Skibidi Toilet] from the series.
+* The Mini Skibidi Toilet first appeared in Episode 4 of the series.
+* It shares a model with [[Toilet]] and [[Large Toilet]], the only difference being size.
+[[Category:Enemies]]
+[[Category:Characters]]
+[[Category:Toilets]]
+[[Category:Toilet]]
+[[Category:Small]]
+[[Category:Non-Stun Toilets]]
+[[Category:Valentines Event 2025]]

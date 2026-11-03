@@ -1,0 +1,54 @@
+{{SeeAlsoNotice|4=a|PagesNumber=1|Note1=[[Smooth Toilet]]}}{{Toilet_Infobox|image1=<gallery>
+Jackson.png|Icon
+NightmareToliet.png|Model
+</gallery>|species=Toilet|health=2,505,000|speed=Fast|wave_debut=50 (Nightmare Mode)|modes=Nightmare, Christmas, Endless|ability_1=Claw Attack: Uses its claws to stun units.|ability_2=Buzzsaw Slice: Uses its buzzsaws to stun units.}}
+==Overview ==
+The '''Giant Smooth Toilet''' is an [[Enemies|enemy]] added in the [[Episode 69 Part 2 Update]]. It replaces [[Scientist Toilet]] as the boss for [[Nightmare Mode]], [[Ohio Mode]], and RNG Mode. 
+
+== Appearance ==
+He wears a hat and has 2 spear like weapons, 2 claws and 2 buzzsaws. He also has a metal plate attached to the lower part of his toilet and has 2 pairs of spider like legs.
+
+==Waves==
+
+===Nightmare Mode & Endless mode===
+
+*[[Nightmare Mode]]: Wave 50: x1 (2,505,000 HP)
+*[[Endless Mode]]: Wave 50: x1 (10,000,000≈ HP)
+
+== Abilities==
+
+*He can use his claws to stun units and buzzsaw to slice units and stun them
+
+==Strategy==
+
+*Use high DPS units (more than 30,000+ DPS is recommended to speedrun [[Nightmare Mode]]). Use unstun units and slowdown units if needed. Spread some other units out across the track in case it gets by.
+
+==Trivia == 
+
+*It is based on the [https://skibidi-toilet.fandom.com/wiki/Michael_Jackson_Skibidi_Toilet Michael Jackson Skibidi Toilet] in the series.
+*This unit was originally named 'Giant Mutant Toilet' as said by Telanthric, however, it wasn't known what caused the name change. It is also seen that the face has changed from the leaks video by telanthric.
+**This is most likely because Telanthric did not realize who this toilet was based on in the original series.
+**This toilet repleaced [[Scientist Toilet]] in nightmare mode.
+
+==Gallery==
+<gallery>
+File:Giant Smooth Toilet Full View.png
+File:E8644b0c-64f3-4a2a-9f1e-631bd84568ea.jpg
+</gallery>
+==Update Log==
+
+*12/30/23: Added Giant Smooth Toilet as the new Nightmare mode boss
+*11/30/24: Made Giant Smooth Toilet the boss of the new map, [[Dice World]]
+
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Stunners]]
+[[Category:Boss Toilets]]
+[[Category:Slow Toilets]]
+[[Category:Bosses]]
+[[Category:Endless Bosses]]
+[[Category:Toilet]]
+[[Category:Giant]]
+[[Category:Saw]]
+[[Category:Giant Toilets]]
+[[Category:Valentines Event 2025]]

@@ -1,0 +1,90 @@
+{{SeeAlsoNotice|PagesNumber=1|Note1=[[Glitch Cameraman]]}}{{Toilet_Infobox|image1=<gallery>
+GlitchToiletBossIcon.png|Boss Icon
+glitch skibi.png|In-Game
+</gallery>|caption-image1=sticking out your gyat for the rizzler|description=|species=Toilet|health=835,000 HP [wave 50]|speed=Average 
+Very Fast (Maximal after using Glitch Ram ability)|wave_debut=48-50|modes=Nightmare+ Halloween abysmal mode, endless|ability_1=Glitch Ram: Stuns a unit for 10 seconds. Changes speed to Maximal after ability is used.}}
+== Overview ==
+The '''Glitch Toilet''' is an [[Enemies|enemy]] that only appears in [[Nightmare Mode]] or [[Endless Mode]]. It was formerly the boss for Nightmare Mode, but now first appears on Wave 47. It has lots of health and is the second fastest toilet in the game, only surpassed by [[Cat Toilet]].
+== Appearance ==
+'''Glitch Toilet''' is a toilet that has a black toilet bowl that is covered with armor and the water tank is futuristic. It is very fast and also has a blue electric/lightning trail as it moves.
+== Waves ==
+----
+===[[Nightmare Mode]]===
+*Wave 47: 790,000 HP
+
+===[[Nightmare Mode]] Old Appearances===
+----
+*Wave 48: 805,000 HP
+*Wave 49: 820,000 HP
+*Wave 50: 835,000 HP
+
+=== [[Nightmare Mode|Nightmare Mode+]] ===
+----
+*Wave 41 1x
+*Wave 45 1x
+*Wave 50 1x
+----
+=== [[Endless Mode]] ===
+
+*Wave 40 - Boss: 1,600,000 HP per person
+*Wave 73: 2 Glitches
+*Wave 80:  2 from [[Dual Cargo Toilets]]
+*Wave 95: 8 Glitch Toilets
+*Wave 107: 1 Glitch Toilet
+*Wave 107: 1 Glitch Toilet
+*Wave 114: 6 Glitch Toilets
+*Wave 121: 6 Glitch Toilets
+
+==Time Factory==
+*Wave X: X HP
+----
+==Strategy ==
+
+----
+* The '''Glitch Toilet''' has a very high amount of HP,  so you should use high DPS units to defeat this enemy. (a cheap one is {{Mythic|[[Future Large Clockman]]}}, ''due to its overpowered time-stop, plus it has some stun-blocks and high, single target DPS.''))
+----
+* Glitch Toilet is very fast, so you could slow it down to make it easier to defeat. [[Units]] that can slow down this enemy are [[TV Woman]], Green Laser Cameramen or [[Mech Cameraman]]. {{Exclusive|[[TV Woman]]}} is not recommended as it does low damage.
+----
+* Glitch Toilet will quickly stun units, so you should use [[Medic Cameraman|a Medic Cameraman]], [[Camera Repair Drone]] or [[Speaker Repair Drone]] to unstun the [[Units|units.]]
+----
+* When Glitch Toilet goes off the track to stun a unit and it quickly gets unstunned, Glitch Toilet will go back to this unit to stun it again. This process will keep repeating, giving your units an alot of time to attack this enemy.
+**Alternatively, you can also use [[Shield Cameraman]] to defeat this unit, as Glitch Toilet will keep circling around the Shield Cameraman while taking damage.
+----
+*Do not place Spider units next to your base. When Glitch Toilet rushes forward to stun a unit, it may use any unit on its way to your base, but it aims for the unit's spawn location. If you place a Spider unit next to your base, Glitch Toilet can rush towards that location and immediately kill the base after finding no unit to stun.
+----
+*If you dont have [[Shield Cameraman]], it is reccomended to use any inf-stun unit (like {{Legendary|[[Leprechaun Cameraman]]}}, ''as it has a chance to infinitely stun this unit, whilst damaging it) , or a decoy unit (like the {{Basic|[[Toilet]]}}, ''relatively because of its cheap price'') and place it nearby in a area where the '''Glitch Toilet''' is, and atleast almost no units in the area.
+----
+==Trivia== 
+*He is based on the [https://skibidi-toilet.fandom.com/wiki/Glitch_Skibidi_Toilet Glitch Skibidi Toilet.]
+*He can go off-track to stun your units.
+*When The Glitch Toilet finishes stunning your units it will rush into your base at rapid speed.
+*The Glitch Toilet has a similar appearance with the mythic [[Glitch Cameraman]].
+*In the series, the Glitch Toilet died in Episode 54 and his toilet was used for [[Ninja Cameraman]].
+*This is the first [[Enemies|enemy]] to be a [[:Category:Spawner Minion|Spawner Minion]], because two of it can be spawned when  [[Dual Cargo Toilets]] are destroyed.
+----
+== Gallery ==
+<gallery>
+File:Glitch trail.png|Glitch Toilet's trail.
+File:Glitch Toilet.png|e
+</gallery>
+
+== Update Log ==
+----
+* ?/?/23: Added Glitch Toilet.
+* ?/?/23: Reworked Glitch Toilet and added trail.
+----
+
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Stunners]]
+[[Category:Glitches]]
+[[Category:Characters]]
+[[Category:Spawner Minion]]
+[[Category:Incomplete pages]]
+[[Category:Male Characters]]
+[[Category:Endless Bosses]]
+[[Category:Endless bosses]]
+[[Category:Fast toilets]]
+[[Category:Small]]
+[[Category:Off-Track Enemies]]
+[[Category:Valentines Event 2025]]

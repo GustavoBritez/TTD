@@ -1,0 +1,47 @@
+{{Toilet_Infobox|image1=Mutant jetpack.png|caption-image1=Toilet.|description=|species=Toilet|health=1,207,500|speed=Average|wave_debut=48|modes=Nightmare+|ability_1=Attack: Stuns a unit.}}
+== Overview ==
+'''Jetpack Mutant Toilet''' is one of the final bosses of [[Toilet HQ]]. It is fast, strong, and can also stun units. He was the final boss of [[Toilet HQ]] replacing the [[Glitch Toilet]]. But then he was replaced and moved down to Wave 49 on the next update because of him getting replaced with a new final boss which is the [[Quad Rocket Mutant Toilet|Quad Rocket Mutant Toilet,]] then was moved down to Wave 48 because of the [[Scientist Toilet]] getting added.
+== Appearance ==
+He has 2 buzzsaws, a jetpack, a blindfold and 5 extra props on his toilet.
+== Health ==
+
+=== [[Nightmare Mode]] ===
+Wave 48: 1,207,500 HP
+
+=== [[Nightmare Mode]] (Old) ===
+Wave 49: 1,228,500 HP
+
+Wave 50: 1,250,000 HP
+
+=== Other ===
+Wave 1: 150,000 HP
+== Strategy ==
+*The Jetpack Mutant Toilet is an extremely high health enemy. So high DPS units are required to defeat this enemy.
+*Jetpack Mutant Toilet is also quite fast, so you could use [[Upgraded Titan Cameraman]] Levels 5/6 to slow this enemy down. 
+*You can also use [[TV Woman]] or [[Mech Cameraman|Mech Cameraman,]] but those units do not do as much DPS, so they are less recommended.
+*Jetpack Mutant Toilet also will frequently stun units if it gets near any, so [[Camera Repair Drone]] or [[Medic Cameraman]] are required to unstun any units that have been stunned. 
+*As Jetpack Mutant Toilet stuns units very fast, you will need more than one Medic Cameraman to unstun all units stunned. 
+*[[Upgraded Titan Speakerman]] can absorb up to two stuns from the Jetpack Mutant Toilet, making  Camera Repair Drone and Medic Cameraman's job slightly easier.
+*He doesn't one-shot your base as he only does 250 damage to your base.
+
+== Trivia ==
+
+* In one of Telanthric's videos, he spawned the Jetpack Mutant Toilet at Wave 1 and it had 150,000 HP.
+* In the series, he has many cameramen/large cameramen bodies and a Large Speakerman head on the spikes on his toilet.
+* This Toilet is based of the [https://skibidi-toilet.fandom.com/wiki/Jetpack_Buzzsaw_Impaler_Skibidi_Toilet Jetpack Buzzsaw Impaler Skibidi Toilet.]
+
+[[Category:Toilets]]
+[[Category:Mutants]]
+[[Category:Enemies]]
+[[Category:Stunners]]
+[[Category:Characters]]
+
+
+[[Category:Male Characters]]
+[[Category:Jetpack]]
+[[Category:Bosses]]
+[[Category:Boss Toilets]]
+[[Category:Boss]]
+[[Category:Saw]]
+[[Category:Slow Toilets]]
+[[Category:Valentines Event 2025]]

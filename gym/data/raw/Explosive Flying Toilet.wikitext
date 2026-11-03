@@ -1,0 +1,43 @@
+{{Toilet_Infobox|image1=exploding toilet.png|species=Toilet|health=23,500|speed=Fast|wave_debut=???|modes=Medium+|ability_1=Self Destruct}}
+
+==Overview==
+The '''Explosive Flying Toilet''' is an [[Enemies|enemy]] that appears in Hard Mode and Nightmare Mode. It has a medium amount of health meaning it doesn't have too much health. 
+
+Its special ability is that after a unit being in about 10 radius of it, it will fly towards the unit, stunning it. This will also kill the toilet, and stun other units near the explosion. You will still get a cash reward even if it explodes. If you kill the toilet before it explodes, it will  not stun any units.
+==Appearance==
+Explosive Flying Toilet is a large toilet with 6 red bombs on it. It has a smiling face.
+==Health==
+Normally: 23,500 HP
+==Waves==
+TBA
+==Abilities==
+*Self Destruct: Flies up to a unit and explodes on it, stunning it for a long time. This will kill the enemy, and will stun other units in its radius.
+==Strategy==
+
+* You should set your towers to Weakest targetting to defeat it before it reaches a unit.
+* You can place your [[Scientist Cameraman]] or other units that don't directly deal damage at the front to tank the '''Explosive Flying Toilet's''' explosion.
+
+==Trivia==
+
+* It is based off of the [https://skibidi-toilet.fandom.com/wiki/Explosive_Barrel_Skibidi_Toilet Explosive Barrel Skibidi Toilet] from Episode 65 of the series.
+* In testing, the '''Explosive Flying Toilet''' was broken. See Gallery.
+*This does 200 damage to the base, but usually will explode before ever reaching the base.
+*Units such as Upgraded Titan Speakerman can block stuns from this enemy. However, it cannot protect other units as this enemy stuns units in a certain radius.
+
+== Gallery ==
+<gallery>
+File:Broken explosive.png|The toilet falling off of Explosive Flying Toilet with other units in the background. (Testing Server)
+File:Flying explode.png|Explosive Flying Toilet exploding on Glitch Cameraman, killing itself while stunning the unit.
+File:Explosive Rocket Toilet.png|Explosive Flying Toilet ingame.
+</gallery>
+[[Category:Enemies]]
+[[Category:Toilets]]
+[[Category:Stunners]]
+[[Category:Mid-air]]
+[[Category:Large]]
+[[Category:Splash]]
+[[Category:Flying]]
+[[Category:Toilet]]
+[[Category:Toilet Tower Defense Wiki]]
+[[Category:Off-Track Enemies]]
+[[Category:Red toilets]]

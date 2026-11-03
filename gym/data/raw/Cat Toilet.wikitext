@@ -1,0 +1,45 @@
+{{SeeAlsoNotice|Note1=[[Cat Toilet (Unit)]]}}{{Toilet_Infobox|image1=Cat_Toilet.png|species=Toilet|health=30,000|speed=Extremely Fast|wave_debut=Wave 25|modes=Nightmare Mode+|description=cat}}
+
+== Overview ==
+The '''Cat Toilet''' is an enemy that appears on [[Endless Mode]] and [[Nightmare Mode]], it has a solid amount of HP. It is very fast, and in fact, faster than Glitch Toilet. This may be the fastest enemy in the entire game right now. 
+
+== Appearance ==
+The '''Cat Toilet''' has an appearance of a white cat inside of a toilet. It is also small and has speed similar to a [[Glitch Toilet]] with less health. Due to this, it's very hard to see as it speeds through the entire track. To balance it out it stops at some parts of the course like the [[Vacuum Toilet]] and also creates meow sounds. 
+
+== Health ==
+
+=== Endless Mode ===
+Wave 25: 37,734HP
+
+== Waves ==
+
+=== Endless Mode ===
+Wave 25: X2
+
+Wave 102: between X5-X6
+
+== Strategy ==
+
+* The Cat Toilet is incredibly swift, so you would need a slowing unit like [[Green Laser Cameraman]] and high DPS unit or a good cooldown unit. Use the same strategy as you would use on the Glitch Toilet.
+
+== Gallery ==
+<gallery>
+File:Cat Toilet.png
+</gallery>
+
+== Trivia ==
+
+* It is based of the [https://skibidi-toilet.fandom.com/wiki/Cat_Skibidi_Toilet Cat Skibidi Toilet] From the Series. It appeared in the Skibidi Toilet series in the early episodes where the Toilet Cameraman took a look into the first skibidi base.
+* It makes the sound ‘meow’ when it runs.
+* It is the fastest toilet in the game, surpassing Glitch Toilet's speed, albeit with very low HP.
+* It does 200 damage to your city.
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Characters]]
+[[Category:Toilet]]
+[[Category:Fast]]
+[[Category:Fast toilets]]
+[[Category:Small]]
+[[Category:Animals]]
+[[Category:Non-Stun Toilets]]
+[[Category:Valentines Event 2025]]

@@ -1,0 +1,51 @@
+{{Toilet_Infobox|image1=Boss_toilet_2.0.webp|caption-image1=Toilet.|description=|species=[[Enemies|Toilet]]|health=214000|speed=Slow|wave_debut=Medium Mode: 30 Wave
+
+Hard Mode:17 Wave|modes=All|ability_1=Laser Shoot: Shoots its lasers at 2 different units, stunning them both.|appearances=[[Medium Mode]], [[Hard Mode]], and [[Nightmare Mode]]|title1=Boss Toilet 2.0}}
+== Overview ==
+'''Boss Toilet 2.0''' is a boss [[Enemies|enemy]] that appears in [[Medium Mode]] as the final boss, [[Hard Mode]], and [[Nightmare Mode]]. It is Relatively easy to kill despite it being able to stun (due to most units having stun blocks).
+
+== Waves ==
+=== [[Medium Mode]] ===
+Wave 30: x1 (214000 HP)
+=== [[Nightmare Mode]] ===
+Wave 17: x1 (136000 HP)
+
+Wave 23: 166000 HP
+
+Wave 28: 196000 HP
+
+Wave 31: 220000 HP
+
+Wave 38: 262000 HP
+
+Wave 42: 280000 HP
+
+Wave 50: 334000 HP
+
+== Strategy ==
+
+* Fairly Easy to take out, use a multi target unit with good DPS (such as [[Mystical Camerawoman]]).
+
+== Trivia ==
+* It is based off of the [https://skibidi-toilet.fandom.com/wiki/G-Man_Skibidi_Toilet?so=search#G-Man_Skibidi_Toilet_3.0 G-Man Skibidi Toilet 2.0].
+* It is the second enemy that can stun units, the first being Vacuum Toilet.
+* It is a stronger version of the [[Boss Toilet]], but has a stronger version that is called the [[Boss Toilet 3.0]].
+* A Wave 1 Boss Toilet 2.0 have 51000HP, increasing 5000 HP per wave.
+
+== Gallery ==
+<gallery>
+File:Boss Toilet 2.0 new image...png
+File:2.0 boss toilet.png
+</gallery> 
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Stunners]]
+[[Category:Boss Toilets]]
+[[Category:Slow Toilets]]
+[[Category:Characters]]
+[[Category:Jetpack]]
+[[Category:Laser]]
+[[Category:Toilet]]
+[[Category:Laser users]]
+[[Category:Dual Wield]]
+[[Category:Bosses]]

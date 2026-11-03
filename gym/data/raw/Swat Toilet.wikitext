@@ -1,0 +1,27 @@
+{{DISPLAYTITLE:{{Mythic|{{PAGENAME}}}}}}{{Unobtainable}}
+
+'''Looking for [[Swat Mutant Toilet|SWAT Mutant Toilet]]?'''
+
+{{Units infobox|unit_name={{Mythic|Swat Toilet}}|rarity={{Mythic|[[Mythic]]}}|species=[[Toilets]]|type=Single Target|special_abilities=None|image1=File:Swat Toilet.png|cost=$800|base_sell_price=$400}}
+
+== Overview ==
+He is a {{Mythic|Mythic}} added in [[Summer Update Part 2|Summer Part 2]].
+
+== Obtainment ==
+Previously it was bought with 100 Summer Tokens, but it was removed from the store in the Christmas Update 2025
+
+== Stats Table ==
+I will try to obtain this unit and check for stats.
+
+== Trivia ==
+
+* Like [[Titan Grill TV Man]], he is extremely rare and barely any one knows and talks about him.
+* He is kinda trash because he is only single target.
+
+
+[[Category:Units]]
+[[Category:2025]]
+[[Category:Shop]]
+[[Category:Mythic]]
+[[Category:Toilets]]
+[[Category:Toilet Units]]

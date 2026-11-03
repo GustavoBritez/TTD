@@ -1,0 +1,57 @@
+{{Toilet_Infobox|image1=Screenshot 2023-12-24 124131-removebg-preview.png|caption-image1=Toilet.|description=|species=Toilet|health=357,000 HP|speed=Fast|wave_debut=Wave 34|modes=Nightmare+|ability_1=Laser Cannon Shoot: Shoots a laser at a unit, stunning it for 3 seconds 5 times.|ability_2=Invisibility: Goes invisible, gaining immunity to all forms of damage except for ramming.}}
+== Overview ==
+The '''Laser UFO Toilet''' is a stronger version of the [[UFO Toilet]] that appears in Nightmare Mode.
+
+Its special ability is that can stun towers with its laser gun, but it has a longer stun time and more range than the normal UFO Toilet. It also has an invisibility abilty where it goes invisible, which makes it immune to all forms of damage except from ramming from units.
+
+== Appearance ==
+The laser UFO toilet resembles the [[UFO Toilet]], however, it has a stronger laser, it is able to stun like the [[UFO Toilet]], but for longer and it has more range.
+
+== Health ==
+[[Nightmare Mode|'''Nightmare Mode''']]
+
+34 Wave: 357,000 HP
+
+38 Wave: 393,000 HP
+
+44 Wave: 447,000 HP
+
+48 Wave: 483,000 HP
+
+== Waves ==
+34 Wave: 1x
+
+38 Wave: 1x
+
+44 Wave: 1x
+
+48 Wave: 1x
+== Strategy ==
+* The Laser UFO Toilet is a stronger version of the UFO Toilet, but it does appear later. 
+*You can use Medic Cameraman to unstun units that are stunned, but one Medic Cameraman is not enough to heal all stuns. Camera Repair Drone will run out of battery quickly.
+* You should use high DPS units to take this down, as it has more health. 
+*Level 5/6 Upgraded Titan Cameraman can slow this enemy down, as it is fast, and Upgraded Titan Cameraman also does high DPS. TV Woman can also slow it down, and Mech Cameraman can both slow it down and do high DPS for a cheap price.
+* If it gets too far, Secret Agent can do 100,000 damage to it, possibly killing it depending on how much damage your main defense did to it. 
+**You should place Secret Agent very close, as if you place it too far, it may not have enough range or will stun Secret Agent before he can do damage, as Laser UFO Toilet has more range. 
+**If Secret Agent gets stunned, it will be stunned for much longer than the normal UFO Toilet, and if it gets unstunned, Laser UFO Toilet will stun it again, as it has a lower cooldown and more range.
+
+== Trivia ==
+* It is based on the [https://skibidi-toilet.fandom.com/wiki/Overseer_Astro_Toilet Overseer Astro Toilet].
+* The [https://skibidi-toilet.fandom.com/wiki/Overseer_Astro_Toilet Overseer Astro Toilet] first appeared in Episode 60 of the series (technically Episode 53).
+* The laser UFO toilet has a much stronger range and laser than its original form, the [[UFO Toilet]].
+* In the show, there is only one character, ''The Astro toilet.'' However, in episode 60 he gained a stronger laser off-screen, thus giving this new character a place in ''Toilet tower defense''.
+* It currently only appears in the later waves of Nightmare mode.
+
+== Gallery ==
+<gallery>
+File:Laser ufo toilet laser not centered.png|The Laser UFO Toilet's laser is not centered.
+</gallery>
+[[Category:Toilets]]
+[[Category:Characters]]
+[[Category:Stunners]]
+[[Category:UFO]]
+
+[[Category:Laser]]
+[[Category:Laser users]]
+[[Category:Astro Toilets]]
+[[Category:Enemies]]

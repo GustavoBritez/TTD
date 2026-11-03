@@ -1,0 +1,27 @@
+{{SeeAlsoNotice|PagesNumber=1|Note1=[[Giant Turkey Toilet]] or [[Turkey Toilet]]}}{{Stub}}{{Toilet Infobox|title1=Upgraded Giant Turkey Toilet|species=Turkey Toilet|health=8M (8,000,000)|speed=Slow|appearances=[[Thanksgiving Table]]|wave_debut=60|modes=[[Thanksgiving Table]]|image1=Screenshot 2024-11-29 215512.png}}
+
+== Overview ==
+Upgraded Giant Turkey Toilet is a Boss that was added in the Thanksgiving 2024 Event. 
+
+== Trivia ==
+
+*This is the only event toilet that has been upgraded.
+*This is heavily inspired by its previous counterpart, just upgraded.
+*Even though it been the upgraded version of the [[Giant Turkey Toilet]]. Upgraded Giant Turkey Toilet can't shoot a laser, like the [[Giant Turkey Toilet]] can do.
+
+== Gallery ==
+<gallery>
+File:Screenshot 2024-11-29 215512.png|In-game.
+</gallery>
+[[Category:Bosses]]
+[[Category:Enemies]]
+[[Category:Toilet]]
+[[Category:Toilets]]
+[[Category:Thanksgiving Event]]
+[[Category:Event Enemies]]
+[[Category:Thanksgiving event]]
+[[Category:Non-Stun Toilets]]
+[[Category:Boss Toilets]]
+[[Category:Upgraded characters]]
+[[Category:Animals]]
+[[Category:Giant Toilets]]

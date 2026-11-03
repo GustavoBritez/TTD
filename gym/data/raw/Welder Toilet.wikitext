@@ -1,0 +1,37 @@
+{{Toilet_Infobox|image1=Welder toilet.png|species=Toilet|health=535,000 HP|speed=Fast|wave_debut=Wave 30|modes=[[Nightmare Mode]], [[Endless Mode]]|abilities=Picks up and welds 2 toilets|ability_1=Picks up two toilets and welds them together, back to back.|description=This toilet picks up other toilets to weld them together, it sometimes may not pick up a 2nd toilet and just hold one like a forklift toilet.}}
+== Overview ==
+The '''Welder Toilet''' is an [[Enemies|enemy]] added in the [[Episode 68 Part 2 Update]]. It has a special ability to weld toilets together to make them more powerful. 
+
+==Appearance==
+The Welder Toilet wears a welding mask and has a claw on its left hand and metal type on its right. It wears a jetpack on its back. The claw it uses is nearly identical in model as the claw from the [[Forklift Toilet]], only differences being the color and size.
+
+==Waves==
+''80: 6x Welder Toilets (Unconfirmed)''
+
+==Strategy==
+'''Welder Toilet''' is not very deadly, but anything that it picks up can be deadly sometimes since it may be a stunning type and when released, the units might be in a situational attack if it happens. The enemy itself or whatever it holds has to be defeated to slow down the stuns by using high Dps units.
+
+==Trivia== 
+
+*Welder Toilet, along with [[Forklift Toilet]] are the only toilets that can pick up other toilets.
+*Welder Toilets can sometimes pick [[enemies]] that can stun [[units]] making the toilets unable to stun the [[units]], so it can actually help the player in certain occasions.
+*If there is a row of them, they have a chance where they can weld themselves together forming a chain.
+==Gallery==
+<gallery>
+File:Small toilets welded.png|Two Small Toilets welded together by the Welder Toilet.
+File:When toilet hold each other.jpg|Welder Toilets and [[Forklift Toilet|Forklift Toilets]] holding eachother
+File:Welded toilets.png|Two toilets welded together
+File:Welders the sky.jpg|Welder Toilets holding eachother in a chain
+</gallery>
+
+==Update Log==
+12/22/23: Added Welder Toilet.
+[[Category:Characters]]
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Stunners]]
+[[Category:Mid-air]]
+[[Category:Jetpack]]
+[[Category:Fast]]
+[[Category:Holdable Toilets]]
+[[Category:Flying]]

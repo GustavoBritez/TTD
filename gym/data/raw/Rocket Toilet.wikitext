@@ -1,0 +1,107 @@
+{{Stub}}{{Toilet_Infobox|image1=Rocket toilet.png|caption-image1=Toilet.|description=|species=Toilet|health=115000-387,500|speed=Fast|wave_debut=Wave 25|modes=Hard+ Nightmare+ Endless+}}
+== Overview ==
+'''Rocket Toilet''' is an [[Toilets|enemy]] that appears in Hard Mode and Nightmare Mode. It is fast and has a high amount of HP. Despite having rockets, it cannot use them to stun units. 
+== Waves & Health ==
+{| class="fandom-table"
+|+'''Hard Mode'''
+!'''Wave'''
+!'''Amount'''
+!Health
+|-
+|Wave 25
+|1x
+|115,000
+|-
+|Wave 39
+|1x
+|167,500
+|-
+|Wave 40
+|2x
+|171,250
+|-
+|Wave 45
+|2x
+|190,000
+|-
+|Wave 46
+|1x
+|193,730
+|-
+|Wave 47
+|2x
+|197,500
+|-
+|Wave 48
+|3x
+|201,250
+|}
+
+{| class="fandom-table"
+|+Nightmare Mode
+!Wave
+!Amount
+!Health 
+|-
+|21
+|1x
+|200,000
+|-
+|25
+|1x
+|230,000
+|-
+|27
+|1x
+|245,00
+|-
+|28
+|3x
+|252,500
+|-
+|31
+|2x
+|275,000
+|-
+|33
+|2x
+|290,000
+|-
+|38
+|1x
+|327,000
+|-
+|40
+|2x
+|324,500
+|-
+|46
+|2x
+|387,500
+|}
+
+== Strategy ==
+* The '''Rocket Toilet''' is a very fast and high health enemy, so you should always be prepared when it comes.
+* Because of its speed, it is very hard to defeat, so you should use some units to slow it down. These units are [[Mech Cameraman]], [[TV Woman]], and [[Upgraded Titan Cameraman]] Levels 5/6.
+* It also has a lot of health, so you should use a high DPS unit such as [[Jetpack Cameraman]].
+
+== Trivia ==
+* It is based off of the [https://skibidi-toilet.fandom.com/wiki/Giant_Rocket_Skibidi_Toilet Giant Rocket Skibidi Toilet] from the series.
+* Despite having rockets, it does not explode nor stun units. However, it heavily damaged the Titan Cameraman in the series by exploding on him.
+* Gets replaced by [[Airplane Toilet]] in the later waves.
+* One thing to note that in the actual series there are 6 rockets but in the game there is 4 rockets.
+
+== Gallery ==
+<gallery>
+File:Rocket toilet.png|icon
+</gallery>
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Characters]]
+
+[[Category:Stub]]
+[[Category:Stubs]]
+[[Category:Fast]]
+[[Category:Non-Stun Toilets]]
+[[Category:Rockets]]
+[[Category:Valentines Event 2025]]

@@ -1,0 +1,18 @@
+{{SeeAlsoNotice|Note1=[[Mafia Toilet (Unit)]] or it's upgraded version [[Upgraded Mafia Toilet]] or it's upgraded toilet version [[Toxic Mutant Toilet]]}}{{Stub}}
+
+== Overview ==
+{{Toilet Infobox|title1=Mafia Toilet (Enemy)|species=Toilet|health=51|speed=Medium-fast|wave_debut=N/A (Spawned by Commands)|modes=Drill World (Drill event)
+Halloween Graveyard 2024|image1=Screenshot 2024-08-31 155939.png}}
+
+* '''Mafia Toilet''' is a secret [[Enemies|enemy]] that can only be spawned by admins, and when spawned it has a base health of 51.
+
+== Trivia ==
+* The Mafia Toilet was discovered by a Youtuber Named '''manofTaj'''.
+[[Category:Toilets]]
+[[Category:Toilet]]
+[[Category:Enemies]]
+[[Category:Incomplete pages]]
+[[Category:Stub]]
+[[Category:Non-Stun Toilets]]
+[[Category:Small]]
+[[Category:Male Characters]]

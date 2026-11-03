@@ -1,0 +1,33 @@
+{{Toilet_Infobox|image1=large no bg.png|caption-image1=Toilet.|description=|species=Toilet|health=1000|speed=Slow|wave_debut=Wave 20 (Easy)
+Wave 15 (Medium)
+Wave 12 (Hard)
+Wave 2 (Abysmal)
+Wave 1 (Easter)|modes=All}}
+== Overview ==
+The '''Large Toilet''' is usually the [[toilet]] that appears before the [[Boss Toilet|boss toilet]]. It looks exactly like a [[Normal Toilet|normal toilet]] but bigger and has more health. It has a [[Normal Toilet|normal]] and [[Small Toilet|small]] variant. It usually gives around $100 upon death. 
+== Waves ==
+
+=== Easy Mode ===
+Wave 20: ??? HP x2
+=== Medium Mode ===
+Wave 11 ??? HP x1
+=== Hard Mode ===
+Wave 12 2500HP
+=== Nightmare Mode ===
+??? ???HP
+=== Abysmal Mode ===
+??? ???HP
+== Strategy ==
+*The '''Large Toilet''' does have a lot of health, but is very slow. In other modes, it is spammed and can give you thousands of money.
+*AoE units such as the [[Large TV Man]] can easily defeat groups of this enemy.
+*In Hard mode+, this toilet comes in group making a great way for units that have AoE to destroy and make a lot of money(When killed 1 toilet gives 100$)
+== Trivia ==
+
+* It is based off of the [https://skibidi-toilet.fandom.com/wiki/Large_Skibidi_Toilet?so=search Large Skibidi Toilet] from the series.
+* The Large Toilet has the same model as the [[Small Toilet]] and the [[Toilet]], just being larger than both.
+
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Characters]]
+[[Category:Large]]
+[[Category:Non-Stun Toilets]]

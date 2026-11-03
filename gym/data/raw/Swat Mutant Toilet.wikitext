@@ -1,0 +1,117 @@
+{{DISPLAYTITLE:{{Exclusive|{{PAGENAME}}}}}}{{Stub}}{{Unobtainable}}{{Units infobox (this one)|image1=<gallery>
+SwatMutantToiletv2.png|New
+SwatMutantToilet.png|Old
+</gallery>|cost=$500|base_sell_price=$250|type=🚗{{Basic|Movable}}🚗
+💦{{Rare|Splash}}💦|levels=5|rarity={{Exclusive|[[Exclusive]]}}|species=[[Toilets (Units)|Toilets]]|unit_name={{Exclusive|Swat Mutant Toilet}}|special_abilities=Double splash attack}}
+
+==Overview ==
+The '''Swat Mutant Toilet''' is a new [[Exclusive|Exclusive unit]] added inside of the [[Episode 77 Part 1 Update]].
+
+==Obtainment==
+You can obtain the '''Swat Mutant Toilet''' by buying it for [[File:Robux.png|25px]]399, [[Trading]] for it, or by buying it from the [[Marketplace]], or getting gifted it in the [[Post Office]].
+
+== Appearance ==
+The toilet seems to have an army helmet, as well as a police shield, and a sickle for an arm. On the back it appears to some sort of jetpack with four rocket launchers attached to it.
+
+==Stats Table==
+{| class="fandom-table"
+|+
+!'''Level'''
+! '''Price'''
+!'''Total Price'''
+!'''Damage'''
+!'''Blast Range'''
+!'''Range'''
+!'''Walk  Range'''
+!'''Cooldown'''
+!'''Sell Price'''
+!'''DPS'''
+|-
+|LV1
+|$500
+|$500
+|4000
+|0
+|10
+|60
+|2
+|$250
+|2000
+|-
+|LV2
+|$1000
+|$1500
+|12000
+|0
+|20
+|60
+|2
+|$750
+|6000
+|-
+|LV3
+|$3000
+|$4500
+|40000
+|0
+|20
+|60
+|2
+|$2250
+|20000
+|-
+|LV4
+|$10000
+|$14500
+|67500
+|10
+|20
+|70
+|1.5
+|$7250
+|45000
+|-
+|LV5
+|$30000
+|$44500
+|100000
+|15
+|20
+|90
+|1
+|$22250
+|100000
+|}
+
+== Strategy ==
+
+* If you are playing with 2 other friends, you can use this unit as a [[Clock Spider]] but with a higher cooldown and more damage.
+* Abysmal mode (with 3 players): Use this unit as early and mid game defense because this unit cannot carry the other 2 players. Use Demented Titan Cameraman or other units with 120k DPS to carry 2 players. (e.g.:[[Toilet Man]], [[Titan Heart Man]], [[Axe Upgraded Titan Speakerman]]).
+
+==Trivia==
+
+*The '''Swat Mutant Toilet''' is based off of the [https://skibidi-toilet.fandom.com/wiki/SWAT_Mutant_Skibidi_Toilet?so=search Swat Mutant Toilet] from the series.
+*This is the first Movable unit with 100k DPS, considered as the strongest movable unit in the game.
+*Cannot be stunned as he blocks all of stuns because of being a Movable.
+*Its weaker and cheaper alternative is the [[Sniper Cameraman]].
+*For some reason, Telanthric made the 1.0 form of SWAT Mutant Toilet a unit, instead of the 2.0 form with Astro upgrades, such as the double cyber sickles and the Astro visor.
+
+==Gallery==
+<gallery>
+SwatMutantToiletNew.png|Icon
+File:SwatMutantToilet.png|Old Icon.
+File:Screenshot 2024-08-23 173333.png|Swat Mutant Toilet inside of the Episode 77 Part 1 Leaks video by Telanthric.
+File:SwatMutantToiletInInventory.png|Swat Mutant Toilet in Inventory
+</gallery>
+[[Category:Toilets]]
+[[Category:Toilet]]
+[[Category:Exclusive]]
+[[Category:Movable]]
+[[Category:Toilet Units]]
+[[Category:Male Characters]]
+[[Category:Male Units]]
+[[Category:Mutants]]
+[[Category:Units]]
+[[Category:Obtainable]]
+[[Category:Expensive]]
+[[Category:5 Upgrades]]

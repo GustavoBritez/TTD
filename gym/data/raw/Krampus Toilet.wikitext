@@ -1,0 +1,17 @@
+{{Toilet Infobox|title1=Krampus Toilet|image1=Krampus.png|species=Toilet|speed=?|appearances=[[Santa's Workshop]]|wave_debut=50}}
+
+== Overview ==
+The Krampus Toilet was released in the [[Christmas Event Update]] 2024.
+
+== Trivia ==
+* He is based on a horned anthropomorphic figure who, in the Central and Eastern Alpine folkloric tradition, is said to accompany Santa on his visits to children during the night of 5 December (''Krampusnacht''; "Krampus Night"), immediately before the Feast of St. Nicholas on 6 December. In this tradition, Saint Nicholas rewards well-behaved children with small gifts, while Krampus punishes badly-behaved ones with birch rods.
+* He is the boss of both Easy and Hard mode in the [[Santa's Workshop]] map.
+* He is the first toilet to start with the letter K.
+[[Category:Bosses]]
+[[Category:Boss Toilets]]
+[[Category:Male Characters]]
+[[Category:Christmas Event]]
+[[Category:Enemies]]
+[[Category:Toilets]]
+[[Category:Event Enemies]]
+[[Category:2024]]

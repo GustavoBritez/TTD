@@ -1,0 +1,55 @@
+{{SeeAlsoNotice|Note1=[[Titan Speakerman]]|PagesNumber=3|Note2=[[Upgraded Titan Speakerman]]|Note3=the unit with the almost exact same name, [[Titan Infected Speakerman]]}}{{Toilet_Infobox|image1=speaker titan infect.png|species=Speakers|health=620,000|speed=Average|wave_debut=Wave 46 (Nightmare)|modes=Nightmare and Endless|ability_1=Plasma orb: shoots a red glowing orb stunning towers.}}
+
+== Overview ==
+'''Infected Titan Speakerman''' is an enemy that only appears in [[Nightmare Mode]] and [[Endless Mode]]. It has a high amount of health and has a special ability where it can shoot at [[units]] to stun them. It is an enemy version of its unit counterpart, {{Legendary|[[Titan Speakerman]]}}.
+== Appearance ==
+The '''Infected Titan Speakerman''' looks like the old version of {{Legendary|[[Titan Speakerman]]}} but with blue lighting particles around its head and speakers because it is infected. As it is the old version of Titan Speakerman, it has a white suit, unlike the current {{Legendary|[[Titan Speakerman]]}}, which has a red suit instead of a white one.
+
+== Waves ==
+=== [[Endless Mode]] ===
+* Wave 46: x1
+* Wave 49: x1
+* Wave 50: x1
+== Health ==
+=== [[Nightmare Mode]] ===
+* Wave 46: 620,000 HP
+* Wave 49: 656,000 HP
+* Wave 50: 668,000 HP
+== Strategy ==
+* The '''Infected Titan Speakerman''' can stun units. This might not be much of a problem, but if you have too little units, all of your units will be stunned. 
+*You can use {{Epic|[[Medic Cameraman]]}}, {{Exclusive|[[Speaker Repair Drone]]}} or {{Exclusive|[[Camera Repair Drone]]}} to unstun your units.
+* '''Infected Titan Speakerman''' has a lot of health, so you should use high DPS units to take this down such as {{Mythic|[[Upgraded Titan Cameraman]]}}.
+* {{Mythic|[[Upgraded Titan Speakerman]]}} can block two stuns from the Infected Titan Speakerman, making it very useful for protecting your higher DPS units.
+
+* {{Mythic|[[Sinister Titan TV Man]]}}, {{Legendary|[[Mech Cameraman]]}}, Levels 5/6 {{Mythic|[[Upgraded Titan Cameraman]]}}, {{Exclusive|[[Astro Upgraded Titan Cameraman]]}} and {{Exclusive|[[TV Woman]]}} can be used to slow this enemy down, making it easier to defeat.
+
+* Any type of movable unit cannot be stunned by this enemy, making units such as {{Exclusive|[[Spider TV]]}} and {{Exclusive|[[Upgraded Camera Spider]]}} more useful against this enemy.
+* {{Mythic|[[Upgraded Titan Cameraman]]}} can block 1 stun at Levels 4+ making it useful to protect other units along doing high DPS and slowing down with AoE.
+
+== Update Log ==
+8/10/23: Added Infected Titan Speakerman.
+
+10/20/23: Changed Infected Titan Speakerman walking animation along with all [[Mutant Toilet|Mutant Toilets]].
+
+== Trivia ==
+* It is based off of the [https://skibidi-toilet.fandom.com/wiki/Infected_Titan_Speakerman Infected Titan Speakerman] from the series.
+* In the game, he has a white suit, but in the series, he has red clothes.
+* In the game, He is the same size as [[Camera Helicopter|Mini Titan Cameraman]] but moves slower and has a different ability.
+* This is the only [[Enemies|enemy]] in the game that is infected, and is a unit in the game.
+* [[Infected Titan Speakerman]] only appears in Nightmare Mode.
+* The uninfected form of him is {{Legendary|[[Titan Speakerman]]}}, and his upgraded form is {{Mythic|[[Upgraded Titan Speakerman]]}}.
+*The character is the {{Legendary|[[Titan Speakerman]]}}'s old version right after the release.
+
+== Gallery ==
+<gallery>
+File:Its better.png|Infected Titan Speakerman In-Game
+</gallery>
+[[Category:Speakers]]
+[[Category:Infected]]
+[[Category:Titans]]
+[[Category:Stunners]]
+[[Category:Male Characters]]
+[[Category:Characters]]
+[[Category:Male]]
+[[Category:Toilets]]
+[[Category:Enemies]]

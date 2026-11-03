@@ -1,0 +1,54 @@
+{{Toilet_Infobox|image1=<gallery>
+MutantPumpkinToiletBossIcon.png|Boss Icon
+mutant pumpkin but really bad.png|In-Game
+</gallery>|species=Toilet|health=2,000,000 - 8,350,000 In Halloween, 153M in Endless|speed=Average|wave_debut=Wave 50 (Abysmal Mode Halloween Event)
+Wave 109 (Endless Mode)|modes=Abysmal Mode, Endless Mode|ability_1=Hammer Smash: Uses its hammer to stun a unit.|ability_2=Angry look : Uses its head to stun IThink}}
+
+==Overview==
+The '''Mutant Pumpkin Toilet''' was the hardest enemy to defeat in the game while the [[Episode 66 Update|Halloween Event]] was happening. This enemy has a total of 8,350,000 HP in a solo match, being more than four times the amount of the [[Scientist Toilet]], the old strongest enemy in the game. It is the final boss of [[Abysmal Mode]] of the Halloween event.
+
+The '''Mutant Pumpkin Toilet''', though being the strongest enemy in the mode, only has one ability. This is being able to hit units with its hammer. This will let your units attack the Mutant Pumpkin Toilet for longer, making this ability useful for the players to slowly kill it.
+
+== Waves ==
+
+=== Abysmal Mode ===
+
+* Wave 50: 8,350,000 x1 (Solo)
+
+=== Endless Mode ===
+
+* Wave 110: 114M x1 (Solo)
+
+==Strategy==
+
+* You are required to place the highest DPS units to defeat this enemy. The [[Hyper Upgraded Titan Speakerman]] will be required to beat it very easily
+* In endless he is hard to deal with so read the other facts! :)
+* [[Astro Upgraded Titan Cameraman]] and Hyper uts in endless destroys this thing 
+* Units such as Spider TV will not be enough to defeat the Mutant Pumpkin Toilet as they do not do enough DPS.
+* The Titan Cinemaman is extremely expensive while doing less dps than the Upgraded Titan Cameraman, which makes it worse.
+
+==Trivia==
+
+* In wave Endless Mode, he first spawns on Wave 109, later spawning as a boss on Wave 110. This could possibly be a issue in spawning toilets in endless mode.
+
+== Gallery ==
+<gallery>
+File:Mutant pumpkin but really bad.png
+</gallery>
+
+== Update Log ==
+8/28/2023: Added in the [[Episode 66 Update|Halloween Event Update]]
+
+8/25/2024: Added in [[Graveyard]], Halloween Event 2024
+
+11/20/2023: Removed in the [[Episode 67 Part 3 Update|Thanksgiving Event Update]]
+
+1/12/2024: Re-added Mutant Pumpkin Toilet as the [[Endless Mode]] Boss of wave 110
+[[Category:Mutants]]
+[[Category:Event Enemies]]
+[[Category:Enemies]]
+[[Category:Toilets]]
+[[Category:Boss Toilets]]
+[[Category:Slow Toilets]]
+[[Category:Bosses]]
+[[Category:Endless Bosses]]

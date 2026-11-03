@@ -1,0 +1,59 @@
+''Were you looking for [[Scientist Toilet]]?''{{Toilet_Infobox|image1=laser sci.png|species=[[Enemies|Toilet]]|health=982,500|speed=Moderate-Fast|wave_debut=Wave 43 (Endless Mode)
+Wave 39 (Nightmare Mode)|modes=Nightmare Mode: wave 42
+Endless Mode: wave 38|ability_1=Laser Shoot: stuns your units}}
+== Overview ==
+
+The '''Laser Scientist Toilet''' is an enemy added in [[Episode 70 Part 3 Update]]. This is a faster version of the [[Scientist Toilet]] with less health. This enemy has four lasers it can use to stun units.
+
+This enemy only can spawn on endless mode and nightmare mode. He has a max health of 2 mil on wave 43 endless
+
+== Appearance ==
+Laser Scientist Toilet is a Large/Giant sized toilet with 4 lasers cannon and a jetpack. (He has really long lasers)
+
+He appears with his toilet bowl on the ground but in the series he doesn't well in series he does but in the series, he is floating a couple foot off the ground. (estimate) 
+
+== Waves ==
+Wave 43 - Endless Mode
+
+Wave 48 - Endless Mode
+
+Wave 38 - Nightmare Mode
+
+== Abilities ==
+*Laser Shoot: shoots lasers that stuns units.
+
+== Strategy ==
+*You should use high DPS units such as the Hyper Upgraded Titan Speaker man to defeat this enemy.
+*Units such as the Speaker Repair Drone can be used to unstun units stunned by the Laser Scientist Toilet.
+*The Healer TV Woman is immune to stuns, making it much easier to defeat this enemy with it.
+*The Shield Cameraman will make the Laser Scientist Toilet take damage every time it tries to stun the unit.
+== Trivia ==
+*This unit is based on the [https://skibidi-toilet.fandom.com/wiki/Chief_Scientist_Skibidi_Toilet#Quad-Laser_Scientist_Skibidi_Toilet_Mech Quad-Laser Chief Scientist Skibidi Toilet Mech] from the skibidi toilet series by Dafuqboom and he is seen in episode 70 part 3.
+*In the series he is the small scientist toilet inside a mech.
+*This is the second mech small scientist toilet has had.
+*
+== Update Log ==
+he was added in the episode 70 part 3 update which was added on 2/18/24.
+
+== Gallery ==
+<gallery>
+File:Laser scientist toilet.png|large scientist toilet sorry very hard to see.
+File:Laser scientist in game.jpg
+</gallery>
+[[Category:Enemies]]
+[[Category:Toilets]]
+[[Category:Stunners]]
+[[Category:Boss Toilets]]
+[[Category:Characters]]
+[[Category:Scientist]]
+
+
+[[Category:Laser]]
+[[Category:Laser users]]
+[[Category:Jetpack]]
+[[Category:Bosses]]
+[[Category:Mid-air]]
+[[Category:Man Face]]
+[[Category:Flying]]
+[[Category:Male Characters]]
+[[Category:Beard]]

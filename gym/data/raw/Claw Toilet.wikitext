@@ -1,0 +1,42 @@
+{{SeeAlsoNotice|PagesNumber=1|Note1=[[Astro Toilet]]}}{{Toilet Infobox|title1=Claw Toilet|image1=Claw Toilet.png|caption-image1=what do you get when you put a scorpion and a flying toilet together? this...|debut=Nightmare Mode, Wave 37|species=Toilet|health=712000 hp|speed=Slow|appearances=Nightmare and Endless mode|wave_debut=???|modes=Nightmare and Endless|ability_1=Claw Grab: Grabs a unit, stunning it.|ability_2=Claw Attack: Uses a different claw to stun a unit.|ability_3=Jumps one a unit stunning it}}
+
+== Overview ==
+The '''Claw Toilet''' is an extremely strong [[Toilets|enemy]] which appears in [[Nightmare Mode]] and [[Endless Mode]]. The Claw Toilet's special ability is that it is able to grab onto units and stun them. 
+== Appearance==
+The Claw Toilet is a flying toilet with three claws and a black toilet.
+
+== Waves==
+== [[Nightmare Mode]]==
+*Wave 37: x1
+*Wave 41: x1
+*Wave 43: x1
+*Wave 48: x1
+==Health==
+===[[Nightmare Mode]]===
+* Wave 37: 512,000 HP
+* Wave 41: 560,000 HP
+* Wave 43: 584,000 HP
+* Wave 48: 644,000 HP
+
+==Strategy==
+*High DPS units are recommended as it has more HP.
+*[[Medic Cameraman]] and [[Camera Repair Drone]] can unstun units stunned by this enemy.
+*If it gets too far, [[Secret Agent]] can be used to quickly do damage to this enemy.
+*Level 5/6 [[Upgraded Titan Cameraman]], [[TV Woman]], and [[Mech Cameraman]] can slow this enemy down, making it easier to defeat.
+*[[Upgraded Titan Speakerman]], [[Shield Cameraman]] can absorb stuns from the Claw Toilet, making it stuck on its spot and not do any stunning also not being able to reach your base and do damage
+
+== Trivia==
+* This is based off of the [https://skibidi-toilet.fandom.com/wiki/Detainer_Astro_Toilet Detainer Astro Toilet] 1.0 from the series.
+==Gallery==
+<gallery>
+File:Claw toilet + santa tvman.png|Claw toilet + santa tvman
+</gallery>
+[[Category:Characters]]
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Stunners]]
+[[Category:Astro Toilets]]
+[[Category:Off-Track Enemies]]
+[[Category:Slow Toilets]]
+[[Category:Flying]]
+[[Category:Valentines Event 2025]]

@@ -1,0 +1,11 @@
+{{Units infobox (this one)|unit_name={{Legendary|Sandshield Soldier}}|rarity={{Legendary|[[Legendary]]}}|image1=SandshieldSoldier.webp}}
+
+== Overview ==
+'''Sandshield Soldier''' is a {{Legendary|[[Legendary]]}} [[Units|unit]] added on the [[Colosseum Update]].
+
+[[Category:Units]]
+[[Category:Legendary]]
+[[Category:2025]]
+[[Category:Crate Units]]
+[[Category:Toilets]]
+[[Category:Toilet Units]]

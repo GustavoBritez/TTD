@@ -1,0 +1,65 @@
+{{SeeAlsoNotice|PagesNumber=2|Note1=[[Astro Toilet]]|Note2=[[Juggernaut Astro Toilet]]}}
+{{Toilet Infobox|image1=<gallery>
+SecutorAstroToiletBossIcon.png|Boss Icon (Current)
+1secutor astro.png|Boss Icon (Old)
+Secutor astro.png|In-Game</gallery>
+species=[[Astro Toilet]]|health=248,680,678 HP
+3,340,000 HP [[Abysmal Mode]]|speed=Fast|modes=[[Endless Mode]]|abilities=Stunning|title1=Secutor Astro Toilet|description=|wave_debut=140 and 150|species=Astro|ability_1=Using shield to block all damages for 10 seconds.|ability_2=Stunning Units for 10 seconds with orb.}}
+
+Not Confused to [[Juggernaut Astro Toilet]]
+
+== Overview ==
+The '''Secutor Astro Toilet''' is an [[Enemies|enemy]] added in the [[Episode 72 (Part 2) Update|Episode 72 Part 2 Update]] that spawns on Wave 140 of the [[Toilet Fortress]] in [[Endless Mode]].
+
+== Appearance ==
+It is an Astro toilet , wearing a grey gas mask with a spikey helmet. In the body there’s a spinning static warp levitator (like the [[UFO Toilet|UFO toilet]]), and it has pincers (like [[Astro Toilet]]) but with another pincer put on top of it, and along with an EMP shockwave cannon. It is also wielding an orange hexagonal shield. died when he was a kid
+
+== Waves ==
+*Wave 140: x1
+*Wave 150: x1
+
+== Abilities ==
+Please note that these abilities are unconfirmed except for the shield ability.
+* Stunning your [[units]].
+* Shield (block attacks)
+* Can shoot with his EMP Cannon.
+
+== Strategy ==
+*[[Astro Upgraded Titan Cameraman]] is useful to slow this enemy down, as it has the 2nd most slowing in the game, being 60%. 
+**Secutor Astro Toilet is also a very fast enemy for the health it has.
+*High DPS units such as [[Titan Fanman]], [[Upgraded Titan Drilldragon]], [[Titan Dice Man]] or [[Quantum Cameraman]] are needed to defeat this enemy.
+*This enemy's main ability will make it take no damage for a very long time using its shield, so be mindful of this attack.
+*[[Upgraded Titan Drilldragon]] can pull this enemy in, making it harder for it to reach the base and leading to more DPS. Although his shield can still be used while being pulled in. This ability can be a clutch move.
+
+== Trivia ==
+
+* His name is based off of a class of gladiators in Ancient Rome.
+* It is based off the [https://skibidi-toilet.fandom.com/wiki/Juggernaut_Astro_Toilet Juggernaut Astro Toilet] from the series.
+*This enemy has a counterpart being the [[Juggernaut Astro Toilet]] which spawns on wave 160.The difference is that the juggernaut has 2 huge enters cannons and a claw on his right arm
+*He used to have 279,618,240 HP before it was nerfed to 174,800,000 HP.
+
+== Gallery ==
+<gallery>
+File:Secutor Astro Toilet in game.png|Secutor Astro Toilet in game
+File:Secutor Astro toilet.png|Icon
+File:Secutor astro.png
+</gallery>
+[[Category:Toilets]]
+[[Category:Stunners]]
+[[Category:Boss Toilets]]
+[[Category:Bosses]]
+[[Category:Shooter toilets]]
+
+[[Category:Shield users]]
+
+
+
+[[Category:Enemies]]
+
+
+
+[[Category:Laser]]
+[[Category:Laser users]]
+[[Category:Fast toilets]]
+[[Category:Astro Toilets]]
+[[Category:Endless Bosses]]

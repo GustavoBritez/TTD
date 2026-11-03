@@ -1,0 +1,27 @@
+{{SeeAlsoNotice|Note1=[[Grim Reaperman]]}}{{Toilet Infobox|title1=The Grim Reaper|health=16.700.000(solo)
+32.565.000(duo)|image1=Reaper.png|speed=Average|wave_debut=50|modes=Halloween Mode}}
+
+== Overview ==
+The '''Grim Reaper''' is an [[Enemies|Enemy]] that appears on wave 50 in the [[Halloween Graveyard]].  It is the first enemy to defeat a unit, not able to do anything unless you sell it and place it back. It was added in the[[Halloween Event 2024]].
+
+== Appearance ==
+It appears to be a skeleton in a long, black robe, holding a scythe looking like the [https://villains.fandom.com/wiki/Grim_Reaper_(folklore) Grim Reaper] you would regularly see.
+
+== Abilities ==
+When near a unit, it is possible the '''Grim Reaper''' can swing it's scythe, which can defeat the unit which will be permanently stunned.
+
+== Strategy ==
+If you reach this wave, it will not be that difficult to pass this since you have a lot of DPS in the field. However, you must have lots of money using a farm unit like [[Santa TV Man]] in case the '''Grim Reaper''' defeats your unit.
+
+Use a unit that has stun blockings ([https://toilet-tower-defense-game.fandom.com/wiki/Upgraded_Large_Laser_Cameraman?so=search Upgraded Large Laser Cameraman] is recommended as this unit is unstunabble at max lvl) so your units will not be able to be defeated easily.
+
+== Trivia ==
+
+* this is the 2nd boss (so far) that isn't a toilet or similar objects. The first is [[Evil Toilet Crab]]
+
+[[Category:Bosses]]
+[[Category:Boss]]
+[[Category:Halloween Event]]
+[[Category:Event]]
+[[Category:Large Enemies]]
+[[Category:Toilets]]

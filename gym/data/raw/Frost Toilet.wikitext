@@ -1,0 +1,40 @@
+{{Toilet_Infobox|image1=Frost.png|health=23600|speed=Fast|wave_debut=7|abilities=|ability_1=Freeze: Freezes a unit for 5 seconds. Frozen units cannot be unstuneed by Medic Cameraman, Camera Repair Drone or Speaker Repair Drone}}
+== Overview ==
+'''Frost Toilet''' is a toilet that only appears at the [[North Pole]] [[Christmas Mode]], it doesn't have high health but is still hard to deal with since it has a strong ability.
+== Appearance ==
+The Frost Toilet looks like a normal toilet but it is frozen. It also has a different toilet model unlike the other toilets, being similar to Minigun Toilet.
+== Waves ==
+=== Christmas Mode ===
+*Wave 7: x1
+
+=== Endless Mode ===
+
+* Wave 55: x35
+
+== Abilities ==
+*Freeze: Freezes a unit for 5 seconds. A frozen unit cannot be unstunned by healing units such as Medic Cameraman or Camera Repair Drone.
+== Strategy ==
+Since you cannot unstun the unit, try to kill it with a decent aoe unit. For example, [[Titan Cinemaman]] or [[Clock Spider]].
+
+==Trivia==
+
+*The Frost Toilet has the same model as the [[Small Toilet]] and the [[Toilet]], just being a bit larger than both.
+
+==Gallery==
+<gallery>
+Frost.png|Frost Toilet
+</gallery>
+
+==Update Log==
+
+* ??/??/???? Added this toilet in North Pole
+* ??/??/???? Added this toilet in Endless Mode
+
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Event Enemies]]
+[[Category:Toilet]]
+[[Category:Stunners]]
+[[Category:Incomplete pages]]
+[[Category:Characters]]
+[[Category:Christmas Event]]

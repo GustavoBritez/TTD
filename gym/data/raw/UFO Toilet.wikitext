@@ -1,0 +1,62 @@
+{{Toilet_Infobox|image1=toilet ufo.png|caption-image1=Toilet.|description=how do the units still see me when im invisible? Oh wait, the health bar..|species=Toilet|health=417,500 HP (Wave 50)|speed=Fast|wave_debut=Wave 49 (Hard), Wave 20 (Nightmare)|modes=Hard, Nightmare+|ability_1=Laser Cannon Shoot: Shoots a laser at a unit, stunning it for 2 seconds 5 times.|ability_2=Invisibility: Goes invisible for 2 seconds, gaining immunity to all forms of damage excluding ram damage.|title1=UFO Toilet}}
+== Overview ==
+The '''UFO Toilet''' is a [[Enemies|enemy]] that appears in [[Hard Mode]] and [[Nightmare Mode]]. It appears in Wave 49 of [[Hard Mode]]. It can stun units with its cannon every 1 second and has another ability that makes it go invisible for 2 seconds. When it is invisible, [[units]] can still attack it, however, it will not suffer any damage. It can still stun units while being invisible, making this enemy quite hard to beat.
+
+== Appearances ==
+
+=== Hard Mode: ===
+Wave 49: x1 
+
+=== Nightmare Mode: ===
+Wave 20: x1
+
+Wave 23: x2
+
+=== Abysmal Mode ===
+
+== Health: ==
+
+=== Hard Mode: ===
+Wave 49: 410000 HP
+=== Hard Mode Old Appearances ===
+Wave 50: 417500 HP
+
+=== Nightmare Mode: ===
+Wave 20: 192500 HP
+
+Wave 23: 215000 HP
+== Strategy ==
+* The '''UFO Toilet''' comes out at Wave 20, killing many unsuspecting players. You should plan ahead to make sure that you are able to defeat this enemy.
+* In [[Hard Mode|Hard Mode,]] the UFO Toilet can get very far and stun many [[Units|units.]]
+* You should not spend all of your money on [[Medic Cameraman|Medic Cameraman.]] Instead, the [[Scientist Cameraman|Scientist Cameramen]] and [[Santa TV Man|Santa Tv]] can block the UFO Toilet's stuns. 
+* If you know you cannot defeat it, you can let it leak as it does 300 damage, leaving you with 100 Health. 
+* If it gets too far and you know you do not have enough damage to take it, you can place down a [[Secret Agent]] that can do 100,000 Damage to it. However, if UFO Toilet stuns it or goes invisible, Secret Agent will be wasted.
+* [[Astro Upgraded Titan Cameraman]] can slow down UFO Toilet, same for [[Green Laser Cameraman]] and [[TV Woman]] as UFO Toilet is a fast enemy.
+* High DPS Units are recommended to take this down, such as [[Jetpack Cameraman|Future Large Clock Man,]] but do not spend too much if you know you cannot defeat it.
+* As this enemy is fast, you can use [[Mech Cameraman]] or Level 5/6 [[Upgraded Titan Cameraman]], the latter also doing high DPS to '''UFO Toilet'''. [[TV Woman]] is not recommended as it does low DPS with low radius and will eeasily be stunned.
+
+== Trivia ==
+* The UFO Toilet has a stronger variant called the [[Laser UFO Toilet]] which is released in the Episode 60 Update.
+* The UFO Toilet used to be the final boss of [[Hard Mode]] before getting replaced by the [[Boss Toilet 3.0|Boss Toilet 3.0.]] (And it replaced the [[Flying Rocket Launcher Toilet]] as the final boss) my
+*
+* It is based off of the [https://skibidi-toilet.fandom.com/wiki/Overseer_Astro_Toilet Overseer Astro Toilet].
+
+==Gallery==
+
+<gallery>
+File:Ufo tolet.png|Seen in-game
+File:UFO toilet in-game.jpg|Also In-Game
+File:Ufobg.png|icon
+File:WIKI UFO.png|In-game
+File:Ufo guy.png|a view from the side
+</gallery>
+[[Category:Toilets]]
+[[Category:Stunners]]
+[[Category:Enemies]]
+[[Category:UFO]]
+
+[[Category:Laser]]
+[[Category:Laser users]]
+
+[[Category:Valentines Event 2025]]
+[[Category:Astro Toilets]]

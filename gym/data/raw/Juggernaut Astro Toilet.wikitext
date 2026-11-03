@@ -1,0 +1,45 @@
+Looking for its bigger version [[Secutor Astro Toilet]]?{{Toilet Infobox|image1=<gallery>
+JuggernautAstroToiletBossIcon.png|Boss Icon
+Juggernaut_Astro_Toilet.png|In-Game
+</gallery>|health=273.189.440M|speed=Fast|modes=[[Endless Mode]]|abilities=Shield for 5 seconds|title1=Juggernaut Astro Toilet|description=The Juggernaut Astro Toilet, seen in the Episode 75 Update leaks.|wave_debut=Wave 150|species=Astro Toilet|ability_1=|ability_2=}}
+==Overview==
+The Juggernaut Astro Toilet is an [[Toilet|enemy]] that has been released in the [[Episode 75 Update]].
+
+==Appearance==
+The Juggernaut Astro Toilet appears to be an enemy that has 2 mounted gravity guns on each of its arms and a gas mask with glowing eyes, possibly from Russian descent. It has 4 fingers on each of its hands and claws on its right arm, with a shield on its left.
+
+==Waves==
+* Stated by Telanthric, the Juggernaut Astro Toilet will be appearing from "beyond Wave 150", meaning he will probably be a new boss in [[Endless Mode]].
+
+==Abilities==
+When its shield is up, it's immune to attacks for 5 seconds.
+
+==Strategy==
+Use Ultra Time Stop of [[Upgraded Titan Clockman]] and the Rewind ability of [[Chief Clockman]].
+
+==Trivia==
+
+*Telanthric mistook this unit for the original [[Secutor Astro Toilet]], but upgraded.
+*This enemy is based off of the [https://skibidi-toilet.fandom.com/wiki/Scout_Astro_Toilet Scout Astro Toilet] from the Skibidi Toilet Series.
+
+==Gallery==
+<gallery>
+File:Screenshot 2024-06-26 160609.png|Model Of The Juggernaut Astro Toilet As Shown In the Leaks
+File:Screenshot 2024-07-01 104424.png|Model Of The Juggernaut Astro Toilet But with Particles
+File:AstroJuggernautIcon.png|The Boss icon for the Juggernaut Astro Toilet
+</gallery>In the series, this toilet is weaker than secutor astro toilet, but how in the game it is stronger? (logic of the game, Shadow TV Man is stronger than Titan Speakerman, so don't expect logic) 
+
+
+[[Category:Enemies]]
+
+[[Category:Male Characters]]
+
+[[Category:Toilets]]
+[[Category:Characters]]
+[[Category:Incomplete pages]]
+[[Category:Stubs]]
+
+
+[[Category:Astro Toilet]]
+[[Category:Shield users]]
+[[Category:Fast toilets]]

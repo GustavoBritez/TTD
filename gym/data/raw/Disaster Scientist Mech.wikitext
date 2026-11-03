@@ -1,0 +1,57 @@
+{{Units infobox (mini)|cost=1000|base_sell_price=500|type=• 💦[[Sub-Traits|{{Rare|Splash}}]]💦|levels=6|unit_name={{Exclusive|Disaster Scientist Mech}}|rarity={{Exclusive|[[Exclusive]]}}|species=[[Toilets (Units)|Toilets]]}}
+
+== Overview ==
+{{Exclusive|Disaster Scientist Mech}} is a Exclusive unit added on [[Grow a Toilet Update Part 2]].
+{| class="fandom-table"
+|+Stats
+!Lvl
+!Price
+!Damage
+!Range
+!Cooldown
+!DPS
+|-
+|2
+|2,000
+|11,000
+|36
+|0,55
+|20,000
+|-
+|3
+|3,500
+|25,000
+|38
+|0,5
+|50,000
+|-
+|4
+|5,000
+|
+|
+|
+|
+|-
+|5
+|7,000
+|
+|
+|
+|
+|-
+|6
+|9,500
+|
+|
+|
+|
+|}
+[[Category:Units]]
+[[Category:2025]]
+[[Category:Toilets]]
+[[Category:Toilet Units]]
+[[Category:Exclusive]]
+[[Category:Splash]]
+[[Category:Mech]]
+[[Category:Scientist]]
+[[Category:Shop]]

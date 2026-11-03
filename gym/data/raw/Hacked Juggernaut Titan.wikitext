@@ -1,0 +1,115 @@
+{{ID list top navigation}}
+
+
+
+{{DISPLAYTITLE:{{Ultimate|Hacked Juggernaut Titan}}}}{{Stub}}{{MetaUnit|DPS|Great}}{{SeeAlsoNotice|PagesNumber=3|Note1=his enemy version [[Secutor Astro Toilet]]|Note2=his smaller enemy version [[Juggernaut Astro Toilet]]|Note3=[[Juggernaut Titan TV Man]]}}{{Notice|{{Ultimate|[[Nuke Titan TV Man]]}} replaced this unit from the Telanthric shop, meaning to be unobtainable via plush.}}{{Units infobox (this one)|unit_name={{Ultimate|Hacked Juggernaut Titan}}|image1=<gallery>
+Hacked Juggernaut Titan.png|Icon
+Hacked Juggernaut Titan Plushie.png|Plush Version
+</gallery>|cost=$2000|base_sell_price=$1000|type=Splash, AoE, Slowing|levels=6|rarity={{Ultimate|[[Ultimate]]}}|species=[[Toilets (Units)|Toilets]]|other_information=It was released in Partner Experiments tonight and is confirmed to be an Ultimate.|special_abilities=Hacked Juggernaut's Supercharged Mode - A passive ability that stops time for 30 seconds when a toilet reaches the end. (300s Cooldown)}}
+
+== Overview ==
+
+
+Hacked Juggernaut Titan is [[Ultimate]] [[Units|Unit]] that was added on 05/04/25. 
+
+== Obtainment ==
+You can obtain this from buying the Hacked Juggernaut Titan plush on [https://telanthric.shop/?srsltid=AfmBOopKeJvzforkl5YAP7mVmKKvpHH678xcSBePGuhp5flpN2gmK39I Telanthric.shop]. you will also be able to get it from [[Trading]], buying from the [[Marketplace]], or getting gifted it in the [[Post Office]].
+
+== Stats ==
+{| class="fandom-table"
+|+Stats
+!Levels
+!Cost
+!Total Cost
+!Damage
+!Cooldown
+!DPS
+!Range
+!Explosion Range
+!Slowing
+|-
+|1
+|2000
+|2000
+|25000
+|1
+|25000
+|60
+|7
+|60%
+|-
+|2
+|2500
+|4500
+|50000
+|1
+|50000
+|60
+|8
+|60%
+|-
+|3
+|9000
+|13500
+|80000
+|1
+|80000
+|65
+|9
+|60%
+|-
+|4
+|15000
+|28500
+|93750
+|0.75
+|93750
+|65
+|10
+|60%
+|-
+|5
+|23000
+|51500
+|146250
+|0.75
+|195000
+|65
+|11
+|60%
+|-
+|6
+|32000
+|83500
+|187500
+|0.75
+|250000
+|75
+|12
+|60%
+|}
+== Trivia ==
+
+* This is the first Astro Toilet [[Units|unit]].
+** It is also the first [[Ultimate]] [[Units|Unit]] to be a toilet.
+* This unit was been released in [[Partner Experiments]] early, just like the [[Telanthric Titan]].
+* This unit was buffed from 230K DPS to 250K DPS, which is the same DPS as [[Sinister Titan Clockman]] and [[Quantum Cameraman]].
+* The cooldown on Hacked Juggernaut's Supercharged Mode is confirmed to be 300 seconds by pool.
+* [[Hacked Juggernaut Titan]] is the third [[Ultimate]] to deal 250K DPS, second being [[Sinister Titan Clockman]], and first being [[Quantum Cameraman]].
+* His Aoe cone doesn't work at all.
+
+== Gallery ==
+<gallery>
+File:Hacked Juggernaut Titan.png|Icon
+File:HJAT.webp|Plush Announcement
+</gallery>{{DEFAULTSORT:Hacked Juggernaut Titan}}
+[[Category:Astro Unit]]
+[[Category:Astro Toilet]]
+[[Category:Toilets]]
+[[Category:Toilet Units]]
+[[Category:Obtained Via Plush]]
+[[Category:Ultimate]]
+[[Category:Splash]]
+[[Category:Slowing Units]]
+[[Category:Slowing]]
+[[Category:Expensive]]

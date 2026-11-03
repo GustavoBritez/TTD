@@ -1,0 +1,17 @@
+== Overview ==
+{{Toilet Infobox|title1=Flying Quad Laser Toilet|image1=Flying Quad Laser Toilet.png|description=Appears in endless mode|species=[[Enemies|Toilets]]|health=35,000,000|wave_debut=Wave 102(endless mode)|abilities=Stun|ability_1=Lasers|speed=Slow-normal|appearances=Wave 102(first appearance on endless mode)|modes=Endless mode}}
+The Flying Quad Laser Toilet is an enemy appears in wave 102 of  Endless Mode. This toilet is hard to spot due to the very small design but it have an immense health of 35,000,000hp (wave 102 endless) 
+
+== Appearance ==
+It wears a black helmet with shields and 4 lasers which can stun enemies. It has shades and two shields on the side of its lasers.
+
+== Strategy ==
+Not much is known about this toilet, but there will be 4 of them appearing on wave 102 in endless mode, with an immense health of 35,000,000. There are also 4 of them, so there will be a total health of 140,000,000. The best strategy is to use [[Upgraded Titan Drill Man]] or [[Hyper Upgraded Titan Speakerman]] because they have high DPS. [[Sinister Titan TV Man]] might also work if you have a high amount of them maxed out. [[Medic Cameraman]] or [[Speaker Repair Drone|Speaker]]/[[Camera Repair Drone]] are viable for unstunning units.
+[[Category:Images]]
+[[Category:Toilets]]
+[[Category:Laser users]]
+[[Category:Laser]]
+[[Category:Mid-air]]
+[[Category:Jetpack]]
+[[Category:Stunners]]
+[[Category:Flying]]

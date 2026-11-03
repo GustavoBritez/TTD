@@ -1,0 +1,50 @@
+{{Toilet_Infobox|image1=Phantom Toilet.png|species=Toilet|health=400,000 [Abysmal Mode]|speed=super Fast|wave_debut=Wave 61 [Endless]|modes=Abysmal Mode (Halloween Event) and endless mode|ability_1=Dash: Every 10 seconds, change speed to Maximal+ for 0.5 seconds|title1=Phantom Toilet|description=|appearances=wave 69|abilities=Dash}}
+
+== Overview ==
+'''Phantom Toilet''' only appears in [[Abysmal Mode]] and [[Endless Mode]], is the only enemy with a dash mechanic and the only enemy that is translucent.
+
+Its dash mechanic is very unique; while Phantom Toilet advances in the lane, every certain second '''Phantom Toilet''' will dash, making him advance 3 seconds of normal walking almost instantly, leaving a triangular white trail while doing this.
+
+== Appearances ==
+
+=== '''Endless Mode''' ===
+Wave 61: x5
+
+== Health ==
+400,000 HP [Solo]
+
+800,000 HP [Duo]
+
+1,200,000 HP [Trio]
+
+1,600,000 HP [Quad]
+
+2,000,000 HP [Quint]
+
+== Strategy ==
+You need to be ready the wave when Phantom Toilet appears, Phantom Toilet is not fast, but his dash mechanic will make him reach your units faster than other toilets.
+
+His dash mechanic is extremely strong, and will make that your units attack him for less time. This is really problematic for short ranged and medium ranged units that will have less time to do damage to him.
+
+Technically, the dash mechanic brings the same difficulties that the [[UFO Toilet]] invisibility does. Only difference is that your units won't be attacking an invisible invincible enemy for some seconds and losing DPS, so if you know how to deal with UFO Toilet, you should be able to adapt to this as well.
+
+== Trivia ==
+
+* Thanks to his translucency, we know that the Phantom Toilet model is made from 6 pieces, toilet stand, toilet seat, body, head, toilet upper part and toilet button
+
+== Update log ==
+Released on the Halloween Event
+
+Added dash mechanic
+
+Deleted when Halloween Event ended
+
+January 12th 2024: Endless was added, bringing back these toilets
+[[Category:Toilets]]
+[[Category:Event Enemies]]
+
+
+[[Category:Characters]]
+[[Category:Enemies]]
+[[Category:Fast toilets]]
+[[Category:Non-Stun Toilets]]

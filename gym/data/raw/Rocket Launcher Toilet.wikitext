@@ -1,0 +1,99 @@
+{{DISPLAYTITLE:{{Legendary|{{PAGENAME}}}}}}
+{{Stub}}{{Units infobox (this one)|cost=1000|base_sell_price=500|type=Splash & Moveable|levels=5|rarity={{Legendary|[[Legendary]]}}|species=[[Toilets (Units)|Toilets]]|image1=RocketLauncherToiletUnit.png|unit_name={{Legendary|Rocket Launcher Toilet}}}}
+
+== Appearance ==
+The toilet seems to have wings from a plane or other flying vehicles. It also seems to have eight rocket launchers (six below the wings, and two above the toilet) with a face similar to the [[Mafia Toilet (Unit)|Mafia Toilet]].
+
+== '''Stats Table''' ==
+{| class="fandom-table"
+|+'''Stats'''
+!'''Levels'''
+!'''Price'''
+!'''TotalPrice'''
+!'''Damage'''
+!'''Range'''
+!'''Walk Range'''
+!'''Walk Speed'''
+!'''Cooldown'''
+!'''Explosion Range'''
+!'''SellPrice'''
+!'''DPS'''
+!'''DPS/$(Cost Efficiency)'''
+|-
+|1
+|$1000
+|$1000
+|2000
+|30
+|65
+|15
+|2
+|8
+|$500
+|1000
+|1
+|-
+|2
+|$2500
+|$3500
+|4000
+|30
+|65
+|15
+|1
+|10
+|$1750
+|4000
+|1.1428
+|-
+|3
+|$5000
+|$8500
+|2066.7
+|30
+|65
+|15
+|0.25
+|12
+|$4250
+|8266.8
+|0.9725
+|-
+|4
+|$7500
+|$16000
+|5000
+|35
+|65
+|15
+|0.5
+|12
+|$8000
+|10000
+|0.625
+|-
+|5
+|$12500
+|$28500
+|6000
+|50
+|65
+|15
+|0.25
+|12
+|$14250
+|24000
+|0.8421
+|}
+
+== Trivia ==
+
+* He is based off [https://skibidi-toilet.fandom.com/wiki/Flying_Octo-Launcher_Skibidi_Toilet Flying Octo Launcher Skibidi Toilet] from the series.
+
+[[Category:Units]]
+[[Category:Toilets]]
+[[Category:Toilet Units]]
+[[Category:Legendary]]
+[[Category:Splash]]
+[[Category:Moveable]]
+[[Category:Moveable units]]

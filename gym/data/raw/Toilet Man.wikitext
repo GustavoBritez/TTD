@@ -1,0 +1,112 @@
+{{DISPLAYTITLE:{{Exclusive|{{PAGENAME}}}}}}
+{{Stub}}{{Unobtainable}}{{Units_infobox_(this_one)|unit_name={{Exclusive|Toilet Man}}|type=AoE|rarity={{Exclusive|[[Exclusive]]}}|image1=ToiletMan.png|species=[[Toilets (Units)|Toilets]]|cost=2000|base_sell_price=1000|levels=4|special_abilities=With every 10 normal kicks does a stomp that deals massive AoE damage, indicated by the inner (shaded) circle|other_information=this is a little fucking twat who likes men. (KYS)}}
+==Overview ==
+Toilet Man is an [[Exclusive]] Unit in Toilet Tower Defense. It is added in the [[Shop|Exclusive Shop]].
+
+==Appearance==
+A [[Mutant Toilet (Unit)|Mutant Toilet]] with the Roblox default face and human legs. He has a white toilet and gray shorts on his legs and has no hands.
+
+== Obtainment ==
+The [[Toilet Man]] can be bought in the [[Shop]] for a price of [[File:Robux.png|25px]]499. It can also be traded for in the [[Trading Plaza]] or bought in the [[Marketplace]] or being gifted from the [[Post Office]].
+
+==Value==
+The current trading value of Toilet Man is 1.7-4.15K gems. The player demand for this unit is rated at 6/10, and the price stability is Unstable.
+
+==Stats Table==
+{| class="fandom-table"
+|+'''Stats'''
+!'''Levels'''
+!'''Upgrade Cost'''
+!'''Total cost'''
+!'''Damage'''
+!'''Range'''
+!'''Cooldown'''
+!'''Sell Price'''
+!'''DPS'''
+!'''DPS/$ (Cost Efficiency)'''
+|-
+|Level 1
+|$2,000
+|$2,000
+|8,500
+|45
+|1
+|$1,000
+|8,500
+|4.25
+|-
+|Level 2
+|$5,000
+|$7,000
+|17,000
+|50
+|1
+|$3,500
+|17,000
+|2.428
+|-
+|Level 3
+|$17,000
+|$24,000
+|60,000
+|50
+|1
+|$12,000
+|60,000
+|2.5
+|-
+|Level 4
+|$28,000
+|$52,000
+|120,000
+|60
+|1
+|$26,000
+|120,000
+|2.307
+|}
+==Pros & Cons==
+
+=== Pros: ===
+*High damage and DPS.
+*High damage and DPS at a low level.
+*High range at low level.
+*Good range.
+*Has AoE. (Every 10 normal kicks) 
+*High AoE damage
+*Good for endless mode due to AoE attack
+*A small hitbox (you can put a lot in one place)
+=== Cons: ===
+*Very expensive to upgrade, Having the same Last Level Total Cost as [[Mech Bunny Titan]].
+*Expensive to place without farm units. 
+*It is a P2W unit.
+*Can't block stuns.
+
+==Strategy==
+Place them near unstunning units like [[Camera Repair Drone]], [[Speaker Repair Drone]], Medic Cameraman, and Streamer Cameraman or unstunnable units like [[Leprechaun Cameraman]], [[Shield Cameraman]], and [[Healer TV Woman|Healer Tv Woman]].
+
+Place them near each other so they can deal the maximum amount of damage, and place them away from the track so it is  harder for Toilets to stun them.
+
+In [[Endless Mode]], use a loadout of any [[Farms]] or [[Printers|Printer Units]] (recommended [[Large Printer Man]], [[Titan Printer Man]] or [[Santa TV Man]]), [[Titan Fanman]], [[Astro Upgraded Titan Cameraman]] (or any good slowing unit) and boosters like [[DJ TV Man]] or [[Clockwoman]] and [[Leprechaun Cameraman]].
+
+==Trivia==
+
+* One of the few good units that can be placed in the magnification radius of [[Titan Mogman]].
+* It emits small white sparks around itself(But it could just be for visual effects).
+* In the description of the update when it was added, it said "This unit doesn't like toilets!".
+
+==Gallery==
+<gallery>
+File:ToiletMan.png|          Toilet Man
+File:Toiletmanunit ingame.PNG|Toilet Man in-game (credits to Kwil)
+File:Toilet man's min cost.jpg|Toilet man in Trading plaza
+</gallery>
+[[Category:Toilets]]
+[[Category:Toilet Units]]
+[[Category:Units]]
+
+[[Category:Exclusive]]
+[[Category:Stubs]]
+[[Category:Stub]]
+[[Category:AoE]]
+[[Category:Robux]]

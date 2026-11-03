@@ -1,0 +1,35 @@
+{{Toilet_Infobox|image1=jet police.png|species=Toilet|health=15400 (Wave 10)|speed=Fast|wave_debut=???|modes=Medium+|ability_1=Rocket Shoot: Shoots a rocket at a unit, stunning it.}}
+
+==Overview==
+The '''Jetpack Police Toilet''' is an enemy that appears in [[Hard Mode|Hard]] and [[Nightmare Mode]]. It has an average amount of health, around the same as the [[Boss Toilet]]. However, it is quite fast, as it has a jetpack in it's back. 
+
+Jetpack Police Toilet's ability is that it can shoot rockets at units to stun them.
+==Appearance==
+The Jetpack Police Toilet looks like a [[Police Toilet]] with a different face. It has some extra protection, 4 nailguns, and a jetpack to move faster.
+==Health==
+Wave 10: 15400 HP
+==Waves==
+TBA
+==Abilities==
+*Shoot: Shoots a rocket at a unit, stunning it for ? seconds.
+==Strategy==
+*The Jetpack Police Toilet has an average HP. More expensive units like [[Large Cameraman|Large Camerman]] (spammed) should do the job.
+*You can use the [[Medic Cameraman]] or [[Camera Repair Drone]] to unstun units.
+*Use high range unit such as [[Upgraded Titan Cameraman]].
+== Trivia==
+*It is based off of the Jetpack Nailgunner Police Skibidi Toilet from the Skibidi series.
+*Despite having nailguns in the original series, it shoots rockets in the game.
+==Gallery==
+<gallery>
+File:Jet police.png|His unit.
+</gallery>
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Stunners]]
+[[Category:Characters]]
+[[Category:Jetpack]]
+[[Category:Male Units]]
+[[Category:Male Characters]]
+[[Category:Incomplete pages]]
+[[Category:Fast toilets]]
+[[Category:Valentines Event 2025]]

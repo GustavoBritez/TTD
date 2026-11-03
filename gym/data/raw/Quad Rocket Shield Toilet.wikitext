@@ -1,0 +1,22 @@
+{{Toilet Infobox|title1=Quad Rocket Shield Toilet|image1=Screenshot 2024-08-14 161947.png|species=[[Enemies|Toilets]]|health=2,505,000|speed=Average|wave_debut=102,104,119|modes=[[Endless Mode]] [[Sand Isles]]|abilities=[[Speakers]] cannot damage this toilet.|ability_1=Stun|ability_2=Slowing units does not affect the toilet’s speed.}}
+==Overview==
+The Quad Rocket Shield Toilet is a very strong toilet that appears after wave 100 in the [[Endless Mode]]. This unit is really hard to defeat because slowing units such as [[Green Laser Cameraman]], [[Astro Upgraded Titan Cameraman]], and [[Chef TV Man]] does not slow this toilet.
+==Strategies==
+You can deal more damage/defeat this toilet if you:
+*Use the boost of [[Mech Bunny Titan]], it can make your high DPS [[Units]] with less cooldown. 
+*Titan Fanman's push ability. This can make the toilet slower to move.
+*[[Titan Clock Man]] or [[Large Clockman]] time stop. This gives time for the high DPS [[Units]] such as [[Hyper Upgraded Titan Speakerman]] or [[Upgraded Titan Drill Man]] to damage the units. [[Upgraded Titan Clockman]] also works.
+*[[DJ TV Man]] will have a big impact on the damage your [[Units]] do. 
+*Recommended units: [[Godly]] (except Titan Present Man, Aquatitan Speakerman), [[Ultimate]], and depending on your unit, [[Exclusive|Exclusives]].
+*Time stopping and Titan Fanman's push is recommended because the longer the time stop is, the farther will the toilet get pushed back.
+*
+[[Category:Toilets]]
+[[Category:Shield users]]
+[[Category:Stunners]]
+[[Category:Jetpack]]
+[[Category:Toilet]]
+[[Category:Rocket]]
+[[Category:Enemies]]
+[[Category:Rockets]]
+[[Category:Glasses Toilets]]
+[[Category:Valentines Event 2025]]

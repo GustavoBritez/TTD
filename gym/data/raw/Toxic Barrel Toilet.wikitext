@@ -1,0 +1,37 @@
+{{Toilet Infobox|image1=acid barrel2.png|title1=Toxic Flying Toilet|health=40,000 HP|speed=???|appearances=???|wave_debut=21 Wave|abilities=Explode:|ability_1=Targets a unit upon range and explodes in contact, stunning other units nearby the target for 18 seconds.|modes=Nightmare}}
+== Overview ==
+The '''Toxic Barrel Toilet''' is a toilet that explodes and stuns units in an AoE circle, the stun of this toilet is stronger than [[Explosive Flying Toilet]].
+== Appearance ==
+The '''Toxic Barrel Toilet''' has two acid barrels alongside a jetpack.
+== Waves ==
+Wave ??? (mostly on nightmare or christmas mode)
+== Strategy ==
+'''Toxic Barrel Toilet''' works similarly to the [[Explosive Flying Toilet|explosive flying toilet]]. It's best to use ranged units to defeat it before stunning. If not, use [[Medic Cameraman|medic cameraman]] or [[Camera Repair Drone|camera repair drone]] to unstun units.
+
+You can use any money farm like [[Santa TV Man]] to attract this toilet since stunned money farm still give you money.
+
+== Trivia ==
+*It is similar to the explosive flying toilet but stronger
+
+== Nicknames ==
+
+* Acid Barrel Toilet
+* Toxic Flying Toilet
+
+== Gallery ==
+<gallery>
+File:Exploding toxic barrel.png|The Toxic Barrel Toilet explodes on a Cameraman, stunning it.
+</gallery>
+
+== Update Log ==
+12/22/23: Added Toxic Barrel Toilet.
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Stunners]]
+[[Category:Characters]]
+
+[[Category:Splash]]
+[[Category:Jetpack]]
+[[Category:Acid]]
+[[Category:Flying]]
+[[Category:Off-Track Enemies]]

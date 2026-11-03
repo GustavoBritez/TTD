@@ -1,0 +1,43 @@
+{{Toilet Infobox|title1=Buzzsaw Mutant Toilet|image1=<gallery>
+New BSM.png|New
+Buzzsaw tolet.png|Old
+</gallery>|caption-image1=please stop replacing this image with the icon.|debut=Episode 62 Update|debut (ingame) =wave 28|appearances=|species=[[Enemies|Toilet]]|physical_description=|modes=Nightmare Mode, Abysmal Mode}}
+==Overview==
+'''Buzzsaw Mutant Toilet''' is an [[Enemies|enemy]] added on the [[Episode 62 Update]]. It appears on [[Nightmare Mode]] and is ver strong, as it can also stun your units with its buzzsaw for a few seconds.
+== Waves==
+=== Nightmare Mode ===
+*Wave 28 X1.
+=== Abysmal Mode (Halloween Event) ===
+*TBA
+=== Abysmal Mode (Thanksgiving Event) ===
+*TBA
+=== Christmas Mode ===
+*TBA
+
+=== Endless Mode ===
+
+* Wave 32 X2
+
+== Strategy ==
+
+* High DPS [[units]] can easily defeat it.
+* You can stun them for 3-5 seconds using [[Upgraded Titan Cinemaman]] to defeat them easily.
+* You can use some Slowing Units to completely slow him down, and because he's already slow he will be easily defeated.
+
+==Gallery==
+<gallery>
+File:Mutant Buzzsaw.png|Transparent Image
+File:Mutan buzzsaw icon..png|Ditto, but with no legs
+File:Mutantbuzzsaw.png|Seen in battle with other mutants.
+File:Mutanttoilet3.0.png|An upper view of the Toilet.
+File:New BSM.png|'''Buzzsaw Mutant Toilet''' Redesigned, now wearing a yellow coat.
+</gallery>
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Mutants]]
+[[Category:Characters]]
+[[Category:Stunners]]
+[[Category:Male Units]]
+[[Category:Male Characters]]
+[[Category:Toilet]]
+[[Category:Saw]]

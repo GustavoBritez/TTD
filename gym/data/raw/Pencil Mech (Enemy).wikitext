@@ -1,0 +1,9 @@
+{{Stub}}{{PageNotFinished|reason=Everything}}
+'''Pencil Mech''' is the boss of the Pencil Mode that was added in the [[Pencil Event Update|Update]].
+
+this boss is not a huge problem.can be beaten by spamming future clock{{Toilet Infobox|title1=Pencil Mech|image1=Screenshot 2024-09-15 135608.png|species=Pencil|health=6.850.000|speed=Slow|wave_debut=40|modes=Pencil Mode|ability_1=Use his minigun to stun [[units]]}}
+[[Category:Enemies]]
+[[Category:Pencils]]
+[[Category:Bosses]]
+[[Category:Male Characters]]
+[[Category:Stunners]]

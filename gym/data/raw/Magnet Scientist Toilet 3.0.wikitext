@@ -1,0 +1,28 @@
+{{SeeAlsoNotice|Note1=[[Magnet Scientist Toilet]] or [[Small Magnet Scientist Toilet]]}}
+
+== Overview ==
+{{Toilet Infobox|title1=Magnet Scientist Toilet|image1=Magnet Scientist 3.0.png|description=(Sorry for the blurry image)|species=[[Toilets]]|health=TBA|speed=Slow|appearances=[[Time Factory]]|wave_debut=Wave 50|modes=[[Time Factory]]|abilities=Stun, Teleport units|ability_1=Stun|ability_2=Teleport units}}
+
+The Magnet Scientist Toilet 3.0 is an upgraded version of the [[Magnet Scientist Toilet]], that first debuted in the [[Clock Mode V2 Update]]. 
+
+== Waves ==
+*Wave 50: 5 of the {{PAGENAME}} appear this wave.
+
+== Health ==
+*Wave 50: 9,769,560 HP
+
+== Trivia ==
+* Unlike the [[Magnet Scientist Toilet]], this toilet doesn't have a beard.
+* This is the first toilet added in 2025.
+* Even though this toilet is in its 3.0 upgrade according to its name, there is no Magnet Scientist Toilet 2.0 enemy ingame.
+
+[[Category:Toilets]]
+[[Category:Magnet toilets]]
+[[Category:Scientist]]
+[[Category:Slow Toilets]]
+[[Category:Enemies]]
+[[Category:Magnet]]
+[[Category:Male Characters]]
+[[Category:Upgraded characters]]
+[[Category:Event Enemies]]
+[[Category:Magnet users]]

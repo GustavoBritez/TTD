@@ -1,0 +1,59 @@
+{{PageNotFinished|reason=Strategy, better images, immunities, and more.}}{{SeeAlsoNotice|4=This Page is about [[Astro Duchess]]. You may be looking for.|Note1=[[Astro Duchess Toilet]]}}{{Stub}}
+
+== Overview ==
+{{Toilet_Infobox|image1=Upgraded Astro Duchess.PNG.png|caption-image1=Toilet.|description=|species=[[Enemies|Astros]]|health=5100000 (WAVE 1)|speed=Very Fast|wave_debut=175|modes=Endless|ability_1=TBA|title1={{Mythic|Upgraded Astro Duchess}}|appearances=Mutant Astro Duchess}}'''Upgraded Astro Duchess''' is a boss added in the [[RNG Update]], and spawns on wave 190 as the final boss in the game so far also it is in endless mode only, also being the strongest boss in game as of the [[RNG Update]] if you count its high speed and insanely high HP. It is also a counterpart of the toilet, [[Astro Duchess Toilet|Astro Duchess]]. This toilet is also a part of the Astro race. and it recommended to have friend maker when facing this boss.
+
+== Appearance ==
+The '''Upgraded Astro Duchess''' can resemble towards how [[Mutant Toilet|Mutant Toilets]] can appear, being a toilet in a titan body. The body this enemy is in is almost fully black in a black dress fort the shirt as for the toilet for where the head is has a red core attached to it and a head of a white woman with red eyes and brown lush hair is visible. In addition, behind her head being massive headgear that most Astro Toilets wear, but the spiral being a red glowing color and outline. She wields four cannons or grab arms behind her with a black connection able to reach long with a similar appearance to the original counterpart: [[Astro Duchess Toilet]]. She also wields a long glowing red whip that slowly moves in the air like a scarf when she moves instead of a normal whip.
+
+== Description ==
+
+=== Species ===
+[[Enemies|Astros]]
+
+=== Health ===
+???
+
+=== Speed ===
+faster than a Astro spider like faster faster
+
+== Appearances ==
+
+=== Wave Debut ===
+190  (Boss)
+
+=== Modes ===
+Endless
+
+== Abilities ==
+
+=== whip ===
+
+== Waves ==
+
+=== Endless Mode ===
+Wave 190: 1x Upgraded Astro Duchess ??? Health 
+
+== Strategy ==
+
+* Friend Maker [MUST NEED RANK 20]
+
+== Trivia ==
+
+* Upgraded Astro Duchess wasn't uncovered on update day of the [[RNG Update]]. It was instead recently discovered on December 24th of 2024 a couple weeks past that update (as far as I know) by a user named 420blazes and uploaded by ManofTaj.
+* As of writing this, December 24th, 2024, the Upgraded Astro Duchess is currently the strongest toilet by far, although having half the HP of [[The Mothership]], and not having any immunities (TBA,) it has a way faster movement speed than [[The Mothership]].
+* She is so small for an unknown reason...
+* She was discovered by Manoftaj.
+
+== Gallery ==
+<gallery>
+File:UASbar.png|Upgraded Astro Duchess's HP bar if it were to spawn on Wave 1.
+File:UpgradedAstroDuchess.png|Upgraded Astro Duchess's full body.
+File:UASbarWAVE175.png|Upgraded Astro Duchess's HP bar on its debut wave. (Wave 175)
+</gallery>
+[[Category:Female Characters]]
+
+
+[[Category:Upgraded characters]]
+[[Category:Enemies]]
+[[Category:Astro Toilets]]

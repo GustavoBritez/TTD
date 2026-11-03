@@ -1,0 +1,37 @@
+{{Stub}}{{Toilet_Infobox|image1=dual car.png|species=Toilet|health=214,500(Nightmare)|speed=Very Fast|wave_debut=Wave ???|modes=[[Nightmare Mode]], [[Endless Mode]], [[Tech City]], [[Hearts Garden]]|ability_1=Buzzsaw Slice: Uses its buzzsaw to stun a unit for 4 seconds.}}
+
+== Overview ==
+'''Dual Buzzsaw Toilet Car''' is a fast [[Enemies|enemy]] with decent health. It appears rarely in [[Hard Mode|hard mode]], and in [[Nightmare Mode|nightmare mode]]. It can stun [[units]] with its buzzsaws. 
+
+== Health ==
+Wave 42: 214,500 HP
+
+Wave 50: 250,500 HP
+
+== Appearance ==
+The '''Dual Buzzsaw Toilet car''' has  two identical buzzsaw on each sides, has 4 large, black wheels attached to it, and a metal plate protecting the front of the toilet.
+== Abilities ==
+
+* Buzzsaw Slice: Uses its buzzsaws to stun a unit.
+
+== Strategy ==
+== Trivia ==
+This toilet is based off of the Dual Buzzsaw Car Skibidi Toilet.
+
+In the [[Episode 61 Update]] Leaks, Telanthric said that this was going to be in both [[Hard Mode]] and [[Nightmare Mode]], but it was only in [[Nightmare Mode]].
+
+{{DEFAULTSORT:Dual Buzzsaw Toilet Car}}
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Characters]]
+[[Category:Stunners]]
+[[Category:Stubs]]
+[[Category:Male Units]]
+[[Category:Incomplete pages]]
+[[Category:Toilet]]
+[[Category:Male Characters]]
+[[Category:Saw]]
+[[Category:Fast toilets]]
+[[Category:Fast]]
+[[Category:Vehicles]]
+[[Category:Valentines Event 2025]]

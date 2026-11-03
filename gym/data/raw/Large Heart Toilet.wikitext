@@ -1,0 +1,27 @@
+{{Stub}}{{Toilet Infobox|title1=Large Heart Toilet|image1=large heart.png|health=254.043|speed=Normal|wave_debut=Wave 31|modes=[[Endless Mode]]|species=[[Toilets]]}}
+
+== Overview ==
+The '''Large Heart Toilet''' is an [[Enemies|enemy]] that appears in [[Endless Mode]]. It was added in the [[Episode 70 Part 3 Update]].
+== Appearance ==
+The Large Heart Toilet has a pink toilet with a heart. The head has a creepy smiling face.
+== Waves ==
+== Strategy ==
+use good dps unit to defeat this
+
+== Trivia ==
+== Gallery ==
+<gallery>
+File:Large heart.png|The toilet.
+File:Broken.png|The counterpart of the toilet
+</gallery>
+
+== Update Log ==
+14/2/14 added large heart toilet
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Event Enemies]]
+[[Category:Valentines Day Event]]
+[[Category:Outdated pages]]
+[[Category:Toilet]]
+[[Category:Incomplete pages]]
+[[Category:Non-Stun Toilets]]

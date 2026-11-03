@@ -1,0 +1,78 @@
+{{Unobtainable}}
+{{DISPLAYTITLE:{{Mythic|Mutant Toilet (Unit)|Mutant Toilet}}}}
+{{Units infobox (this one)|unit_name={{Mythic|Mutant Toilet}}|image1=MutantToiletUnit.webp|cost=500|base_sell_price=250|type=Movable|levels=3|other_information=???|rarity={{Mythic|[[Mythic]]}}|species=[[Toilets (Units)|Toilets]]|special_abilities=Can move around the map}}
+
+==Overview==
+[[Mutant Toilet (Unit)]] is a Mythic unit that was added in the [[Episode 77 Part 1 Update]].
+
+== Appearance ==
+The toilet seems to have a yellow outfit with an armored chest(?) with its arm being fused to a multi-weapon tool which seems to have a saw and a blaster above its arm. There also something on its back, assumably a weapon(?) based on its appearance.
+
+==Obtainment==
+You can summon it from [[Noob Toilet Crate]] with a chance of 0.5%.
+
+==Stats Table==
+{| class="fandom-table"
+|+Stats Table
+!Level
+!Cost
+!Walk Speed
+!Damage
+!Cooldown
+!Range
+!Walk Range
+!DPS
+|-
+|1
+|500
+|15
+|3000
+|2
+|15
+|40
+|1500
+|-
+|2
+|7000
+|15
+|35000
+|2
+|15
+|45
+|17500
+|-
+|3
+|12000
+|15
+|75000
+|1.5
+|25
+|55
+|50000
+|}
+
+==Trivia==
+
+* He is based off [https://skibidi-toilet.fandom.com/wiki/Buzzsaw_Skibidi_Mutant Buzzsaw Mutant] from the Skibidi Toilet series.
+* He is the rarest from [[Noob Toilet Crate]]
+
+==Gallery==
+<gallery>
+MutantToiletUnit.webp|Icon
+Mutant Toilet Lvl 1.png
+Mutant Toilet Lvl 2.png
+Mutant Toilet Lvl 3.png
+File:Betterutanttoiletlvl2.png
+</gallery>
+[[Category:Units]]
+[[Category:Toilet Units]]
+[[Category:Mythic]]
+[[Category:Moveable units]]
+[[Category:Single Target]]
+[[Category:Stub]]
+[[Category:Toilets]]
+[[Category:Toilet]]
+[[Category:Mutants]]
+[[Category:Male Units]]
+[[Category:Male Characters]]
+[[Category:Moveable]]

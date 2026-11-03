@@ -1,0 +1,362 @@
+from __future__ import annotations
+
+from collections.abc import Sequence
+import importlib
+import sys
+import warnings
+
+from _pytest.logging import LogCaptureFixture
+import numpy as np
+import pytest
+import torch
+
+import optuna
+import optuna._gp.acqf as acqf_module
+import optuna._gp.gp as optuna_gp
+import optuna._gp.optim_mixed as optim_mixed
+import optuna._gp.prior as prior
+import optuna._gp.search_space as gp_search_space
+from optuna.samplers import GPSampler
+from optuna.samplers._gp.sampler import _get_constraint_vals_and_feasibility
+from optuna.samplers._gp.sampler import _standardize_values
+from optuna.trial import FrozenTrial
+from optuna.trial import TrialState
+
+
+def test_after_convergence(caplog: LogCaptureFixture) -> None:
+    # A large `optimal_trials` causes the instability in the kernel inversion, leading to
+    # instability in the variance calculation.
+    X_uniform = [(i + 1) / 10 for i in range(10)]
+    X_uniform_near_optimal = [(i + 1) / 1e5 for i in range(20)]
+    X_optimal = [0.0] * 10
+    X = np.array(X_uniform + X_uniform_near_optimal + X_optimal)
+    score_vals = -(X - np.mean(X)) / np.std(X)
+    search_space = gp_search_space.SearchSpace(
+        {"a": optuna.distributions.FloatDistribution(0.0, 1.0)}
+    )
+    gpr = optuna_gp.fit_kernel_params(
+        X=X[:, np.newaxis],
+        Y=score_vals,
+        is_categorical=np.array([False]),
+        log_prior=prior.default_log_prior,
+        minimum_noise=prior.DEFAULT_MINIMUM_NOISE_VAR,
+        deterministic_objective=False,
+    )
+    acqf_params = acqf_module.LogEI(
+        gpr=gpr, search_space=search_space, threshold=np.max(score_vals)
+    )
+    caplog.clear()
+    optuna.logging.enable_propagation()
+    optim_mixed.optimize_acqf_mixed(acqf_params, rng=np.random.RandomState(42))
+    # len(caplog.text) > 0 means the optimization has already converged.
+    assert len(caplog.text) > 0, "Did you change the kernel implementation?"
+
+
+def test_after_convergence_with_zero_sum_probabilities() -> None:
+    X_uniform = [(i + 1) / 10 for i in range(10)]
+    X_uniform_near_optimal = [(i + 1) / 1e5 for i in range(20)]
+    X_optimal = [0.0] * 60
+    X = np.array(X_uniform + X_uniform_near_optimal + X_optimal)
+    score_vals = -(X - np.mean(X)) / np.std(X)
+    search_space = gp_search_space.SearchSpace(
+        {"a": optuna.distributions.FloatDistribution(0.0, 1.0)}
+    )
+    gpr = optuna_gp.fit_kernel_params(
+        X=X[:, np.newaxis],
+        Y=score_vals,
+        is_categorical=np.array([False]),
+        log_prior=prior.default_log_prior,
+        minimum_noise=prior.DEFAULT_MINIMUM_NOISE_VAR,
+        deterministic_objective=False,
+    )
+    acqf_params = acqf_module.LogEI(
+        gpr=gpr, search_space=search_space, threshold=np.max(score_vals)
+    )
+    sampled_xs = search_space.sample_normalized_params(2048, rng=np.random.RandomState(22))
+    f_vals = acqf_params.eval_acqf_no_grad(sampled_xs)
+    max_i = np.argmax(f_vals)
+    probs = np.exp(f_vals - f_vals[max_i])
+    probs[max_i] = 0.0
+    assert np.isfinite(f_vals).all()
+    assert not np.any(probs)
+
+    with warnings.catch_warnings():
+        warnings.simplefilter("error", RuntimeWarning)
+        optim_mixed.optimize_acqf_mixed(acqf_params, rng=np.random.RandomState(22))
+
+
+@pytest.mark.parametrize("constraint_value", [-1.0, 0.0, 1.0, -float("inf"), float("inf")])
+@pytest.mark.parametrize("n_objectives", [1, 2])
+@pytest.mark.filterwarnings("ignore:.*GPSampler cannot handle infinite values*")
+def test_constraints_func(constraint_value: float, n_objectives: int) -> None:
+    n_trials = 5
+    constraints_func_call_count = 0
+
+    def constraints_func(trial: FrozenTrial) -> Sequence[float]:
+        nonlocal constraints_func_call_count
+        constraints_func_call_count += 1
+
+        return (constraint_value + trial.number,)
+
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore", FutureWarning)
+        sampler = GPSampler(n_startup_trials=2, constraints_func=constraints_func)
+
+    def objective(trial: optuna.Trial) -> float | tuple[float, float]:
+        x = trial.suggest_float("x", 0, 1)
+        if n_objectives == 1:
+            return x
+        else:
+            return x, (x - 2) ** 2
+
+    study = optuna.create_study(directions=["minimize"] * n_objectives, sampler=sampler)
+    study.optimize(objective, n_trials=n_trials)
+
+    assert len(study.trials) == n_trials
+    assert constraints_func_call_count == n_trials
+    for trial in study.trials:
+        for x, y in zip(trial.constraints.values(), (constraint_value + trial.number,)):
+            assert x == y
+
+
+@pytest.mark.parametrize("n_objectives", [1, 2])
+def test_constraints_func_nan(n_objectives: int) -> None:
+    n_trials = 5
+
+    def constraints_func(_: FrozenTrial) -> Sequence[float]:
+        return (float("nan"),)
+
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore", FutureWarning)
+        sampler = GPSampler(n_startup_trials=2, constraints_func=constraints_func)
+
+    def objective(
+        trial: optuna.Trial | optuna.trial.FrozenTrial,
+    ) -> tuple[float] | tuple[float, float]:
+        x = trial.suggest_float("x", 0, 1)
+        if n_objectives == 1:
+            return (x,)
+        else:
+            return x, (x - 2) ** 2
+
+    study = optuna.create_study(directions=["minimize"] * n_objectives, sampler=sampler)
+    with pytest.raises(ValueError):
+        study.optimize(objective, n_trials=n_trials)
+
+    trials = study.get_trials()
+    assert len(trials) == 1  # The error stops optimization, but completed trials are recorded.
+    assert all(0 <= x <= 1 for x in trials[0].params.values())  # The params are normal.
+    assert trials[0].values == list(objective(trials[0]))  # The values are normal.
+    assert len(trials[0].constraints) == 0  # No constraints are set.
+
+
+@pytest.mark.parametrize(
+    "keys, expected_values",
+    [
+        (("latency", "memory"), [[-1.0, 2.0], [4.0, -3.0], [0.0, -2.0]]),
+        (("memory", "latency"), [[2.0, -1.0], [-3.0, 4.0], [-2.0, 0.0]]),
+        (("1", "0"), [[2.0, -1.0], [-3.0, 4.0], [-2.0, 0.0]]),
+    ],
+)
+def test_constraint_values_follow_names(
+    keys: tuple[str, str], expected_values: list[list[float]]
+) -> None:
+    trials = [
+        optuna.trial.create_trial(value=0, constraints={keys[0]: -1.0, keys[1]: 2.0}),
+        optuna.trial.create_trial(value=0, constraints={keys[1]: -3.0, keys[0]: 4.0}),
+        optuna.trial.create_trial(value=0, constraints={keys[0]: 0.0, keys[1]: -2.0}),
+    ]
+
+    values, is_feasible = _get_constraint_vals_and_feasibility(trials)
+
+    np.testing.assert_array_equal(values, expected_values)
+    np.testing.assert_array_equal(is_feasible, [False, False, True])
+
+
+@pytest.mark.parametrize("constraints", [{"memory": -1.0}, {}])
+def test_inconsistent_constraint_names(constraints: dict[str, float]) -> None:
+    trials = [
+        optuna.trial.create_trial(value=0, constraints={"latency": -1.0}),
+        optuna.trial.create_trial(value=0, constraints=constraints),
+    ]
+
+    with pytest.raises(ValueError):
+        _get_constraint_vals_and_feasibility(trials)
+
+
+@pytest.mark.parametrize("n_objectives", [1, 2])
+@pytest.mark.parametrize("reverse_first", [False, True])
+def test_named_constraint_order_does_not_change_suggestion(
+    n_objectives: int, reverse_first: bool
+) -> None:
+    suggestions = []
+    for reverse_order in [False, True]:
+        study = optuna.create_study(
+            directions=["minimize"] * n_objectives,
+            sampler=GPSampler(seed=0, n_startup_trials=1),
+        )
+        for i, x in enumerate(np.linspace(0, 1, 6)):
+            constraints = {"low": float(0.15 - x), "high": float(x - 0.85)}
+            if reverse_order and (i % 2 or reverse_first):
+                constraints = dict(reversed(list(constraints.items())))
+            study.add_trial(
+                optuna.trial.create_trial(
+                    values=[(x - 0.2) ** 2, (x - 0.8) ** 2][:n_objectives],
+                    params={"x": x},
+                    distributions={"x": optuna.distributions.FloatDistribution(0, 1)},
+                    constraints=constraints,
+                )
+            )
+        suggestions.append(study.ask().suggest_float("x", 0, 1))
+
+    assert suggestions[0] == pytest.approx(suggestions[1], abs=1e-8)
+
+
+def test_behavior_without_greenlet(monkeypatch: pytest.MonkeyPatch) -> None:
+    monkeypatch.setitem(sys.modules, "greenlet", None)
+    import optuna._gp.batched_lbfgsb as optimization_module
+
+    importlib.reload(optimization_module)
+    assert optimization_module._greenlet_imports.is_successful() is False
+
+    # See if optimization still works without greenlet
+    import optuna
+
+    sampler = optuna.samplers.GPSampler(seed=42)
+    study = optuna.create_study(sampler=sampler)
+    study.optimize(lambda trial: trial.suggest_float("x", -10, 10) ** 2, n_trials=15)
+
+
+def test_gpsampler_with_cuda_default_device() -> None:
+    """Test that GPSampler works when torch.set_default_device('cuda') is set.
+
+    Regression test for issue #6113. When users set torch.set_default_device('cuda'),
+    GPSampler should still work by forcing CPU device internally.
+    """
+    import torch
+
+    if not torch.cuda.is_available():
+        pytest.skip("CUDA not available")
+
+    # Set CUDA as the default device (simulating user's global setting)
+    original_device = torch.get_default_device()
+    torch.set_default_device("cuda")
+
+    try:
+        with warnings.catch_warnings():
+            warnings.simplefilter("ignore", optuna.exceptions.ExperimentalWarning)
+            sampler = GPSampler(n_startup_trials=2, seed=42)
+
+        study = optuna.create_study(sampler=sampler)
+        # Run enough trials to trigger GP sampling (past startup trials)
+        study.optimize(lambda trial: trial.suggest_float("x", -10, 10) ** 2, n_trials=5)
+
+        assert len(study.trials) == 5
+    finally:
+        # Restore original device setting
+        if original_device is None:
+            torch.set_default_device(None)
+        else:
+            torch.set_default_device(original_device)
+
+
+def _get_acqf_and_best_params(
+    n_objectives: int, constraint: str | None, has_running_trials: bool
+) -> tuple[acqf_module.BaseAcquisitionFunc, np.ndarray | None, np.ndarray, np.ndarray]:
+    """Return the acqf, best_params, normalized params, and feasibility of completed trials."""
+    sampler = GPSampler(seed=0)
+    study = optuna.create_study(sampler=sampler, directions=["minimize"] * n_objectives)
+
+    def objective(trial: optuna.Trial) -> list[float]:
+        x = trial.suggest_float("x", 0, 1)
+        if constraint == "partial":
+            trial.set_constraint("c", trial.number % 2 - 0.5)
+        elif constraint == "all_infeasible":
+            trial.set_constraint("c", 0.5)
+        # All the solutions are Pareto optimal when n_objectives == 2.
+        return [x, 1 - x][:n_objectives]
+
+    study.optimize(objective, n_trials=10)
+    completed_trials = study.get_trials(states=(TrialState.COMPLETE,))
+    search_space: dict[str, optuna.distributions.BaseDistribution] = {
+        "x": optuna.distributions.FloatDistribution(0, 1)
+    }
+    internal_search_space = gp_search_space.SearchSpace(search_space)
+    normalized_params = internal_search_space.get_normalized_params(completed_trials)
+    standardized_score_vals, _, _ = _standardize_values(
+        -np.array([t.values for t in completed_trials])
+    )
+    gprs_list = [
+        optuna_gp.GPRegressor(
+            is_categorical=torch.from_numpy(internal_search_space.is_categorical),
+            X_train=torch.from_numpy(normalized_params),
+            y_train=torch.from_numpy(standardized_score_vals[:, i]),
+            inverse_squared_lengthscales=torch.ones(1, dtype=torch.float64),
+            kernel_scale=torch.tensor(1.0, dtype=torch.float64),
+            noise_var=torch.tensor(0.1, dtype=torch.float64),
+        )
+        for i in range(n_objectives)
+    ]
+    for gpr in gprs_list:
+        gpr._cache_matrix()
+    acqf, best_params = sampler._get_acqf_and_best_params(
+        completed_trials=completed_trials,
+        gprs_list=gprs_list,
+        internal_search_space=internal_search_space,
+        normalized_params=normalized_params,
+        normalized_params_of_running_trials=np.array([[0.5]]) if has_running_trials else None,
+        standardized_score_vals=standardized_score_vals,
+    )
+    is_feas = (
+        _get_constraint_vals_and_feasibility(completed_trials)[1]
+        if constraint is not None
+        else np.ones(len(completed_trials), dtype=bool)
+    )
+    return acqf, best_params, normalized_params, is_feas
+
+
+@pytest.mark.parametrize(
+    "n_objectives,is_constrained,has_running_trials,expected_acqf_type",
+    [
+        (1, False, False, acqf_module.LogEI),
+        (1, False, True, acqf_module.qLogEI),
+        (2, False, False, acqf_module.LogEHVI),
+        (2, False, True, acqf_module.qLogEHVI),
+        (1, True, False, acqf_module.LogCEI),
+        (1, True, True, acqf_module.qLogCEI),
+        (2, True, False, acqf_module.LogCEHVI),
+        (2, True, True, acqf_module.qLogCEHVI),
+    ],
+)
+def test_get_acqf_and_best_params(
+    n_objectives: int,
+    is_constrained: bool,
+    has_running_trials: bool,
+    expected_acqf_type: type[acqf_module.BaseAcquisitionFunc],
+) -> None:
+    acqf, _, _, _ = _get_acqf_and_best_params(
+        n_objectives, "partial" if is_constrained else None, has_running_trials
+    )
+    assert type(acqf) is expected_acqf_type
+
+
+@pytest.mark.parametrize("n_objectives", [1, 2])
+@pytest.mark.parametrize("constraint", [None, "partial", "all_infeasible"])
+@pytest.mark.parametrize("has_running_trials", [False, True])
+def test_get_acqf_and_best_params_best_params(
+    n_objectives: int, constraint: str | None, has_running_trials: bool
+) -> None:
+    _, best_params, normalized_params, is_feas = _get_acqf_and_best_params(
+        n_objectives, constraint, has_running_trials
+    )
+    if not is_feas.any():  # No feasible trial exists, so there is nothing to warm-start from.
+        assert best_params is None
+        return
+
+    feas_params = normalized_params[is_feas]
+    assert best_params is not None and best_params.ndim == 2
+    if n_objectives == 1:
+        np.testing.assert_array_equal(best_params, feas_params[np.argmin(feas_params[:, 0]), None])
+    else:
+        # Every feasible solution is Pareto optimal, so the warm-start points come from them.
+        assert all(any(np.array_equal(p, q) for q in feas_params) for p in best_params)

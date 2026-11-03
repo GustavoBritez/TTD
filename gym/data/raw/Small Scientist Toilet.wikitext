@@ -1,0 +1,29 @@
+{{SeeAlsoNotice|Note1=[[Small Magnet Scientist Toilet]]}}{{Toilet_Infobox|image1=SmallS.png|species=[[Enemies|Toilets]]|health=1,002,000 HP|speed=Fast|wave_debut=Wave 50 (Abysmal Mode)|modes=Nightmare+|ability_1=Laser Shoot: Shoots its laser at a unit, stunning it.}}
+
+== Overview ==
+The '''Small Scientist Toilet''' is an enemy that was added to Toilet Tower Defense in the [[Episode 67 Part 4 Update|Episode 67 (Part 4) Update.]] He is a second version of the former final boss of [[Nightmare Mode|Nightmare Mode,]] [[Scientist Toilet|Scientist Toilet.]] He has about 1,002,000 HP and uses his laser above his head to stun your units. He appears in Nightmare Mode.
+
+== Appearance ==
+The Small Scientist Toilet is actually pretty big even it has the word small in it. (About the size of a player). He has a laser above his head, spider legs, a jetpack behind him and some sort of metal plating on the front of his toilet bowl..
+
+== Strategy ==
+The Small Scientist Toilet is a very fast toilet. [[Units]] that can slow toilets can be very effective. Although [[Mech Cameraman]] is acceptable, he doesn't do enough damage. The best option would be the [[Upgraded Titan Cameraman|Upgraded Titan Cameraman.]] His AoE slows toilets down and he does a lot of damage. [[Chef TV Man|The Chef TV Man]] can slide by to though. [[Green Laser Cameraman]] is also acceptable as it does 50% toilet slowing except the damage is not too high to take the Small Scientist Toilet down.
+
+== Trivia ==
+
+* He is based on the [https://skibidi-toilet.fandom.com/wiki/Chief_Scientist_Skibidi_Toilet#Chief_Scientist_Skibidi_Toilet Chief Scientist Skibidi Toilet]
+[[Category:Enemies]]
+[[Category:Stunners]]
+[[Category:Scientist]]
+[[Category:Laser]]
+[[Category:Toilets]]
+
+[[Category:Characters]]
+
+[[Category:Laser users]]
+[[Category:Male Characters]]
+[[Category:Fast]]
+[[Category:Man Face]]
+[[Category:Small]]
+[[Category:Beard]]
+[[Category:Valentines Event 2025]]

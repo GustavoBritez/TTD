@@ -1,0 +1,41 @@
+{{Character|name=Soldier Rocket Toilet|image=solider toilet no bg.png|imagecaption=|species=Toilets|debut=Episode 65 Update|height=|speed=Average/Slightly Fast|health=1,185,000 HP|appearsin=Nightmare Mode}}
+
+== Overview ==
+The '''Soldier Rocket Toilet''' is an enemy that can stun units and has a high amount of health.
+
+== Appearance ==
+It is a large white toilet, with wheels on the sides. He has two lasers on his sides, and 3 explosives attached to the front of its armored hull. It has two 8-rocket missile launchers on the sides of it's tank.
+
+== Waves ==
+Nightmare Mode:
+
+Wave 47: x1
+
+== Abilities ==
+He uses his 2 laser guns to stun nearby units.
+
+== '''Health''' ==
+Wave 47: 1,185,000 HP
+
+== Strategy ==
+* You should use high DPS units to take this enemy down, as it has a lot of health.
+* This enemy will stun quickly, so you should use [[Medic Cameraman]] or [[Camera Repair Drone]] to unstun units stunned by the Solider Rocket Toilet.
+* If this enemy stuns Scientist Cameraman or Engineer Cameraman, you will still make money and Engineer Cameraman will still spawn units. This will make a great shield for your higher DPS units.
+* Upgraded Titan Speakerman can block up to 2 stuns, which can  protect your higher DPS units.
+* Mech Cameraman, TV Woman, Green Laser Cameraman and Flamethrower Cameraman can slow down this enemy, making it easier to defeat.
+
+== Trivia ==
+It is based off of the [https://skibidi-toilet.fandom.com/wiki/Bomb_Overload_Skibidi_Toilet Bomb Overload Skibidi Toilet] from the series.
+[[Category:Enemies]]
+[[Category:Toilets]]
+[[Category:Stunners]]
+
+
+[[Category:Male Characters]]
+[[Category:Laser]]
+[[Category:Laser users]]
+[[Category:Jetpack]]
+[[Category:Incomplete pages]]
+[[Category:Gun users]]
+[[Category:Rocket]]
+[[Category:Rockets]]

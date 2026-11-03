@@ -1,0 +1,34 @@
+{{Toilet_Infobox|image1=Heli rocket.png|caption-image1=Toilet.|description=|species=Toilet|health=328000 on hard 49|speed=Average|wave_debut=???|modes=Nightmare+|ability_1=Rocket Launcher: Shoots its rocket at a unit, stunning it.}}
+== Overview ==
+'''Helicopter Rocket Launcher Toilet''' is a toilet that has average speed with decent health and can stun units. It appears in [[Hard Mode]] and [[Nightmare Mode]] and in Endless Mode.
+
+== Appearance ==
+It has a rocket launcher on the bottom and a helicopter rotor. The toilet is grey and is also small.
+== Waves ==
+=== Nightmare Mode ===
+== Strategy ==
+Decent DPS but fast are recommended because it doesn't have a crazy amount of health, though it still has a bit.
+
+== Trivia ==
+* On the Episode 55 Update, Helicopter Rocket Launcher Toilet was broken and stopped moving when it hit a corner.
+* It is based off of the [https://skibidi-toilet.fandom.com/wiki/Helicopter_Missile_Grey_Skibidi_Toilet Helicopter Missile Grey Skibidi Toilet] from the series.
+
+== Gallery ==
+<gallery>
+File:Heli rocket.png|icon
+File:Heli rocket toilet.png|In-game
+File:Helirocket.png|ditto
+</gallery>
+[[Category:Characters]]
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Stunners]]
+[[Category:Helicopters]]
+
+
+[[Category:Incomplete pages]]
+[[Category:Mid-air]]
+[[Category:Rocket]]
+[[Category:Rockets]]
+[[Category:Small]]
+[[Category:Flying]]

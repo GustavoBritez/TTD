@@ -1,0 +1,27 @@
+This toilet was added in the [[Tech Event]] and only spawns in [[Tech City]].
+
+{{Toilet Infobox|title1=Hoverboard Toilet|image1=<gallery>
+Hoverboard.png|Icon
+Hoverboard Toilet.png|In-Game
+</gallery>|species=Toilet|health=Easy: TBA
+Hard: TBA|speed=Fast|wave_debut=Easy: TBA
+Hard: TBA|modes=[[Tech City]]}}
+
+== Strategy ==
+This toilet doesn't have a lot of health, so you can use some units like [[Turkey TV Man]] or [[Future Cameraman]].
+
+== Gallery ==
+<gallery>
+File:Hoverboard.png|Icon
+</gallery>
+[[Category:2025]]
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Flying]]
+[[Category:Small]]
+[[Category:Tech Event 2025]]
+[[Category:Event Enemies]]
+[[Category:Incomplete pages]]
+[[Category:Stubs]]
+[[Category:Fast toilets]]
+[[Category:Spawner Minion]]

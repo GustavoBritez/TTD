@@ -1,0 +1,93 @@
+{{DISPLAYTITLE:{{Mythic|Zombie Toilet}}}}
+{{Units infobox (mini)|unit_name={{Mythic|Zombie Toilet}}|cost=$1400|base_sell_price=$700|type=🔦{{Mythic|AoE}}🔦
+❄️{{Rare|Slowing}}❄️|rarity={{Mythic|[[Mythic]]}}|species=[[Toilets (Units)|Toilets]]|special_abilities=60% slowing|image1=<gallery>
+ZombieToiletnew.png|Current
+ZombieToilet2.png|Old
+</gallery>|aliases=*Shiny Zombie Toilet}}{{MetaUnit|DPS/Support|overpowered}}{{Stub}}
+
+==Overview==
+The '''Zombie Toilet''' is a [[Mythic]] [[Units|unit]] that has a 0.1% (0.2 with 2x gamepass or luck boost, and 0.3 with both), 1.5% in [[Mythic Crate]] (3% with Luck boost, 4.5% with gamepass and boosts.) chance being summoned while in rotation from the [[Summoning|Main Summoning Area]]. It takes approximately 21600 coins ([[Mythic Crate]]) and a ton of grinding, unless the player purchases coins with Robux or is lucky. Its amount of single target and AOE damage, and value have soared drastically.  It was released in the [[Speed Run Update]] and reworked in the [[Season 2 Update]]. It is based off of the [https://skibidi-toilet-zombie-universe.fandom.com/wiki/Normal_Skibidi_Toilet Zombie Skibidi Toilet] from MonsterUP's zombie universe series.
+
+== Obtainment==
+'''Zombie Toilet''' can be obtained from the [[File:Basic crate.png|40px|link=https://toilet-tower-defense-game.fandom.com/wiki/Basic_Crate]] {{Basic|Basic Crate|}} with a 0.1% chance (0.2% with luck boost/gamepass, or 0.4% with both), or from the [[File:New icon.png|40px|link=https://toilet-tower-defense-game.fandom.com/wiki/Mythic_Crate]] {{Mythic|Mythic Crate|}} with a 1.5% chance (3% with luck boost/gamepass, or 4.5% with both).
+
+You can additionally get it from trading, get it as a gift at the [[Post Office]] or buy it for gems on the [[Marketplace]].
+
+== Stats Table ==
+{| class="fandom-table"
+|+
+!'''Level'''
+!'''Price'''
+!'''Total Price'''
+!'''Damage'''
+!'''DPS'''
+!'''Cooldown'''
+!'''Range'''
+!'''Toilet Slowing'''
+!'''Sell Price'''
+!'''DPS/$'''
+|-
+|1
+|$1400
+|$1400
+|12500
+|12500
+|1
+|40
+|60%
+|$700
+|8.928
+|-
+|2
+|$4200
+|$5600
+|30000
+|30000
+|1
+|45
+|60%
+|$2800
+|5.357
+|-
+|3
+|$8600
+|$14200
+|53000
+|53000
+|1
+|50
+|60%
+|$7100
+|3.732
+|-
+|4
+|$15000
+|$29200
+|75000
+|75000
+|1
+|55
+|60%
+|$14600
+|2.568
+|}
+
+==Strategy ==
+
+*Place it down in large places or crowded areas to maximize its range.
+*Place the unit close to high DPS troops that cannot slow down enemies like [[Hyper Upgraded Titan Speakerman|'''Hyper Upgraded Titan Speakerman''']], so that the '''Zombie Toilet''' can become a good support unit.
+*Put it near units that hit a multitude of enemies or have spread because it bunches them up with the slowing if on target first.
+*Use this as an [[Astro Upgraded Titan Cameraman|'''Astro Upgraded Titan Cameraman''']] alternative since they both do slowing, but '''Zombie Toilet''' has less slowing range.
+
+==Trivia==
+
+*This unit is a better version of '''[[Bald Toilet]]''' even though Zombie Toilet does less DPS, but '''Zombie Toilet''' slows, and '''Zombie Toilet''' is cheaper to max out.
+*This unit is one of the first units that was added from the [https://skibidi-toilet-zombie-universe.fandom.com/wiki/Skibidi_toilet_zombie_universe_Wiki Zombie Universe Series]. (Second if [[Zombie Horde Cameraman]] counts).
+*This unit is an alternative to [[The Golden Skibidi]] because they both do 360'''°''' AoE 60% slowing but has slightly less DPS, F2P, no stunning abilities, and less stun blocks.
+*This unit replaced all [[Mythic|Mythics]] such as [[Mace Camerawoman]], [[Knife Upgraded Titan Speakerman]] and others from the [[Basic Crate]] and [[Mythic]]
+
+{{UnitsNavbox}}
+[[Category:Units]]
+[[Category:Mythic]]
+[[Category:Toilets]]
+[[Category:Zombies]]

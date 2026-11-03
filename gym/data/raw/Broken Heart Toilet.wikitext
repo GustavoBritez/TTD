@@ -1,0 +1,49 @@
+{{Toilet_Infobox|image1=<gallery>
+BrokenHeartToiletBossIcon.png|Boss Icon
+1708826554869.png|In-Game
+</gallery>|species=[[Enemies|Toilets]]|health=62,649,392|speed=Normal|wave_debut=Wave 90 and Wave 40 and 50 on Hearts Garden|modes=[[Endless Mode]] [[Hearts Garden]]|ability_1=Minigun Shoot: Shoots its miniguns at a unit, stunning it. This has a 50% chance to be used.}}
+
+== Overview ==
+The '''Broken Heart Toilet''' is an [[Enemies|enemy]] added in the [[Episode 70 Part 3 Update]]. It currently is the boss for Wave 90 of [[Endless Mode]].
+== Appearance ==
+It looks like a mech with has three broken hearts, one on each shoulder and one on its head. It has two miniguns, both having a 50% chance to stun. It wears a golden crown on its head.
+
+== Waves ==
+
+=== [[Endless Mode]] ===
+Wave 90, 85,283,960 health
+
+== Strategy ==
+Always use [[Green Laser Cameraman]], for this toilet is faster than others and has a ton of health. Use high DPS units like [[Sinister Titan TV Man]]. 
+
+== Trivia ==
+
+* This is one of the few enemies to have a walking animation. The others are [[Frost Skeleton Toilet]], [[Giant Smooth Toilet]], [[Infected Titan Speakerman]] and the Mutant Toilet family:
+** [[Mutant Toilet 2.0]]
+** [[Mutant Assassin Toilet]]
+** [[Buzzsaw Mutant Toilet]]
+** [[Mutant Toilet]]
+* Despite being a Valentine's themed enemy, this boss is present all year round, and does not have any appeances during Valentine's Day.
+
+== Gallery ==
+<gallery>
+File:Broken.png
+</gallery>
+[[Category:Toilets]]
+[[Category:Stunners]]
+[[Category:Bosses]]
+[[Category:Enemies]]
+[[Category:Boss Toilets]]
+[[Category:Event Enemies]]
+[[Category:Endless Bosses]]
+[[Category:Toilet]]
+[[Category:Valentines Day Event]]
+[[Category:Incomplete pages]]
+[[Category:Slow Toilets]]
+[[Category:Stubs]]
+[[Category:Stub]]
+[[Category:Endless bosses]]
+[[Category:Miniguns]]
+[[Category:Man Face]]
+[[Category:Male Characters]]
+[[Category:Valentines Event 2025]]

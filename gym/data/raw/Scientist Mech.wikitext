@@ -1,0 +1,114 @@
+{{DISPLAYTITLE:{{Exclusive|{{PAGENAME}}}}}}
+[[Category:Units]]
+[[Category:Toilets]]
+[[Category:Characters]]
+[[Category:Exclusive]]
+[[Category:Toilet Units]]
+[[Category:Single Target]]
+{{Units_infobox_(this_one)|image1=Better scientist mech.png|unit_name={{Exclusive|Scientist Mech}}|cost=$1500|base_sell_price=$750|type=[[Moveable Units|Movable]]|levels=3|other_information=|rarity={{Exclusive|[[Exclusive]]}}|species=[[Toilets (Units)|Toilets]]|special_abilities=Movable and can't get stunned.}}{{Unobtainable}}
+
+==Overview==
+The '''Scientist Mech''' is an [[Exclusive]] [[Units|unit]] which was released in [[Episode 73 Part 1 Update]]. It is based on the '''[[Laser Scientist Toilet|Quad Laser Scientist Skibidi Toilet Mech]]''' but without one laser. It was controlled by TV Woman in [[Secret Agent|Episode 73 (Part 1)]] of Skibidi Toilet.
+
+== Appearance ==
+The toilet looks like the regular [[Scientist Toilet]] but with a shorter beard, and being more mechanical in some ways. It has four lasers, but one of the lasers is broken.
+
+==Obtainment==
+This unit can be obtained by buying it in the [[Astro Upgraded Titan Cameraman|Shop]] for {{Robux|299}} (Original price: {{Robux|399}}) . You can also purchase this unit in the [[Marketplace]], get it from [[Trading]], or receiving it from the [[Post Office]].
+===Stats Table===
+{| class="mw-collapsible fandom-table"
+|+Upgrades
+!'''Level'''
+!'''Cost'''
+!'''Total Cost'''
+!'''Damage'''
+!'''Walk Speed'''
+!'''Range'''
+!'''Walk Range'''
+!'''Cooldown'''
+!'''Raw DPS'''
+!'''Accurate DPS'''
+!'''Sell Price'''
+!'''DPS/$'''
+|-
+|1
+|$1500
+|$1500
+|2700
+|9
+|30
+|45
+|0.45s
+|6000
+|5400
+|$750
+|4
+|-
+|2
+|$4500
+|$6000
+|5000
+|12
+|40
+|55
+|0.25s
+|20000
+|20000
+|$3000
+|3.333
+|-
+|3
+|$12000
+|$18000
+|9000
+|15
+|50
+|65
+|0.15s
+|60000
+|54000
+|$9000
+|3.333
+|}
+==Strategy==
+*While it does take a hefty amount to place, this unit deals a great amount of DPS for it's cost but [[Saber Mutant Toilet|someone]] surpassed this method. Use it when trying to beat waves easily.
+*Place it as early as you can to deal insane amounts of damage. This unit cannot be stunned.
+==Trivia==
+*This is the first toilet unit in the game even though he is controlled by [[TV Woman]] in the series.
+*Units that use toilets as transport, like [[Car Speakerman]] or [[Glitch Cameraman]], do not count.
+*The second toilet unit belongs to (tied) [[Arachnid Militant Toilet]] and [[Military Mutant Toilet Girl]], which are both toilets.
+
+*This unit does not have the same model as the [[Laser Scientist Toilet]], as it would confuse other players.
+
+* This unit can easily carry / beat [[Nightmare Mode|Nightmare mode]]. This unit got buffed a lot, from 40k to 53.3333k to 56k and now 60k DPS
+*
+*
+
+* This unit somehow does more DPS than [[Astro Upgraded Titan Cameraman]]
+* This unit cannot be buffed with booster units, such as [[Chief Clockman]]
+* This unit got a new face as his Man face is missing
+* His model looks like the same as [[Rabid Rabbit Toilet]], just with different colors, no armor, and different head.
+==Gallery==
+===Leaks===
+<gallery>
+File:ScientistMechLeak.PNG|'''Scientist Mech''' shown in the [https://www.youtube.com/watch?v=XhI9AsCka1Q "EPISODE 73 (PART 1) UPDATE LEAKS!!"] video.
+File:ScientistMechLeak2.PNG|'''Scientist Mech''' shown in the [https://www.youtube.com/watch?v=6IbZuArRRRA "EP 73 Part 1 Update Leaks!?!"] video.
+</gallery>
+===Attack Animations===
+<gallery>
+File:SMLaserAnim.gif|'''Scientist Mech''' launches lasers at toilets.
+</gallery>
+[[Category:Moveable units]]
+[[Category:Scientist]]
+[[Category:Mid-air]]
+[[Category:Jetpack]]
+[[Category:Male Units]]
+[[Category:Male Characters]]
+[[Category:Laser]]
+[[Category:Laser users]]
+[[Category:Laser Units]]
+[[Category:Expensive]]
+[[Category:Flying]]
+[[Category:Mech]]
+[[Category:Man Face]]
+[[Category:Beard]]

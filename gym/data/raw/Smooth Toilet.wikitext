@@ -1,0 +1,76 @@
+
+{{Stub}}
+{{DISPLAYTITLE:{{Mythic|{{PAGENAME}}}}}}{{SeeAlsoNotice|Note1=[[Giant Smooth Toilet]]}}{{Units infobox (this one)|image1=SmoothToilet.png|cost=$4000|base_sell_price=$2000|type=AoE, Single Attack|levels=2|rarity=* {{Mythic|[[Mythic]]}}
+*{{Rare|[[Rare]]}} (Formerly)|species=[[Toilets (Units)|Toilets]]|unit_name={{Mythic|Smooth Toilet}}|other_information=This is super rare unit esto es muy raro toilet|special_abilities=None}}
+
+==Overview==
+The Smooth Toilet is a [[Mythic]] [[Units|unit]] that was added in the [[Episode 77 Part 1 Update]] and made obtainable in the [[Episode 77 Part 2 Update]].
+
+== Appearance ==
+The toilet seems to have six spider legs each having two prongs. Its weapons are two arms each also having two blades on each arm. At the render icon, it is not very visible to see a lot of details, but the best the eye can see is two purple grabbers attached to a purple toilet.
+
+== Obtainment==
+It can be obtained through [[Summoning]] with a 0.1%/1.4% chance. you can also get it from [[Trading]], buying from [[Marketplace]], or getting gifted it in the [[Post Office]].
+
+==Stats Table==
+{| class="fandom-table"
+|+'''Stats'''
+!'''Level'''
+!'''Price'''
+!'''Total Price'''
+!'''Damage'''
+!'''Range'''
+!'''Cooldown'''
+!'''Sell Price'''
+!'''DPS'''
+!'''DPS/$(Cost Efficiency)'''
+|-
+|LV1
+|$4000
+|$4000
+|3000 (500 AOE, 25000 Blades)
+|20 (AOE), 25 (Blades)
+|0.2 (AOE), 2 (Blades)
+|$2000
+|15000
+(2500 AOE, 12500 Blades)
+|3.75
+|-
+|LV2
+|$30000
+|$34000
+|16000 (4000 AOE, 90000 Blades)
+|25 (AOE and Blades)
+|0.2 (AOE), 1.5 (Blades)
+|$17000
+|80000 (20000 AOE, 60000 Blades)
+|2.352
+|}
+
+==Trivia==
+
+*This unit is based off of the [https://skibidi-toilet.fandom.com/wiki/Michael_Jackson_Skibidi_Toilet?so=search Michael Jackson Toilet] from the main series.
+*This unit is obtainable in the [[Episode 77 Part 2 Update|Episode 77 Part 2]]  being unobtainable in the [[Episode 77 Part 1 Update]].
+*This unit was presumably not supposed to be added in the [[Episode 77 Part 1 Update]].
+*This unit has a low range, similar to Ghost Cameraman, so this is not recommended to use.
+*This unit is basically Hyper Upgraded Titan Speakerman with Ghost Cameraman's range.
+*Cannot block stuns.
+*This is the first unit to be added in one update and made obtainable in the next Update.
+**It is also the first unit to have its rarity changed.  ([[Rare]] -> [[Mythic]])
+**Currently, half of the body is buried due to a bug.
+
+==Gallery==
+<gallery>
+File:SmoothToilet.png|Icon.
+</gallery>
+[[Category:Toilets]]
+[[Category:Toilet]]
+[[Category:Toilet Units]]
+[[Category:AoE]]
+[[Category:Male Units]]
+[[Category:Male Characters]]
+[[Category:Units]]
+[[Category:Mythic]]
+[[Category:Summons]]
+[[Category:Summoning]]
+[[Category:AoE]]

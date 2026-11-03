@@ -1,0 +1,154 @@
+
+This page is about ''For the category "[[:Category:Toilets|Toilets]]" click [[:Category:Toilets|here]].''
+
+''For the enemy "[[Toilet]]" click [[Toilet|here]].''
+== Overview ==
+
+An '''enemy''' is the primary enemy inside of the game. There are many different enemies in the game, one even being an infected version of [[Titan Speakerman|the unit]]. They''plash stuns, Summon, Event, Coming soon, Holdable, Unknown.''<center>
+==Toilets==
+<gallery hideaddbutton="true" captionalign="center" widths="200" position="center" orientation="none" spacing="small" bordercolor="transparent">
+File:SmallS.png|   [[Small Scientist Toilet]]<br /> [[(1,000,002HP)]]<br />{{Type|Stun}}{{Type|Strong}}
+File:Guard.png|   [[Security Guard Toilet]]<br /> [[(1,220,000HP)]]<br />{{Type|Stun}}{{Type|Strong}}
+File:1708826554869.png|   [[Broken Heart Toilet]]<br/> [[(62,649,392HP)]]<br />{{Type|Boss}} {{Type|Very Strong}} {{Type|Stun}} {{Type|Event| Valentine's Event}}
+File:Octo rocket.png|   [[Octo Rocket Soldier Toilet]]<br /> [[(1,737,632HP - Can Vary)]]<br />{{Type|Stun}}{{Type|Very Strong}}
+File:Roblox 24 01 2024 17 11 40.png|   [[Quad Rocket Toilet Car]]<br /> [[(327,500HP)]] <br />{{Type|Stun}}{{Type|Strong}}
+File:Flying Quad Laser Toilet .png|   [[Flying Quad Laser Toilet]]<br /> [[(35,000,000HP)]]<br />{{Type|Strong}}{{Type|Stun}}
+File:Dual.png|   [[Dual Cargo Toilets]]<br /> [[(6,200,000HP)]]<br />{{Type|Boss}} {{Type|Summon}}{{Type|Strong}}
+File:Mil.png|   [[Military Rocket Launcher Toilet]]<br /> [[(980,000HP)]]<br />{{Type| Strong}}{{Type|Stun}}
+File:RabidRabbitToilet.png|[[Rabid Rabbit Toilet]]<br /> [[(11,820,000HP)]]<br />{{Type|Boss}}{{Type|Stun}}{{Type|Very Strong}}{{Type|Event}}
+File:Shield Toilet .png|File:Shield Toilet .png|  [[Quad Rocket Shield Toilet]]<br />[[(2,505,000HP)]] <br />{{Type|Stun}}{{Type|Strong}}
+File:Heli camo.png|[[Helicopter Camo Toilet]] <br /> [[(Not yet found)]]<br />{{Type|Strong}}{{Type|Stun}}
+File:Rare toilel(pls dont do anything to him wiki plz😭😭).png|[[Beret Rocket Launcher Toilet]] <br /> [[(2,740,000HP)]]<br />{{Type|Stun}}{{Type|Very Strong}}
+File:Swat skibid mutant.png|[[Police Mutant Toilet]] <br /> [[(1,104,800HP)]]<br />{{Type|Stun}}{{Type|Very Strong}}
+File:Gas toilet.png|[[Secutor Astro Toilet]] <br /> [[(248,680,678HP - 3,340,000HP in Abysmal Mode )]] <br />{{Type|Stun}}{{Type|Very Strong}}{{Type|Boss}}
+File:MST.png|[[Magnet Scientist Toilet]]<br />{{Type|Stun}}{{Type|Strong}}{{Type|Event}}
+File:Small Magnet Scientist Toilet.png|[[Small Magnet Scientist Toilet]]<br />{{Type|Stun}}{{Type|Medium}}{{Type|Event}}{{Type|Boss}}
+File:Magnet Toilet.png|[[Magnet Toilet]]<br />{{Type|Stun}}{{Type|Medium}}{{Type|Event}}{{Type|Boss}}
+File:Magnet Scientist 3.0.png|[[Magnet Scientist Toilet 3.0]]<br />{{Type|Stun}}{{Type|Strong}}{{Type|Event}}
+File:Screenshot 2024-07-01 104250.png|[[Buff Mutant Toilet]]<br />{{Type|Stun}}{{Type|Very Strong}}{{Type|Boss}}
+File:Scientist.png|   [[Scientist Toilet]] <br />{{Type|Boss}} {{Type|Stun}}{{Type|Strong}}
+File:Astro Toilet.PNG.png|   [[Astro Toilet]] <br />{{Type|Boss}} {{Type|Stun}} {{Type|Very Strong}}
+File:TV Dual Claw Mouthless Boi.png|   [[TV Dual Claw Toilet]] <br />{{Type|Medium}} {{Type|AoE Stuns}}
+File:Largehearttoilet.png|   [[Large Heart Toilet]] <br />{{Type|Medium}} {{Type|Event|Valentine's Event}} 
+File:Laser sci.png|   [[Laser Scientist Toilet]] <br />{{Type|Very Strong}} {{Type|Stun}}
+File:Magnet Titan Toilet.png|   [[Magnet Titan Toilet]] <br />{{Type|Stun}} {{Type|Event}} {{Type|Boss}} {{Type|Strong}}
+Airplane no bg 2.png|link=Airplane Toilet| [[Airplane Toilet]] <br />{{Type|Strong}}
+Assassin no bg.png|link=Assassin Toilet|   [[Assassin Toilet]] <br />{{Type|Normal}}
+Boss toilet no bg.png|link=Boss Toilet|   [[Boss Toilet]] <br />{{Type|Boss}} {{Type|Normal}}
+Final boss 2.0.png|link=Boss Toilet 2.0|   [[Boss Toilet 2.0]] <br />{{Type|Boss}} {{Type|Stun}}  {{Type|Medium}}
+Boss 3.0.png|link=Boss Toilet 3.0|   [[Boss Toilet 3.0]] <br />{{Type|Boss}} {{Type|Stun}}  {{Type|Strong}}
+Boss Toilet 4.0.png|link=Boss Toilet 4.0|   [[Boss Toilet 4.0]] <br />{{Type|Boss}} {{Type|Stun}} {{Type|Very Strong}}
+Boss turkey.png|link=Giant Turkey Toilet|   [[Giant Turkey Toilet]] <br />{{Type|Boss}} {{Type|AoE Stuns}} {{Type|Event|Thanksgiving Event}} {{Type|Very Strong}}
+File:Boss toilet 4.5.png|[[Helmet Boss Toilet 4.0]]<br />{{Type|Stun}}{{Type|Very Strong}} {{Type|Boss}}
+Claw Toilet.png|link=Claw Toilet|   [[Claw Toilet]] <br />{{Type|Strong}} {{Type|Stun}}
+Cat Toilet.png|link=Cat Toilet|   [[Cat Toilet]] <br> {{Type|Medium}} {{Type|Boss}} 
+DJ Toilet.png|link=DJ Toilet|   [[DJ Toilet]] <br />{{Type|Normal}}
+Dual Blade.png|link=Dual Blade Toilet|   [[Dual Blade Toilet]] <br />{{Type|Medium}} {{Type|Stun}}
+Dual car.png|link=Dual Buzzsaw Toilet Car|   [[Dual Buzzsaw Toilet Car]] <br />{{Type|Strong}} {{Type|Stun}}
+Dual Claw laser toilet.png|link=Dual Claw Laser Toilet|   [[Dual Claw Laser Toilet]] <br />{{Type|Strong}} {{Type|Stun}}
+Dualclaw.png|link=Dual Claw Toilet|   [[Dual Claw Toilet]] <br />{{Type|Normal}}{{Type|Stun}}
+Dual Flying.png|link=Dual Flying Buzzsaw Toilet|   [[Dual Flying Buzzsaw Toilet]] <br />{{Type|Boss}} {{Type|Stun}} {{Type|Strong}}
+Dual Rocket Laser Toilet.png|link=Dual Rocket Laser Toilet|   [[Dual Rocket Laser Toilet]] <br />{{Type|Very Strong}}{{Type|Stun}}
+Dual rocket toilet2.png|link=Dual Rocket Launcher Helicopter Toilet|   [[Dual Rocket Launcher Helicopter Toilet]] <br />{{Type|Very Strong}} {{Type|Stun}}
+Exploding toilet.png|link=Explosive Flying Toilet|   [[Explosive Flying Toilet]] <br />{{Type|Medium}} {{Type|Splash Stuns}}
+Flame toilet.png|link=Flamethrower Toilet|   [[Flamethrower Toilet]] <br />{{Type|Strong}} {{Type|Stun}}
+Flashlight.png|link=Flashlight Rocket Toilet|   [[Flashlight Rocket Toilet]] <br />{{Type|Very strong}} {{Type|Stun}}{{Type|Boss}}
+FlyingQuadBuzzsawToilet.png|link=Flying Quad Buzzsaw Toilet|   [[Flying Quad Buzzsaw Toilet]] <br />{{Type| Strong}} {{Type|Stun}}
+Flying Rocket Launcher Toilet.png|link=Flying Rocket Launcher Toilet|   [[Flying Rocket Launcher Toilet]] <br />{{Type|Medium}} {{Type|Stun}}
+Fork toilet.png|link=Forklift Toilet|   [[Forklift Toilet]] <br />{{Type|Strong}}{{Type|Holdable}}
+Large no bg.png|link=Large Toilet|   [[Large Toilet]] <br />{{Type|Normal}}
+Frost.png|link=Frost Toilet|   [[Frost Toilet]] <br />{{Type|Normal}} {{Type|Event|Christmas Event}} {{Type|Stun}}
+Frost Skeleton Toilet.png|link=Frost Skeleton Toilet|   [[Frost Skeleton Toilet]] <br />{{Type|Stun|Boss}} {{Type|Event|Christmas Event}} {{Type|Stun}} {{Type|Very Strong}}
+Giant blade.png|link=Giant Dual Blade Toilet|   [[Giant Dual Blade Toilet]] <br />{{Type|Strong}}{{Type|Stun}}{{Type|Boss}}
+Giant blind.png|link=Giant Blind Toilet|   [[Giant Blind Toilet]] <br />{{Type|Strong}}
+Giant Glasses.png|link=Giant Glasses Toilet|   [[Giant Glasses Toilet]] <br />{{Type|Medium}}
+Giant Smooth Toilet with no background.png|link=Giant Smooth Toilet|   [[Giant Smooth Toilet]] <br />{{Type|Boss}} {{Type|Stun}} {{Type|Strong}}
+Glass toilet no background test.png|link=Glasses Toilet|   [[Glasses Toilet]] <br />{{Type|Normal}}
+HelicopterBombToilet.png|link=Helicopter Bomb Toilet|   [[Helicopter Bomb Toilet]] <br />{{Type|Strong}} {{Type|AoE Stuns}}{{Type|Splash Stuns}}
+Heli parasite.png|link=Helicopter Parasite Toilet|   [[Helicopter Parasite Toilet]] <br />{{Type|Medium}} {{Type|Stun}}
+Heli rocket.png|link=Helicopter Rocket Launcher Toilet|   [[Helicopter Rocket Launcher Toilet]] <br />{{Type|Strong}} {{Type|Stun}}
+Large Glasses Toilet.png|link=Large Glasses Toilet|   [[Large Glasses Toilet]] <br />{{Type|Boss}} {{Type|Normal}}
+Massive Buzzsaw Oven.png|link=Massive Buzzsaw Oven|   [[Massive Buzzsaw Oven]] <br />{{Type|Very Strong}} {{Type|Stun}}
+Small Toilet.png|link=Small Toilet|   [[Small Toilet]] <br />{{Type|Normal}}
+Minigun Toilet.png|link=Minigun Toilet|   [[Minigun Toilet]] <br />{{Type|Medium}} {{Type|Stun}}
+Multi-Claw Jetpack.png|link=Multi-Claw Jetpack Toilet|   [[Multi-Claw Jetpack Toilet]] <br />{{Type|Medium}}{{Type|Stun}}
+Mutant2.png|link=Mutant Toilet 2.0|   [[Mutant Toilet 2.0]] <br />{{Type|Medium}} {{Type|Stun}}{{Type|Boss}}
+Mutant assasin toilet.png|link=Mutant Assassin Toilet|   [[Mutant Assassin Toilet]] <br />{{Type|Strong}}{{Type|Stun}}
+Mutant Buzzsaw.png|link=Buzzsaw Mutant Toilet|   [[Buzzsaw Mutant Toilet]] <br />{{Type|Strong}} {{Type|Stun}}
+Mutant jetpack.png|link=Jetpack Mutant Toilet|   [[Jetpack Mutant Toilet]] <br />{{Type|Stun}}{{Type|Strong}}
+Mutant pumpkin but really bad.png|link=Mutant Pumpkin Toilet|   [[Mutant Pumpkin Toilet]] <br />{{Type|Boss}} {{Type|Event|Halloween Event}} {{Type|Stun}} {{Type|Very Strong}}
+Mutant toilet final.png|link=Mutant Toilet|   [[Mutant Toilet]] <br />{{Type|Medium}}
+File:Octo Flying Rocket Launcher Toilet.png| [[Octo Rocket Toilet]] <br />{{Type|Very Strong}}{{Type|Stun}}
+Parasite.png|link=Parasite Toilet|   [[Parasite Toilet]] <br />{{Type|Medium}}{{Type|Stun}}
+Phantom Toilet.png|link=Phantom Toilet|   [[Phantom Toilet]] <br />{{Type|Strong}} {{Type|Event|Halloween Event}}
+Police no bg.png|link=Police Toilet|   [[Police Toilet]] <br />{{Type|Normal}}
+Rocket mutant.png|link=Quad Rocket Mutant Toilet|   [[Quad Rocket Mutant Toilet]] <br />{{Type|Very Strong}}{{Type|Stun}}
+Rocket toilet.png|link=Rocket Toilet|   [[Rocket Toilet]] <br />{{Type|Medium}}
+Skeleton Toilet.png|link=Skeleton Toilet|   [[Skeleton Toilet]] <br />{{Type|Strong}} {{Type|Event|Halloween Event}}{{Type|Stun}}
+Solider toilet no bg.png|link=Solider Rocket Toilet|   [[Solider Rocket Toilet]] <br />{{Type|Very Strong}} {{Type|Stun}}
+Spider Toilet.webp|link=Spider Toilet|   [[Spider Toilet]] <br />{{Type|Normal}}
+Strider quad.png|link=Quad-Blade Strider Toilet|   [[Quad-Blade Strider Toilet]] <br />{{Type| Strong}}{{Type|Stun}}
+Strider rocket.png|link=Strider Rocket Toilet|   [[Strider Rocket Toilet]]<br /> {{Type|Very Strong}} {{Type|Stun}}
+File:Balaclava spider toilet.png|   [[Balaclava Spider Toilet]] <br />{{Type|Stun}}{{Type|Strong}}
+Toilet1.png|link=Toilet|   [[Toilet]] <br />{{Type|Normal}}
+Acid barrel toilet.png|link=Toxic Barrel Toilet|   [[Toxic Barrel Toilet]] <br />{{Type|Normal}} {{Type|Splash Stuns}}
+Toxicbg.png|link=Toxic Skull Toilet|   [[Toxic Skull Toilet]] <br />{{Type|Very Strong}} {{Type|AoE Stuns}}
+File:Toxic Mutant Toilet .png|   [[Toxic Mutant Toilet]] <br />{{Type|Strong}}{{Type|Stun}}
+Triple Flying Jetpack Toilet.png|link=Triple Flying Jetpack Toilet|   [[Triple Flying Jetpack Toilet]] <br />{{Type|Very Strong}} {{Type|Stun}}
+Tukey tolet.png|link=Turkey Toilet|   [[Turkey Toilet]] <br />{{Type|Normal}} {{Type|Event|Thanksgiving Event}}
+Ufobg.png|link=UFO Toilet|   [[UFO Toilet]] <br />{{Type|Strong}} {{Type|Stun}}
+Ufo guy.png|link=Laser UFO Toilet|   [[Laser UFO Toilet]] <br />{{Type|Very Strong}} {{Type|Stun}}
+Ultra laser.png|link=Ultra Laser Toilet|   [[Ultra Laser Toilet]] <br />{{Type| Strong}} {{Type|Stun}}
+Ultra rocket.png|link=Ultra Rocket Launcher Toilet|   [[Ultra Rocket Launcher Toilet]] <br />{{Type| Strong}}{{Type|Stun}}
+Vacuum yes.png|link=Vacuum Toilet|   [[Vacuum Toilet]] <br />{{Type|Medium}} {{Type|Stun}} {{Type|Boss}}
+Walter.png|link=Teacher Toilet|   [[Teacher Toilet]] <br />{{Type|Medium}} {{Type|Stun}}
+Welder toilet.png|link=Welder Toilet|   [[Welder Toilet]] <br />{{Type|Strong}}{{Type|Holdable}}
+Student.png|link=Student Toilet|   [[Student Toilet]] <br />{{Type|Medium}} {{Type|Stun}}
+File:Claw laser.png|[[Laser claw toilet]] <br /> {{Type|Strong}}{{Type|???}}
+File:Mothership.png|[[The Mothership]]<br /> {{Type|Very Strong}}{{Type|Stun}}{{Type|Boss}}
+File:Better Carrier Astro Toilet.png|[[Carrier Astro Toilet]]<br /> {{Type|Very Strong}}{{Type|Stun}}{{Type|Boss}}{{Type|Summon}}
+File:Juggernaut Astro Toilet.png|[[Juggernaut Astro Toilet]] <br />{{Type|Stun}}{{Type|Very Strong}}{{Type|Boss}}
+File:Large Astro Toilet.png|[[Large Astro Toilet]]<br /> {{Type|Very Strong}}{{Type|Stun}}
+File:Destructor Astro Toilet.png|[[Destructor Astro Toilet]]<br /> {{Type|Very Strong}}{{Type|Stun}}{{Type|Boss}}
+File:Interceptor Astro Toilet.png|[[Interceptor Astro Toilet]]<br /> {{Type|Very Strong}}{{Type|Stun}}
+File:Astro soldier toilet transparent.png|[[Astro Soldier Toilet]]<br /> {{Type|Very Strong}}{{Type|Stun}}
+File:Large astro spiderr.png|[[Astro Spider Toilet]]<br /> {{Type|Very Strong}}{{Type|Stun}}
+File:Astro Spider Toilet Invis.png|[[Giant Spider Astro Toilet]]<br /> {{Type|Very Strong}}{{Type|Stun}}{{Type|Boss}}
+File:Mafia Toilet.jpg|   [[Mafia Toilet (Enemy)]]<br />{{Type|Normal}}
+File:Camo Toilet (Toilet).jpg|   [[Camo Toilet (Enemy)]] <br />{{Type|Normal}}
+File:Removal-233.png|[[Astro Duchess Toilet]]<br /> {{Type|Very Strong}}{{Type|Stun}}{{Type|Boss}}
+File:Evil Man Crab.png|[[Evil Toilet Crab]]<br /> {{Type|Strong}}{{Type|Stun}}{{Type|Boss}}{{Type|Event}}
+File:Hoverboard.png|[[Hoverboard Toilet]]<br />{{Type|Normal}}{{Type|Event|Tech Event}}
+File:Krampus.png|   [[Krampus Toilet]] <br />{{Type|Stun}}{{Type|Strong}}{{Type|Boss}}{{Type|Event|Christmas Event}}
+File:Angelic Toilet.png|[[Angelic Toilet]]<br />{{Type|Normal}}{{Type|Stun}}
+File:GlitchToiletBossIcon.png|[[Glitch Toilet]]<br />{{Type|Stun}}{{Type|Strong}}
+File:Screenshot 2024-09-04 122544.png|   [[DJ Toilet 2.0]] <br />{{Type|Boss}} {{Type|Very Strong}}{{Type|AoE Stuns}}
+File:Screenshot 2024-11-29 215512.png|[[Upgraded Giant Turkey Toilet]]<br />{{Type|Very Strong}}{{Type|Boss}}{{Type|Event|Thanksgiving Event}}
+File:Comptoilet.png|[[Computer Toilet]]<br />{{Type|Very Strong}} {{Type|Boss}} {{Type|Summon}} {{Type|Event|Tech Event}}
+</gallery>
+</center>
+
+==Others==
+[[File:Mafia toiliet.png|thumb|1x1px]]<center><gallery hideaddbutton="true" captionalign="center" widths="200" position="center" orientation="none" spacing="small" bordercolor="transparent">
+File:Speaker titan infect.png|[[Infected Titan Speakerman]]<br />{{Type|Stun}}  {{Type|Strong}}
+File:1x1x1x1.png|[[1x1x1x1]] <br />{{Type|Boss}} {{Type|Strong}} {{Type|Stun}} {{Type|Event}}
+File:Classic1x1x1x1.png|[[Classic 1x1x1x1]] <br />{{Type|Boss}} {{Type|Strong}} {{Type|Stun}} {{Type|Event}}
+File:Evan.png|[[iamEvan (Enemy)]]<br />{{Type|Normal}}  {{Type|???}}
+File:Reaper.png|[[The Grim Reaper]]<br />{{Type|Stun}}  {{Type|Boss}} {{Type|Very Strong}} {{Type|Event|Halloween Event}}
+File:Evil Pencil Mech.jpg|[[Pencil Mech (Enemy)]]<br />{{Type|Stun}} {{Type|Boss}} {{Type|Very Strong}} {{Type|Event|Pencil Event}}
+</gallery>
+</center>
+[[Category:Toilets]]
+[[Category:Outdated pages]]
+[[Category:Incomplete pages]]
+[[Category:Event Enemies]]
+[[Category:Bosses]]
+[[Category:Boss Toilets]]
+[[Category:Stubs]]
+[[Category:Stub]]
+
+
+
+[[Category:Endless Bosses]]
+[[Category:Enemies]]
+[[Category:Mechanic]]

@@ -1,0 +1,29 @@
+{{Toilet_Infobox|image1=Minigun  Toilet.png|species=[[Enemies|Toilets]]|health=30,000|speed=Slow|wave_debut=TBA|ability_1=Minigun Shoot: Shoots a minigun at units, stunning it for 5 seconds. This has a 25% chance (unconfirmed) to be used every time it passes a unit.|modes=Medium+}}{{Stub}}[[File:Faceless mini gun.png|thumb]]
+
+==Overview==
+The '''Minigun Toilet''' is an [[Enemies|enemy]] that appears in [[Medium Mode]], [[Hard Mode]], [[Nightmare Mode]], Abysmal Mode in both events, and 
+[[Christmas Mode]]. It's special ability is that it can use its miniguns to shoot at a [[Units|unit]], stunning it.
+==Waves==
+=== Medium Mode ===
+=== Hard Mode ===
+=== Nightmare Mode ===
+=== Abysmal  Mode ===
+== Abilities ==
+
+* Minigun Shoot: Shoots a minigun at units, stunning it. This has a 25% chance (unconfirmed) to be used every time it passes a unit. 
+== Strategy ==
+*The Minigun Toilet stuns units frequently, so you can use Medic Cameraman or Camera Repair Drone or speaker repair drone to un stun units.
+*Place unit further away from the road. Because it have short stun range.
+==Trivia==
+This is based off of the Gun Skibidi Toilet from the series.
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Stunners]]
+[[Category:Stubs]]
+
+
+[[Category:Incomplete pages]]
+[[Category:Characters]]
+[[Category:Gun users]]
+[[Category:Miniguns]]
+[[Category:Valentines Event 2025]]

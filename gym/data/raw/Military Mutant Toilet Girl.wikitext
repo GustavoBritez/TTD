@@ -1,0 +1,88 @@
+{{DISPLAYTITLE:{{Mythic|Military Mutant Toilet Girl}}}}
+{{Units infobox (this one)|unit_name={{Mythic|Military Mutant Toilet Girl}}|image1=MilitaryMutantToiletGirl.png|cost=$900|base_sell_price=$450|type=single target|levels=4|rarity={{Mythic|Mythic}}|species=[[Toilets (Units)|Toilets]]|special_abilities=None (other than being a single-target)|other_information=amongus}}{{Stub}}
+==Overview==
+The '''Military Mutant Toilet Girl''' is a toilet unit that was added in the [[Episode 75 Update]] that can be summoned through the [[Summoning|Main Summon]].
+
+== Appearance ==
+She has 4 sharp claws to attack the toilets. Additionally, she has a plasma rifle conjoined to her lower left arm for extra fire power. She is wearing a heavy duty helmet, armor plating and a heavy duty jetpack. Obviously, she is dressed in a military uniform.
+
+== Obtainment ==
+This unit can be obtained by [[Summoning]], [[Trading]], [[Marketplace]] or it can be gifted to a player from the [[Post Office]].
+==Stats Table==
+{| class="fandom-table"
+|+Stats
+!Levels
+!Price
+!Total Price
+!Damage
+!Range
+!Cooldown
+!Sell Price
+!DPS
+!DPS/$ (Cost Efficiency)
+|-
+|LV1
+|$900
+|$900
+|2000
+|30
+|0.5
+|$450
+|4000
+|4.444
+|-
+|LV2
+|$2500
+|$3400
+|5000
+|40
+|0.5
+|$1700
+|10000
+|2.941
+|-
+|LV3
+|$6500
+|$9900
+|6875
+|40
+|0.25
+|$4950
+|27500
+|2.777
+|-
+|LV4
+|$12000
+|$21900
+|11000
+|60
+|0.2
+|$10950
+|55000
+|2.511
+|}
+
+==Trivia==
+*This unit is based off the [https://skibidi-toilet.fandom.com/wiki/Female_Mutant_Skibidi_Toilet Female Mutant Skibidi Toilet] from the Skibidi Toilet series.
+*This unit is the first female toilet unit in the game.
+*For some reason, this is stronger than [[Upgraded Titan Cameraman]], even though he is a Titan-sized unit.
+==Gallery==
+<gallery>
+File:Screenshot 2024-06-26 132520.png|Military Mutant Toilet Girl Leak Image
+File:Girl icon.png|Military Mutant Toilet Girl Icon without legs
+File:MilitaryMutantToiletGirl.png|Icon
+</gallery>
+[[Category:Mutants]]
+[[Category:Mythic]]
+[[Category:Units]]
+[[Category:Female Units]]
+[[Category:Allies]]
+[[Category:Toilet]]
+[[Category:Toilet Units]]
+[[Category:Toilets]]
+[[Category:Jetpack]]
+[[Category:Laser]]
+[[Category:Laser users]]
+[[Category:Stub]]
+[[Category:Woman]]
+[[Category:Female Characters]]

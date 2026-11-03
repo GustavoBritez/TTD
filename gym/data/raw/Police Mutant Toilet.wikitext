@@ -1,0 +1,36 @@
+{{Toilet_Infobox|image1=Swat skibid mutant.png|species=[[Enemies|Toilet]]|health=1,104,800HP|speed=Average|wave_debut=TBA|modes=[[Nightmare Mode]], [[Endless Mode]]|ability_1=Uses its rocket launchers to fire a rocket at a nearby unit, stunning it for 4 seconds.|description=A mutant version of the Police Toilet with  scythe, rocket launchers, the ability to block damage with a forcefield, and a riot shield.|ability_2=Uses its scythe to stun a nearby unit.|ability_3=Activates a temporary forcefield, blocking all damage.|ability_4=Puts up its riot shield, presumably decreasing damage against it.}}
+==Overview==
+The '''Police Mutant Toilet''' is an [[IamEvan (Enemy)|enemy]] that appears in Nightmare and Endless mode. It has a relatively high amount of HP.
+
+The Police Mutant Toilet can stun units with is scythe and rocket launchers and can activate a temporary forcefield. While its forcefield is activated, the Police Mutant Toilet cannot move. The forcefield prevents it from being targeted by attacks, drawing fire from units, but does not take damage. This enemy can also put up a riot shield.
+==Appearance==
+The Police Mutant Toilet has a riot shield in one hand, a sickle in the other, rocket launchers attacked to the back of its toilet, and a wide grin as its face.
+==Health==
+TBA
+==Waves==
+TBA
+==Abilities==
+*'''Rocket Launcher Attack:''' Uses its rocket launchers to fire a rocket at a nearby unit, stunning it.
+*'''Scythe Attack:''' Uses its scythe to stun a nearby unit for some time.
+*'''Forcefield:''' Activates a temporary forcefield, blocking all damage.
+*'''Riot Shield:''' Puts up its riot shield, presumably decreasing damage against it.
+==Strategy==
+*AoE units are useful when dealing with the Police Mutant Toilet, so that the Police Mutant Toilet doesn't draw single-target attacks away from other enemies when its forcefield is up.
+*Units such as the [[Medic Cameraman]] or [[Camera Repair Drone]] will be helpful to unstun units, as the Police Mutant Toilet has multiple stunning attacks.
+*Average Mythic units should be enough to take down the Police Mutant Toilet.
+==Trivia==
+
+* It is based off the [https://skibidi-toilet.fandom.com/wiki/SWAT_Mutant_Skibidi_Toilet SWAT Mutant Skibidi Toilet] from the series.
+* It was added in the Episode 72 Part 1 update.
+
+==Gallery==
+[[File:Police Mutant Toilet New.png|thumb|230x230px|New Design]]
+[[Category:Toilets]]
+[[Category:Shield users]]
+[[Category:Stunners]]
+[[Category:Enemies]]
+
+[[Category:Mutants]]
+[[Category:Rocket]]
+[[Category:Rockets]]
+[[Category:Valentines Event 2025]]

@@ -1,0 +1,61 @@
+{{SeeAlsoNotice|Note1=[[Laser Scientist Toilet]]|Note2=[[Scientist Toilet (Unit)]]|Note3=[[Scientist Mech]]|PagesNumber=4|Note4=[[Small Scientist Toilet]]}}
+
+{{Toilet_Infobox|image1=toilet scientist.png|caption-image1=Toilet.|description=|species=[[Enemies|Toilets]]|health=2,415,000 HP(wave 48)|speed=Slow|wave_debut=Wave 48 [[Nightmare Mode]]|modes=Nightmare mode|ability_1=Claw Attack: attacks with its claws he stuns towers with it|appearances=|title1=Scientist Toilet|ability_2=}}
+== Overview ==
+
+The '''Scientist Toilet''' is a very hard to beat [[:Category:Boss Toilets|boss]] of [[Nightmare Mode]] and one of the late game bosses of [[Abysmal Mode|Abysmal Mode.]] It has one of the most health of any [[Enemies|enemy]] in the game with 2,415,000 HP and a maximum health of 12,075,000 HP. He used to have the most amount of health out of any toilet in the game, but was dethroned by the [[Mutant Pumpkin Toilet]] with 8,350,000 HP, the Giant Turkey Toilet with 4,175,000 HP, and the [[Frost Skeleton Toilet]] with 3,340,000 HP. It also has the same health as the Giant Smooth Toilet
+
+The Scientist Toilet only has one ability, which is being able to use its claws to stun a unit. 
+
+== Appearance ==
+Scientist Toilet appears to inhabit the type of toilet model that is seen as commonly used by titans of the Skibidi Toilets. To the front of the toilet's framework, are the fallen upgrades that were originally a part of Cinemaman, fully secured with the Large Black Helicopter Speaker flanked by its sides with the Black Helicopter Speakers.
+
+The Scientist Toilet now appears to utilize two mechanical arms attached to the sides of its toilet's framework, with one arm residing on the section on the right and the other arm occupying the section on the left. Each of the arms possess two-bladed pitched fork attached at the end
+
+== Waves ==
+
+=== [[Nightmare Mode]]                            ===
+wave 48 : 2,415,000ho
+
+=== Others ===
+
+* Wave 1: 300000 HP
+
+== Strategy ==
+
+* Scientist Toilet will frequently stun units, so repair drones are recommended to unstun your higher damage units.
+* As it appears on the final wave, you should have almost everything maxed out and have enough money for your DPS units.
+* You should sell your farms on the last wave because they will not make any more money unless you sell them.
+* It is also quite fast for its health, so you could use [[Green Laser Cameraman]] to slow it down, letting you do slightly more DPS.
+* This unit was previously the most powerful boss.
+
+== Trivia ==
+
+* he is based on the [https://skibidi-toilet.fandom.com/wiki/Chief_Scientist_Skibidi_Toilet_Mech Chief Scientist Toilet]on the skibidi toliet series 
+* he is supposed to have aoe stun with its speakers but it was too hard to make so they cancelled it
+* he was the old boss of nightmare mode
+
+== Gallery ==
+<gallery>
+File:Scientist Toilet.png
+File:ScientistToiletPalmParidise.png
+File:When he added.jpg|When he got added
+</gallery>
+[[File:When he added.jpg|thumb|when he added+episode added]]
+[[Category:Toilets]]
+[[Category:Characters]]
+[[Category:Enemies]]
+[[Category:Slow Toilets]]
+[[Category:Stunners]]
+[[Category:Boss Toilets]]
+[[Category:Bosses]]
+[[Category:Scientist]]
+
+
+[[Category:Speakers]]
+
+[[Category:Large]]
+[[Category:Man Face]]
+[[Category:Male Characters]]
+[[Category:Beard]]
+[[Category:Valentines Event 2025]]

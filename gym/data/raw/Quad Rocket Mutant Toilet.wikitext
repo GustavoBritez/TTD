@@ -1,0 +1,40 @@
+{{Toilet_Infobox|image1=<gallery>
+quadrocket.png|Current
+rocket mutant.png|Old</gallery>caption-image1=Toilet.|description=|species=Toilet|health=1,640,000 HP|speed=Very Slow|wave_debut=Wave 49 (Nightmare)|modes=Nightmare + Event Modes|ability_1=Quad Rocket Shoot: Shoots rockets at 4 different units, stunning them for 5 seconds.|ability_2=Double Laser Shoot: Shoots both of its lasers at a unit, stunning it for 4 seconds.}}
+== Overview ==
+The '''Quad Rocket Mutant Toilet''' appears on Wave 49 of [[Nightmare Mode|Nightmare Mode.]] It currently has 1.64M HP. It moves slowly but will stun units very fast. (It uses his 4 rockets and 2 lasers to stun the units). It got demoted to wave 49 because of [[Scientist Toilet]].
+== Waves ==
+=== Nightmare Mode: ===
+Wave 49: 1,640,000 HP x1
+=== Nightmare Mode Old: ===
+Wave 50: 1,670,000 HP x1
+== Strategy ==
+* The [[Quad Rocket Mutant Toilet]] is an extremely strong enemy, as it is one of the final bosses of [[Nightmare Mode|Nightmare Mode.]] High DPS [[units]] are required to defeat this [[Enemies|enemy]] as it has a high amount of health, being 1,640,000 HP.
+* It also stuns units very frequently with its 4 rockets, so [[Medic Cameraman]] or [[Camera Repair Drone]] is required to unstun units, or you will not do enough DPS to take this enemy down as your DPS units will be stunned. 
+* It can be slowed by Level 5/6 [[Upgraded Titan Cameraman]], [[TV Woman|TV Woman,]] or [[Mech Cameraman|Mech Cameraman,]] making it slightly easier to take down.
+* [[Upgraded Titan Cameraman]] not only has a high amount of DPS but will also slow down this enemy with its core flames.
+* [[Upgraded Titan Speakerman]] can absorb stuns that are from the [[Quad Rocket Mutant Toilet]], making it easier for [[Medic Cameraman]] or [[Camera Repair Drone]].
+
+== Trivia ==
+* It is based on the [https://skibidi-toilet.fandom.com/wiki/Dual_Laser_Launcher_Skibidi_Toilet?so=search Dual Laser Launcher Skibidi Toilet] from the series. It is recommended to defeat this toilet with the highest DPS in the game like Mythics.
+* When it was first released in the [[Episode 59 Update]], it was the final boss, it was moved down to wave 49 when the [[Scientist Toilet]] released.
+* It will most likely be moved down to wave 48 if there is a new final boss.
+* It has a special animation when it shoots rockets.
+
+== Update Log ==
+?/?/23: Added Quad Rocket Mutant Toilet.
+
+?/?/23: Buffed Quad Rocket Mutant Toilet's health (1,500,000 > 1,670,000) and moved it down 1 wave.
+[[Category:Mutants]]
+[[Category:Toilets]]
+[[Category:Enemies]]
+
+
+[[Category:Characters]]
+[[Category:Laser]]
+[[Category:Rocket]]
+[[Category:Rockets]]
+[[Category:Laser users]]
+[[Category:Slow Toilets]]
+[[Category:Man Face]]
+[[Category:Valentines Event 2025]]

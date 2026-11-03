@@ -1,0 +1,50 @@
+{{SeeAlsoNotice|PagesNumber=2|Note1=[[DJ Toilet]]|Note2=[[DJ Toilet (Unit)]]}}{{Toilet_Infobox|image1=<gallery>
+DJToilet2.0BossIcon.png|Boss Icon
+DJ TOILET 2.0 (REWORKED).png|In-Game
+</gallery>|species=[[Enemies|Toilets]]|health=114,827,640|speed=Slow|wave_debut=Wave 100 endless only
+Wave 49 (Time Factory)|modes=[[Endless Mode]]  [[Time Factory]] And [[Sand Isles]]|ability_1=AoE Stuns (means that can multistun at once)|description=He is the upgraded version of dj toilet.|ability_2=Shoots lasers}}
+
+== Overview ==
+The '''DJ Toilet 2.0''' is an [[Enemies|enemy]] that is an upgraded, better and stronger version of the [[DJ Toilet]], that was added in the [[Episode 70 Part 1 Update]]. It appears on Wave 100 in [[Endless Mode]]. This is currently the first enemy to have AoE stunning, but is very slow, so it isn't too hard to beat.
+
+== Appearance ==
+It has 4 lasers, along with 2 speakers next to it's head. It is wearing a beanie, sunglasses, and headphones. It also has a TV screen underneath its head. He also appears to be under a platform. It is also floating, which may or may not be a bug.
+
+== Waves ==
+Wave 49 ([[Time Factory]]), one, 8200000 HP 
+
+Wave 50 ([[Sand Isles]]), two, 8350000 HP 
+
+Wave 100 ([[Endless Mode]]), one,  114,827,640 HP
+
+== Strategy ==
+
+* You do not need any [[:Category:Slowing Units|Slowing Units]] as this enemy is very slow itself. However, you need an un-stunning unit such as [[Speaker Repair Drone]] because this enemy can stun using both his speakers and lasers, so he can stun multiple of your units. 
+
+* Try using a '''pushing unit''' ''(e.g: [[Large Fanman]])'' and a '''time-stop unit''' ''([[Future Large Clockman]]/[[Titan Clock Man]])''''', to ensure maximum damage output.''' First, if the enemy is between the mid-sections of the map, use '''timestop.''' Then, make sure that the mid-sections atleast have a '''pushing unit.''' In-case you have [[Chief Clockman.|Chief Clockman]], consider using him because of the '''rewind ability''' (lets the farthest toilet on the map go back to the start of the map) he has, and will boost your unit's range in the same time.
+
+== Trivia ==
+
+*This enemy is wearing sunglasses, though it is not immune to attacks by TV units.
+*This could be due to the fact that it ''also'' has a TV screen, though this is unlikely.
+* This is based on the [https://skibidi-toilet.fandom.com/wiki/DJ_Skibidi_Toilet#DJ_Skibidi_Toilet_Mech DJ Skibidi Toilet Mech] in the skibidi toilet series.
+* This enemy does 399 damage to base.
+* This toilet was replaced by [[Broken Heart Toilet]].
+* This toilets animation is wrong as he has legs but they are flying 
+* After a long time, his walking animation was finally fixed, though he still does it on occasion.
+*
+
+[[Category:Laser]]
+[[Category:Characters]]
+[[Category:Enemies]]
+[[Category:Toilets]]
+[[Category:Stunners]]
+[[Category:Speakers]]
+[[Category:Mid-air]]
+[[Category:Toilet]]
+[[Category:Bosses]]
+[[Category:Endless Bosses]]
+[[Category:Endless bosses]]
+[[Category:Laser users]]
+[[Category:Slow Toilets]]
+[[Category:Valentines Event 2025]]

@@ -1,0 +1,21 @@
+{{Stub}}{{Toilet Infobox|title1=Specialist Astro Toilet|species=Astro|health=9.800.000|speed=Fast|wave_debut=59, 151|modes=Abysmal Mode and Endless Mode.|image1=Specialist_Astro_Toilet.PNG.png|description=The Name is not Specialist Astro Toilet.|appearances=Abysmal and Endless Mode|abilities=Shot 4 lasers and Punch}}
+
+== Overview ==
+The '''Specialist Astro Toilet''' is an enemy that was added in the [https://toilet-tower-defense-game.fandom.com/wiki/Episode_77_Part_1_Update?so=search#Episode_77_Part_1 Episode 77 Part 1 Update].  It appears on Wave 59 of [https://toilet-tower-defense-game.fandom.com/wiki/Abysmal_Mode_(The_Void)?so=search Abysmal Mode (The Void)] and Wave 151  of [https://toilet-tower-defense-game.fandom.com/wiki/Endless_Mode?so=search Endless Mode.]
+
+== Appearance ==
+The Specialist Astro Toilet seems to be an  upgraded version of [https://toilet-tower-defense-game.fandom.com/wiki/Astro_Soldier_Toilet?so=search Astro Soldier Toilet]  because they have the same toilet except this one's toilet is white. He has a static warp levitator on his toilet that helps him warp and levitate. He has two arms on the left and right, his left arm has four Astro Blasters and his right arm has a sword that stuns enemies. He also has an X-Wing at the back of the toilet and two Astro Blasters at the sides of the toilet tank.
+
+== Strategy ==
+Because this unit is fast, you need slowing units to make this toilet's speed slow. [https://toilet-tower-defense-game.fandom.com/wiki/Astro_Upgraded_Titan_Cameraman?so=search Astro Upgraded Titan Cameraman,] [https://toilet-tower-defense-game.fandom.com/wiki/Golden_Future_Large_Clockman?so=search Golden Future Large Clockman,]  [https://toilet-tower-defense-game.fandom.com/wiki/Titan_Alien_Man?so=search Titan Alien Man], [https://toilet-tower-defense-game.fandom.com/wiki/Quantum_Cameraman?so=search Quantum Cameraman] is recommended to slow this toilet. You need units with a high DPS like [https://toilet-tower-defense-game.fandom.com/wiki/Hyper_Upgraded_Titan_Speakerman?so=search Hyper Upgraded Titan Speakerman,] [https://toilet-tower-defense-game.fandom.com/wiki/Titan_Fanman?so=search Titan Fanman]  to push this toilet back, any ultimate, etc. [https://toilet-tower-defense-game.fandom.com/wiki/Titan_Fanman?so=search Quantum Cameraman]'s Blackholes can make this toilet go back to the start of the track which is overpowered.
+
+== Trivia ==
+
+* The unit's name is misspelled as "'''Speciailist''' Astro Toilet", however, this has been fixed.
+* The toilet is an enemy
+
+
+[[Category:Astro Toilet]]
+[[Category:Male Characters]]
+[[Category:Enemies]]
+[[Category:Items]]

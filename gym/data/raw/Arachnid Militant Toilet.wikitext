@@ -1,0 +1,70 @@
+{{DISPLAYTITLE:{{Mythic|Arachnid Militant Toilet}}}}
+{{Units infobox (this one)|unit_name={{Mythic|Arachnid Militant Toilet}}|image1=ArachnidMilitantToilet.png|cost=$500|base_sell_price=$250|type=Single Target|levels=3|rarity={{Mythic|[[Mythic]]}}|species=[[Toilets (Units)|Toilets]]|special_abilities=None}}
+==Overview==
+The '''Arachnid Militant Toilet''' is a unit that has been added in the [[Episode 75 Update|Episode 75 Update.]]
+
+== Appearance ==
+The toilet seems to have six spider legs that oddly, are not on the ground, but rather than sideways. Two of its arms have saws on them as well and three blasters (two smaller ones below toilet, and one big one above it) with a helmet on its head.
+
+==Obtainment==
+You can get this unit from the [[Summoning|Summoning Area]]. It is a [[Mythic]] unit, and has a 0.1% chance to be summoned in the [[Basic Crate]], along with a 1.5% chance in the [[Mythic Crate]].
+==Stats Table==
+{| class="fandom-table"
+|+Upgrades
+!Level
+!Price
+!Damage
+!Cooldown
+!Range
+!DPS
+!Sell Price
+!DPS/$
+|-
+|LV1
+|$500
+|2000
+|1
+|15
+|2000
+|$250
+|4
+|-
+|LV2
+|$2500
+|5000
+|0.5
+|35
+|10000
+|$1500
+|3.33
+|-
+|LV3
+|$10000
+|9000
+|0.25
+|45
+|36000
+|$6500
+|2.76
+|}
+==Trivia==
+*This unit is based off the [https://skibidi-toilet.fandom.com/wiki/Buzzsaw_Soldier_Skibidi_Toilet Buzzsaw Soldier Skibidi Toilet] from the Skibidi Toilet series.
+* The name "arachnid" is a type of animal, as known as an animal with 8 legs. (Examples such as spiders, and scorpions.)
+*This is the second toilet unit ever in the game, the first one being [[Scientist Mech]].
+*This is just a slightly worse version of the [[Knife Upgraded Titan Speakerman]], as it does not have any AoE capabilities. It also cannot block stuns.
+==Gallery ==
+<gallery>
+File:Screenshot 2024-06-26 160933.png|Model Of The Arachnid Militant Toilet As Shown In The Episode 75 Leaks
+</gallery>
+[[Category:Toilet]]
+[[Category:Toilet Units]]
+[[Category:Units]]
+[[Category:Male Units]]
+[[Category:Male Characters]]
+[[Category:Mythic]]
+[[Category:Allies]]
+[[Category:Character Units]]
+[[Category:Characters]]
+[[Category:Toilets]]
+[[Category:Single Target]]
+[[Category:3 Upgrades]]

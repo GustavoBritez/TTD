@@ -1,0 +1,33 @@
+{{Toilet_Infobox|image1=Heli parasite.png|caption-image1=Toilet.|description=|species=Toilet|health=???|speed=Fast|wave_debut=Wave 50|modes=Nightmare+|ability_1=Infect: Goes on a titan's back, stunning it for 10 seconds.}}
+== Overview ==
+The '''Helicopter Parasite Toilet''' is a [[Enemies|toilet]] that has a lot of health and can jump on titans to stun them. It can only jump onto titan sized towers. Once it does, it will stun the tower for about 10 seconds. It can be killed instantly by the [[Camera Repair Drone]] but that will take 50% of its battery, making it need to recharge.
+== Appearance ==
+The Helicopter Parasite Toilet looks like a [[Parasite Toilet]] except that it is a helicopter rotor on the top of its tank, allowing it to somewhat fly.
+== Wave ==
+
+=== Hard Mode: ===
+Wave 50
+
+=== Nightmare Mode ===
+N/A
+== Strategy ==
+The '''Helicopter Parasite Toilet''' has quite a bit of health while also being able to stun your units. High DPS units like [[Jetpack Cameraman]] is recommended to defeat him. Healing units like [[Medic Cameraman]] or [[Camera Repair Drone]] are also recommended just in case it tries to stun your unit.
+
+== gallery ==
+<gallery>
+File:Helicopter parasite toilet helicopter parasite toilet.png|helicopter parasitic toilet army
+</gallery>
+
+== Trivia ==
+The Helicopter Parasite Toilet is a enemy based off of the [https://skibidi-toilet.fandom.com/wiki/Helicopter_Large_Parasitic_Skibidi_Toilet?so=search Helicopter Large Parasitic Skibidi Toilet].
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Characters]]
+[[Category:Helicopters]]
+
+
+[[Category:Stunners]]
+[[Category:Flying]]
+[[Category:Off-Track Enemies]]
+[[Category:Small]]
+[[Category:Valentines Event 2025]]

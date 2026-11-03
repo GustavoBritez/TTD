@@ -1,0 +1,104 @@
+{{Unobtainable}}
+{{DISPLAYTITLE:{{Uncommon|{{PAGENAME}}}}}}{{Stub}}{{PageNotFinished|reason=Gallery, Trivia, not enough Overview.}}{{Units infobox (this one)|unit_name={{Uncommon|Camo Toilet}}|cost=100|base_sell_price=50|type=Splash|levels=4|rarity={{Uncommon|[[Uncommon]]}}|species=[[Toilets (Units)|Toilets]]|image1=CamoToiletUnit.png}}
+== Overview ==
+The '''Camo Toilet''' is an [[Uncommon]] unit added inside of the [[Episode 77 Part 1 Update]], and it can be obtained by summoning it from a [[Noob Toilet Crate]].
+
+== Appearance ==
+The toilet has a military look with the camouflage background on the toilet. It also seems to be on a tank, with multiple blasters, including a beret launcher in the back.
+
+==Obtainment==
+To obtain the '''Camo Toilet''' you can summon it from a [[Noob Toilet Crate]], or get it by [[Trading]], or buying it from the [[Marketplace]].
+
+==Stats Table==
+{| class="fandom-table"
+|+'''Stats'''
+!'''Levels'''
+!'''Price'''
+! '''Total Price'''
+!'''Sell Price'''
+!'''Damage'''
+!'''Cooldown'''
+!'''Range'''
+!'''DPS'''
+!'''Explosion Radius'''
+!'''Slowing'''
+!'''DPS/$ (Cost Efficiency)'''
+|-
+| LV1
+|'''$100'''
+|'''$100'''
+|'''$50'''
+|300
+|2
+|12
+| 150
+|0
+|No
+|1.5
+|-
+|LV2
+|'''$500'''
+|'''$600'''
+|'''$300'''
+|200
+|0.25
+|20
+|800
+|0
+|Yes
+|1.333
+|-
+|LV3
+|'''$900'''
+|'''$1500'''
+|'''$750'''
+|1500
+|1.5
+|15
+|1000
+|20
+|Yes
+|0.666
+|-
+|LV4
+|'''$1400'''
+|'''$2900'''
+|'''$1450'''
+|2000
+|1
+|20
+|2000
+|20
+|Yes
+|0.689
+|}
+
+==Trivia==
+
+*'''Camo Toilet''' is the second  most common unit in the [[Noob Toilet Crate]].
+*His lv1 is based of [https://skibidi-toilet.fandom.com/wiki/Camo_Skibidi_Toilet Camo Skibidi Toilet], his lv2 is [https://skibidi-toilet.fandom.com/wiki/Giant_Camo_Skibidi_Toilet Giant Camo Toilet], his lv3 is [https://skibidi-toilet.fandom.com/wiki/Armed_Camo_Skibidi_Toilet Armed Camo Toilet] and his lv4 is [https://skibidi-toilet.fandom.com/wiki/Bill_Tank_Skibidi_Toilet Bill Tank Toilet].
+*He is based of [https://skibidi-toilet.fandom.com/wiki/Camo_Skibidi_Toilet Camo Skibidi Toilet] and its variants in Skibidi Toilet series.
+
+
+
+
+==Gallery==
+<gallery>
+File:Camo_toilet_1.png|Level 1
+File:Camo toilet 2.png|Level 2
+File:Camo toilet 3.png|Level 3
+File:Camo Toilet 4.png|Max Level
+</gallery>
+
+
+[[Category:Toilets]]
+[[Category:Toilet]]
+[[Category:Toilet Units]]
+[[Category:Male Units]]
+[[Category:Male Characters]]
+[[Category:Uncommon]]
+[[Category:Splash]]
+[[Category:Units]]
+[[Category:Summons]]
+[[Category:Summoning]]
+[[Category:3 Upgrades]]

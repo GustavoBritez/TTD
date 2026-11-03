@@ -1,0 +1,37 @@
+{{Toilet_Infobox|image1=<gallery>
+Mutant.png|Boss Icon
+Mutant Toilet 2.0.png|New
+Mutant2.png|Old
+</gallery>|health=256000|speed=Average|wave_debut=Wave 13|modes=Hard+ And event modes|ability_1=Punch: Punches a unit, stunning it.}}
+
+== Overview ==
+The '''Mutant Toilet 2.0''' is a stronger version of The [[Mutant Toilet]]. It has much more health than its original version, and has an ability where it can stun units by punching them for about 2 seconds. It wears headphones and a hat. 
+
+== Health: 256,000 ==
+
+=== Hard Mode ===
+Wave 23: x2
+
+=== Nightmare Mode ===
+Wave 13:  x1
+
+== Strategy ==
+Mutant Toilet 2.0 is not a hard enemy to fight despite having 256.000 hp
+
+== Gallery ==
+<gallery>
+File:Mutanttoilet2.0.png|mutant toilet 2.0 on update stand
+File:Mutant.png|new mutant toilet 2.0  boss PopUp in endless mode
+File:Mutant2.png|mutant toilet 2.0 walking
+</gallery>
+
+== Update Log ==
+9/15/2023: Added Mutant Toilet 2.0.
+
+10/20/23: Changed Mutant Toilet 2.0 walking animation.
+[[Category:Toilets]]
+[[Category:Mutants]]
+[[Category:Toilet Tower Defense Wiki]]
+[[Category:Endless Bosses]]
+[[Category:Enemies]]
+[[Category:Toilet]]

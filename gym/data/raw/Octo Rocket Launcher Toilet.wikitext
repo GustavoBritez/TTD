@@ -1,0 +1,29 @@
+{{Stub}}{{Toilet_Infobox|image1=Octo man.png|caption-image1=Toilet.|description=|species=Toilet|health=???|speed=Slow|wave_debut=45|modes=Nightmare+|ability_1=Octo Rocket Shoot: Shoots rockets at 8 different units, stunning them.|title1=Octo Rocket Launcher Toilet}}
+== Overview ==
+The '''Octo Rocket Toilet''' has insanely high HP and appears at [[Nightmare Mode|Nightmare]] (Wave 45) debut. It has 8 rockets and will stun units very quickly.
+== Appearance ==
+The Octo Rocket Toilet Has a very dark gray helmet along with a Dark gray toilet. It has black wings with green holders and black rockets. These rockets are also strapped to the bottom part of the toilet. It also has the angry face.
+== Waves ==
+Nightmare: Wave 45
+== Health ==
+TBA
+== Strategy ==
+* Octo Rocket Toilet stuns units very frequently, so you should use [[Medic Cameraman]], [[Speaker Repair Drone]] or [[Camera Repair Drone]].
+== Trivia ==
+* The Octo Rocket Toilet was leaked before the [[Episode 59 Update]]. 
+* The '''Octo Rocket Toilet''' is based off the [https://skibidi-toilet.fandom.com/wiki/Flying_Octo-Launcher_Skibidi_Toilet Flying Octo-Launcher Skibidi Toilet].
+* It wears an Angry face
+
+== Gallery ==
+* [[File:Octo Flying Rocket Launcher Toilet.png|alt=New Design|thumb|New Design]] 
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Stunners]]
+[[Category:Characters]]
+[[Category:Stubs]]
+
+
+[[Category:Incomplete pages]]
+[[Category:Stub]]
+[[Category:Rocket]]
+[[Category:Rockets]]

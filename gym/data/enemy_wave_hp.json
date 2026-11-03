@@ -1,0 +1,2234 @@
+[
+ {
+  "enemy": "Airplane Toilet",
+  "section": "",
+  "wave": 15,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 15 (Nightmare Mode"
+ },
+ {
+  "enemy": "Astro Duchess",
+  "section": "Wave debut",
+  "wave": 170,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 170 (Endless Mode): 1x"
+ },
+ {
+  "enemy": "Astro Duchess",
+  "section": "Wave debut",
+  "wave": 60,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 60 (Abysmal Mode): 1x"
+ },
+ {
+  "enemy": "Astro Duchess Toilet",
+  "section": "Wave debut",
+  "wave": 170,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 170 (Endless Mode): 1x"
+ },
+ {
+  "enemy": "Astro Duchess Toilet",
+  "section": "Wave debut",
+  "wave": 60,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 60 (Abysmal Mode): 1x"
+ },
+ {
+  "enemy": "Astro Spider Toilet",
+  "section": "",
+  "wave": 153,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 153 Endless Mode|modes=Abysmal Mode (The Void)"
+ },
+ {
+  "enemy": "Astro Spider Toilet",
+  "section": "Wave Debut",
+  "wave": 58,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 58 Abysmal Mode (The Void)"
+ },
+ {
+  "enemy": "Boss Toilet",
+  "section": "Hard Mode",
+  "wave": 10,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 10: ? HP x1"
+ },
+ {
+  "enemy": "Boss Toilet",
+  "section": "Hard Mode",
+  "wave": 14,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 14: ? HP x?"
+ },
+ {
+  "enemy": "Boss Toilet",
+  "section": "Hard Mode",
+  "wave": 17,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 17: ? HP x?"
+ },
+ {
+  "enemy": "Boss Toilet",
+  "section": "Hard Mode",
+  "wave": 48,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 48:|? HP x?"
+ },
+ {
+  "enemy": "Boss Toilet",
+  "section": "Hard Mode",
+  "wave": 49,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 49:|? HP x?"
+ },
+ {
+  "enemy": "Boss Toilet",
+  "section": "Hard Mode",
+  "wave": 50,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 50:|? HP x?"
+ },
+ {
+  "enemy": "Boss Toilet 2.0",
+  "section": "Medium Mode",
+  "wave": 30,
+  "hp": 214000,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 30: x1 (214000 HP)"
+ },
+ {
+  "enemy": "Boss Toilet 2.0",
+  "section": "Nightmare Mode",
+  "wave": 17,
+  "hp": 136000,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 17: x1 (136000 HP)"
+ },
+ {
+  "enemy": "Boss Toilet 2.0",
+  "section": "Nightmare Mode",
+  "wave": 23,
+  "hp": 166000,
+  "count": 166000,
+  "per_person": false,
+  "raw": "Wave 23: 166000 HP"
+ },
+ {
+  "enemy": "Boss Toilet 2.0",
+  "section": "Nightmare Mode",
+  "wave": 28,
+  "hp": 196000,
+  "count": 196000,
+  "per_person": false,
+  "raw": "Wave 28: 196000 HP"
+ },
+ {
+  "enemy": "Boss Toilet 2.0",
+  "section": "Nightmare Mode",
+  "wave": 31,
+  "hp": 220000,
+  "count": 220000,
+  "per_person": false,
+  "raw": "Wave 31: 220000 HP"
+ },
+ {
+  "enemy": "Boss Toilet 2.0",
+  "section": "Nightmare Mode",
+  "wave": 38,
+  "hp": 262000,
+  "count": 262000,
+  "per_person": false,
+  "raw": "Wave 38: 262000 HP"
+ },
+ {
+  "enemy": "Boss Toilet 2.0",
+  "section": "Nightmare Mode",
+  "wave": 42,
+  "hp": 280000,
+  "count": 280000,
+  "per_person": false,
+  "raw": "Wave 42: 280000 HP"
+ },
+ {
+  "enemy": "Boss Toilet 2.0",
+  "section": "Nightmare Mode",
+  "wave": 50,
+  "hp": 334000,
+  "count": 334000,
+  "per_person": false,
+  "raw": "Wave 50: 334000 HP"
+ },
+ {
+  "enemy": "Boss Toilet 3.0",
+  "section": "Hard Mode",
+  "wave": 50,
+  "hp": 835000,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 50: x1 (835,000 HP)"
+ },
+ {
+  "enemy": "Boss Toilet 3.0",
+  "section": "Nightmare Mode",
+  "wave": 35,
+  "hp": 610000,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 35 : x1 (610,000 HP)"
+ },
+ {
+  "enemy": "Boss Toilet 3.0",
+  "section": "Nightmare Mode",
+  "wave": 42,
+  "hp": 700000,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 42: x1 (700,000 HP)"
+ },
+ {
+  "enemy": "Boss Toilet 3.0",
+  "section": "Nightmare Mode",
+  "wave": 45,
+  "hp": 745000,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 45 : x1 (745,000 HP)"
+ },
+ {
+  "enemy": "Boss Toilet 3.0",
+  "section": "Nightmare Mode",
+  "wave": 47,
+  "hp": 790000,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 47: x1 (790,000 HP)"
+ },
+ {
+  "enemy": "Boss Toilet 3.0",
+  "section": "Nightmare Mode",
+  "wave": 49,
+  "hp": 820000,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 49: x1 (820,000 HP)"
+ },
+ {
+  "enemy": "Boss Toilet 3.0",
+  "section": "Nightmare Mode",
+  "wave": 50,
+  "hp": 835000,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 50: x1 (835,000 HP)"
+ },
+ {
+  "enemy": "Boss Toilet 3.0",
+  "section": "Abysmal Mode (Thanksgiving Event)",
+  "wave": 22,
+  "hp": 415000,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 22: x1 (415,000 HP)"
+ },
+ {
+  "enemy": "Boss Toilet 3.0",
+  "section": "Others",
+  "wave": 1,
+  "hp": 100000,
+  "count": 100000,
+  "per_person": false,
+  "raw": "Wave 1: 100000 HP"
+ },
+ {
+  "enemy": "Boss Toilet 4.0",
+  "section": "Nightmare Mode",
+  "wave": 40,
+  "hp": 1370000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 40: 1,370,000 HP"
+ },
+ {
+  "enemy": "Boss Toilet 4.0",
+  "section": "Nightmare Mode",
+  "wave": 46,
+  "hp": 1550000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 46: 1,550,000 HP"
+ },
+ {
+  "enemy": "Boss Toilet 4.0",
+  "section": "Nightmare Mode",
+  "wave": 49,
+  "hp": 1640000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 49: 1,640,000 HP"
+ },
+ {
+  "enemy": "Boss Toilet 4.0",
+  "section": "Other Modes",
+  "wave": 1,
+  "hp": 200000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 1: 200,000 HP"
+ },
+ {
+  "enemy": "Broken Heart Toilet",
+  "section": "Endless Mode",
+  "wave": 90,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 90, 85,283,960 health"
+ },
+ {
+  "enemy": "Buzzsaw Mutant Toilet",
+  "section": "Nightmare Mode",
+  "wave": 28,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 28 X1."
+ },
+ {
+  "enemy": "Buzzsaw Mutant Toilet",
+  "section": "Endless Mode",
+  "wave": 32,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 32 X2"
+ },
+ {
+  "enemy": "Cat Toilet",
+  "section": "Endless Mode",
+  "wave": 25,
+  "hp": 37734,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 25: 37,734HP"
+ },
+ {
+  "enemy": "Cat Toilet",
+  "section": "Endless Mode",
+  "wave": 25,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 25: X2"
+ },
+ {
+  "enemy": "Cat Toilet",
+  "section": "Endless Mode",
+  "wave": 102,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 102: between X5-X6"
+ },
+ {
+  "enemy": "Claw Toilet",
+  "section": "Nightmare Mode",
+  "wave": 37,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 37: x1"
+ },
+ {
+  "enemy": "Claw Toilet",
+  "section": "Nightmare Mode",
+  "wave": 41,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 41: x1"
+ },
+ {
+  "enemy": "Claw Toilet",
+  "section": "Nightmare Mode",
+  "wave": 43,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 43: x1"
+ },
+ {
+  "enemy": "Claw Toilet",
+  "section": "Nightmare Mode",
+  "wave": 48,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 48: x1"
+ },
+ {
+  "enemy": "Claw Toilet",
+  "section": "Nightmare Mode",
+  "wave": 37,
+  "hp": 512000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 37: 512,000 HP"
+ },
+ {
+  "enemy": "Claw Toilet",
+  "section": "Nightmare Mode",
+  "wave": 41,
+  "hp": 560000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 41: 560,000 HP"
+ },
+ {
+  "enemy": "Claw Toilet",
+  "section": "Nightmare Mode",
+  "wave": 43,
+  "hp": 584000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 43: 584,000 HP"
+ },
+ {
+  "enemy": "Claw Toilet",
+  "section": "Nightmare Mode",
+  "wave": 48,
+  "hp": 644000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 48: 644,000 HP"
+ },
+ {
+  "enemy": "DJ Toilet 2.0",
+  "section": "",
+  "wave": 49,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 49 (Time Factory)|modes=Endless Mode Time Factory And Sand Isles|ability_1=AoE Stuns (means that can multistun at once)|description=He is the upgraded version of dj toilet.|ability_2=Shoots lasers}}"
+ },
+ {
+  "enemy": "DJ Toilet 2.0",
+  "section": "Waves",
+  "wave": 49,
+  "hp": 8200000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 49 (Time Factory), one, 8200000 HP"
+ },
+ {
+  "enemy": "DJ Toilet 2.0",
+  "section": "Waves",
+  "wave": 50,
+  "hp": 8350000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 50 (Sand Isles), two, 8350000 HP"
+ },
+ {
+  "enemy": "DJ Toilet 2.0",
+  "section": "Waves",
+  "wave": 100,
+  "hp": 114827640,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 100 (Endless Mode), one, 114,827,640 HP"
+ },
+ {
+  "enemy": "Dual Buzzsaw Toilet Car",
+  "section": "Health",
+  "wave": 42,
+  "hp": 214500,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 42: 214,500 HP"
+ },
+ {
+  "enemy": "Dual Buzzsaw Toilet Car",
+  "section": "Health",
+  "wave": 50,
+  "hp": 250500,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 50: 250,500 HP"
+ },
+ {
+  "enemy": "Dual Cargo Toilet",
+  "section": "",
+  "wave": 40,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 40-50? (Clock/Rewind Event)|modes=Endless Mode"
+ },
+ {
+  "enemy": "Dual Cargo Toilets",
+  "section": "",
+  "wave": 40,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 40-50? (Clock/Rewind Event)|modes=Endless Mode"
+ },
+ {
+  "enemy": "Dual Claw Laser Toilet",
+  "section": "Nightmare Mode",
+  "wave": 50,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 50: x1 (??? HP)"
+ },
+ {
+  "enemy": "Dual Claw Toilet",
+  "section": "",
+  "wave": 5,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 5 (Hard)"
+ },
+ {
+  "enemy": "Dual Claw Toilet",
+  "section": "",
+  "wave": 5,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 5 (Nightmare)"
+ },
+ {
+  "enemy": "Dual Claw Toilet",
+  "section": "Hard",
+  "wave": 5,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 5:x1"
+ },
+ {
+  "enemy": "Dual Claw Toilet",
+  "section": "Hard",
+  "wave": 10,
+  "hp": null,
+  "count": 2,
+  "per_person": false,
+  "raw": "Wave 10:x2"
+ },
+ {
+  "enemy": "Dual Claw Toilet",
+  "section": "Medium",
+  "wave": 8,
+  "hp": 4100,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 8:4100HP"
+ },
+ {
+  "enemy": "Dual Claw Toilet",
+  "section": "Medium",
+  "wave": 10,
+  "hp": 4700,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 10:4700HP"
+ },
+ {
+  "enemy": "Dual Claw Toilet",
+  "section": "Medium",
+  "wave": 17,
+  "hp": 6800,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 17:6800HP"
+ },
+ {
+  "enemy": "Dual Claw Toilet",
+  "section": "Medium",
+  "wave": 21,
+  "hp": 8000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 21:8000HP"
+ },
+ {
+  "enemy": "Dual Claw Toilet",
+  "section": "Medium",
+  "wave": 23,
+  "hp": 8600,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 23:8600HP"
+ },
+ {
+  "enemy": "Dual Claw Toilet",
+  "section": "Medium",
+  "wave": 29,
+  "hp": 10400,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 29:10,400HP"
+ },
+ {
+  "enemy": "Dual Claw Toilet",
+  "section": "Hard",
+  "wave": 5,
+  "hp": 3200,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 5:3200HP"
+ },
+ {
+  "enemy": "Dual Claw Toilet",
+  "section": "Hard",
+  "wave": 8,
+  "hp": 4100,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 8:4100HP"
+ },
+ {
+  "enemy": "Dual Claw Toilet",
+  "section": "Hard",
+  "wave": 10,
+  "hp": 4700,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 10:4700HP"
+ },
+ {
+  "enemy": "Dual Claw Toilet",
+  "section": "Hard",
+  "wave": 17,
+  "hp": 6800,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 17:6800HP"
+ },
+ {
+  "enemy": "Dual Claw Toilet",
+  "section": "Hard",
+  "wave": 24,
+  "hp": 8600,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 24:8600HP"
+ },
+ {
+  "enemy": "Dual Claw Toilet",
+  "section": "Hard",
+  "wave": 30,
+  "hp": 10700,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 30:10,700HP"
+ },
+ {
+  "enemy": "Dual Claw Toilet",
+  "section": "Hard",
+  "wave": 47,
+  "hp": 15800,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 47:15,800HP"
+ },
+ {
+  "enemy": "Dual Flying Buzzsaw Toilet",
+  "section": "",
+  "wave": 30,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 30 Endless Mode|modes=*Nightmare Mode"
+ },
+ {
+  "enemy": "Dual Flying Buzzsaw Toilet",
+  "section": "Nightmare Mode",
+  "wave": 25,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 25"
+ },
+ {
+  "enemy": "Dual Flying Buzzsaw Toilet",
+  "section": "Nightmare Mode",
+  "wave": 28,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 28"
+ },
+ {
+  "enemy": "Dual Flying Buzzsaw Toilet",
+  "section": "Nightmare Mode",
+  "wave": 29,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 29"
+ },
+ {
+  "enemy": "Dual Flying Buzzsaw Toilet",
+  "section": "Nightmare Mode",
+  "wave": 31,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 31"
+ },
+ {
+  "enemy": "Dual Flying Buzzsaw Toilet",
+  "section": "Nightmare Mode",
+  "wave": 32,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 32"
+ },
+ {
+  "enemy": "Dual Flying Buzzsaw Toilet",
+  "section": "Nightmare Mode",
+  "wave": 36,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 36"
+ },
+ {
+  "enemy": "Dual Flying Buzzsaw Toilet",
+  "section": "Nightmare Mode",
+  "wave": 40,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 40"
+ },
+ {
+  "enemy": "Dual Flying Buzzsaw Toilet",
+  "section": "Nightmare Mode",
+  "wave": 42,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 42"
+ },
+ {
+  "enemy": "Dual Flying Buzzsaw Toilet",
+  "section": "Nightmare Mode",
+  "wave": 49,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 49"
+ },
+ {
+  "enemy": "Dual Flying Buzzsaw Toilet",
+  "section": "Nightmare Mode",
+  "wave": 50,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 50"
+ },
+ {
+  "enemy": "Dual Flying Buzzsaw Toilet",
+  "section": "Health",
+  "wave": 25,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 25: 322,000"
+ },
+ {
+  "enemy": "Dual Flying Buzzsaw Toilet",
+  "section": "Health",
+  "wave": 28,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 28: N/A"
+ },
+ {
+  "enemy": "Dual Flying Buzzsaw Toilet",
+  "section": "Health",
+  "wave": 29,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 29: N/A"
+ },
+ {
+  "enemy": "Dual Flying Buzzsaw Toilet",
+  "section": "Health",
+  "wave": 31,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 31: N/A"
+ },
+ {
+  "enemy": "Dual Flying Buzzsaw Toilet",
+  "section": "Health",
+  "wave": 32,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 32: N/A"
+ },
+ {
+  "enemy": "Dual Flying Buzzsaw Toilet",
+  "section": "Health",
+  "wave": 36,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 36: N/A"
+ },
+ {
+  "enemy": "Dual Flying Buzzsaw Toilet",
+  "section": "Health",
+  "wave": 40,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 40: N/A"
+ },
+ {
+  "enemy": "Dual Flying Buzzsaw Toilet",
+  "section": "Health",
+  "wave": 42,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 42: N/A"
+ },
+ {
+  "enemy": "Dual Flying Buzzsaw Toilet",
+  "section": "Health",
+  "wave": 49,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 49: N/A"
+ },
+ {
+  "enemy": "Dual Flying Buzzsaw Toilet",
+  "section": "Health",
+  "wave": 50,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 50: N/A"
+ },
+ {
+  "enemy": "Dual Flying Buzzsaw Toilet",
+  "section": "Endless Mode",
+  "wave": 30,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 30: 678,355"
+ },
+ {
+  "enemy": "Evil Toilet Crab",
+  "section": "Modes",
+  "wave": 50,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 50: HP 48,847,500. 25,050,000 (Solo)"
+ },
+ {
+  "enemy": "Flamethrower Toilet",
+  "section": "Nightmare Mode",
+  "wave": 34,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 34: x1"
+ },
+ {
+  "enemy": "Flamethrower Toilet",
+  "section": "Nightmare Mode",
+  "wave": 40,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 40: x1"
+ },
+ {
+  "enemy": "Flamethrower Toilet",
+  "section": "Nightmare Mode",
+  "wave": 44,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 44: x1"
+ },
+ {
+  "enemy": "Flamethrower Toilet",
+  "section": "Nightmare Mode",
+  "wave": 49,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 49: x1"
+ },
+ {
+  "enemy": "Flamethrower Toilet",
+  "section": "Nightmare Mode",
+  "wave": 50,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 50: x1"
+ },
+ {
+  "enemy": "Flamethrower Toilet",
+  "section": "Nightmare Mode",
+  "wave": 34,
+  "hp": 595000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 34: 595,000 HP"
+ },
+ {
+  "enemy": "Flamethrower Toilet",
+  "section": "Nightmare Mode",
+  "wave": 40,
+  "hp": 645000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 40: 645,000 HP"
+ },
+ {
+  "enemy": "Flamethrower Toilet",
+  "section": "Nightmare Mode",
+  "wave": 44,
+  "hp": 745000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 44: 745,000 HP"
+ },
+ {
+  "enemy": "Flamethrower Toilet",
+  "section": "Nightmare Mode",
+  "wave": 49,
+  "hp": 820000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 49: 820,000 HP"
+ },
+ {
+  "enemy": "Flamethrower Toilet",
+  "section": "Nightmare Mode",
+  "wave": 50,
+  "hp": 835000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 50: 835,000 HP"
+ },
+ {
+  "enemy": "Flashlight Rocket Toilet",
+  "section": "Health",
+  "wave": 35,
+  "hp": 610000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 35: 610,000 HP"
+ },
+ {
+  "enemy": "Flashlight Rocket Toilet",
+  "section": "Health",
+  "wave": 41,
+  "hp": 700000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 41: 700,000 HP"
+ },
+ {
+  "enemy": "Flying Buzzsaw Toilet",
+  "section": "Health",
+  "wave": 10,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 10: 23500 (Solo)"
+ },
+ {
+  "enemy": "Flying Rocket Launcher Toilet",
+  "section": "Hard Mode",
+  "wave": 49,
+  "hp": 246000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 49: 246.000 HP"
+ },
+ {
+  "enemy": "Flying Rocket Launcher Toilet",
+  "section": "Hard Mode",
+  "wave": 43,
+  "hp": 219000,
+  "count": 219000,
+  "per_person": false,
+  "raw": "Wave 43: 219000 HP"
+ },
+ {
+  "enemy": "Frost Skeleton Toilet",
+  "section": "Christmas Mode",
+  "wave": 50,
+  "hp": 3340000,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 50: 3,340,000 HP (x1)"
+ },
+ {
+  "enemy": "Frost Skeleton Toilet",
+  "section": "Endless Mode",
+  "wave": 60,
+  "hp": 12927262,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 60: 12,927,262 HP (1x)"
+ },
+ {
+  "enemy": "Frost Toilet",
+  "section": "Christmas Mode",
+  "wave": 7,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 7: x1"
+ },
+ {
+  "enemy": "Frost Toilet",
+  "section": "Endless Mode",
+  "wave": 55,
+  "hp": null,
+  "count": 35,
+  "per_person": false,
+  "raw": "Wave 55: x35"
+ },
+ {
+  "enemy": "Giant Turkey Toilet",
+  "section": "Abysmal Mode",
+  "wave": 50,
+  "hp": 4175000,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 50: x1 (4,175,000 HP)"
+ },
+ {
+  "enemy": "Giant Turkey Toilet",
+  "section": "Endless Mode",
+  "wave": 70,
+  "hp": 22647492,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 70 x1 ( 22,647,492 HP)"
+ },
+ {
+  "enemy": "Giant Turkey Toilet",
+  "section": "Endless Mode",
+  "wave": 85,
+  "hp": 36603576,
+  "count": 5,
+  "per_person": false,
+  "raw": "Wave 85 x5 (36,603,576 HP)"
+ },
+ {
+  "enemy": "Glasses Toilet",
+  "section": "Easy Mode",
+  "wave": 19,
+  "hp": null,
+  "count": 3,
+  "per_person": false,
+  "raw": "Wave 19: x3 Glasses Toilet"
+ },
+ {
+  "enemy": "Glasses Toilet",
+  "section": "Endless Mode",
+  "wave": 10,
+  "hp": 14000,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 10: x1 Giant Glasses Toilet with 14000 HP"
+ },
+ {
+  "enemy": "Glitch Toilet",
+  "section": "Nightmare Mode",
+  "wave": 47,
+  "hp": 790000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 47: 790,000 HP"
+ },
+ {
+  "enemy": "Glitch Toilet",
+  "section": "Nightmare Mode Old Appearances",
+  "wave": 48,
+  "hp": 805000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 48: 805,000 HP"
+ },
+ {
+  "enemy": "Glitch Toilet",
+  "section": "Nightmare Mode Old Appearances",
+  "wave": 49,
+  "hp": 820000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 49: 820,000 HP"
+ },
+ {
+  "enemy": "Glitch Toilet",
+  "section": "Nightmare Mode Old Appearances",
+  "wave": 50,
+  "hp": 835000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 50: 835,000 HP"
+ },
+ {
+  "enemy": "Glitch Toilet",
+  "section": "Nightmare Mode+",
+  "wave": 41,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 41 1x"
+ },
+ {
+  "enemy": "Glitch Toilet",
+  "section": "Nightmare Mode+",
+  "wave": 45,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 45 1x"
+ },
+ {
+  "enemy": "Glitch Toilet",
+  "section": "Nightmare Mode+",
+  "wave": 50,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 50 1x"
+ },
+ {
+  "enemy": "Glitch Toilet",
+  "section": "Endless Mode",
+  "wave": 40,
+  "hp": 1600000,
+  "count": null,
+  "per_person": true,
+  "raw": "Wave 40 - Boss: 1,600,000 HP per person"
+ },
+ {
+  "enemy": "Glitch Toilet",
+  "section": "Endless Mode",
+  "wave": 73,
+  "hp": null,
+  "count": 2,
+  "per_person": false,
+  "raw": "Wave 73: 2 Glitches"
+ },
+ {
+  "enemy": "Glitch Toilet",
+  "section": "Endless Mode",
+  "wave": 80,
+  "hp": null,
+  "count": 2,
+  "per_person": false,
+  "raw": "Wave 80: 2 from Dual Cargo Toilets"
+ },
+ {
+  "enemy": "Glitch Toilet",
+  "section": "Endless Mode",
+  "wave": 95,
+  "hp": null,
+  "count": 8,
+  "per_person": false,
+  "raw": "Wave 95: 8 Glitch Toilets"
+ },
+ {
+  "enemy": "Glitch Toilet",
+  "section": "Endless Mode",
+  "wave": 107,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 107: 1 Glitch Toilet"
+ },
+ {
+  "enemy": "Glitch Toilet",
+  "section": "Endless Mode",
+  "wave": 107,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 107: 1 Glitch Toilet"
+ },
+ {
+  "enemy": "Glitch Toilet",
+  "section": "Endless Mode",
+  "wave": 114,
+  "hp": null,
+  "count": 6,
+  "per_person": false,
+  "raw": "Wave 114: 6 Glitch Toilets"
+ },
+ {
+  "enemy": "Glitch Toilet",
+  "section": "Endless Mode",
+  "wave": 121,
+  "hp": null,
+  "count": 6,
+  "per_person": false,
+  "raw": "Wave 121: 6 Glitch Toilets"
+ },
+ {
+  "enemy": "Helicopter Bomb Toilet",
+  "section": "Nightmare Mode",
+  "wave": 43,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 43: x1"
+ },
+ {
+  "enemy": "Helicopter Bomb Toilet",
+  "section": "Nightmare Mode",
+  "wave": 50,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 50: x1"
+ },
+ {
+  "enemy": "Helicopter Bomb Toilet",
+  "section": "Nightmare Mode",
+  "wave": 43,
+  "hp": 876000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 43: 876,000 HP"
+ },
+ {
+  "enemy": "Helicopter Bomb Toilet",
+  "section": "Nightmare Mode",
+  "wave": 50,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 50: TBA"
+ },
+ {
+  "enemy": "Helicopter Parasite Toilet",
+  "section": "Hard Mode:",
+  "wave": 50,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 50"
+ },
+ {
+  "enemy": "Infected Titan Speakerman",
+  "section": "Endless Mode",
+  "wave": 46,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 46: x1"
+ },
+ {
+  "enemy": "Infected Titan Speakerman",
+  "section": "Endless Mode",
+  "wave": 49,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 49: x1"
+ },
+ {
+  "enemy": "Infected Titan Speakerman",
+  "section": "Endless Mode",
+  "wave": 50,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 50: x1"
+ },
+ {
+  "enemy": "Infected Titan Speakerman",
+  "section": "Nightmare Mode",
+  "wave": 46,
+  "hp": 620000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 46: 620,000 HP"
+ },
+ {
+  "enemy": "Infected Titan Speakerman",
+  "section": "Nightmare Mode",
+  "wave": 49,
+  "hp": 656000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 49: 656,000 HP"
+ },
+ {
+  "enemy": "Infected Titan Speakerman",
+  "section": "Nightmare Mode",
+  "wave": 50,
+  "hp": 668000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 50: 668,000 HP"
+ },
+ {
+  "enemy": "Interceptor Astro Toilet",
+  "section": "",
+  "wave": 37,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 37 (Sand Isles)|modes=Endless Mode"
+ },
+ {
+  "enemy": "Jetpack Mutant Toilet",
+  "section": "Nightmare Mode",
+  "wave": 48,
+  "hp": 1207500,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 48: 1,207,500 HP"
+ },
+ {
+  "enemy": "Jetpack Mutant Toilet",
+  "section": "Nightmare Mode (Old)",
+  "wave": 49,
+  "hp": 1228500,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 49: 1,228,500 HP"
+ },
+ {
+  "enemy": "Jetpack Mutant Toilet",
+  "section": "Nightmare Mode (Old)",
+  "wave": 50,
+  "hp": 1250000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 50: 1,250,000 HP"
+ },
+ {
+  "enemy": "Jetpack Mutant Toilet",
+  "section": "Other",
+  "wave": 1,
+  "hp": 150000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 1: 150,000 HP"
+ },
+ {
+  "enemy": "Jetpack Police Toilet",
+  "section": "Health",
+  "wave": 10,
+  "hp": 15400,
+  "count": 15400,
+  "per_person": false,
+  "raw": "Wave 10: 15400 HP"
+ },
+ {
+  "enemy": "Large Toilet",
+  "section": "",
+  "wave": 15,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 15 (Medium)"
+ },
+ {
+  "enemy": "Large Toilet",
+  "section": "",
+  "wave": 12,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 12 (Hard)"
+ },
+ {
+  "enemy": "Large Toilet",
+  "section": "",
+  "wave": 2,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 2 (Abysmal)"
+ },
+ {
+  "enemy": "Large Toilet",
+  "section": "",
+  "wave": 1,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 1 (Easter)|modes=All}}"
+ },
+ {
+  "enemy": "Large Toilet",
+  "section": "Easy Mode",
+  "wave": 20,
+  "hp": null,
+  "count": 2,
+  "per_person": false,
+  "raw": "Wave 20: ??? HP x2"
+ },
+ {
+  "enemy": "Large Toilet",
+  "section": "Medium Mode",
+  "wave": 11,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 11 ??? HP x1"
+ },
+ {
+  "enemy": "Large Toilet",
+  "section": "Hard Mode",
+  "wave": 12,
+  "hp": 2500,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 12 2500HP"
+ },
+ {
+  "enemy": "Laser Scientist Toilet",
+  "section": "",
+  "wave": 39,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 39 (Nightmare Mode)|modes=Nightmare Mode: wave 42"
+ },
+ {
+  "enemy": "Laser Scientist Toilet",
+  "section": "Waves",
+  "wave": 43,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 43 - Endless Mode"
+ },
+ {
+  "enemy": "Laser Scientist Toilet",
+  "section": "Waves",
+  "wave": 48,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 48 - Endless Mode"
+ },
+ {
+  "enemy": "Laser Scientist Toilet",
+  "section": "Waves",
+  "wave": 38,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 38 - Nightmare Mode"
+ },
+ {
+  "enemy": "Magnet Scientist Toilet 3.0",
+  "section": "Waves",
+  "wave": 50,
+  "hp": null,
+  "count": 5,
+  "per_person": false,
+  "raw": "Wave 50: 5 of the appear this wave."
+ },
+ {
+  "enemy": "Magnet Scientist Toilet 3.0",
+  "section": "Health",
+  "wave": 50,
+  "hp": 9769560,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 50: 9,769,560 HP"
+ },
+ {
+  "enemy": "Magnet Titan Toilet",
+  "section": "Health",
+  "wave": 50,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 50 Time Factory: 16.7M (16,700,000)"
+ },
+ {
+  "enemy": "Magnet Titan Toilet",
+  "section": "Health",
+  "wave": 50,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 50 Drill Forest: 16.7M (16,700,000)"
+ },
+ {
+  "enemy": "Magnet Titan Toilet",
+  "section": "Health",
+  "wave": 1,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 1: 2,000,000"
+ },
+ {
+  "enemy": "Massive Buzzsaw Oven",
+  "section": "Nightmare Mode",
+  "wave": 49,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 49: x1"
+ },
+ {
+  "enemy": "Massive Buzzsaw Oven",
+  "section": "Nightmare Mode",
+  "wave": 50,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 50: x1"
+ },
+ {
+  "enemy": "Massive Buzzsaw Oven",
+  "section": "Nightmare Mode",
+  "wave": 49,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 49: 1,804,000"
+ },
+ {
+  "enemy": "Massive Buzzsaw Oven",
+  "section": "Nightmare Mode",
+  "wave": 50,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 50: 1,837,000"
+ },
+ {
+  "enemy": "Massive Buzzsaw Oven",
+  "section": "Endless Mode",
+  "wave": 40,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 40: ??? HP"
+ },
+ {
+  "enemy": "Massive Buzzsaw Oven",
+  "section": "Endless Mode",
+  "wave": 50,
+  "hp": 1837000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 50: 1,837,000 HP"
+ },
+ {
+  "enemy": "Massive Buzzsaw Oven",
+  "section": "Endless Mode",
+  "wave": 60,
+  "hp": 6370623,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 60: 6,370,623 HP"
+ },
+ {
+  "enemy": "Massive Buzzsaw Oven",
+  "section": "Endless Mode",
+  "wave": 70,
+  "hp": 8342482,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 70: 8,342,482 HP"
+ },
+ {
+  "enemy": "Mutant Pumpkin Toilet",
+  "section": "",
+  "wave": 109,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 109 (Endless Mode)|modes=Abysmal Mode, Endless Mode|ability_1=Hammer Smash: Uses its hammer to stun a unit.|ability_2=Angry look : Uses its head to stun IThink}}"
+ },
+ {
+  "enemy": "Mutant Pumpkin Toilet",
+  "section": "Abysmal Mode",
+  "wave": 50,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 50: 8,350,000 x1 (Solo)"
+ },
+ {
+  "enemy": "Mutant Pumpkin Toilet",
+  "section": "Endless Mode",
+  "wave": 110,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 110: 114M x1 (Solo)"
+ },
+ {
+  "enemy": "Mutant Toilet",
+  "section": "Medium Mode",
+  "wave": 23,
+  "hp": 32000,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 23: 32,000 HP x1"
+ },
+ {
+  "enemy": "Mutant Toilet",
+  "section": "Medium Mode",
+  "wave": 28,
+  "hp": null,
+  "count": 2,
+  "per_person": false,
+  "raw": "Wave 28: ??? HP x2"
+ },
+ {
+  "enemy": "Mutant Toilet",
+  "section": "Other",
+  "wave": 1,
+  "hp": 8000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 1: 8,000 HP"
+ },
+ {
+  "enemy": "Mutant Toilet 2.0",
+  "section": "Hard Mode",
+  "wave": 23,
+  "hp": null,
+  "count": 2,
+  "per_person": false,
+  "raw": "Wave 23: x2"
+ },
+ {
+  "enemy": "Mutant Toilet 2.0",
+  "section": "Nightmare Mode",
+  "wave": 13,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 13: x1"
+ },
+ {
+  "enemy": "Phantom Toilet",
+  "section": "Endless Mode",
+  "wave": 61,
+  "hp": null,
+  "count": 5,
+  "per_person": false,
+  "raw": "Wave 61: x5"
+ },
+ {
+  "enemy": "Quad Rocket Mutant Toilet",
+  "section": "Nightmare Mode:",
+  "wave": 49,
+  "hp": 1640000,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 49: 1,640,000 HP x1"
+ },
+ {
+  "enemy": "Quad Rocket Mutant Toilet",
+  "section": "Nightmare Mode Old:",
+  "wave": 50,
+  "hp": 1670000,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 50: 1,670,000 HP x1"
+ },
+ {
+  "enemy": "Quad-Blade Strider Toilet",
+  "section": "Nightmare Mode",
+  "wave": 40,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 40: x1"
+ },
+ {
+  "enemy": "Quad-Blade Strider Toilet",
+  "section": "Nightmare Mode",
+  "wave": 44,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 44: x1"
+ },
+ {
+  "enemy": "Quad-Blade Strider Toilet",
+  "section": "Nightmare Mode",
+  "wave": 40,
+  "hp": 479000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 40: 479,000 HP"
+ },
+ {
+  "enemy": "Quad-Blade Strider Toilet",
+  "section": "Nightmare Mode",
+  "wave": 44,
+  "hp": 521500,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 44: 521,500 HP"
+ },
+ {
+  "enemy": "Rabid Rabbit Toilet",
+  "section": "Easter Mode",
+  "wave": 60,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 60"
+ },
+ {
+  "enemy": "Rabid Rabbit Toilet",
+  "section": "Health",
+  "wave": 60,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 60: 11,820,000"
+ },
+ {
+  "enemy": "Rabid Rabbit Toilet",
+  "section": "Others:",
+  "wave": 1,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 1: 1,200,000"
+ },
+ {
+  "enemy": "Rapid Rabbit Toilet",
+  "section": "Easter Mode",
+  "wave": 60,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 60"
+ },
+ {
+  "enemy": "Rapid Rabbit Toilet",
+  "section": "Health",
+  "wave": 60,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 60: 11,820,000"
+ },
+ {
+  "enemy": "Rapid Rabbit Toilet",
+  "section": "Others:",
+  "wave": 1,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 1: 1,200,000"
+ },
+ {
+  "enemy": "Scientist Toilet",
+  "section": "Nightmare Mode",
+  "wave": 48,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "wave 48 : 2,415,000ho"
+ },
+ {
+  "enemy": "Scientist Toilet",
+  "section": "Others",
+  "wave": 1,
+  "hp": 300000,
+  "count": 300000,
+  "per_person": false,
+  "raw": "Wave 1: 300000 HP"
+ },
+ {
+  "enemy": "Secutor Astro Toilet",
+  "section": "Waves",
+  "wave": 140,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 140: x1"
+ },
+ {
+  "enemy": "Secutor Astro Toilet",
+  "section": "Waves",
+  "wave": 150,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 150: x1"
+ },
+ {
+  "enemy": "Skeleton Toilet",
+  "section": "Abysmal Mode",
+  "wave": 31,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 31: x1"
+ },
+ {
+  "enemy": "Skeleton Toilet",
+  "section": "Abysmal Mode",
+  "wave": 35,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 35: x1"
+ },
+ {
+  "enemy": "Skeleton Toilet",
+  "section": "Abysmal Mode",
+  "wave": 43,
+  "hp": null,
+  "count": 2,
+  "per_person": false,
+  "raw": "Wave 43: x2"
+ },
+ {
+  "enemy": "Skeleton Toilet",
+  "section": "Abysmal Mode",
+  "wave": 49,
+  "hp": null,
+  "count": 2,
+  "per_person": false,
+  "raw": "Wave 49: x2"
+ },
+ {
+  "enemy": "Skeleton Toilet",
+  "section": "Abysmal Mode",
+  "wave": 50,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 50: x1"
+ },
+ {
+  "enemy": "Skeleton Toilet",
+  "section": "Endless Mode",
+  "wave": 62,
+  "hp": null,
+  "count": 5,
+  "per_person": false,
+  "raw": "Wave 62: x5"
+ },
+ {
+  "enemy": "Small Toilet",
+  "section": "Easy Mode!",
+  "wave": 1,
+  "hp": null,
+  "count": 10,
+  "per_person": false,
+  "raw": "Wave 1: x10 Small Toilet"
+ },
+ {
+  "enemy": "Small Toilet",
+  "section": "Easy Mode!",
+  "wave": 2,
+  "hp": null,
+  "count": 20,
+  "per_person": false,
+  "raw": "Wave 2: x20 Small Toilet"
+ },
+ {
+  "enemy": "Small Toilet",
+  "section": "Easy Mode!",
+  "wave": 13,
+  "hp": null,
+  "count": 10,
+  "per_person": false,
+  "raw": "Wave 13: x10 Small Toilet x10 Toilet"
+ },
+ {
+  "enemy": "Soldier Rocket Toilet",
+  "section": "Waves",
+  "wave": 47,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 47: x1"
+ },
+ {
+  "enemy": "Soldier Rocket Toilet",
+  "section": "Health",
+  "wave": 47,
+  "hp": 1185000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 47: 1,185,000 HP"
+ },
+ {
+  "enemy": "Solider Rocket Toilet",
+  "section": "Waves",
+  "wave": 47,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 47: x1"
+ },
+ {
+  "enemy": "Solider Rocket Toilet",
+  "section": "Health",
+  "wave": 47,
+  "hp": 1185000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 47: 1,185,000 HP"
+ },
+ {
+  "enemy": "TV Dual Claw Toilet",
+  "section": "Hard Mode",
+  "wave": 37,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 37: X4"
+ },
+ {
+  "enemy": "TV Dual Claw Toilet",
+  "section": "Hard Mode",
+  "wave": 50,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 50: X1"
+ },
+ {
+  "enemy": "TV Dual Claw Toilet",
+  "section": "Hard Mode",
+  "wave": 37,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 37: 320,000"
+ },
+ {
+  "enemy": "TV Dual Claw Toilet",
+  "section": "Hard Mode",
+  "wave": 50,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 50: 410,500"
+ },
+ {
+  "enemy": "The Mothership",
+  "section": "Waves",
+  "wave": 180,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 180: 12,635,013,632"
+ },
+ {
+  "enemy": "The Mothership",
+  "section": "Waves",
+  "wave": 1,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 1: 10,200,000"
+ },
+ {
+  "enemy": "Toilet",
+  "section": "Health",
+  "wave": 1,
+  "hp": 100,
+  "count": 100,
+  "per_person": false,
+  "raw": "Wave 1: 100 HP"
+ },
+ {
+  "enemy": "Toilet",
+  "section": "Health",
+  "wave": 2,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 2: ??? HP"
+ },
+ {
+  "enemy": "Toxic Mutant Toilet",
+  "section": "Nightmare:",
+  "wave": 43,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 43: x1"
+ },
+ {
+  "enemy": "Toxic Mutant Toilet",
+  "section": "Nightmare:",
+  "wave": 46,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 46: x1"
+ },
+ {
+  "enemy": "Toxic Mutant Toilet",
+  "section": "Nightmare:",
+  "wave": 48,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 48: x1"
+ },
+ {
+  "enemy": "Toxic Skull Toilet",
+  "section": "Nightmare Mode",
+  "wave": 43,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 43: x1"
+ },
+ {
+  "enemy": "Toxic Skull Toilet",
+  "section": "Nightmare Mode",
+  "wave": 49,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 49: x1"
+ },
+ {
+  "enemy": "Toxic Skull Toilet",
+  "section": "Nightmare Mode",
+  "wave": 50,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 50: x1"
+ },
+ {
+  "enemy": "Toxic Skull Toilet",
+  "section": "Nightmare Mode",
+  "wave": 43,
+  "hp": 876000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 43: 876,000 HP"
+ },
+ {
+  "enemy": "Toxic Skull Toilet",
+  "section": "Nightmare Mode",
+  "wave": 49,
+  "hp": 984000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 49: 984,000 HP"
+ },
+ {
+  "enemy": "Toxic Skull Toilet",
+  "section": "Nightmare Mode",
+  "wave": 50,
+  "hp": 1002000,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 50: 1,002,000 HP"
+ },
+ {
+  "enemy": "Turkey Toilet",
+  "section": "Abysmal Mode",
+  "wave": 5,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 5: ??? HP x1"
+ },
+ {
+  "enemy": "UFO Toilet",
+  "section": "Hard Mode:",
+  "wave": 49,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 49: x1"
+ },
+ {
+  "enemy": "UFO Toilet",
+  "section": "Nightmare Mode:",
+  "wave": 20,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 20: x1"
+ },
+ {
+  "enemy": "UFO Toilet",
+  "section": "Nightmare Mode:",
+  "wave": 23,
+  "hp": null,
+  "count": 2,
+  "per_person": false,
+  "raw": "Wave 23: x2"
+ },
+ {
+  "enemy": "UFO Toilet",
+  "section": "Hard Mode:",
+  "wave": 49,
+  "hp": 410000,
+  "count": 410000,
+  "per_person": false,
+  "raw": "Wave 49: 410000 HP"
+ },
+ {
+  "enemy": "UFO Toilet",
+  "section": "Hard Mode Old Appearances",
+  "wave": 50,
+  "hp": 417500,
+  "count": 417500,
+  "per_person": false,
+  "raw": "Wave 50: 417500 HP"
+ },
+ {
+  "enemy": "UFO Toilet",
+  "section": "Nightmare Mode:",
+  "wave": 20,
+  "hp": 192500,
+  "count": 192500,
+  "per_person": false,
+  "raw": "Wave 20: 192500 HP"
+ },
+ {
+  "enemy": "UFO Toilet",
+  "section": "Nightmare Mode:",
+  "wave": 23,
+  "hp": 215000,
+  "count": 215000,
+  "per_person": false,
+  "raw": "Wave 23: 215000 HP"
+ },
+ {
+  "enemy": "Upgraded Astro Duchess",
+  "section": "Endless Mode",
+  "wave": 190,
+  "hp": null,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 190: 1x Upgraded Astro Duchess ??? Health"
+ },
+ {
+  "enemy": "Vacuum Toilet",
+  "section": "",
+  "wave": 13,
+  "hp": null,
+  "count": null,
+  "per_person": false,
+  "raw": "Wave 13 or 14 (Hard)|modes=Medium+|ability_1=It will spin around specific sections of the map stunning nearby small units for 10 seconds.}}"
+ },
+ {
+  "enemy": "Vacuum Toilet",
+  "section": "Medium Mode",
+  "wave": 15,
+  "hp": 62000,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 15: 62,000 HP x1"
+ },
+ {
+  "enemy": "Vacuum Toilet",
+  "section": "Medium Mode",
+  "wave": 20,
+  "hp": 77000,
+  "count": 2,
+  "per_person": false,
+  "raw": "Wave 20: 77,000 HP x2"
+ },
+ {
+  "enemy": "Vacuum Toilet",
+  "section": "Medium Mode",
+  "wave": 25,
+  "hp": 92000,
+  "count": 2,
+  "per_person": false,
+  "raw": "Wave 25: 92,000 HP x2"
+ },
+ {
+  "enemy": "Vacuum Toilet",
+  "section": "Hard Mode",
+  "wave": 15,
+  "hp": 62000,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 15 : 62,000 HP x1"
+ },
+ {
+  "enemy": "Vacuum Toilet",
+  "section": "Nightmare Mode",
+  "wave": 15,
+  "hp": 62000,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 15 : 62,000 HP x1"
+ },
+ {
+  "enemy": "Vacuum Toilet",
+  "section": "Abysmal Mode",
+  "wave": 15,
+  "hp": 62000,
+  "count": 1,
+  "per_person": false,
+  "raw": "Wave 15 : 62,000 HP x1"
+ }
+]

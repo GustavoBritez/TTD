@@ -1,0 +1,37 @@
+{{Stub}}{{SeeAlsoNotice|PagesNumber=1|Note1=[[Giant Astro Spider Toilet|Its giant variant]]}}{{Toilet Infobox|image1=Large astro spiderr.png|species=Astro|health=1.7 Million Health (Wave 58)
+578 Million Health (Wave 153)|speed=Fast|appearances=N/A|wave_debut=Wave 58 [[Abysmal Mode (The Void)]]
+Wave 153 [[Endless Mode]]|modes=[[Abysmal Mode (The Void)]]
+[[Endless Mode]]|title1=Astro Spider Toilet|abilities=|ability_1=Laser Cannon Shoot: Shoots a laser at a unit, stunning it for 45 seconds.|ability_2=Cannot be slowed down}}
+
+== Overview ==
+The '''Astro Spider Toilet''' is an [[Enemies|enemy]] that was added in the [[Episode 76 Part 1 Update]].
+
+== Appearance ==
+The Astro Spider Toilet is a black toilet, with a black helmet with white sparkles reflecting from it, equipped with a visor and a straight face. It has four spider-like legs on its sides, and a huge orange laser on the front, and two smaller lasers on the sides of the big one. It could possibly have a jetpack on its cistern.
+
+There is a [[Giant Astro Spider Toilet]] version of him
+
+== Wave Debut ==
+Wave 58 [[Abysmal Mode (The Void)]]
+
+== Trivia ==
+
+* it is based off the [https://skibidi-toilet.fandom.com/wiki/Strider_Astro_Toilet Strider Astro Toilet] from the series.
+* This toilet is immune to all slowing.
+
+== Gallery ==
+<gallery>
+File:Screenshot 2024-07-10 1453476.png|Him as shown in the leaks video.
+</gallery>
+[[Category:Toilets]]
+[[Category:Astro Toilet]]
+[[Category:Astro toilets]]
+[[Category:Enemies]]
+[[Category:Stub]]
+[[Category:Stubs]]
+[[Category:Spiders]]
+[[Category:Laser users]]
+[[Category:Laser]]
+[[Category:Fast toilets]]
+[[Category:Fast]]
+[[Category:Valentines Event 2025]]

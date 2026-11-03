@@ -1,0 +1,71 @@
+{{Toilet_Infobox|image1=<gallery>
+dual_buzzsaw_render.png|Boss Icon
+Dual Flying.png|In-Game
+</gallery>|caption-image1=Toilet.|description=|species=Toilet|health=*678,555 [[Nightmare Mode]]
+*355,000 [[Endless Mode]]|speed=Fast|wave_debut=*Wave 25 [[Nightmare Mode]]
+*Wave 30 [[Endless Mode]]|modes=*[[Nightmare Mode]]
+*[[Endless Mode]]|ability_1=Buzzsaw, it stunning for 20 seconds.|appearances=}}{{PageNotFinished|reason=Unit Health and Clear Rendered Image}}
+
+== Overview ==
+The '''Dual Flying Buzzsaw Toilet''' is a fast [[Enemies|Enemy]] with a lot of health that can stun units. It appears in [[Nightmare Mode]] and in [[Endless Mode]].
+
+== Appearance ==
+It has two arms with buzzsaws at the ends, a jetpack and heavy duty vision goggles.
+
+== Waves ==
+
+=== Nightmare Mode ===
+'''To people to actively play the game, please add the amount that spawns on these waves.'''
+
+* Wave 25
+* Wave 28
+* Wave 29
+* Wave 31
+* Wave 32
+* Wave 36
+* Wave 40
+* Wave 42
+* Wave 49
+* Wave 50
+
+== Health ==
+On Wave 25, it has 322,000 health.
+
+In Endless it spawns on wave 30
+
+* Wave 25: 322,000
+* Wave 28: N/A
+* Wave 29: N/A
+* Wave 31: N/A
+* Wave 32: N/A
+* Wave 36: N/A
+* Wave 40: N/A
+* Wave 42: N/A
+* Wave 49: N/A
+* Wave 50: N/A
+
+=== Endless Mode ===
+
+* Wave 30: 678,355
+
+== Trivia ==
+* It is one of the only models created by Telanthric, others being the Camera Helicopter.
+* This toilet is inspired off of the [https://skibidi-toilet.fandom.com/wiki/Jetpack_Dual_Buzzsaw_Skibidi_Toilet Jetpack Dual Buzzsaw Skibidi Toilet] from the original series.
+
+== Gallery ==
+<gallery>
+File:Dual buzzsaw render.png|Dual Flying Buzzsaw Toilet's render.
+</gallery>
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Stunners]]
+[[Category:Characters]]
+[[Category:Toilet]]
+[[Category:Fast]]
+[[Category:Saw]]
+[[Category:Endless Bosses]]
+[[Category:Jetpack]]
+[[Category:Man Face]]
+[[Category:Flying]]
+[[Category:Dual Wield]]
+[[Category:Valentines Event 2025]]

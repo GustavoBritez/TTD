@@ -1,0 +1,32 @@
+{{Stub}}{{SeeAlsoNotice|Note1=[[Giant Turkey Toilet]] or [[Upgraded Giant Turkey Toilet]]}}{{Toilet_Infobox|image1=Tukey tolet.png|description=Toilet.|species=[[Enemies|Toilets]]|health=27000|speed=Average|wave_debut=Wave 5 (Abysmal Mode), Wave 31 (Time Factory)|modes=Abysmal Mode (Thanksgiving Event), Time Factory (Rewind Event)}}
+
+==Overview==
+The '''Turkey Toilet''' is an enemy that appears in [[Abysmal Mode (Thanksgiving Event)|Abysmal Mode]].
+
+This enemy appears a lot through [[Abysmal Mode (Thanksgiving Event)|Abysmal Mode]] from Wave 5 and above all the way until Wave 46 when they stop appearing.
+
+== Appearance ==
+The Turkey Toilet looks like a toilet that has a turkey head in it.
+
+== Waves ==
+
+=== Abysmal Mode ===
+
+* Wave 5: ??? HP x1
+== Strategy ==
+* The Turkey Toilet is easy to defeat. If you cannot defeat it, you can let it leak as it does not do much damage to your base.
+== Trivia ==
+
+* This enemy was added in the thanksgiving event as a special toilet
+* This enemy is the first out of the two toilets with a turkey head. 
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Characters]]
+[[Category:Event Enemies]]
+[[Category:Incomplete pages]]
+[[Category:Toilet]]
+[[Category:Thanksgiving event]]
+[[Category:Stubs]]
+[[Category:Stub]]
+[[Category:Non-Stun Toilets]]
+[[Category:Animals]]

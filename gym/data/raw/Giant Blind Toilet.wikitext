@@ -1,0 +1,36 @@
+{{Stub}}{{Toilet_Infobox|image1=giant blind.png|species=Toilet|health=355000|speed=Very Slow|wave_debut=18|modes=[[Nightmare Mode]], [[Endless Mode|Endless Mode]]|abilities=Looks very comfy and cute untill when it goes to the end}}
+
+== Overview ==
+== Apperance ==
+He has nails on both his left and right ears to block his hearing and has a metal plate covering his eyes.  
+
+== Waves ==
+
+== Strategy ==
+- Use UTC or spam Secret Agent or use Upgraded Titan Cinema Man or use Titan Present Man or use Upgraded Titan Drill Man
+
+== Trivia ==
+
+* It is based off the [https://skibidi-toilet.fandom.com/wiki/Deafened_Blind_Skibidi_Toilet Deafened Blind Skibidi Toilet] from the series.
+
+* It deals 350 damage to the base
+
+== Gallery ==
+<gallery>
+File:Giant blind.png
+</gallery>
+
+== Update Log ==
+31/12/2023 Added Giant  Blind Toilet 
+
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Slow Toilets]]
+[[Category:Characters]]
+[[Category:Male Units]]
+[[Category:Giant Units]]
+[[Category:Incomplete pages]]
+[[Category:Large]]
+[[Category:Large Units]]
+[[Category:Non-Stun Toilets]]
+[[Category:Giant Toilets]]

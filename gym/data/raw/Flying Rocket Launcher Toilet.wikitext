@@ -1,0 +1,48 @@
+{{Toilet_Infobox|image1=rocketfix.png|caption-image1=Toilet.|description=|species=[[Astro Toilets|Astro Toilets]]|health=230,000|speed=Average|wave_debut=Wave 43|modes=Hard+|abilities=|ability_1=Rocket Fire: Launches a rocket at a unit, stunning them for 5 seconds.}}{{PageNotFinished|reason=Waves and Wave Health}}
+== Overview ==
+'''Flying Rocket Launcher Toilet''' is a [[Toilets|enemy]] that appears in [[Cameraman HQ]] and [[Toilet HQ]]. It is strong and can stun units.
+
+This enemy has the ability to use its four rockets to shoot at units to stun them with it.
+== Waves ==
+Hard: Wave 43, Wave 49
+== Health ==
+
+=== Hard Mode ===
+
+* Wave 49: 246.000 HP
+* Wave 43: 219000 HP
+
+=== Nightmare Mode ===
+Wave... ''TBA''
+
+== Strategy ==
+The '''Flying Rocket Launcher Toilet''' can be a threat when it first appears as you may not have any Medic Cameramen or Camera Repair Drones to unstun your units. But later, it seems to have much less health then other enemies, and can be taken out easily.
+== Trivia ==
+
+* It is based off of the [https://skibidi-toilet.fandom.com/wiki/Flying_Quad-Launcher_Skibidi_Toilet?so=search Rocketeer Astro Toilet] in the Skibidi Toilet series.
+
+* It used to be the final boss of [[Cameraman HQ]] [[Hard Mode|(now Hard Mode)]] before getting replaced by the [[UFO Toilet]] (then it got replaced by [[Boss Toilet 3.0]]).
+== Gallery ==
+<gallery>
+File:Rocketfix.png
+File:Flying Rocket Toilet.png
+File:Flying Rocket Launcher Toilet.png
+</gallery>
+== Update Log ==
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Stunners]]
+[[Category:Characters]]
+[[Category:Outdated pages]]
+[[Category:Toilet]]
+[[Category:Mid-air]]
+[[Category:Stubs]]
+
+
+[[Category:Rocket]]
+[[Category:Rockets]]
+[[Category:Flying]]
+[[Category:Slow Toilets]]
+[[Category:Man Face]]
+[[Category:Valentines Event 2025]]
+[[Category:Astro Toilets]]

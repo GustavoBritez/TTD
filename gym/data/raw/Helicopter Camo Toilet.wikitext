@@ -1,0 +1,33 @@
+{{Toilet_Infobox|image1=heli camo.png|species=Toilet|health=???|speed=Average|wave_debut=???|modes=[[Endless Mode]], [[Nightmare Mode]]|ability_1=*Quad Rocket Launchers: ''Each rocket launcher stuns a unit nearby, draining their stun-blocks by one. Only one unit per x seconds actually gets stunned.''|appearances=???|title1=Helicopter Camo Toilet}}{{Stub}}
+
+== '''Overview''' ==
+
+'''Helicopter Camo Toilet''' is a non-boss enemy toilet, that spawns in some waves in [[Nightmare Mode]] and [[Endless Mode]].
+
+== '''Waves''' ==
+Tba
+
+== '''Trivia''' ==
+
+* It is one of the few enemy toilets to fly using a helicopter rover instead of an jetpack. This makes sense since in the actual series, toilets can fly using helicopter rovers, as long as it is not destroyed.
+* One of the only few enemy toilets to have an (roblox face name) in their heads.
+* One of the only few enemy toilets to have more than one rocket launchers
+
+== Gallery ==
+<gallery>
+File:Heli camo.png|The icon
+</gallery>
+
+[[Category:Enemies]]
+[[Category:Toilets]]
+[[Category:Stunners]]
+
+[[Category:Helicopters]]
+
+[[Category:Characters]]
+[[Category:Incomplete pages]]
+[[Category:Stubs]]
+[[Category:Stub]]
+
+[[Category:Rockets]]
+[[Category:Small]]

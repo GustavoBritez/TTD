@@ -1,0 +1,73 @@
+{{Toilet_Infobox|image1=dual claw no bg.png|species=Toilets|health=2900(Medium
+3200 (Hard)|speed=Average|wave_debut=Wave 8 (Medium)
+Wave 5 (Hard)
+Wave 5 (Nightmare)
+Wave ? (Abysmal)|modes=Medium+|ability_1=Claw: Uses its claws to stun a unit for 4 seconds.}}
+''Were you looking for [[Dual Claw Laser Toilet]]?''
+
+== Overview ==
+The '''Dual Claw Toilet''' is an [[Enemies|enemy]] that appears in [[Medium Mode]], [[Hard Mode]], [[Nightmare Mode]], and [[Endless Mode]].
+
+The Dual Claw Toilet's special ability is that it can stun a unit with its 2 claws.
+
+== Appearance ==
+The '''Dual Claw Toilet''' is a very basic model. It has a grey toilet, 2 claws, and a sad or exhausted face.
+
+== Health ==
+
+=== Medium ===
+
+=== Hard ===
+Wave 5:x1
+
+Wave 10:x2
+
+(more waves coming soon)
+
+== Waves ==
+
+=== Medium ===
+Wave 8:4100HP
+
+Wave 10:4700HP
+
+Wave 17:6800HP
+
+Wave 21:8000HP
+
+Wave 23:8600HP
+
+Wave 29:10,400HP
+
+=== Hard ===
+Wave 5:3200HP
+
+Wave 8:4100HP
+
+Wave 10:4700HP
+
+Wave 17:6800HP
+
+Wave 24:8600HP
+
+Wave 30:10,700HP
+
+Wave 47:15,800HP
+
+== Abilities ==
+* Claw Attack: Uses its claw hands to stun nearby units for 2 seconds.
+
+== Strategy ==
+*The Dual Claw Toilet does not have much HP. Most units can defeat this.
+*In later waves, the Dual Claw Toilet will spawn a lot. You can use Medic Cameraman or Camera Repair Drone to unstun your units.
+
+== Trivia ==
+It is based off of the [https://skibidi-toilet.fandom.com/wiki/Dual_Claw_Skibidi_Toilet Grey Claw Toilet] from the series.
+[[Category:Enemies]]
+[[Category:Toilets]]
+[[Category:Stunners]]
+[[Category:Characters]]
+[[Category:Toilet]]
+[[Category:Toilet Tower Defense Wiki]]
+[[Category:Small]]
+[[Category:Valentines Event 2025]]

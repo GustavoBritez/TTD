@@ -1,0 +1,34 @@
+{{Toilet_Infobox|image1=walter.png|species=Toilet|health=Depends on wave|speed=Average|wave_debut=Evil Wave|modes=All modes (except Endless Mode and PVP)|description=Its time to cook.....Jesse....|abilities=throw bomb}}
+== Overview ==
+The Teacher Toilet is an [[Enemies|enemy]] that only appears in the [[Evil Wave]]. Upon killing both him and the [[Student Toilet]], you will receive 1000 [[coins]] and the badge associated with the Evil wave.
+
+== Appearance ==
+The teacher toilet has a dark green toilet and a green neck. The toilet also has a brown beard along with glasses. It also has the squinting eyes Roblox head.
+
+== Waves ==
+The Teacher Toilet is not restricted to any wave and can spawn at any time. Every time a wave ends, there is a 0.1% chance that the wave will turn to an [[Evil Wave]] and this enemy and the Student Toilet will spawn. Of course, you can’t skip to the next wave.
+== Strategy ==
+== Trivia ==
+
+* He is based off the [https://skibidi-toilet.fandom.com/wiki/Walter_White_Skibidi_Toilet Walter White Skibidi Toilet] in the skibidi toilet series.
+* He is based off [https://breakingbad.fandom.com/wiki/Walter_White?so=search Walter White] from the Breaking Bad series, along with the [[Student Toilet]], who is based off [https://breakingbad.fandom.com/wiki/Jesse_Pinkman?so=search Jesse Pinkman].
+* gamepass and boost WAS able to stack with evil wave, but its removed at update ep 71
+* If you beat the evil wave, you get 1000 coins
+
+== Gallery ==
+<gallery>
+File:Walter.png|In-Game
+</gallery>
+
+== Update Log ==
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Characters]]
+[[Category:Outdated pages]]
+
+
+[[Category:Male Characters]]
+[[Category:Incomplete pages]]
+[[Category:Evil wave]]
+[[Category:Stubs]]
+[[Category:Stub]]

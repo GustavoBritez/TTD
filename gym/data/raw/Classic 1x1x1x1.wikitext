@@ -1,0 +1,27 @@
+{{Toilet_Infobox|title1=Classic 1x1x1x1|image1=<gallery>
+Classic1x1x1x1Icon.png|Boss Icon
+Classic1x1x1x1.png|Enemy
+</gallery>|species=Robloxian|health=1,433,137 HP|speed=Normal|modes=All|wave_debut=[[Evil Wave]]}}
+
+== Overview ==
+Classic 1x1x1x1 was an [[Enemies|enemy]] after [[1x1x1x1]] transforms into his old form.
+
+== Appearance ==
+He has no tool whatsoever, His torso is dark green (Not showing his bones), his head is almost like a ball, his skin is white, his legs are light blue.
+
+== Strategy ==
+This [[Enemies|enemy]] is not that strong, so  [[Classic Cameraman]] or any other tower that deals high damage can easily defeat him.
+
+== Trivia ==
+
+* Classic 1x1x1x1 is the first ever thing in Toilet Tower Defence to have a cutscene.
+* Classic 1x1x1x1 is based on one of the original avatars used by 1x1x1x1.
+* Classic 1x1x1x1 used to only spawn on [[Crossroads]].
+* He is 1.747913842151867 times weaker than the original boss
+* He can do AoE stun
+* This is the second [[Enemies|enemy]] which isn't toilet , first one is [[Infected Titan Speakerman]]
+
+[[Category:Characters]]
+[[Category:Enemies]]
+[[Category:Event Enemies]]
+[[Category:Bosses]]

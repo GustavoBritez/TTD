@@ -1,0 +1,17 @@
+The Computer Toilet is the Boss of [[Tech City]] (both Easy and Hard Modes.) It only spawns on Wave 50.{{Toilet Infobox|title1=Computer Toilet|species=Toilet|health=10,020,000 (Easy)
+295,159,392 (Hard)|appearances=[[Tech City]]: Wave 50|wave_debut=50|modes=[[Tech City]]|image1=<gallery>
+Comptoilet.png|Icon
+Computer Toilet.png|In-Game
+</gallery>}}
+
+== Trivia ==
+Apparently, this toilet can spawn [[Hoverboard Toilet|Hoverboard Toilets]], making it the third toilet to spawn other [[enemies]]. The others being the [[Dual Cargo Toilets]] and the [[Carrier Astro Toilet]]. Coincidently, all three of them are bosses.
+[[Category:Toilets]]
+[[Category:2025]]
+[[Category:Event Enemies]]
+[[Category:Tech Event 2025]]
+[[Category:Boss Toilets]]
+[[Category:Computers]]
+[[Category:Slow Toilets]]
+[[Category:Spawner]]
+[[Category:Enemies]]

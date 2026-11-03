@@ -1,0 +1,28 @@
+{{Toilet_Infobox|image1=<gallery>
+Mutant Toilet.png|New
+toilet man.png|Old
+</gallery>species=Toilets, Mutants|health=8,000|speed=Average|wave_debut=???|modes=Medium+}}
+
+== Overview ==
+The '''Mutant Toilet''' is an [[Enemies|enemy]] added in the [[Episode 62 Update]]. It walks like all other mutant enemies, but it does not stun [[units]]. It has lower HP than [[Boss Toilet|Boss Toilets]], but moves faster. He Appears In Wave 21 of Medium Mode, Wave 12 of Hard Mode and Wave 6 Of Nightmare Mode
+
+== Health ==
+
+=== Medium Mode ===
+Wave 23: 32,000 HP x1
+
+Wave 28: ??? HP x2
+=== Other ===
+Wave 1: 8,000 HP
+== Trivia ==
+*This enemy is based off of the [https://skibidi-toilet.fandom.com/wiki/Prototype_Skibidi_Mutant Prototype Mutant Skibidi Toilet] from the series.
+== Update Log ==
+9/15/2023: Added Mutant Toilet.
+
+10/20/23: Changed Mutant Toilet walking animation.
+
+6/9/2024: Changed clothing color to grey.
+[[Category:Toilets]]
+[[Category:Mutants]]
+[[Category:Non-Stun Toilets]]
+[[Category:Enemies]]

@@ -1,0 +1,49 @@
+''Were you looking for [[Helmet Boss Toilet 4.0]]?''{{Character|name=Boss Toilet 4.0|image=Boss Toilet 4.0.png|imagecaption=|species=Toilet|debut=Wave 40 On [[Nightmare Mode]]|health=1,370,000 HP|speed=Slow|gender=}}
+==Overview==
+The '''Boss Toilet 4.0''' is a stronger version of the [[Boss Toilet 3.0]], and the previous variant of the [[Helmet Boss Toilet 4.0]]. It can stun [[units]] for 5 seconds with its four lasers. This is the second strongest variation of the Boss Toilet in game.
+==Waves==
+=== [[Nightmare Mode]] ===
+
+
+
+
+
+Wave 40: 1,370,000 HP
+
+Wave 46: 1,550,000 HP
+
+Wave 49: 1,640,000 HP
+
+=== Other Modes ===
+Wave 1: 200,000 HP
+
+==Strategy==
+*The Boss Toilet 4.0 has a lot of health, so you should use high DPS units. Units like [[Jetpack Cameraman|Jetpack Cameraman,]] [[Titan Cameraman|Titan Cameraman,]] any [[Mythic]], or any [[Godly]] will work.
+*The Boss Toilet 4.0 stuns very quickly, so you should use Medic Cameraman or Camera Repair Drone to unstun units stunned by the Boss Toilet 4.0.
+*You can use Secret Agent to defeat this enemy if it is at low health.
+==Trivia==
+*It has glasses and headphones but is not immune to any [[TVs]] or [[Speakers]].
+*It is based off of the [https://skibidi-toilet.fandom.com/wiki/G-Man_Skibidi_Toilet#G-Man_Skibidi_Toilet_4.0 G-Man Skibidi Toilet 4.0].
+
+== Update Log ==
+
+== Gallery ==
+<gallery>
+File:Core shoot.png|Boss Toilet 4.0 stunning with its core.
+File:Eye shoot.png|Boss Toilet 4.0 stunning with its eye lasers.
+File:Imaginegettingstunned.gif
+File:Boss.png|The buffed version of Boss toilet, [[Helmet Boss Toilet 4.0]]
+</gallery>
+[[Category:Boss Toilets]]
+[[Category:Stunners]]
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Jetpack]]
+[[Category:Laser]]
+[[Category:Bosses]]
+[[Category:Toilet]]
+[[Category:Male Units]]
+[[Category:Mid-air]]
+[[Category:Glasses Toilets]]
+[[Category:Man Face]]
+[[Category:Valentines Event 2025]]

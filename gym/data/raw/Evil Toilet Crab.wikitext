@@ -1,0 +1,33 @@
+{{Stub}}
+{{Toilet_Infobox|title1=Evil Toilet Crab|image1=Evil Man Crab.png|species=[[Enemies|Toilets]]|health=48,847,500
+25,050,000 (Solo)|speed=Slow|wave_debut=Wave 50|modes=[[Sand Isles|Summer Mode]]|abilities=Stun|ability_1=Shoot Laser At Nearby Units. (UNITS THATS CAN BLOCK STUNS WILL GET STUN INSTANTLY )}}
+
+== Overview ==
+The '''Evil Toilet Crab''' is a toilet added in the [[Episode 76 Part 1 Update]], and is part of the summer event. This toilet spawns on Wave 50 of Summer Mode. It is the strongest [[Enemies|toilet]] in the map [[Sand Isles]], and the final boss, meaning to win the mode and get coins, you must defeat him.
+==Modes==
+[[Sand Isles]]
+
+Wave 50: HP 48,847,500. 25,050,000 (Solo)
+==Strategy==
+*This toilet has a large amount of health, and also does stuns, it is best to use high DPS units such as [[Titan Fanman]], [[Hyper Upgraded Titan Speakerman]], [[Beret Cameraman]]. You can also use [[Upgraded Titan Cinemaman]] to stun the crab for 5 seconds.
+*Barriers such as [[Scientist Clockman]] and [[Titan Sand Man]] can decrease his health.
+==Trivia==
+
+* This is the second toilet to have the name of an animal in it's name, the first one being the [[Cat Toilet]].
+* This toilet does 700 damage to your base meaning even if you don't kill this toilet and if your base has more than 700 HP, you can still win the game
+
+== Gallery ==
+<gallery>
+File:Evil Man Crab.png
+</gallery>
+[[Category:Toilets]]
+[[Category:Toilet]]
+[[Category:Boss Toilets]]
+[[Category:Boss]]
+[[Category:Incomplete pages]]
+[[Category:Stub]]
+[[Category:Slow Toilets]]
+[[Category:Stunners]]
+[[Category:Event Enemies]]
+[[Category:Animals]]
+[[Category:Man Face]]

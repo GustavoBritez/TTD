@@ -1,0 +1,32 @@
+{{Stub}}{{Toilet_Infobox|image1=FlyingQuadBuzzsawToilet.png|species=Toilet|health=???|speed=Average|wave_debut=???|modes=Nightmare, endless|ability_1=Buzzsaw Attack: Uses its four buzzsaws to stun a unit.}}
+==Overview ==
+The Flying Quad Buzzsaw Toilet is an enemy that has been added in the [[Episode 67 Part 4 Update]].
+
+== Appearance ==
+He has looks like the boss toilet 4.0 but with 4 buzzsaws, a jetpack, shades, and armor on his toilet bowl.
+
+== Waves ==
+
+== Abilities ==
+Uses its buzzsaw to stun [[Units]].
+
+== Strategy ==
+
+== Trivia ==
+
+== Gallery ==
+
+== Update Log ==
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Characters]]
+[[Category:Stunners]]
+[[Category:Toilet]]
+[[Category:Jetpack]]
+[[Category:Saw]]
+[[Category:Boss Toilets]]
+[[Category:Male Characters]]
+[[Category:Flying]]
+[[Category:Bosses]]
+[[Category:Boss]]
+[[Category:Man Face]]

@@ -1,0 +1,38 @@
+{{Toilet Infobox|title1=Magnet Titan Toilet|image1=Magnet Titan Toilet.png|species=[[Enemies|Toilets]]|health=16,700,000|speed=Slow|appearances=Clock mode|wave_debut=50|ability_1=Magnet Stun(stuns [[units]] by jumping on their head)}}
+== Overview == 
+The [[Magnet Titan Toilet]] is a boss toilet appearing in the [[Time Factory]] and [[Drill Forest]], with a health of 16,700,000. It is the boss of the mode, appearing in the last wave, 50.
+== Health ==
+Wave 50 [[Time Factory]]: 16.7M (16,700,000)
+
+Wave 50 [[Drill Forest]]: 16.7M (16,700,000)
+
+Wave 1: 2,000,000
+== Strategies ==
+* In reality, it is not a really hard [[Enemies|Toilet]] to defeat. The best method is by using 15 [[Guardian Clockman]] (Time Factory) (It is easy to get) because this unit does high damage, high range, and it slows toilets by 60%. You can also use other high dps units.
+* for [[Drill Forest]], Use units such as [[Large Drillman]] or [[Armored Drillman]] to get most of its HP. you can also use [[Dark Drillman]] and [[Drillwoman]] along with [[Corporal Drillman]] or [[Sergeant Drillman]] for the quickest kill.
+* You can also use the sell and place method, this method is getting some [[Units]] attacking the toilet, and when the toilet is out of their range you sell them and places your troops in the range again.
+* In the [https://dom-studios-skibidi-multiverse.fandom.com/wiki/DOM_Studio%27s_Skibidi_Multiverse_Wiki Skibidi Toilet Multiverse series], his toilet has red, blue, and silver colors, but in the game, he is golden.
+
+
+[[Category:Modes]]
+[[Category:Bosses]]
+[[Category:Enemies]]
+[[Category:Clock Events]]
+[[Category:Toilets]]
+[[Category:Multiverse toilets]]
+[[Category:Titans]]
+[[Category:Toilet]]
+[[Category:Magnet toilets]]
+[[Category:Magnet users]]
+[[Category:Incomplete pages]]
+[[Category:Stub]]
+[[Category:Stubs]]
+[[Category:Event Enemies]]
+[[Category:Boss Toilets]]
+[[Category:Slow Toilets]]
+[[Category:Magnet]]
+[[Category:Mid-air]]
+[[Category:Off-Track Enemies]]
+[[Category:Flying]]
+[[Category:Male Characters]]
+[[Category:Giant Toilets]]

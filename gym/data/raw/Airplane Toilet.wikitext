@@ -1,0 +1,55 @@
+{{SeeAlsoNotice|Note1=[[Airplane Toilet (Unit)| its unit counterpart]]}}{{Toilet_Infobox|image1=Airtoilet.png|species=Toilets|health=2000 - easy wave 20 - 25000 - medium wave 30 - 180000 - hard wave 50 - 250000 - nightmare wave 50|speed=Very Fast|wave_debut=Wave ? (Hard Mode)
+Wave 15 (Nightmare Mode
+Wave ? (Abysmal Mode (Halloween Event))
+Wave ?  (Abysmal Mode (Thanksgiving Event))}}
+
+== Overview ==
+The Airplane Toilet is a very fast medium health [[Enemies|enemy]] that appears on [[Hard Mode]] and [[Nightmare Mode]]. Due to its moderate health and high speed, this toilet can easily fly through your defenses. Just like all other enemies, it appears on [[Endless Mode]].
+
+== Appearance ==
+The Airplane Toilet carries a large jet engine and flies on an airplane.
+
+== Health ==
+
+=== Nightmare Mode ===
+{| class="fandom-table"
+|+
+!'''Wave'''
+!'''Health'''
+|-
+|Wave 15
+|186,000 H
+|}
+{| class="fandom-table"
+!'''Wave'''
+!'''Amount'''
+|-
+|Wave 47
+|1x
+|-
+|Wave 49
+|1x
+|}
+
+== Strategy ==
+* Use units that can slow down the toilet to defeat it. For instance, [[Guardian Clockman]] and [[Green Laser Cameraman]]
+* You don't need [[Medic Cameraman]] or [[Camera Repair Drone]] to deal with this unit because it doesn't stun.
+
+== Trivia ==
+* This unit is based off [https://skibidi-toilet.fandom.com/wiki/Warhead_Skibidi_Toilet Warhead Skibidi Toilet] from the series.
+* The Airplane Toilet cannot stun any units, despite heavily damaging the [[Upgraded Titan Cameraman]] and [[Upgraded Titan Speakerman]] in the series.
+
+== Gallery ==
+<gallery>
+File:Airplane no bg 2.png|Airplane Toilet from the front.
+</gallery>
+[[Category:Toilets]]
+[[Category:Characters]]
+[[Category:Enemies]]
+[[Category:Toilet]]
+[[Category:Mid-air]]
+[[Category:Flying]]
+[[Category:Fast toilets]]
+[[Category:Fast]]
+[[Category:Non-Stun Toilets]]
+[[Category:Valentines Event 2025]]

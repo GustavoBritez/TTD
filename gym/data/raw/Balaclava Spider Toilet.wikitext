@@ -1,0 +1,37 @@
+{{Toilet Infobox|image1=Balaclava spider toilet.png|health=344000|speed=Average|wave_debut=47|modes=[[Nightmare Mode]]|abilities=Stunning|species=[[Enemies|Toilets]]}}
+
+== Overview ==
+The '''Balaclava Spider Toilet''' is an [[Enemies|enemy]] added in the [[Episode 70 Part 2 Update]]. It appears on [[Nightmare Mode|Nightmare]] and [[Endless Mode]]. This toilet '''''can''''' stun, but has an extremely low chance to do so to your units.
+
+== Appearance ==
+The '''Balaclava Spider Toilet''' has a grey toilet bowl with the same color as its two claws and its four, thin, spider legs, it has a black balaclava covering every bit of its face except its eyes, and it has a grey acid cannon that stuns units and a yellow toxic barrel with 2 bombs connected to it. Despite having a mask, we know that it has dark skin, due to the leak video. 
+
+== Abilities ==
+
+* Claw Attack: Uses its claw hands to stun nearby [[units]].
+* Acid Gun Attack: It shoots some green acid that stuns nearby units.
+
+== Strategy ==
+
+* This enemy has quite a lot of health, so you are recommended to bring high-DPS units for the mode this enemy appears in. This will also help you with other enemies.
+* Healing units are not that needed as this enemy rarely stuns.
+
+== Trivia ==
+
+* He is based off of the '''[https://skibidi-toilet.fandom.com/wiki/Balaclava_Grenadier_Skibidi_Toilet Masked Acid Bomber Skibidi Toilet]''' from the original series.
+* He has the same face the [[Massive Buzzsaw Oven]] under his mask.
+
+== Gallery ==
+<gallery>
+File:Balaclava spider toilet.png|In-game
+File:Balaclava old design.png|Leaks
+File:Masked spider toilet updated.png
+</gallery>
+[[Category:Toilets]]
+[[Category:Spiders]]
+[[Category:Stunners]]
+[[Category:Jetpack]]
+[[Category:Toilet]]
+[[Category:Enemies]]
+[[Category:Male Characters]]
+[[Category:Acid]]

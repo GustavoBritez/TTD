@@ -1,0 +1,30 @@
+
+{{Stub}}
+{{Toilet_Infobox|modes=[[Nightmare Mode]], [[Endless Mode]]|title1=Mutant Assassin Toilet|image1=<gallery>
+Mutant assasin toiletnew.png|New
+Mutant assasin toiletbug.png|Bug
+Mutant assasin toilet.png|Old
+</gallery>|species=[[Enemies|Toilets]]|health=TBA (You guys add)|speed=Slow-Normal|abilities=Running to a unit and stabbing it}}
+
+==Overview==
+The Mutant Assassin Toilet is a Mutant Toilet that appears in [[Nightmare Mode]] and [[Endless Mode]]. It is a strong toilet and it can also stun [[Units]].
+
+==Appearance==
+This toilet is a toilet head with 4 limbs and a toilet body. It is holding a dagger and his face looks angry.
+==Strategy==
+*Use slowing units such as the [[Green Laser Cameraman]] to slow its speed and defeat it.
+*This enemy is not that strong, you can use  the [[Upgraded Titan Cameraman]] or/and he [[Sinister Titan TV Man]] to defeat it.
+*Use troops that can unstun such as [[Camera Repair Drone]], [[Speaker Repair Drone]], [[Medic Cameraman]], [[Streamer Cameraman]] and the [[Speaker Repair Drone]]
+==Update Log==
+TBA
+
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Mutants]]
+[[Category:Stunners]]
+[[Category:Characters]]
+[[Category:Toilet]]
+[[Category:Incomplete pages]]
+[[Category:Stub]]
+[[Category:Off-Track Enemies]]
+[[Category:Valentines Event 2025]]

@@ -1,0 +1,24 @@
+{{Toilet_Infobox|image1=Dual Rocket Laser Toilet.png|caption-image1=Toilet.|description=|species=Toilet|health=???|speed=Slow|wave_debut=???|modes=Nightmare+|ability_1=Rocket Shoot: Shoots a rocket at a unit, stunning it.|ability_2=Laser Shoot: Shoots a laser from its laser cannon, stunning a unit.}}{{Stub}}
+
+== Overview ==
+The '''Dual Rocket Laser Toilet''' is an upgraded version of the [[Dual Rocket Launcher Helicopter Toilet|Dual Rocket Launcher Toilet]]. It can appear on [[Nightmare Mode]] and like all [[enemies]], on [[Endless Mode]].
+
+== Strategy ==
+Use high DPS units like [[Sinister Titan TV Man]], and do not worry about this toilet's stunning, for it is very sloe in speed, and will likely die before it gets in stun range. If you don't have high DPS units, use a slowing unit like [[Green Laser Cameraman]] and a medic unit like [[Camera Repair Drone]].
+
+== Trivia ==
+''TBA''
+[[Category:Toilets]]
+[[Category:Characters]]
+[[Category:Helicopters]]
+[[Category:Laser]]
+[[Category:Stubs]]
+[[Category:Enemies]]
+[[Category:Toilet]]
+[[Category:Incomplete pages]]
+[[Category:Rocket]]
+[[Category:Rockets]]
+[[Category:Slow Toilets]]
+[[Category:Flying]]
+[[Category:Upgraded characters]]
+[[Category:Male]]

@@ -1,0 +1,233 @@
+This is the wave structure for Endless Mode. Note: Feel free to add any waves if you know! Additional Note: Not all waves may have the exact number of each enemy included in the wave. '''(Bold = Boss Wave)'''
+
+== Wave Structure ==
+* Wave 1: x6 [[Small Toilet]]   
+* Wave 2: x10 [[Toilet]]
+* Wave 3: x15 [[Toilet]], x2 [[Spider Toilet]]
+* Wave 4: x10 [[Small Toilet]], x1 [[DJ Toilet]]
+* Wave 5: x10 [[Toilet]], x3 [[Police Toilet]]
+* Wave 6: x20 [[Toilet]], x2 [[Spider Toilet]]
+* Wave 7: x10 [[Small Toilet]], x3 [[Police Toilet]], x2 [[DJ Toilet]]
+* Wave 8: x5 [[Police Toilet]], x5 [[Spider Toilet]]
+* Wave 9: x20 [[Toilet]], x4 [[Glasses Toilet]]
+* '''Wave 10: x10 [[Toilet]], x4 [[DJ Toilet]]<br><small>Boss: [[Large Glasses Toilet]]</small>'''
+* Wave 11: x10 [[DJ Toilet]], x2 [[Large Toilet]], x2 [[Dual Claw Toilet]]
+* Wave 12: x10 [[Spider Toilet]], x5 [[Assassin Toilet]], x1 [[Minigun Toilet]]
+* Wave 13: x5 [[Large Toilet]], x5 [[Glasses Toilet]], x4 [[Dual Claw Toilet]]
+* Wave 14: x20 [[Toilet]], x20 [[Police Toilet]], x2 [[Minigun Toilet]]
+* Wave 15: x5 [[DJ Toilet]], x5 [[Dual Claw Toilet]], x10 [[Glasses Toilet]], x5 [[Assassin Toilet]]
+* Wave 16: x20 [[Spider Toilet]], x2 [[Minigun Toilet]]
+* Wave 17: x2 [[Large Glasses Toilet]], x20 [[Glasses Toilet]], x2 [[Boss Toilet]]
+* Wave 18: x20 [[DJ Toilet]], x4 [[Minigun Toilet]]
+* Wave 19: x20 [[Glasses Toilet]], x5 [[Dual Claw Toilet]], x4 [[Large Toilet]], x1 [[Boss Toilet]], x1 [[Mutant Toilet]]
+* '''Wave 20: x20 [[Spider Toilet]], x5 [[Dual Claw Toilet]]<br><small>Boss: [[Mutant Toilet 2.0]]</small>'''
+* Wave 21: x2 [[Parasite Toilet]], x2 [[Mutant Toilet]], x2 [[Dual Blade Toilet]]
+* Wave 22: x12 [[Dual Claw Toilet]], x2 [[Jetpack Police Toilet]], x1 [[Giant Glasses Toilet]], x1 [[Dual Blade Toilet]]
+* Wave 23: x20 [[Glasses Toilet]], x4 [[Minigun Toilet]], x2 [[Parasite Toilet]], x3 [[Boss Toilet]], x1 [[Explosive Flying Toilet]]
+* Wave 24: x5 [[Boss Toilet]], x2 [[Dual Blade Toilet]], x4 [[Mutant Toilet]]
+* Wave 25: x20 [[Assassin Toilet]], x2 [[Flying Buzzsaw Toilet]], x2 [[Cat Toilet]]
+* Wave 26: x5 [[Mutant Toilet]], x2 [[Giant Glasses Toilet]], x4 [[Jetpack Police Toilet]]
+* Wave 27: x2 [[Toxic Barrel Toilet|Toxic Flying Toilet]], x5 [[Boss Toilet]], x2 [[Vacuum Toilet]]
+* Wave 28: x5 [[Dual Blade Toilet]], x3 [[Flying Buzzsaw Toilet]]
+* Wave 29: x2 [[Multi-Claw Jetpack Toilet]], x5 [[Parasite Toilet]], x2 [[Flying Rocket Launcher Toilet]]
+* '''Wave 30: x10 [[Mutant Toilet]]<br><small>Boss: [[Dual Flying Buzzsaw Toilet]]</small>'''
+* Wave 31: x3 [[Large Heart Toilet]], x2 [[Giant Blind Toilet]]
+* Wave 32: x10 [[Mutant Toilet]], x10 [[Mutant Toilet 2.0]], x2 [[Buzzsaw Mutant Toilet]], x1 [[Dual Rocket Launcher Toilet]]
+* Wave 33: x3 [[Turret Spider Toilet]], x2 [[Toxic Barrel Toilet|Toxic Flying Toilet]], x5 [[Vacuum Toilet]], x4 [[Giant Glasses Toilet]]
+* Wave 34: x3 [[Flying Rocket Launcher Toilet]], x2 [[Dual Buzzsaw Toilet Car]], x2 [[UFO Toilet]], x1 [[TV Dual Claw Toilet]], x4 [[Jetpack Police Toilet]]
+* Wave 35: x2 [[Forklift Toilet]], x2 [[Welder Toilet]], x5 [[Boss Toilet]]
+* Wave 36:
+* Wave 37:
+* Wave 38:
+* Wave 39: x3 [[Large Heart Toilet]], x? [[Assassin Toilet]], x5 [[Giant Blind Toilet]], x2 [[Giant Dual Blade Toilet]], x1 [[Flamethrower Toilet]]
+* '''Wave 40: x2 [[Toxic Skull Toilet]]<br><small>Boss: [[Glitch Toilet]]</small>'''
+* Wave 41: x10 [[Vacuum Toilet]], x10 [[Dual Blade Toilet]], x5 [[Giant Dual Blade Toilet]], x3 [[Mutant Assassin Toilet]]
+* Wave 42: x10 [[Boss Toilet]], x10 [[Boss Toilet 2.0]], x2 [[Boss Toilet 3.0]]
+* Wave 43:
+* Wave 44:
+* Wave 45: [[Ultra Laser Toilet]]
+* Wave 46: x10 [[Infected Titan Speakerman]], x3 [[Mutant Assassin Toilet]]
+* Wave 47:
+* Wave 48:
+* Wave 49:
+* '''Wave 50: x10 [[Flamethrower Toilet]], x1 [[Octo Rocket Toilet]]<br><small>Boss: [[Giant Smooth Toilet]]</small>'''
+* Wave 51: x? [[Turkey Toilet]], x3 [[Helicopter Bomb Toilet]], x2 [[Scientist Toilet]]
+* Wave 52: x2 [[Glitch Toilet]], x5 [[Octo Rocket Toilet]], x1 [[Jetpack Mutant Toilet]], x1 [[Octo Rocket Soldier Toilet]]
+* Wave 53:
+* Wave 54: x20 [[Dual Blade Toilet]], x3 [[Strider Rocket Toilet]], x2 [[Helicopter Camo Toilet]], x1 [[Boss Toilet 4.0]]
+* Wave 55: x35 [[Frost Toilet]], x5 [[Boss Toilet 3.0]], x2 [[Military Rocket Launcher Toilet]], x2 [[Dual Claw Laser Toilet]]
+* Wave 56:
+* Wave 57: x20 [[Vacuum Toilet]], x10 [[Dual Buzzsaw Toilet Car]], x2 [[Dual Claw Laser Toilet]]
+* Wave 58: x1 [[Dual Buzzsaw Toilet Car]], x5 [[Quad-Blade Strider Toilet]], x2 [[Helicopter Camo Toilet]], x3 [[Strider Rocket Toilet]]
+* Wave 59:
+* '''Wave 60: x3 [[Toxic Barrel Toilet]], x10 [[Giant Blind Toilet]], x10 [[Forklift Toilet]]<br><small>Boss: [[Frost Skeleton Toilet]]</small>'''
+* Wave 61: x32 [[Turkey Toilet]], x32 [[Frost Toilet]], x32 [[Vacuum Toilet]], x3 [[Phantom Toilet]], х1 [[Police Mutant Toilet]]
+* Wave 62:
+* Wave 63: x10 [[Airplane Toilet]], x5 [[Helicopter Bomb Toilet]], x4 [[Small Scientist Toilet]], x6 [[Boss Toilet]]
+* Wave 64:
+* Wave 65:
+* Wave 66: x5 [[Military Rocket Launcher Toilet]], x5 [[Soldier Rocket Toilet]], x1 [[Glitch Toilet]], x1 [[Massive Buzzsaw Oven]]
+* Wave 67: x17 [[Boss Toilet]], x17 [[Boss Toilet 2.0]], x5 [[Boss Toilet 3.0]], x1 [[Boss Toilet 4.0]]
+* Wave 68: x10 [[Parasite Toilet]], x10 [[Small Scientist Toilet]], x1 [[Scientist Toilet]]
+* Wave 69:
+* '''Wave 70: No Normal Enemies<br><small>Boss: [[Giant Turkey Toilet]]</small>'''
+* Wave 71: x20 [[Boss Toilet]], x10 [[Boss Toilet 2.0]], x5 [[Ultra Laser Toilet]], x2 [[TV Dual Claw Toilet]], x5 [[Ultra Rocket Launcher Toilet]]
+* Wave 72: x10 [[Claw Toilet]], x10 [[Dual Rocket Laser Toilet]], x2 [[Balaclava Spider Toilet]], x2 [[Frost Skeleton Toilet]]
+* Wave 73: x3 [[TV Dual Claw Toilet]], x5 [[Phantom Toilet]], x5 [[Skeleton Toilet]], x2 [[Glitch Toilet]]
+* Wave 74:
+* Wave 75:
+* Wave 76:
+* Wave 77:
+* Wave 78: x3 [[Scientist Toilet]], x10 [[Small Scientist Toilet]], x4 [[Dual Claw Laser Toilet]]
+* Wave 79: x4 [[Frost Skeleton Toilet]]
+* '''Wave 80: x10 [[Massive Buzzsaw Oven]]<br><small>Boss: [[Dual Cargo Toilet]]</small>'''
+* Wave 81:
+* Wave 82:
+* Wave 83:
+* Wave 84:
+* Wave 85: x3 [[Giant Dual Blade Toilet]], x5 [[Giant Turkey Toilet]], x2 [[Giant Smooth Toilet]]
+* Wave 86: x4 [[Boss Toilet 3.0]], x8 [[Boss Toilet 4.0]], x1 [[Helmet Boss Toilet 4.0]]
+* Wave 87:
+* Wave 88: x4 [[Glitch Toilet]]
+* Wave 89:
+* '''Wave 90: x9 [[Flying Quad Buzzsaw Toilet]]<br><small>Boss: [[Broken Heart Toilet]]</small>'''
+* Wave 91: x2 [[Giant Turkey Toilet]]
+* Wave 92: x5 [[Boss Toilet 2.0]]
+* Wave 93: x4 [[Giant Smooth Toilet]]
+* Wave 94: x9 [[Ultra Rocket Launcher Toilet]]
+* Wave 95: x10 [[Glitch Toilet]], x10 [[Jetpack Mutant Toilet]]
+* Wave 96:
+* Wave 97: x4 [[Giant Turkey Toilet]]
+* Wave 98:
+* Wave 99:
+* '''Wave 100: x4 [[Mutant Assassin Toilet]], x2 [[Interceptor Astro Toilet]], x3 [[Small Scientist Toilet]]<br><small>Boss: [[DJ Toilet 2.0]]</small>'''
+* Wave 101: x6 [[Glitch Toilet]], [[Quad Rocket Mutant Toilet]], [[Scientist Toilet]]
+* Wave 102: [[Quad Rocket Toilet Car]], [[Flying Quad Laser Toilet]], x4 [[Quad Rocket Shield Toilet]]
+* Wave 103: x2 [[DJ Toilet 2.0]]
+* Wave 104: [[Quad Rocket Mutant Toilet]], [[Quad Rocket Shield Toilet]]
+* Wave 105:
+* Wave 106: x9 [[Quad Rocket Shield Toilet]], x4 [[Giant Turkey Toilet]]
+* Wave 107: x2 [[DJ Toilet 2.0]], x3  [[Glitch Toilet]], [[DJ Toilet]]
+* Wave 108: [[Helicopter Camo Toilet]], [[Ultra Rocket Launcher Toilet]], [[Soldier Rocket Toilet]]
+* Wave 109: x2 [[Giant Dual Blade Toilet]], [[Giant Smooth Toilet]], x1 [[Mutant Pumpkin Toilet]]
+* '''Wave 110: [[UFO Toilet]], [[Laser UFO Toilet]], [[Claw Toilet]]<br><small>Boss: [[Mutant Pumpkin Toilet]]</small>'''
+* Wave 111: x9 [[Frost Skeleton Toilet]], x2 [[Mutant Pumpkin Toilet]]
+* Wave 112: [[Boss Toilet 3.0]], [[Toxic Mutant Toilet]], [[Boss Toilet 4.0]]
+* Wave 113: x10 [[Phantom Toilet]], x10 [[Skeleton Toilet]], x4 [[Frost Skeleton Toilet]]
+* Wave 114: x2 [[Giant Dual Blade Toilet]],  [[Glitch Toilet]], [[Police Mutant Toilet]], [[Scientist Toilet]], x1 [[DJ Toilet 2.0]]
+* Wave 115: x3 [[Massive Buzzsaw Oven]], x5 [[DJ Toilet 2.0]], x1 [[Mutant Pumpkin Toilet]]
+* Wave 116: [[Giant Smooth Toilet]], [[Boss Toilet 4.0]], x2 [[Cat Toilet]]
+* Wave 117: [[Security Guard Toilet]], [[Boss Toilet 4.0]]
+* Wave 118: x4 [[Security Guard Toilet]], x5 [[DJ Toilet 2.0]]
+* Wave 119: [[Rocket Toilet]], [[Dual Claw Laser Toilet]], [[Quad Rocket Shield Toilet]]
+* '''Wave 120: x19 [[Security Guard Toilet]], x3 [[Giant Turkey Toilet]]<br><small>Boss: [[Astro Toilet]]</small>'''
+* Wave 121: x8  [[Glitch Toilet]], x2 [[DJ Toilet 2.0]], x3 [[Mutant Pumpkin Toilet]]
+* Wave 122: x2 [[Skeleton Toilet]], x5 [[Frost Skeleton Toilet]], x4 [[Mutant Pumpkin Toilet]]
+* Wave 123: [[Strider Rocket Toilet]], [[Military Rocket Launcher Toilet]], x2 [[Quad Rocket Shield Toilet]]
+* Wave 124: [[TV Dual Claw Toilet]], [[Balaclava Spider Toilet]], [[Security Guard Toilet]]
+* Wave 125:
+* Wave 126: x2 [[Glitch Toilet]], x7 [[Mutant Pumpkin Toilet]]
+* Wave 127: x1 [[Quad Rocket Shield Toilet]], x19 [[Giant Smooth Toilet]]
+* Wave 128: [[Security Guard Toilet]]
+* Wave 129: [[Phantom Toilet]]
+* '''Wave 130: [[Ultra Rocket Launcher Toilet]], [[Ultra Laser Toilet]]<br><small>Boss:  [[Rapid Rabbit Toilet|Rabid Rabbit Toilet]]</small>'''
+* Wave 131: x1 [[Massive Buzzsaw Oven]], x8 [[DJ Toilet 2.0]], x1 [[Mutant Pumpkin Toilet]]
+* Wave 132: [[Police Mutant Toilet]], [[Beret Rocket Launcher Toilet]]
+* wave 133: [[Boss Toilet 3.0]], [[Boss Toilet 4.0]], x3 [[Astro Toilet]]
+* Wave 134: x10 [[Glitch Toilet]], [[Security Guard Toilet]], [[Flying Quad Buzzsaw Toilet]], [[Massive Buzzsaw Oven]]
+* Wave 135: [[Flamethrower Toilet]], [[Toxic Skull Toilet]], [[Phantom Toilet]], [[UFO Toilet]], x2 [[DJ Toilet 2.0]]
+* Wave 136: [[Skeleton Toilet]], [[Scientist Toilet]]
+* Wave 137: [[Airplane Toilet]], [[Dual Cargo Toilets]], [[Giant Smooth Toilet]], [[Boss Toilet 4.0]], x1 [[Astro Toilet]]
+* Wave 138: [[Giant Smooth Toilet]], [[Giant Turkey Toilet]], x3 [[Glitch Toilet]]
+* Wave 139: [[Helmet Boss Toilet 4.0]], [[Frost Skeleton Toilet]], x5 [[Mutant Pumpkin Toilet]]
+* '''Wave 140: [[UFO Toilet]], [[Laser UFO Toilet]], [[Dual Cargo Toilet]], x3 [[Astro Toilet]]<br><small>Boss: [[Secutor Astro Toilet]]</small>'
+* Wave 141: [[Helmet Boss Toilet 4.0]], x5 [[Frost Skeleton Toilet]], x4 [[Giant Turkey Toilet]], x1 [[Astro Toilet]]
+* Wave 142: x5 [[Dual Cargo Toilet]], x5 [[Glitch Toilet]], x3 [[Astro Toilet]], x5 [[Broken Heart Toilet]]
+* Wave 143: x2 [[Astro Toilet]], [[Secutor Astro Toilet]], x5 [[Broken Heart Toilet]], [[Laser UFO Toilet]]
+* Wave 144: [[Giant Smooth Toilet]], x5 [[Frost Skeleton Toilet]], x10 [[Giant Turkey Toilet]], [[Mutant Pumpkin Toilet]]
+* Wave 145: x15 [[Airplane Toilet]], x2 [[Secutor Astro Toilet]], x5 [[Broken Heart Toilet]], x5 [[Skeleton Toilet]], x5 [[Phantom Toilet]]
+* Wave 146: x20 [[Airplane Toilet]], x5 [[Interceptor Astro Toilet]], x10 [[Phantom Toilet]], x10 [[Skeleton Toilet]], x5 [[Laser UFO Toilet]], x3 [[Broken Heart Toilet]]
+* Wave 147: x50 [[Secutor Astro Toilet]], x10 [[Airplane Toilet]], [[Broken Heart Toilet]]
+* Wave 148: x10 [[Skeleton Toilet]], x5 [[Dual Cargo Toilet]], x5 [[Giant Turkey Toilet]], x5 [[Astro Toilet]]
+* Wave 149: x5 [[Secutor Astro Toilet]], x3 [[Dual Cargo Toilet]], x10 [[Broken Heart Toilet]]
+* '''Wave 150: x10 [[Secutor Astro Toilet]], x10 [[Dual Cargo Toilet]], [[Boss Toilet 4.0]], [[Helmet Boss Toilet 4.0]]<br><small>Boss: [[Secutor Astro Toilet]]</small>'''
+* Wave 151: [[Specialist Astro Toilet]], [[DJ Toilet 2.0]]
+* Wave 152: x6 [[Glitch Toilet]], [[Quad Rocket Mutant Toilet]], [[Scientist Toilet]]
+* Wave 153: [[Astro Spider Toilet]], [[Astro Toilet]]
+* Wave 154:
+* Wave 155: x10 [[Glitch Toilet]], x10 [[Dual Cargo Toilet]], x15 [[Phantom Toilet]], x20 [[Skeleton Toilet]], x3 [[Broken Heart Toilet]]
+* Wave 156:
+* Wave 157:
+* Wave 158:
+* Wave 159:
+* '''Wave 160: x10 [[Juggernaut Astro Toilet]],[[Rabid Rabbit Toilet]], x5 [[Mutant Pumpkin Toilet]], x20 [[Secutor Astro Toilet]], x25 [[Interceptor Astro Toilet]], x10 [[Destructor Astro Toilet]], x30 [[Airplane Toilet]]<br><small>Boss: [[Carrier Astro Toilet]]</small>'''
+* Wave 161
+* Wave 162:
+* Wave 163:
+* Wave 164:
+* Wave 165:
+* Wave 166:
+* Wave 167:
+* Wave 168: [[Carrier Astro Toilet]], x5 [[Mutant Pumpkin Toilet]], x3 [[Astro Toilet]], x10 [[Frost Skeleton Toilet]]
+* Wave 169: [[Magnet Titan Toilet]], x3 [[Carrier Astro Toilet]], x10 [[Astro Toilet]], x40 [[Dual Cargo Toilet]], x3 [[Mutant Pumpkin Toilet]]
+* '''Wave 170: x5 [[Evil Toilet Crab]], x25 [[Giant Smooth Toilet]], x16 [[Dual Cargo Toilet]], x5 [[Magnet Titan Toilet]]<br><small>Boss: [[Astro Duchess Toilet]]</small>'''
+* Wave 171:
+* Wave 172:
+* Wave 173:
+* Wave 174:
+* '''Wave 175:'''  '''<small>Boss: [[Upgraded Astro Duchess]]</small>'''
+* Wave 176:
+* Wave 177:
+* Wave 178:
+* Wave 179:
+* '''Wave 180: No Normal Enemies<br><small>Boss: [[The Mothership]]</small>'''
+* Wave 181:
+* Wave 182:
+* Wave 183:
+* Wave 184:
+* Wave 185:
+* Wave 186:
+* Wave  187:
+* Wave 188:
+* Wave 189:
+* '''Wave 190:<br><small>Boss: </small>'''
+* Wave 191:
+* Wave 192:
+* Wave 193:
+* Wave 194:
+* Wave 195:
+* Wave 196:
+* Wave 197:
+* Wave 198:
+* Wave 199:
+* '''Wave 200: No Normal Enemies<br><small>Boss: [[1x1x1x1]]</small>'''
+* Wave 201:
+* Wave 202:
+* Wave 203:
+* Wave 204:
+* Wave 205:
+* Wave 206:
+* Wave 207:
+* Wave 208:
+* Wave 209:
+* '''IAmEvan Wave: No Normal Enemies<br><small>Boss: [[IamEvan (Enemy)|IAmEvan]]</small>
+
+== Gallery (add more later) ==
+<gallery>
+File:Small Toilet.png|[[Small Toilet]]
+File:Small Toilet.png|[[Toilet]]
+File:DJ Toilet.png|[[DJ Toilet]]
+File:Police no bg.png|[[Police Toilet]]
+File:Spider no bg.png|[[Spider Toilet]]
+File:Glitch skibi.png|[[Glitch Toilet]]
+File:1secutor astro.png|[[Secutar Astro Toilet]]
+File:Astro Toilet.PNG.png|[[Astro Toilet]]
+File:1708826554869.png|[[Broken Heart Toilet]]
+File:Skeleton Toilet.png|[[Skeleton Toilet]]
+File:Toilet1.png|[[Large Toilet]]
+File:Ultra laser.png|[[Ultra Laser Toilet]]
+File:Mutant pumpkin but really bad.png|[[Mutant Pumpkin Toilet]]
+File:Mutant.png|[[Mutant Toilet 2.0]]
+File:Better Carrier Astro Toilet.png|[[Carrier Astro Toilet]]
+</gallery>
+[[Category:Wave Structure]]

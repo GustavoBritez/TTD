@@ -1,0 +1,75 @@
+
+{{Toilet Infobox|image1=<gallery>
+Mothership.png|Render
+The Mothership .png|In-Game
+</gallery>|health=12,635,013,632 (1 Player)|speed=Very Slow|modes=[[Endless Mode]]|abilities=Stunning|title1=The Mothership|description=|wave_debut=180|species=Astro|ability_1=Walks To The Nearby Unit And Stuns Its With Jetpack Boost|ability_2=Every 10 Studs, it teleports further, helping combat it's slow speed}}
+==Overview==
+'''The Mothership''' is an [[Astro Toilet|enemy]] that spawns on Wave 180 of [[Endless Mode|Endless Mode.]]
+It was added on 4th July, 2024 during the [[Episode 75 Update]].
+
+== Appearance ==
+It has a helmet with 3 intrusions on top, a saucer-like object at the front of the rim, and 2 support attachments at the top of it, presumably to help make it spin. Armor plating around the bottom can also be seen, presumably to protect it. It features a halo on it's back, a balaclava-like mask, and a laser below it.
+
+==Strategy==
+
+The current strategy is to use pushback units, and major DpS. It is recommended to place towers with the piercing ability in a line to maximize their piercing and damage. Towers with the Slowing Ability and the Radioactive Sub-Ability are highly recommended. It is advised to use Timestop whenever it makes a turn, and rewind if it reaches the end of the map.  
+
+Here's an example of what loadout to use:  
+
+Player 1 
+
+# [[Quantum Cameraman]] (CC + DpS)
+# [[Carrot Farmer Bunnyman]] (Economy)
+# [[Upgraded Titan Drilldragon]] (for the burning)
+# [[Chained Watchman Of Doom]] (Slowing)
+# [[Titan Luckbringer Drillman]] (Extra Dps)
+# [[King Drillman]] (Booster + CC)
+
+Player 2
+
+# [[Titan Fanman]] (Pushback)
+# [[Titan Warlord Clockman]] (CC + Booster + Rewind)
+# [[Carrot Farmer Bunnyman]] (Economy)
+# [[Chief Clockman]] (Booster + CC + Second Rewind)
+# [[Speaker Repair Drone]] (Healer)
+# [[Upgraded Titan Clockman]] (CC + Timestop)
+
+'''(The match can have a max of 5 players, and each player can have 7 inventory slots if they have all Endless Ranks. This is just meant to be an example. You can make your own strategy and add it)'''
+
+==Waves==
+Wave 180: 12,635,013,632
+
+Wave 1: 10,200,000
+
+== Trivia ==
+
+* It is based on the [https://skibidi-toilet.fandom.com/wiki/Mothership_Astro_Toilet?so=search Mothership Astro Toilet] from the Skibidi Toilet series.
+*It is currently the strongest toilet in the game, with 12.6 billion health, and very strong abilities.
+*It scales 3.74% in health each wave
+*It originally debuted on the 74th Episode of the Skibidi Toilet series, but had to be postponed to Episode 75 due to the complexity of the enemies.
+
+==Gallery==
+<gallery>
+File:The Mothership .png|In-Game (No background)
+File:Mothershiphp.png|Health Bar
+File:Mothership.png|Icon
+</gallery>
+[[Category:Boss]]
+[[Category:Toilets]]
+
+
+
+[[Category:Male Characters]]
+[[Category:Endless Bosses]]
+
+[[Category:Enemies]]
+[[Category:Slow Toilets]]
+[[Category:Large]]
+[[Category:Jetpack]]
+[[Category:Flying]]
+[[Category:Mid-air]]
+[[Category:Fast]]
+[[Category:Boss Toilets]]
+[[Category:Giant Toilets]]
+[[Category:Off-Track Enemies]]
+[[Category:Astro Toilets]]

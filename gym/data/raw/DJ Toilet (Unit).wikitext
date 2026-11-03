@@ -1,0 +1,79 @@
+{{DISPLAYTITLE:{{Legendary|{{PAGENAME}}}}}}{{Stub}}{{Units infobox (this one)|image1=DJToiletUnit.png|cost=500|base_sell_price=250|type=AoE|levels=4|rarity={{Legendary|[[Legendary]]}}|species=[[Toilets (Units)|Toilets]]|unit_name={{Legendary|DJ Toilet}}|special_abilities=Deals AoE damage}}
+
+==Overview ==
+This unit is one of the only units that changes its appearance completely when you upgrade it. This was added in the [[Episode 77 Part 1 Update]].
+
+You can obtain it by summoning it from [[Basic Crate|Basic]] & [[Mythic Crate]], [[Trading]], or getting it from [[Post Office]].
+
+== Appearance ==
+The toilet seems to have a head of the [[DJ Toilet]] from the series and it has purple headphones, with a beanie. It seems to have three spider legs each equipped with lots of armory. It also seems to have its own turntable with more speakers and blasters on each end.
+
+== '''Value''' ==
+25 gems - normal pricing
+
+100-250 gems - signed pricing
+
+
+??? gems - shiny pricing
+
+== '''Stats Table''' ==
+{| class="fandom-table"
+|+'''Stats'''
+!'''Levels'''
+!'''Price'''
+!'''TotalPrice'''
+!'''Damage'''
+!'''Range'''
+!'''Cooldown'''
+!'''SellPrice'''
+!'''DPS'''
+!'''DPS/$(Cost Efficiency)'''
+!'''slowing'''
+|-
+|LV1
+|'''$500'''
+|'''$500'''
+|250
+|20
+|0.5
+|'''$250'''
+|500
+|1
+|no
+|-
+|LV2
+|'''$4000'''
+|'''$4500'''
+|1750
+|25
+|0.25
+|'''$2250'''
+|7000
+|1.555
+|yes
+|-
+|LV3
+|'''$6000'''
+|'''$10500'''
+|3000
+|35
+|0.2
+|'''$5250'''
+|15000
+|1.428
+|yes
+|}
+
+== Trivia ==
+
+* This unit can solo every gamemode. (Except for [[Abysmal Mode (The Void)|The Void]] and [[Endless Mode]].)
+* For some reason, his max level form is a combination of the DJ Toilet 3.0 and the DJ Toilet 2.0, due to the 3.0 version's body being attached to the strider legs the 2.0 version uses.
+
+[[Category:Toilets]]
+[[Category:Toilet]]
+[[Category:Legendary]]
+[[Category:AoE]]
+[[Category:Toilet Units]]
+[[Category:Male Units]]
+[[Category:Male Characters]]
+[[Category:Units]]

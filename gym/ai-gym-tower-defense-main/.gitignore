@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Testing / linting
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Training artifacts (but keep committed agent.pt)
+runs/
+*.pth
+*.onnx
+
+# Media (allow committed media/, ignore stray files)
+!media/
+!media/**
+!agent.pt
+*.mp4
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.log
+.env
+# Benchmark results (keep the directory, ignore contents)
+benchmark_results/*.json
+benchmark_results/*.md
+benchmark_results/*.png

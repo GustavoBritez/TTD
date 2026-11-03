@@ -1,0 +1,64 @@
+{{DISPLAYTITLE:{{Mythic|{{PAGENAME}}}}}}{{Stub}}{{Unobtainable}}{{Units infobox (this one)|image1=BuffMutantToilet.png|unit_name={{Mythic|Buff Mutant Toilet}}|cost=600|base_sell_price=300|type=Movable|levels=4|rarity={{Mythic|[[Mythic]]}}|species=[[Toilets (Units)|Toilets]]|special_abilities=Slow 50%}}
+
+== Appearance ==
+The toilet seems to be muscular, and bald with headphones on his head. It also seems to have a breastplate similar to the [[Flamethrower Toilet (Unit)|Flamethrower Toilet]] with two blaster with grappling hooks(?) on it.
+
+== Obtainment ==
+'''You can get this unit from the Pro Toilet Crate, he does 75K DPS.'''
+
+== Stats Table ==
+{| class="fandom-table"
+|+'''Stats'''
+!'''Cost'''
+!'''Damage'''
+!'''Cooldown'''
+!'''Range'''
+!'''Walk Range'''
+!'''Walk Speed'''
+!'''DPS'''
+!'''Total Cost'''
+|-
+|600
+|6000
+|3
+|25
+|65
+|15
+|2000
+|600
+|-
+|3000
+|2400
+|0.2
+|25
+|65
+|15
+|12,000
+|3600
+|-
+|9000
+|8000
+|0.2
+|30
+|65
+|15
+|40,000
+|12,600
+|-
+|13,000
+|15,000
+|0.2
+|35
+|65
+|15
+|75,000
+|25,600
+|}
+[[Category:Toilets]]
+[[Category:Toilet]]
+[[Category:Movable]]
+[[Category:Mythic]]
+[[Category:Toilet Units]]
+[[Category:Mutants]]
+[[Category:Units]]
+[[Category:4 Upgrades]]

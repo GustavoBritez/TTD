@@ -1,0 +1,41 @@
+{{Toilet_Infobox|image1=dual claw laser.png|species=Toilet|health=2,050,000 HP|speed=Slow|wave_debut=50|modes=Nightmare/Christmas|ability_1=2 lasers that can stun units|ability_2=4 claws that can stun units|ability_3=2 large metal hands that can stun units}}
+== Overview ==
+The '''Dual Claw Laser Toilet''' is an extremely powerful [[Enemies|toilet]] that can stun [[units]] with three different abilities. It can be found on [[Nightmare Mode]] and usually event modes. 
+
+== Appearance ==
+The Dual Claw Laser Toilet has a very similar appearance to the [[Small Scientist Toilet]], and is relatively large, with a similar size to the [[Flamethrower Toilet|Flamethrower Toilet]] or the [[Toxic Skull Toilet|Toxic Skull Toilet]].
+
+== Waves ==
+=== Nightmare Mode ===
+*Wave 50: x1 (??? HP)
+
+== Strategy ==
+Since this toilet is extremely powerful, use high DPS units such as [[Upgraded Titan Cinemaman]] or [[Upgraded Titan Cameraman|Upgraded Titan Cameraman]]. This toilet also has the ability to stun (as with most units in nightmare) so you should also bring units that can block stuns, such as [[Upgraded Titan Speakerman|Upgraded Titan Speakerman]]. It is also recommended to bring [[Camera Repair Drone|Camera Repair Drone]] as well as the [[Medic Cameraman|Medic Cameraman]] to heal stuns from this toilet. [[Shield Cameraman|Shield Cameraman]] may also be useful against this toilet, as it can deflect its stuns directly back at the Dual Claw Laser Toilet.
+
+== Trivia ==
+
+* This toilet is based off the [https://skibidi-toilet.fandom.com/wiki/Laser_Scientist_Skibidi_Toilet Laser Scientist Skibidi Toilet]
+* The arm on the right is the same arm has [[Welder Toilet|Welder toilet]] and is a black version of the [[Forklift Toilet|Forklift Toilet's]] yellow arm.
+
+== Gallery ==
+<gallery>
+File:Dual laser shoot.png|The Dual Claw Laser Toilet uses its lasers to stun units.
+File:Dual claw laser.png|icon
+</gallery>
+
+== Update Log ==
+12/22/2023: Added to the game
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Characters]]
+[[Category:Stunners]]
+[[Category:Laser]]
+[[Category:Toilet]]
+[[Category:Jetpack]]
+[[Category:Mid-air]]
+[[Category:Male Characters]]
+[[Category:Laser users]]
+[[Category:Slow Toilets]]
+[[Category:Man Face]]
+[[Category:Flying]]
+[[Category:Valentines Event 2025]]

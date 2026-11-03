@@ -1,0 +1,7 @@
+ 
+{{Toilet_Infobox|title1=Lucky Toilet|image1=LuckyToilet.png|description=Spawns on random waves|species=Toilets|health=10|speed=slow, most likely|appearances=Any wave|modes=Easy, Medium, Hard, Nightmare, Abysmal, Dice World,|abilities=Every hit will count as 1 damage to it}}
+
+The Lucky Toilet is a Toilet that spawns on any mode except Endless Mode, PVP Mode and Speedrun Mode, this toilet is also very rare to spawn with a base chance of 3% (possibly per wave)
+[[Category:Toilet]]
+[[Category:Event Enemies]]
+[[Category:Toilets]]

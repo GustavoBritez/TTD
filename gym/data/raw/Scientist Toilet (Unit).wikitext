@@ -1,0 +1,91 @@
+{{DISPLAYTITLE:{{Rare|Scientist Toilet}}}}
+{{Stub}}{{SeeAlsoNotice|Note1=[[Scientist Toilet]]}}{{Units infobox (this one)|unit_name={{Rare|Scientist Toilet}}|image1=ScientistToiletUnit.png|cost=600|base_sell_price=300|type=Movable|levels=3|rarity={{Rare|[[Rare]]}}|species=[[Toilets (Units)|Toilets]]}}
+
+=='''Overview'''==
+The '''Scientist Toilet''' is a [[Rare|{{Rare|Rare}}]] unit. 
+
+=='''Appearance'''==
+'''Its appearace is very similar and accurate to the original series, having a jetpack, 6 support mechanical claws, a front shield, a tablet near the base, and a back-laser which does the main damage.'''
+
+=='''Obtainment'''==
+'''Scientist Toilet can be obtaied from the [[Advanced Toilet Crate]] for 250 coins, with a 50% chance.'''
+
+=='''Stats Table'''==
+{| class="fandom-table"
+|+'''Stats'''
+!'''Levels'''
+!'''Price'''
+!'''Total Price'''
+!'''Damage'''
+!'''Cooldown'''
+!'''Range'''
+!'''Walk Range'''
+!'''Sell Price'''
+!'''DPS'''
+!'''DPS/$ (Cost Efficiency)'''
+!'''Slowing'''
+|-
+|LV1
+|'''$600'''
+|'''$600'''
+|2000
+|2
+|12
+|'''none'''
+|'''$300'''
+|1000
+|1.666
+|0%
+|-
+|LV2
+|'''$1000'''
+|'''$1600'''
+|750
+|0.25
+|20
+|'''none'''
+|'''$800'''
+|3000
+|1.875
+|25%
+|-
+|LV3
+|'''$3000'''
+|'''$4600'''
+|2250
+|0.25
+|25(claw, can move)
+15(laser, can't move)
+|40
+|'''$2300'''
+|9000
+|1.956
+|25%
+|-
+|}
+
+=='''Strategy'''==
+
+=='''Trivia'''==
+*Unlike the other toilet units added, the Scientist Toilet never joined the Alliance due to he being brutally killed before the ceasefire between the Skibidi Toilets and The Alliance was called.
+*He has no face at level 2.
+
+=='''Updates'''==
+
+=='''Gallery'''==
+<gallery>
+ScientistToiletUnit.webp|Icon.
+File:Scientist Toilet LV1.png|LV 1
+File:Scientist Toilet LV2.png|LV 2
+File:Scientist Toilet LVMAX.png|LV MAX
+</gallery>
+
+[[Category:Toilet Units]]
+[[Category:Toilets]]
+[[Category:Units]]
+[[Category:Rare]]
+[[Category:Man Face]]
+[[Category:Moveable units]]
+[[Category:Laser]]
+[[Category:Laser Units]]
+[[Category:Beard]]

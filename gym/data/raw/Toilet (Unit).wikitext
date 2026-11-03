@@ -1,0 +1,80 @@
+{{Unobtainable}}
+{{DISPLAYTITLE:{{Basic|Toilet (Unit)}}}}
+{{Stub}}
+{{SeeAlsoNotice|PagesNumber=2|Note1=its Golden Variant, [[The Golden Skibidi]]|Note2=the enemy, [[Toilet|Toilet (Enemy)]]}}{{Units infobox|unit_name={{Basic|Toilet}}|cost=50|base_sell_price=25|type=Single Target|levels=3|rarity={{Basic|[[Basic]]}}|species=[[Toilets (Units)|Toilets]]|image1=ToiletUnit.png|other_information=Gets larger every upgrade|special_abilities=None|aliases=*Shiny Toilet
+*Small Toilet
+*Large Toilet}}
+
+== Overview ==
+The Toilet is a unit that can be summoned in the [[Noob Toilet Crate]], it is a [[basic]] unit to be summoned, and one of the [[basic]] units in the game. It is inspired by the default [[Toilet]] in the game, or preferably in the original series.
+
+== Stats Table ==
+{| class="fandom-table"
+|+'''Stats'''
+!'''Levels'''
+!'''Name change every levels'''
+!'''Price'''
+!'''Total Price'''
+!'''Damage'''
+!'''Cooldown'''
+!'''Range'''
+!'''Sell Price'''
+!'''DPS'''
+!'''DPS/$ (Cost Efficiency)'''
+|-
+|LV1
+|Small Toilet
+|'''$50'''
+|'''$50'''
+|100
+|2
+|8
+|'''$25'''
+|50
+|1
+|-
+|LV2
+|Toilet
+|'''$100'''
+|'''$150'''
+|240
+|1.5
+|8
+|'''$75'''
+|160
+|1.066
+|-
+|LV3
+|Large Toilet
+|'''$300'''
+|'''$450'''
+|600
+|1.5
+|12
+|'''$225'''
+|400
+|0.888
+|}
+
+== Trivia ==
+
+* This is most unskibidi skibidi toilet.
+* As of now, around '''30 million''' copies of this specific toilet exist.
+* This could be the best bait for toilets that stun, (a decent alternative to [[Camerawoman]] in terms of stunbait) if you have none.
+* This is the cheapest unit but many people sell it for ten gems in the marketplace.
+* This is based off The [https://skibidi-toilet.fandom.com/wiki/Normal_Skibidi_Toilet Normal Skibidi Toilet] and similar toilets.
+* This is cheapest unit to place, even cheaper than [[Camerawoman]].
+* This is the only toilet-related unit that is a [[Basic]].
+== Gallery ==
+<gallery>
+File:Toilet LV3.png|Ingame
+File:ToiletUniticon.png|Summon Icon
+</gallery>
+{{UnitsNavbox}}
+[[Category:Toilets]]
+[[Category:Toilet]]
+[[Category:Toilet Units]]
+[[Category:Single Target]]
+[[Category:Basic]]
+[[Category:Cheap]]
+[[Category:Units]]

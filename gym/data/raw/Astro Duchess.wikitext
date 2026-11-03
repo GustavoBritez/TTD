@@ -1,0 +1,42 @@
+{{Toilet Infobox|image1=Better duchess.png|health=10 billion [[Endless Mode]]
+49,250,000 [[Abysmal Mode]] (legacy)|speed=Average-Fast, possibly 50% of an [[Assassin Toilet]]|modes=[[Endless Mode]]
+[[Abysmal Mode]] (legacy)|abilities=Only 1|title1=Astro Duchess Toilet|description=|wave_debut=170 [[Endless Mode]]
+60 [[Abysmal Mode]] (legacy)|species=Astro|ability_1=Shooting 6 Lasers that stuns 6 different Units for 15 seconds for 5 times.|ability_2=}}{{SeeAlsoNotice|4=This Page is about [[Astro Duchess]]. You may be looking for.|Note1=[[Upgraded Astro Duchess]]}}{{Stub}}
+
+==Overview==
+'''The Astro Duchess''' is an enemy that has been added in the [[Episode 76 Part 2 Update]]. She is the boss of wave 170 [[Endless Mode]] and the final boss of [[Abysmal Mode (The Void)|Abysmal Mode]].
+==Appearance==
+The Astro Duchess has a black armored toilet, with four glowing red tentacle-like arms, a giant ring that encircles the toilet, glowing red eyes, and messy auburn hair. She also wears a black crown on her head, hence her name.
+
+== Wave debut ==
+Wave 170 ([[Endless Mode]]): 1x
+
+Wave 60 ([[Abysmal Mode (The Void)|Abysmal Mode]]): 1x
+
+==Strategy==
+
+* [[Endless Mode]]: The best way to defeat this toilet is to bring [[Golden Future Large Clockman]] and [[Upgraded Titan Clockman]] as these units have time stop which is important to defeat this toilet and also use [[Exclusive Booster Crate|boost]] units (Recommended units: [[DJ TV Man]], [[Clockwoman]], [[Leprechaun Cameraman]]) to boost your units. 
+
+* As of now, in [[Endless Mode]] there is no cheaper and easier way to defeat this toilet as she has an immense health of 3,817,506,816 making it impossible for any other unit except ultimates and godlies to beat it.
+
+* In [[Abysmal Mode (The Void)|Abysmal Mode]], she has a hp of 49,250,000 which can be beaten with 70k+ DPS units (for units under 70k DPS, you must use cheap units with good range and must be more than 50k dps)
+
+== Trivia ==
+
+* This toilet is inspired off of the [https://skibidi-toilet.fandom.com/wiki/Duchess_Astro_Toilet Duchess Astro Toilet] from the original series.
+* This is the third strongest [[Enemies|Enemy]] in the game.
+
+==Gallery==
+<gallery>
+File:Astroduchessencouter.png
+</gallery>
+
+[[Category:Female Characters]]
+
+[[Category:Toilets]]
+[[Category:Laser]]
+[[Category:Large]]
+[[Category:Bosses]]
+
+[[Category:Enemies]]
+[[Category:Astro Toilets]]

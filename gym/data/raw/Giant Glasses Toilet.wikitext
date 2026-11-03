@@ -1,0 +1,23 @@
+{{Toilet_Infobox|image1=Giant Glasses.png|caption-image1=Toilet.|description=|species=Toilet|health=17k|speed=Slow|wave_debut=???|modes=Medium+|ability_1=TV Immunity: Immune to All TVs except for TV Woman, Spider TV, Speaker Large TV Man, Titan Cinemaman and Upgraded Titan Cinemaman.}}
+== Overview ==
+The '''Giant Glasses Toilet''' is a supersized version of the [[Glass Toilet|Glasses Toilet]] which, has glasses to protect against TVs AoE blast. It appears in Hard Mode and Nightmare Mode. It has a slightly smaller version called the [[Large Glasses Toilet]].
+== Strategy ==
+The '''Giant Glass Toilet''' is a much stronger version of the Large Glasses Toilet, as it is bigger and has more HP. You cannot use any type of TV unit excluding [[Upgraded Titan Cinemaman]], [[Spider TV]] and [[TV Woman]] to damage this enemy, as it has glasses. You should use high DPS units to defeat this. You can make it even slower with Upgraded Titan Cameraman levels 5/6, TV Woman, or Mech Cameraman, making it much easier to defeat. Do not focus too much on any TV, or on Scientist Cameramen unless your team has enough defense.
+
+== Trivia ==
+
+* It is larger and has more HP than the [[Boss Toilet]].
+* It usually appears along either Large Glasses Toilets, Boss Toilets, or Mutant Toilets.
+* Giant Glasses Toilet is currently glitched where he slightly floats above the ground, making him look slightly larger.
+* It is invincible to some TV units
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Characters]]
+[[Category:Slow Toilets]]
+[[Category:Toilet]]
+[[Category:Giant]]
+[[Category:Endless Bosses]]
+[[Category:Glasses Toilets]]
+[[Category:Giant Toilets]]
+[[Category:Non-Stun Toilets]]
+[[Category:Valentines Event 2025]]

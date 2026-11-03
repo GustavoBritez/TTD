@@ -1,0 +1,156 @@
+{{Addimage|title=Moveable Units|image=Icon Moveable.png}}
+
+== Overview ==
+'''Moveable Units''' is [[units]] that cannot be stunned, but will walk around to attack enemies.
+
+There are currently 22 '''Moveable Units''' in the game:
+
+=== [[Cameras]]: ===
+
+* [[Camera Spider]]
+* [[Upgraded Camera Spider]]
+* [[Sand Wizard Cameraman]]
+* [[Orbital Camera]]
+* [[Cameraman Car]]
+
+=== [[Speakers]]: ===
+
+* [[Speaker Spider]]
+* [[Speaker Repair Drone]]
+
+=== [[TVs]]: ===
+
+* [[Spider TV]]
+* [[Surfer TV Man]]
+
+=== [[Clocks]]: ===
+
+* [[Clock Spider]]
+* [[Timeworn Clock Watcher]]
+
+=== [[Units|Toilets]]: ===
+
+* [[Scientist Mech]]
+* [[Airplane Toilet (Unit)]]
+* [[Rocket Launcher Toilet]]
+* [[Scientist Toilet (Unit)]]
+* [[Mutant Toilet (Unit)]]
+* [[Buff Mutant Toilet (Unit)]]
+* [[Swat Mutant Toilet]]
+[[Other]]:
+
+• [[Chrono Skull]]
+
+• [[Chimpanzini Bananini]]
+
+• [[Tralalero Tralala]]
+
+• [[Bombardiro Crocodilo]]
+
+• [[Corrupt Bombardiro Crocodilo]]
+*
+
+== Statistics Table ==
+{| class="fandom-table"
+!Name
+!Species
+!Rarity
+!Placement Cost
+!Total Price
+!Levels
+!How to get the [[Units]]
+|-
+|[[Camera Spider]]
+|[[Cameras]]
+|[[Exclusive]]
+|300$
+|10600$
+|5
+|[[Exclusive Spider Crate]]
+|-
+|[[Spider TV]]
+|[[TVs]]
+|[[Exclusive]]
+|400$
+|12700$
+|7
+|[[Exclusive Spider Crate]]
+|-
+|[[Speaker Spider]]
+|[[Speakers]]
+|[[Exclusive]]
+|200$
+|9300$
+|5
+|[[Exclusive Spider Crate]]
+|-
+|[[Scientist Mech]]
+|[[Other|Toilets (Mech)]]
+|[[Exclusive]]
+|1500$
+|18000$
+|3
+|[[Shop]]
+|-
+|[[Clock Spider]]
+|[[Clocks]]
+|[[Legendary]]
+|700$
+|13500$
+|4
+|[[Clock Pass|Clock Event Pass]] Tier 20
+|-
+|[[Upgraded Camera Spider]]
+|[[Cameras]]
+|[[Exclusive]]
+|400$
+|20100$
+|5
+|[[Shop]]
+|-
+|[[Surfer TV Man]]
+|[[TVs]]
+|[[Legendary]]
+|700$
+|14800$
+|4
+|[[Summer Crate]]
+|-
+|[[Sand Wizard Cameraman]]
+|[[Cameras]]
+|[[Legendary]]
+|1200$
+|TBA
+|TBA
+|Beach Ball Hunt
+|}
+
+== Trivia ==
+
+* Except [[Sand Wizard Cameraman]], [[Clock Spider]] and [[Surfer TV Man]], All Moveable Units is [[Exclusive]].
+* Except [[Sand Wizard Cameraman]], [[Scientist Mech]] and [[Surfer TV Man]], All Moveable Units is Spider.
+* The best Moveable Units in the game is [[Clock Spider]] because this [[Units|unit]] is AoE and have '''28,000 DPS'''.
+
+== Gallery ==
+<gallery>
+File:SPIDERTVFINALLY.png|[[Spider TV]]
+File:Clock Spider Lvl 3.png|[[Clock Spider]]
+File:Camera spider.png|[[Upgraded Camera Spider]]
+File:Speaker spider new.png|[[Speaker Spider]]
+File:Camera spider new 2.0.png|[[Camera Spider]]
+File:SurferTVMan.png|[[Surfer TV Man]]
+File:SandWizardCameraman.png|[[Sand Wizard Cameraman]]
+File:Better scientist mech.png|[[Scientist Mech]]
+</gallery>
+[[Category:Moveable units]]
+[[Category:Units]]
+[[Category:Characters]]
+[[Category:Cameras]]
+[[Category:TVs]]
+[[Category:Speakers]]
+[[Category:Toilets]]
+[[Category:Clocks]]
+[[Category:Spiders]]
+[[Category:Mech]]
+[[Category:Mid-air]]
+[[Category:Stun Blocker]]

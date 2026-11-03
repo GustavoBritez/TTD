@@ -1,0 +1,94 @@
+{{DISPLAYTITLE:{{Mythic|Mob Boss Toilet}}}}
+{{Units infobox (mini)|unit_name={{Mythic|Mob Boss Toilet}}|image1=MT.png|cost=$700|base_sell_price=$350|type=Splash|levels=5|rarity={{Mythic|[[Mythic]]}}|species=[[Toilets (Units)|Toilets]]}}{{Stub}}{{PageNotFinished|reason=Strategy and trivia}}
+
+== Overview ==
+The Mob Boss Toilet is a [[Mythic]] [[Units|Unit]] added in the [[Season 2 Update]].
+
+== Obtainment ==
+The Mob Boss Toilet is obtained from the Season 2 Pass in tier 30. you can also get it from [[Trading]], buying from the [[Marketplace]], or getting gifted it from the [[Post Office]].
+
+== Stats Table ==
+{| class="fandom-table"
+|+Stats
+!Level
+!Price
+!Damage
+!Cooldown
+!Range
+!DPS
+!Splash Radius
+!Stun Blocks
+!Sell Price
+!Total Price
+|-
+|1
+|$700
+|10000
+|2
+|35
+|5000
+|8
+|3
+|$350
+|$700
+|-
+|2
+|$1900
+|30000
+|2
+|40
+|15000
+|8
+|3
+|$1300
+|$2600
+|-
+|3
+|$5250
+|70000
+|2
+|45
+|35000
+|8
+|6
+|$3925
+|$7850
+|-
+|4
+|$7500
+|110000
+|2
+|50
+|55000
+|8
+|6
+|$7675
+|$15350
+|-
+|5
+|$13000
+|140000
+|2
+|55
+|70000
+|8
+|6
+|$14175
+|$28350
+|}
+==Strategy==
+Because of it's middle price,you must use good farm unit like [[Santa TV Man]] or [[Carrot Farmer Bunnyman]] ,they will make you put this unit faster.
+==Trivia==
+It looks like [[Boss Toilet]],but worse damage.
+==Gallery==
+<gallery>
+File:MobBossToilet.png|Mob Boss Toilet
+</gallery>
+[[Category:Splash]]
+[[Category:Toilet Units]]
+[[Category:Toilets]]
+[[Category:Units]]
+[[Category:Mythic]]
+[[Category:Season 2]]
+[[Category:Season Pass Units]]
+[[Category:2025]]

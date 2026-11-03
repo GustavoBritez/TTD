@@ -1,0 +1,21 @@
+{{SeeAlsoNotice|Note1=[[Small Scientist Toilet]]}}{{Toilet_Infobox|title1=Small Magnet Scientist Toilet|image1=Small Magnet Scientist Toilet.png|species=[[Enemies|Toilets]]|health=TBA|speed=TBA}}
+[[File:MSTLeak.PNG|thumb]]
+[[File:Small magnets scientist.jpg|thumb]]
+
+==Overview==
+The '''Small Magnet Scientist Toilet''' is a new type of enemy, first appearing in the clock event. It '''stuns''' units by jumping on to them, the same way a '''Parasite Toilet''' does. It is an annoying enemy, having a good amount of HP while being able to stun. However it can be beaten easily by using an '''unstunning''' '''unit''' or a unit which can '''block stuns ('''Upgraded Titan Cinemaman, Upgraded Titan Cameraman etc..)
+[[Category:Magnet toilets]]
+[[Category:Magnet users]]
+[[Category:Scientist]]
+[[Category:Toilets]]
+
+[[Category:Mech]]
+[[Category:Stunners]]
+[[Category:Multiverse toilets]]
+[[Category:Characters]]
+[[Category:Enemies]]
+
+[[Category:Incomplete pages]]
+[[Category:Magnet]]
+[[Category:Off-Track Enemies]]
+[[Category:Beard]]

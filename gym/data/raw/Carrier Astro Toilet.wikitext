@@ -1,0 +1,46 @@
+{{Stub}}{{Toilet_Infobox|title1=Carrier Astro Toilet|image1=<gallery>
+CarrierAstroToiletBossIcon.png|Boss Icon
+Better_Carrier_Astro_Toilet.png|In-Game
+</gallery>|species=Astro Toilet|health=1,181,364,352|speed=Slow|wave_debut=Wave 160|modes=[[Endless Mode]]|abilities=|ability_1=Spawn [[Interceptor Astro Toilet]]|ability_2=Spin Up. Use Three Lasers To Stun The Nearby Units.}}
+
+== Overview ==
+The Carrier Astro Toilet is an enemy that was added to the game prior to the [[Episode 75 Update]]. 
+
+== Appearance ==
+His Toilet is entirely black with 2 giant cargos on his sides (Like the [[Dual Cargo Toilet]]) which he can deploy [[Interceptor Astro Toilet|Interceptor Astro Toilets]], his reactor core glows yellow as he deploys 3 Lasers below his toilet, he has a helmet.
+
+== Health ==
+
+* 1,181,364,352 HP (Solo/1 Player)
+* 2,362,728,704 HP (2 Players)
+* 3,544,093,056 HP (3 Players)
+* 4,725,457,408 HP (4 Players)
+* 5,906,821,760 HP (5 Players)
+
+== Waves ==
+This enemy spawns on Wave 160 of [[Endless Mode]].
+
+== Strategy ==
+You can fight off this toilet by using [[Ultimate|Ultimates]] such as [[Upgraded Titan Clockman]] or [[Upgraded Titan Drill Man]]. They have high damage and the ability of [[Upgraded Titan Clockman]] does 1 million DPS.
+== Gallery ==
+<gallery>
+File:Screenshot 2024-07-08 193225.png|Carrier Astro Toilet in game
+File:Better Carrier Astro Toilet.png|Model of Carrier Astro Toilet
+File:AstroCarrier.png|Carrier Astro Toilet in the Series.
+File:AstroCarrierElite.png|Ditto, but Elite variant.
+</gallery>
+
+
+[[Category:Enemies]]
+[[Category:Toilets]]
+
+[[Category:Male Characters]]
+[[Category:Slow Toilets]]
+
+
+[[Category:Boss Toilets]]
+[[Category:Bosses]]
+[[Category:Fast toilets]]
+[[Category:EP 75 Toilets]]
+[[Category:Spawner]]
+[[Category:Astro Toilets]]

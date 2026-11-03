@@ -1,0 +1,38 @@
+
+{{Toilet_Infobox|title1=TV Dual Claw Toilet|species=Toilet|health=320,000|wave_debut=37|modes=[[Hard Mode]] and [[Nightmare Mode]]|abilities=|image1=tv dual claw.png|speed=normal|ability_1=He uses his claws to stun [[units]]|ability_2=He uses his white TV screen as it turns red when it attacks}}
+==Overview==
+''Looking for [[Dual Claw Toilet]] or [[Dual Claw Laser Toilet]]?''
+
+The '''TV Dual Claw Toilet''' is a [[Enemies|enemy]] that have been added on [[Episode 70 Part 2 Update]],he is one of the strongest enemies on [[Hard Mode]]
+
+==Appearance==
+The TV Dual Claw Toilet is a grey toilet with 2 dark grey claws with small red dots and a TV Screen with Wheels that make him roll.
+
+==Appearances==
+
+===[[Hard Mode]]===
+Wave 37: X4
+
+Wave 50: X1
+
+==Health==
+
+===Hard Mode===
+Wave 37: 320,000
+
+Wave 50: 410,500
+
+==Strategy== 
+
+*He has a large amount of HP, so you need units like [[Upgraded Titan Cinemaman]] to stun him or [[Titan Clock Man]] to stop time.
+*He stuns units, so you need [[Medic Cameraman]], or [[Camera Repair Drone]], or [[Speaker Repair Drone]] to unstun units
+
+==Trivia== 
+
+*He is based off the [https://skibidi-toilet.fandom.com/wiki/Claw_Car_Skibidi_Toilet#Upgraded_Claw_Car_Skibidi_Toilet Upgraded Claw Car Skibidi Toilet] from the series
+*It is the first enemy wearing a TV screen
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:TVs]]
+[[Category:Stunners]]
+[[Category:Characters]]

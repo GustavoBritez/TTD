@@ -1,0 +1,36 @@
+{{Toilet_Infobox|image1=<gallery>
+large glasses boss.png|Boss Icon
+Large Glasses Toilet.png|In-Game
+</gallery>
+caption-image1=Toilet.|description=|species=Toilet|health=9,000|speed=fast|wave_debut=10 (endless)|modes=[[Medium Mode|Medium]]+|ability_1=TV Immunity: Immune to All TVs except for TV Woman, Speaker Large TV Man, Titan Cinemaman, Spider TV, and Upgraded Titan Cinemaman.|ability_2=can stun}}
+== Overview ==
+The L'''arge Glasses Toilet''' is a larger variant of the [[Glass Toilet|Glasses Toilet]] and has more health then the normal variant. The toilet is grey and has a regular variant. It does 150 damage to the base.
+
+== Appearance ==
+It has a large gray toilet with black gloss glasses.
+
+== Waves ==
+Endless: Wave 10 as Boss
+== Health ==
+Health: 9000
+== Strategy ==
+
+* This enemy is very easy to defeat, but do not use any TV Units that ONLY use their screen to attack.
+
+== Trivia ==
+
+*This toilet can be affected by [[Large TV Man]] and the normal one if used in the start of the map.
+*It is based off of the [https://skibidi-toilet.fandom.com/wiki/Semi-Large_Gray_Sunglasses_Skibidi_Toilet?so=search Semi-Large Gray Sunglasses Skibidi Toilet] from the series.
+*It is the first boss of [[Endless Mode]] on Wave 5
+
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Slow Toilets]]
+[[Category:Characters]]
+[[Category:Large]]
+[[Category:Bosses]]
+[[Category:Toilet]]
+[[Category:Stub]]
+[[Category:Non-Stun Toilets]]
+[[Category:Glasses Toilets]]
+[[Category:Valentines Event 2025]]

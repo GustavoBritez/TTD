@@ -1,0 +1,35 @@
+{{Toilet_Infobox|image1=police no bg.png|caption-image1=Toilet.|description=|species=[[Enemies|Toilets]]|health=380|speed=Average|wave_debut=???|modes=All}}
+== Overview ==
+'''Police Toilet''' is a slightly faster toilet with moderate health. It usually appears in the early waves of every mode, but sometimes spawns in the later waves.
+== Waves ==
+=== Easy Mode ===
+TBA
+=== Medium Mode ===
+TBA
+=== Hard Mode ===
+TBA
+=== Nightmare Mode ===
+TBA
+== Health ==
+=== Easy Mode ===
+TBA
+=== Medium Mode ===
+TBA
+=== Hard Mode ===
+TBA
+=== Nightmare Mode ===
+TBA
+
+== Strategy ==
+* The Police Toilet does not have much health, so you can easily defeat it with almost any unit. 
+*However, you should not let it leak into the base, as it will do 50 damage to the base.
+
+== Trivia ==
+
+* It is based off of the [https://skibidi-toilet.fandom.com/wiki/Police_Skibidi_Toilet?so=search Police Skibidi Toilet] from the series.
+[[Category:Toilets]]
+[[Category:Characters]]
+[[Category:Enemies]]
+[[Category:Incomplete pages]]
+[[Category:Non-Stun Toilets]]
+[[Category:Valentines Event 2025]]

@@ -1,0 +1,32 @@
+{{Toilet_Infobox|image1=ultra rocket.png|species=Toilet|health=714000|speed=Slow|wave_debut=???|modes=Nightmare+|ability_1=Rocket Shoot: Shoots a rocket at a unit. Rockets shot cannot be reloaded.}}
+
+== Overivew ==
+The Ultra Rocket Launcher Toilet is an enemy that only appears in Nightmare Mode. It has 16 rockets that can be shot at units to stun them. However, it cannot reload these rockets.
+== Appearance ==
+This enemy looks like Boss Toilet 4.0 except he has a rocket launcher and a diamond plate.
+== Waves ==
+???
+== Abilities ==
+*Rocket Shoot: Shoots a rocket at a unit. Rockets shot cannot be reloaded. This ability has a 1 second cooldown.
+== Strategy ==
+*You should use high DPS units to defeat this enemy.
+*The Shield Cameraman is one of the best counters to this enemy as it will do damage every time the Ultra Rocket Launcher Toilet shoots a rocket, and the Shield Cameraman cannot be stunned. This will cause the Ultra Rocket Launcher Toilet to run out of rockets.
+== Trivia ==
+
+* This, Ultra Laser Toilet, and Quad Buzzsaw Toilet are based on The G-Clones from the original series.
+* Unlike most rocket users that can reload after shooting, '''Ultra Rocket Launcher Toilet''' can't reload after shooting.
+
+== Update Log ==
+
+== Gallery ==
+== Update Log ==
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Stunners]]
+[[Category:Characters]]
+[[Category:Toilet]]
+[[Category:Rocket]]
+[[Category:Rockets]]
+[[Category:Slow Toilets]]
+[[Category:Man Face]]
+[[Category:Valentines Event 2025]]

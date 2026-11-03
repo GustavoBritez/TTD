@@ -1,0 +1,52 @@
+{{Toilet_Infobox|image1=assassin no bg.png|caption-image1=Toilet.|description=|species=Toilet|health=250|speed=Very Fast|wave_debut=Wave 9|modes=All}}
+== Overview ==
+'''Assassin Toilet''' is an extremely fast but weak [[Toilets|enemy]] which usually appears in the middle-game.The '''Assassin Toilet''' is one of the hardest toilet to kill if you have a Low CD/High DPS unit attacking it. 
+
+== Appearance ==
+He looks like a regular toilet but with a black leather hat.
+
+== Waves ==
+*[[Easy Mode]]
+*[[Medium Mode]]
+*[[Hard Mode]]
+*[[Nightmare Mode]]
+
+==Health ==
+=== Easy Mode===
+{| class="fandom-table"
+|+
+!'''Wave'''
+!'''Health'''
+|-
+|Wave 1
+|250HP
+|-
+|Wave 9
+|450 HP
+|-
+|Wave 10
+|470 HP
+|}
+
+==Strategy==
+*The '''Assassin Toilet''' is extremely fast and usually appears in groups, making high cooldown units struggle with it.
+*[[Speakerman]] and [[Large Speakerman]] are good starter units against the Assassin Toilet because of their low cooldown.
+*You can use [[TV Woman]], [[Mech Cameraman]], [[Green Laser Cameraman]], [[Flamethrower Cameraman]], and [[Toxic Upgraded Titan Cameraman]] to slow this enemy down.
+==Trivia== 
+*Assassin Toilet has a special movement animation where it moves slightly out of the path. It is unknown if this is intentional or not.
+*It is based off of the [https://skibidi-toilet.fandom.com/wiki/Hat_Skibidi_Toilet Assassin Skibidi Toilet] from the series.
+*This is one of the fastest enemies in the game, the [[Glitch Toilet]] being the fastest.
+*It does 100 damage to the base.
+
+==Gallery==
+<gallery>
+File:Assassin toilet.jpg|Assassin Toilet in old desert
+File:AssassinToiletRunningAwayFromTitanSpeakerman.png|'''2 Assassin Toilet''' with 2 [[DJ Toilet]]s and Old [[Titan Speakerman]] about to kill the toilets
+</gallery>
+[[Category:Toilets]]
+[[Category:Characters]]
+[[Category:Enemies]]
+[[Category:Toilet]]
+[[Category:Fast]]
+[[Category:Fast toilets]]
+[[Category:Non-Stun Toilets]]

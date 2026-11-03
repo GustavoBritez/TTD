@@ -1,0 +1,148 @@
+
+
+{{ID list top navigation}}<!-- Do not remove these spaces, they are there for a reason -->
+
+
+
+{{Unobtainable}}{{MetaUnit|Early Waves|extremely good}}{{Units infobox (this one)|unit_name={{Celestial|Futuristic G-Man}}|rarity={{Celestial|[[Celestial]]}}|species=[[Toilets (Units)|Toilets]]|image1=FuturisticG-Manv2.png|type=* 🔦{{Mythic|[[Sub-Traits|AoE]]}}🔦
+* 💦{{Rare|[[Splash]]}}💦
+* ☢️{{Uncommon|[[Radioactive]]}}☢️|cost=1500|base_sell_price=750|levels=8}}
+
+== Overview ==
+The {{Celestial|Futuristic G-Man}} is a {{Celestial|[[Celestial]]}} unit that was added in the '''[[Futuristic Update]]'''. This unit has [[Sub-Traits|AoE]], [[Splash]] and [[Radioactive]] abilities.
+
+== Appearance ==
+The '''Futuristic G-Man''' is a unit of the [[Toilets (Units)|Toilets]] species. It resembles a G-Man covered in full-body armor, equipped with jetpacks on its back and two laser guns mounted on both shoulders, as well as one on its chest.
+
+== Obtainment ==
+You can obtain the '''Futuristic G-Man''' from the [[Shop]] with '''799 Robux''' price (Unobtainable), You can also get this unit through [[Trading]] with others, purchasing it with [[gems]] at the [[Marketplace]] or being gifted it by others in the [[Post Office]].
+
+== Stats Table ==
+{| class="fandom-table"
+!Level
+!Cost
+!Total Cost
+!Damage
+!Blast Range
+!Slowing
+!Range
+!Cooldown
+!DPS
+!Sell Price
+|-
+|1
+|$1,500
+|$1,500
+|9,750
+|32
+|85%
+|52
+|0.65s
+|15,000
+|$750
+|-
+|2
+|$2,500
+|$4,000
+|19,500
+|32
+|85%
+|56
+|0.65s
+|30,000
+|$2,000
+|-
+|3
+|$4,500
+|$8,500
+|30,000
+|32
+|85%
+|60
+|0.5s
+|60,000
+|$4,250
+|-
+|4
+|$9,000
+|$17,500
+|36,000
+|32
+|85%
+|64
+|0.4s
+|90,000
+|$8,750
+|-
+|5
+|$17,000
+|$34,500
+|52,500
+|32
+|85%
+|68
+|0.35s
+|150,000
+|$17,250
+|-
+|6
+|$21,000
+|$55,500
+|73,500
+|32
+|85%
+|72
+|0.35s
+|210,000
+|$27,750
+|-
+|7
+|$27,000
+|$82,500
+|105,000
+|32
+|85%
+|76
+|0.35s
+|300,000
+|$41,250
+|-
+|8
+|$32,000
+|$114,500
+|98,750
+|32
+|85%
+|80
+|0.25s
+|395,000
+|$57,250
+|}
+
+== Strategy ==
+• His AOE Range is too small so, Use a Range Booster Unit like [[Titan Swat Cameraman]] and/or give him a Trait that buffs his range.
+
+
+== Trivia ==
+*This unit is the first unit to have a cutscene upon being obtained.
+*It will only reach 99 waves on Endless Mode if you placed only a single one.
+*This unit looks very close to [[Boss Toilet 5.0]].
+*This unit has 2 renders.
+
+== Gallery ==
+<gallery captionalign="center">
+FuturisticG-Manv2.png|Futuristic G-Man's icon.
+FuturisticG-ManCutscene.gif|Futuristic G-Man's cutscene.
+File:FuturisticUpdateIcon.webp|Futuristic G-Man in the icon of the [[Futuristic Update]].
+File:FuturisticUpdateThumbnail.webp|Futuristic G-Man in the thumbnail of the [[Futuristic Update]].
+</gallery>
+
+[[Category:Units]]
+[[Category:Toilets]]
+[[Category:Toilet Units]]
+[[Category:2025]]
+[[Category:Celestial]]
+[[Category:Radioactive]]
+[[Category:Splash]]
+[[Category:AoE]]
+[[Category:Shop]]

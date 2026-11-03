@@ -1,0 +1,28 @@
+{{Toilet_Infobox|title1=Beret Rocket Launcher Toilet|image1=Beret Rocket Luncher Toilet.png|speed=Slow|wave_debut=40|modes=Nightmare, Endless|abilities=Rockets|description=govno|species=Toilet|health=2.74M}}
+
+== Overview ==
+The '''Beret Rocket Launcher Toilet''' is a toilet that appears on Wave 40 of [[Nightmare Mode]], and also appears in [[Endless Mode]].
+
+== Appearance ==
+He has a winter white urban camo design on his tank, two launchers that hold 8 rockets each, 4 lasers mounted to his side, and he has a beret, which is the [https://www.roblox.com/catalog/27004321/Spetsnaz Spetsnaz] from the Roblox Catalog.
+
+== Abilities ==
+Can stun units.
+
+== Trivia ==
+
+* This toilet is based off of the [https://skibidi-toilet.fandom.com/wiki/Bill_Tank_Skibidi_Toilet Bill Tank] from the Skibidi Toilet series.
+* This toilet has in the current game more health than the [[Giant Smooth Toilet]], Which is strange as the Giant Smooth Toilet is the boss of Nightmare Mode.
+
+== [[Giant Smooth Toilet|Gallery]] ==
+
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Slow Toilets]]
+[[Category:Stunners]]
+[[Category:Toilet]]
+[[Category:Characters]]
+[[Category:Incomplete pages]]
+[[Category:Bosses]]
+[[Category:Boss Toilets]]
+[[Category:Rockets]]

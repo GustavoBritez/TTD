@@ -1,0 +1,29 @@
+== Overview ==
+{{Character|name=Flashlight Rocket Toilet|image=Flashlight.png|imagecaption=|species=Toilet|debut=Episode 61 update|affiliation=*[[Helicopter Rocket Launcher Toilet]]
+*[[Dual Rocket Launcher Helicopter Toilet]]
+*[[Dual Rocket Laser Helicopter Toilet]]}}The '''Flashlight Rocket Toilet''' is a toilet that has high health and appears on [[Nightmare Mode|nightmare mode]]. It can use its flashlight to area stun. Also deals 500 damage to the base (which means one shoot)
+
+== Appearance ==
+The '''Flashlight Rocket Toilet''' is a dark gray toilet with a jetpack, a single flashlight on the bottom, and two green and black rockets.
+
+== Health ==
+Wave 35: 610,000 HP
+
+Wave 41: 700,000 HP
+
+== Appearance ==
+This toilet has a jetpack, two rocket launchers on the toilets side and a flashlight on the bottom of the toilet.
+
+== Trivia ==
+* This toilet is based off of the [https://skibidi-toilet.fandom.com/wiki/Geeky_Jesus_Skibidi_Toilet Geeky Jesus Skibidi Toilet].
+* In the series the toilet is supposed to be the popular streamer and content creator penguinz0 aka moistcritical, but in the game the toilets head is just the head of a regular toilet. this is most likely, so the games developers don't get into trouble.
+[[Category:Toilets]]
+[[Category:Stunners]]
+[[Category:Jetpack]]
+[[Category:Enemies]]
+[[Category:Toilet]]
+[[Category:Rocket]]
+[[Category:Rockets]]
+[[Category:Flying]]
+[[Category:Slow Toilets]]
+[[Category:Man Face]]

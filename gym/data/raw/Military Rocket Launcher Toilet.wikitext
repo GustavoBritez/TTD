@@ -1,0 +1,25 @@
+{{Toilet_Infobox|image1=mil.png|caption-image1=Toilet.|description=|species=Toilet|health=980,000|speed=Slow|wave_debut=42 Wave|modes=Nightmare+|ability_1=Rocket Shoot: Shoots a rocket out of its rocket launcher, stunning it.}}
+==Overview==
+The '''Military Rocket Launcher Toilet''' is an [[Enemies|enemy]] that appears in [[Nightmare Mode]] and both [[Abysmal Mode (Halloween Event)|Abysmal Mode]] events. Like all other enemies, it appears on [[Endless Mode]]. It has two rocket launchers that can be used to stun [[units]].
+
+==Appearance==
+The Military Rocket Launcher Toilet has a green camoflage pattern on its bowl and cistern. It has two rocket launchers connected to its toilet. Its skin is yellow, and its torso is blue like other toilets.
+==Waves==
+=== Nightmare Mode ===
+*TBA
+=== Abysmal Mde ===
+*TBA
+==Abilities==
+*Rocket Shoot: Shoots a rocket out of its rocket launcher at a unit, stunning it for ?? seconds.
+==Trivia==
+*It is based off of the [https://skibidi-toilet.fandom.com/wiki/Weaponized_Camo_Skibidi_Toilet Weaponized Camo Skibidi Toilet] from the series.
+**The Weaponized Camo Skibidi Toilet is shown to have a hat, glasses, and buzzsaws in its appearance in the series. However, it was shot by the Camera Attack Helicopter in the first few seconds of the episode, losing its hat and glasses. This is why this enemy does not have them.
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Stunners]]
+[[Category:Characters]]
+
+
+[[Category:Incomplete pages]]
+[[Category:Rocket]]
+[[Category:Valentines Event 2025]]

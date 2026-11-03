@@ -1,0 +1,33 @@
+{{SeeAlsoNotice|PagesNumber=2|Note1=[[DJ Toilet 2.0]]|Note2=[[DJ Toilet (Unit)]]}}{{Toilet_Infobox|image1=DJ Toilet.png|caption-image1=Toilet.|description=A image of DJ Toilet, in-game.|species=Toilet|health=1250|speed=Average|wave_debut='''Varies'''|modes=All|title1=DJ Toilet}}
+== Overview ==
+The '''DJ Toilet''' is a basic toilet but with a lot more health and headphones. Its first appearance is in [[Toilet city|Toilet City]], and it appears in every map after. It usually gives 25-50 cash when killed depending on the mode. It usually has a default 1250 HP on the waves where he usually appears, thus making him a easy opponent for beginners to fight with.
+
+=== '''Reccomended Units to Use''' ===
+
+* '''Pick any unit when its under 10,000 HP, because in this stage, there is no anomaly heavily attacking yet, giving time to prepare. For starters, suggest using [[Sparkler Cameraman]], or any good and cheap damage dealer.'''
+* '''If this enemy's HP is around 10,000 HP to 300,000 HP, comsider using stronger units, like [[Upgraded Titan Cameraman]], or any unit with AoE, for crowd control. Same case goes for all the toilets.'''
+*
+
+== '''Appearances''' ==
+
+* [[Toilet City]] '''(Any Mode)'''
+* [[Desert]] '''(Any Mode)'''
+* [[Cameraman HQ]] '''(Any Mode)'''
+* [[Toilet HQ]] '''(Any Mode)'''
+* [[Toilet Lab]] '''(Any Mode)'''
+* [[Toilet Fortress]] '''([[Endless Mode]])'''
+
+== Trivia ==
+
+* It is based off of the [https://skibidi-toilet.fandom.com/wiki/DJ_Skibidi_Toilet DJ Skibidi Toilet] from the series.
+* This is one of the few toilets to have been released since the day Toilet Tower Defense was released.
+*
+
+== '''<big>Gallery</big>''' ==
+<gallery>
+File:AssassinToiletRunningAwayFromTitanSpeakerman.png|'''2 DJ Toilets''' and 2 [[Assassin Toilet]] in the line and the troop Old [[Titan Speakerman]] About to attack the toilets
+</gallery>
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Characters]]
+[[Category:Non-Stun Toilets]]

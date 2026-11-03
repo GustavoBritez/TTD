@@ -1,0 +1,36 @@
+{{Toilet_Infobox|image1=parasite.png|species=Toilets|health=???|speed=???|wave_debut=???|modes=Medium, Hard,Nightmare,Endless|ability_1=Infect: Lunges onto the back of a small unit and stuns for a few seconds|description=Really annoying but deals 60 dmg to the base}}{{Stub}}
+
+== Overview ==
+The '''Parasite Toilet''' is an [[Enemies|enemy]] that can stun [[units]] by hopping on them. This is the first variation of the Parasite Toilets.
+
+== Appearance ==
+It is a white toilet with 8 spider-like legs and has a different cistern than the other toilets. It's toilet bowl is also stretched.  
+
+== Waves ==
+''40-60''
+
+== Abilities ==
+It is able to control your units and stun them.
+
+== Strategy ==
+Use [[Medic Cameraman]], [[Camera Repair Drone]], or [[Speaker Repair Drone]] to unstun your units.
+
+== Trivia ==
+
+* This unit is based off the Parasite Toilet from the series.
+* There has been a [[Helicopter Parasite Toilet]], a parasite that can stun Titans, debuted in Episode 57, however, this enemy debuted in Episode 30, but was added on the [[Episode 69 Part 1 Update|Episode 69 Part 1 update]].
+* Cannot stun all Large units except for [[Large Fanman]], [[Large Forcefield Cameraman]] and [[Rainbow Future Large Clockman]].
+
+== Gallery ==
+''To be added''
+
+== Update Log ==
+''To be added''
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Stunners]]
+[[Category:Characters]]
+[[Category:Stubs]]
+[[Category:Small]]
+[[Category:Off-Track Enemies]]
+[[Category:Valentines Event 2025]]

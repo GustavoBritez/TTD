@@ -1,0 +1,44 @@
+''Looking for [[Skeleton Toilet]]?''{{Toilet_Infobox|image1=<gallery>
+FrostSkeletonToiletBossIcon.png|Boss Icon
+FrostSkeleton.png|In-Game
+</gallery>|species=Toilets|health=3,340,000|speed=Slow|wave_debut=Wave 50 ([[Christmas Mode]])|modes=[[North Pole|Christmas Mode]]
+[[Endless Mode]]|ability_1=Hammer Smash: Smashes its hammer against a unit, stunning it.|ability_2=Ice Spikes: Spawn multiple ice spikes above an unit, stunning it.}}
+== Overview ==
+The Frost Skeleton Toilet is the final boss of [[Christmas Mode]]. It only appears at Wave 50 and has a high health of 3,340,000. It makes a comeback in  [[Endless Mode]] as a Wave 60 boss. 
+
+The Frost Skeleton has 2 abilities. It's first ability is that it can use its hammer to attack a unit, freezing it. It can also spawn ice which will fall on a unit and freeze it. As it freezes units, they cannot be unstunned by [[Medic Cameraman]], [[Camera Repair Drone]] or [[Speaker Repair Drone]]
+==Appearance==
+The Frost Skeleton Toilet looks like a mutant toilet with a blue theme and four claw legs. It has neon blue parts on its chest with white eyes and blue horns. It also has a blue, squarish hammer which is used to stun units. 
+==Waves==
+===Christmas Mode===
+*Wave 50: 3,340,000 HP (x1)
+=== Endless Mode ===
+Wave 60: 12,927,262 HP (1x)
+
+==Abiltities==
+*Hammer Smash: Smashes its hammer against a unit, stunning it.
+*Ice Spikes: Spawn multiple ice spikes above an unit, stunning it.
+==Strategy==
+
+* Use high DPS units such as the [[Upgraded Titan Cameraman]], [[Sinister Titan TV Man]], [[Hyper Upgraded Titan Speakerman|﻿​​​﻿Hyper Upgraded Titan Speakerman]], ﻿​​​﻿[[Titan Firework Man]],[[Golden Future Large Clockman|﻿​​​﻿Golden Future Large Clockman]], or [[Upgraded Titan Cinemaman]].
+* You can also use non-stunning units like some [[Ultimate|Ultimates]] or if you need something cheaper, Upgraded large laser cameraman at max level as that can't egt stunned at max and has pretty high dps.
+
+==Trivia==
+*The Frost Skeleton Toilet has a resemblance to the [[Mutant Pumpkin Toilet]].
+*It's right arm is longer than it's left arm for some reason. I wonder why...
+
+== Gallery ==
+
+== Update Log ==
+?/?/23: Added Frost Skeleton Toilet.
+
+?/?/24: Added Frost Skeleton Toilet to Endless Mode.
+[[Category:Toilets]]
+[[Category:Stunners]]
+[[Category:Enemies]]
+[[Category:Event Enemies]]
+[[Category:Characters]]
+[[Category:Bosses]]
+[[Category:Boss Toilets]]
+[[Category:Slow Toilets]]
+[[Category:Endless Bosses]]

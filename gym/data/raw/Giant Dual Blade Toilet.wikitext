@@ -1,0 +1,32 @@
+{{PageNotFinished|reason=Clear image and waves/wave health}}{{Toilet_Infobox|image1=giant blade.png|caption-image1=Toilet.|description=|species=Toilet|health=535,000 HP|speed=Slow|wave_debut=30 Wave|modes=Nightmare and Endless Mode|ability_1=Giant Blade Swing: Stuns a unit for 10 seconds with its blades.}}
+
+== Overview ==
+The '''Giant Dual-Blade Toilet''' is an enemy that can stun units in its way, this toilet is based on the [https://skibidi-toilet.fandom.com/wiki/Giant_Dual_Blade_Skibidi_Toilet Giant Dual Blade Skibidi Toilet].
+
+The Giant Dual-Blade Toilet has a lot of health and moves at medium speed, its debut is at wave 30 in [[Nightmare Mode]]. It also has a smaller version which is [[Dual Blade Toilet]]. The way it stuns units is by swinging its blade and stunning units nearby.
+
+==Strategy ==
+Towers that are stunned by the toilet can be revived by [[Medic Cameraman]] or [[Camera Repair Drone]], to defeat this enemy it is recommended to use units that do medium damage such as [[Laser Cameraman Car]] , [[Jetpack Cameraman]] or [[Titan Cameraman]]. 
+
+This toilet can only stun close range so placing [[Units]] further from the track is ideal. 
+
+==Appearances==
+*(Wave 30)
+*Endless Mode
+
+== Trivia==
+
+*It is based off of the [https://skibidi-toilet.fandom.com/wiki/Giant_Dual_Blade_Skibidi_Toilet Giant Dual Blade Toilet] from the series.
+*The Giant Dual Blade Toilet first appeared in Episode 50 of the series.
+
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Stunners]]
+[[Category:Characters]]
+[[Category:Large]]
+[[Category:Slow Toilets]]
+[[Category:Giant]]
+[[Category:Man Face]]
+[[Category:Valentines Event 2025]]
+[[Category:Bosses]]
+[[Category:Giant Toilets]]

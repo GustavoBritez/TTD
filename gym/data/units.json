@@ -1,0 +1,101 @@
+{
+ "_doc": "Unidades del jugador para el simulador. Fuente: tablas de la wiki (por nivel) x multiplicadores Shiny, verificadas contra las cartas del juego (capturas del usuario 2026-11-03). Unidades de rango en studs. 'cost' = precio de colocar (nivel 1) o de subir A ese nivel.",
+ "shiny_rules": {"damage_mult": 1.5, "boost_mult": 1.1, "income_mult": 1.1, "ally_health_mult": 1.5, "source": "https://toilet-tower-defense-game.fandom.com/wiki/Shiny_Units"},
+ "units": [
+  {
+   "slot": 1,
+   "key": "gingerbread_house",
+   "name": "Gingerbread House",
+   "name_es": "Casa de jengibre",
+   "rarity": "Godly (Divino)",
+   "shiny": false,
+   "max_placement": 4,
+   "role": ["farm", "damage"],
+   "can_be_stunned": false,
+   "can_be_boosted": false,
+   "wiki": "https://toilet-tower-defense-game.fandom.com/wiki/Gingerbread_House",
+   "levels": [
+    {"level": 1, "cost": 200,  "damage": 2000,  "cooldown": 2.0, "range": 20, "income": 100},
+    {"level": 2, "cost": 200,  "damage": 6000,  "cooldown": 2.0, "range": 25, "income": 150},
+    {"level": 3, "cost": 500,  "damage": 9000,  "cooldown": 1.5, "range": 30, "income": 300},
+    {"level": 4, "cost": 800,  "damage": 13000, "cooldown": 1.0, "range": 35, "income": 500},
+    {"level": 5, "cost": 1000, "damage": 20000, "cooldown": 1.0, "range": 40, "income": 750},
+    {"level": 6, "cost": 2000, "damage": 28000, "cooldown": 1.0, "range": 45, "income": 1000},
+    {"level": 7, "cost": 3000, "damage": 35000, "cooldown": 1.0, "range": 50, "income": 1500},
+    {"level": 8, "cost": 6000, "damage": 50000, "cooldown": 1.0, "range": 55, "income": 1750}
+   ],
+   "card_check": "Ingresos 100->1750, Dano 2000->50000, Rango 20->55, CD 2->1, DPS 1000->50000 (coincide con la wiki)"
+  },
+  {
+   "slot": 2,
+   "key": "titan_warlord_clockman",
+   "name": "Titan Warlord Clockman (Shiny)",
+   "name_es": "Reloj de senor de guerra titan resplandeciente",
+   "rarity": "Ultimate (Definitivo)",
+   "shiny": true,
+   "max_placement": 1,
+   "role": ["damage", "aoe_360", "piercing", "slow", "stun", "spawner", "cooldown_booster", "boss_damage"],
+   "can_be_stunned": false,
+   "slow_pct": 60,
+   "stun_seconds": 6,
+   "boss_damage_bonus_pct": 50,
+   "ability": {"name": "Warlord Rewind", "cooldown_s": 300, "effect": "Devuelve al inicio a un inodoro que llega al final de la pista"},
+   "wiki": "https://toilet-tower-defense-game.fandom.com/wiki/Titan_Warlord_Clockman",
+   "levels": [
+    {"level": 1, "cost": 1200,  "damage": 1500,   "cooldown": 0.5, "range": 35, "cooldown_boost_pct": 5.5,  "ally_health": 0,       "ally_dps": 0},
+    {"level": 2, "cost": 1300,  "damage": 3375,   "cooldown": 0.5, "range": 38, "cooldown_boost_pct": 11.0, "ally_health": 0,       "ally_dps": 0},
+    {"level": 3, "cost": 3500,  "damage": 7500,   "cooldown": 0.5, "range": 46, "cooldown_boost_pct": 16.5, "ally_health": 0,       "ally_dps": 0},
+    {"level": 4, "cost": 8500,  "damage": 15000,  "cooldown": 0.5, "range": 46, "cooldown_boost_pct": 22.0, "ally_health": 150000,  "ally_dps": 10000},
+    {"level": 5, "cost": 15500, "damage": 33750,  "cooldown": 0.5, "range": 45, "cooldown_boost_pct": 26.4, "ally_health": 300000,  "ally_dps": 20000},
+    {"level": 6, "cost": 17500, "damage": 60000,  "cooldown": 0.5, "range": 50, "cooldown_boost_pct": 28.6, "ally_health": 450000,  "ally_dps": 30000},
+    {"level": 7, "cost": 18500, "damage": 86250,  "cooldown": 0.5, "range": 55, "cooldown_boost_pct": 30.8, "ally_health": 900000,  "ally_dps": 40000},
+    {"level": 8, "cost": 19500, "damage": 172500, "cooldown": 0.5, "range": 60, "cooldown_boost_pct": 33.0, "ally_health": 1350000, "ally_dps": 50000}
+   ],
+   "card_check": "Dano 1500->172500, DPS 3000->345000, Rango 35->60, Impulso CD -6%->-33%, Salud aliado 150000->1350000, DPS aliado 10000->50000, dano a jefe +50%, desaceleracion 60%, aturdimiento 6s",
+   "notes": "La wiki da rango 40 en nivel 4 (probable errata, se usa 46). La wiki dice +30% dano a jefes; la carta del juego dice +50% (se usa la carta). La carta muestra rasgos '+10% rango' y '-10% cooldown' que aun no estan aplicados aqui: verificar en el juego."
+  },
+  {
+   "slot": 3,
+   "key": "z1mp_cameraman",
+   "name": "Z1MP Cameraman (Shiny)",
+   "name_es": "Camarografo Z1MP resplandeciente",
+   "rarity": "Godly (Divino)",
+   "shiny": true,
+   "max_placement": 5,
+   "role": ["damage", "splash"],
+   "splash_radius": 20,
+   "stun_block": 30,
+   "wiki": "https://toilet-tower-defense-game.fandom.com/wiki/Z1MP_Cameraman",
+   "levels": [
+    {"level": 1, "cost": 1050,  "damage": 7200,   "cooldown": 0.8,  "range": 30},
+    {"level": 2, "cost": 2000,  "damage": 18000,  "cooldown": 0.8,  "range": 34},
+    {"level": 3, "cost": 3000,  "damage": 50625,  "cooldown": 0.75, "range": 38},
+    {"level": 4, "cost": 5000,  "damage": 73125,  "cooldown": 0.75, "range": 42},
+    {"level": 5, "cost": 9000,  "damage": 136500, "cooldown": 0.7,  "range": 46},
+    {"level": 6, "cost": 11000, "damage": 178500, "cooldown": 0.7,  "range": 46}
+   ],
+   "card_check": "Dano 7200->178500, Rango 30->46, CD 0.8->0.7, DPS 9000->255000, explosion 20",
+   "notes": "La wiki da rango 45 en nivel 6; la carta dice maximo 46 (se usa la carta)."
+  },
+  {
+   "slot": 4,
+   "key": "mafia_boss_cameraman",
+   "name": "Mafia Boss Cameraman",
+   "name_es": "Camarografo del jefe de la mafia",
+   "rarity": "Godly (Divino)",
+   "shiny": false,
+   "max_placement": 4,
+   "role": ["damage", "damage_booster", "spawner"],
+   "wiki": "https://toilet-tower-defense-game.fandom.com/wiki/Mafia_Boss_Cameraman",
+   "levels": [
+    {"level": 1, "cost": 1000,  "damage": 2500,  "cooldown": 0.5, "range": 50, "damage_boost_pct": 3,  "ally_health": 50000,  "ally_dps": 500},
+    {"level": 2, "cost": 5000,  "damage": 25000, "cooldown": 0.5, "range": 55, "damage_boost_pct": 8,  "ally_health": 100000, "ally_dps": 500},
+    {"level": 3, "cost": 10000, "damage": 35000, "cooldown": 0.5, "range": 60, "damage_boost_pct": 12, "ally_health": 140000, "ally_dps": 1000},
+    {"level": 4, "cost": 18000, "damage": 55000, "cooldown": 0.5, "range": 65, "damage_boost_pct": 18, "ally_health": 220000, "ally_dps": 1500},
+    {"level": 5, "cost": 25000, "damage": 75000, "cooldown": 0.5, "range": 70, "damage_boost_pct": 30, "ally_health": 300000, "ally_dps": 2000}
+   ],
+   "card_check": "Impulso de dano 3%->30%, Dano 2500->75000, Rango 50->70, CD 0.5, DPS 5000->150000, Salud aliado 50000->300000, DPS aliado 500->2000 (coincide con la wiki)"
+  }
+ ]
+}
+

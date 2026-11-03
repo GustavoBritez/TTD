@@ -1,0 +1,124 @@
+{{MetaUnit|Endless/Meta/DPS|Super OP}}{{Unobtainable}}{{ID list top navigation}}
+
+
+
+{{DISPLAYTITLE:{{Celestial|Titan Mafia Toilet}}}}
+{{Units infobox|unit_name={{Celestial|Titan Mafia Toilet}}|rarity={{Celestial|[[Celestial]]}}|species=[[Toilets (Units)|Toilets]]|image1= |cost=$1200|base_sell_price=$600|type=Splash
+Slowing|levels=7}}
+
+== Overview ==
+'''Titan Mafia Toilet''' is a {{Celestial|[[Celestial]]}} [[Units|Unit]] added on the [[Summer Event Update (Part 2)]].
+
+== Obtainment ==
+You can obtain '''Titan Mafia Toilet''' from the in-game shop for {{Robux|1299}} or in the [[Trading Plaza]] for '''50-70k''' 💎'''[[Gems]].'''
+
+== Stats Table ==
+{| class="mw-collapsible fandom-table"
+|+
+!Lvl
+!Cost
+!Damage
+!CD
+!DPS
+!Range
+!Explosion Radius
+!Slowing
+!Total Price
+!Sell Price
+!DPS/$
+|-
+|1
+|1200
+|2000
+|0.2
+|10000
+|52
+|30
+|70%
+|1200
+|600
+|8.33
+|-
+|2
+|1800
+|5000
+|0.2
+|25000
+|56
+|30
+|70%
+|3000
+|1500
+|8.33
+|-
+|3
+|4000
+|10000
+|0.2
+|50000
+|60
+|30
+|70%
+|7000
+|3500
+|7.14
+|-
+|4
+|8500
+|20000
+|0.2
+|100000
+|64
+|30
+|70%
+|15500
+|7750
+|6.45
+|-
+|5
+|16000
+|36000
+|0.2
+|180000
+|64
+|30
+|70%
+|31500
+|15750
+|5.71
+|-
+|6
+|22500
+|56000
+|0.2
+|280000
+|64
+|30
+|70%
+|54000
+|27000
+|5.19
+|-
+|7
+|32000
+|76000
+|0.2
+|380000
+|64
+|30
+|70%
+|86000
+|43000
+|4.42
+|}
+[[Category:Titans]]
+[[Category:Units]]
+[[Category:2025]]
+[[Category:Celestial]]
+[[Category:Shop]]
+[[Category:7 Upgrades]]
+[[Category:Toilets]]
+[[Category:Toilet Units]]
+[[Category:Event Units]]
+[[Category:Splash]]
+[[Category:Slowing]]

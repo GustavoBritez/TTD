@@ -1,0 +1,23 @@
+{{Toilet_Infobox|image1=buzzsaw no bg.png|caption-image1=Toilet.|description=|species=Toilet|health=23500 (Debut)|speed=Fast|wave_debut=10|modes=Nightmare+|ability_1=Buzzsaw Slice: Stuns a unit for 15 seconds.}}
+== Overview ==
+'''Flying Buzzsaw Toilet''' is a fast and enemy which can also stun [[Units]] and appears very early in [[Nightmare Mode]] making him a bit of a threat. It can stun [[Units]] using its big saw. You should try to defeat it as it gives 200$ upon death. Plus it can deal quite a lot of damage to the base if it reaches the end. 
+
+== Health ==
+
+* Wave 10: 23500 (Solo)
+HP goes up every wave and depends on the amount of players in a match.
+
+== Abilities ==
+The flying Buzzsaw toilet can stun units and go to the base and you lose
+
+== Trivia ==
+It is based off of the [https://skibidi-toilet.fandom.com/wiki/Flying_Buzzsaw_Skibidi_Toilet?so=search Flying Buzzsaw Skibidi Toilet].
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Characters]]
+[[Category:Stunners]]
+[[Category:Fast toilets]]
+[[Category:Fast]]
+[[Category:Small]]
+[[Category:Flying]]
+[[Category:Valentines Event 2025]]

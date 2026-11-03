@@ -1,0 +1,83 @@
+{{Unobtainable}}
+{{DISPLAYTITLE:{{Legendary|{{PAGENAME}}}}}}
+{{Stub}}{{SeeAlsoNotice|Note1=[[Airplane Toilet]], its enemy couterpart}}{{Units infobox (this one)|unit_name={{Legendary|Airplane Toilet}}|cost=1000|base_sell_price=500|type=Movable, Splash|levels=3|rarity={{Legendary|[[Legendary]]}}|species=[[Toilets (Units)|Toilets]]|image1=Airplane toilet Unit.png|special_abilities=cant be stunned}}
+
+== Overview ==
+Airplane Toilet is an [[Legendary]] unit added in the [[Episode 77 Part 1 Update|Episode 77 Part 1 Update.]]
+
+== Appearance ==
+The toilet has a commercial plane in between the bottom and the pedestal of the toilet. It seems to have six toxic waste barrels (four on the wings, and two on the upper sides) and its head is a normal Roblox face where players with new accs start out with.
+
+== Stats Table ==
+{| class="fandom-table"
+|+'''Stats'''
+!'''Levels'''
+!'''Price'''
+!'''TotalPrice'''
+!'''Damage'''
+!'''Range'''
+!'''WalkRange'''
+!'''WalkSpeed'''
+!'''Cooldown'''
+!'''Explosion Radius'''
+!'''SellPrice'''
+!'''DPS'''
+!'''DPS/$(Cost Efficiency)'''
+|-
+|LV1
+|'''$1000'''
+|'''$1000'''
+|4000
+|18
+|65
+|15
+|2
+|0
+|'''$500'''
+|2000
+|2
+|-
+|LV2
+|'''$4000'''
+|'''$5000'''
+|8000
+|20
+|65
+|15
+|2
+|10
+|'''$2500'''
+|4000
+|0.8
+|-
+|LV3
+|'''$8000'''
+|'''$13000'''
+|22000
+|30
+|65
+|15
+|2
+|14
+|'''$6500'''
+|11000
+|0.5
+|}
+
+== Trivia ==
+
+* This unit is based off [https://skibidi-toilet.fandom.com/wiki/Explosive_Airplane_Skibidi_Toilet Explosive Airplane Skibidi Toilet] from the series.
+
+
+
+
+[[Category:Toilets]]
+[[Category:Toilet]]
+[[Category:Toilet Units]]
+[[Category:Moveable units]]
+[[Category:Moveable]]
+[[Category:Splash]]
+[[Category:Units]]
+[[Category:Legendary]]
+[[Category:Flying]]
+[[Category:Acid]]

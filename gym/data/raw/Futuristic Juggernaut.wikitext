@@ -1,0 +1,99 @@
+{{DISPLAYTITLE:{{Mythic|{{PAGENAME}}}}}}{{SeeAlsoNotice|Note1=[[Juggernaut Astro Toilet]]}}{{Units infobox (this one)|unit_name={{Mythic|Futuristic Juggernaut}}|rarity={{Mythic|[[Mythic]]}}|species=[[Toilets (Units)|Toilets]]|image1=Futuristic Juggernaut.png|cost=$700|base_sell_price=$350|type=💦{{Rare|[[Splash]]}}💦|levels=5}}
+
+{{Unobtainable}}
+
+== Overview ==
+The {{Mythic|Futuristic Juggernaut}} is a [[Mythic]] unit that was added in the '''[[Futuristic Update]]'''. This unit also has a [[Splash]] ability.
+
+== Appearance ==
+The '''Futuristic Juggernaut''' is a unit from the [[Toilets (Units)|Toilets]] species. It appears as a toilet with 2 arms and wears a strong steel helmet. Its eyes glow red, and on both hands, it has 4 small guns, with a red laser in the center of each hand.
+
+== Obtainment ==
+You can obtain the '''Futuristic Juggernaut''' from the [[Futuristic Crate]], which has an '''80% chance''' of dropping. You can also acquire this unit by [[trading]] with other players, purchasing it with [[gems]] in the [[marketplace]], or receiving it from other players via the [[Post Office|post office]].
+
+== Stats Table ==
+{| class="fandom-table"
+!Level
+!Cost
+!Total Cost
+!Damage
+!Blast Range
+!Range
+!Cooldown
+!DPS
+!Sell Price
+|-
+|1
+|$700
+|$700
+|5,000
+|25
+|20
+|1s
+|5,000
+|$350
+|-
+|2
+|$1,100
+|$1,800
+|11,400
+|27
+|23
+|0.95s
+|12,000
+|$900
+|-
+|3
+|$1,500
+|$3,300
+|22,500
+|29
+|26
+|0.9s
+|25,000
+|$1,650
+|-
+|4
+|$2,600
+|$5,900
+|32,300
+|30
+|29
+|0.85s
+|38,000
+|$2,950
+|-
+|5
+|$3,750
+|$9,650
+|40,000
+|31
+|33
+|0.8s
+|50,000
+|$4,825
+|}
+
+== Strategy ==
+
+* Since this unit has a [[Splash]] attack ability, you can place it anywhere you like.
+** We recommend placing them in groups for the best attack efficiency.
+* Its upgrade cost is very low, making it a good option to use.
+* You can combo this unit with others that have different abilities, such as [[Sub-Traits|AoE]] or [[Piercing]].
+* Although its overall stats aren't very high, it is still usable in the early to mid-game waves.
+
+== Trivia ==
+
+* This unit is the easiest to obtain from the [[Futuristic Crate]].
+* This unit has no connection to the main storyline at all.
+
+== Gallery ==
+<gallery>
+File:Futuristic Juggernaut's Stats.png|'''Futuristic Juggernaut's''' stats
+File:In-game appearance of Futuristic Juggernaut.png|in-game appearance of '''Futuristic Juggernaut'''
+</gallery>{{UnitsNavbox}}
+
+[[Category:Units]]
+[[Category:Toilets]]
+[[Category:Mythic]]
+[[Category:Splash]]

@@ -1,0 +1,51 @@
+{{Unobtainable}}
+{{DISPLAYTITLE:{{Rare|{{PAGENAME}}}}}}{{Stub}}{{SeeAlsoNotice|Note1=[[Upgraded Mafia Toilet]]}}{{Units infobox (this one)|unit_name={{Rare|Mafia Toilet}}|image1=MafiaToiletUnit.png|cost=1000|base_sell_price=500|type=Splash|levels=2|rarity={{Rare|[[Rare]]}}|species=[[Toilets (Units)|Toilets]]}}
+
+== Overview ==
+The mafia toilet is a [[Rare]] unit that was added in the [[Episode 77 Part 1 Update]] he’s only a [[Rare]] but he’s pretty strong though.
+
+== Appearance ==
+The Mafia Toilet has a metal toilet bowl, with two spider legs and what seems to be a breastplate for the toilet. It also has multiple weapons such as a saw, a toxic waste barrel, a jetpack(?), and a blaster.
+
+== Stats Table ==
+{| class="fandom-table"
+|+'''Stats'''
+!'''Levels'''
+!'''Price'''
+!'''Total Price'''
+!'''Damage'''
+!'''Cooldown'''
+!'''Range'''
+!'''Explosion Radius'''
+!'''Sell Price'''
+!'''DPS'''
+!'''DPS/$ (Cost Efficiency)'''
+|-
+|LV1
+|'''$1000'''
+|'''$1000'''
+|6000
+|3
+|14
+|0
+|'''$500'''
+|2000
+|2
+|-
+|LV2
+|'''$7000'''
+|'''$8000'''
+|13500
+|1.5
+|30
+|10
+|'''$4000'''
+|9000
+|1.125
+|}
+[[Category:Rare]]
+[[Category:Toilets]]
+[[Category:Units]]
+[[Category:Toilet Units]]
+[[Category:Acid]]
+[[Category:Saw]]

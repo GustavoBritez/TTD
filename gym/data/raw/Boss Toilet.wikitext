@@ -1,0 +1,152 @@
+{{SeeAlsoNotice|Note1=[[Boss Toilet (Unit)]]}}{{Toilet_Infobox|image1=<gallery>
+BossToiletBossIcon.png|Boss Icon
+Boss toilet no bg.png|In-Game
+</gallery>|description=He is the first toilet in easy mode and appears only in easy mode and turkey mode|species=Toilets|health=∼15000|speed=Very Slow|wave_debut=*Easy: Wave 20
+*Medium: Wave 15
+*Hard: Wave 10
+*Nightmare: Wave 5|modes=All|Other names=G-Man Toilet
+G-Toilet
+Gimmy
+Bald G-Man
+Boss Baby (by Gravycatman)|title1=Boss Toilet}}
+== Overview ==
+'''Boss Toilet''' is the final boss of [[Easy Mode]], and has 3 other, stronger variants. They are the [[Boss Toilet 2.0]],[[Boss Toilet 3.0]] and the [[Boss Toilet 4.0]]. The Boss Toilet has a high amount of HP, but is very slow to make it up. It does not have any stunning abilities, which makes it easier to defeat, but it appears very early in the game in [[Hard Mode|Hard]], [[Nightmare Mode|Nightmare]], and Abysmal Mode.
+
+== Waves ==
+
+=== Easy Mode ===
+{| class="fandom-table"
+|+
+!'''Wave'''
+!'''Health'''
+!'''Amount'''
+|-
+|Wave 20
+|38,500 HP
+|1x
+|}
+
+=== Medium Mode ===
+{| class="fandom-table"
+|+
+!Wave
+!Health
+!Amount
+|-
+|Wave 15
+|31,000 HP
+|1x
+|-
+|Wave 16
+|32,500 HP
+|1x
+|-
+|Wave 18
+|34,000 HP
+|1x
+|-
+|Wave 19
+|35,500 HP and 37,000 HP
+|2x
+|-
+|Wave 20
+|38,500 HP
+|1x
+|-
+|Wave 22
+|41,000 HP
+|1x
+|-
+|Wave 24
+|43,000 HP and 44,500 HP
+|3x
+|-
+|Wave 25
+|46,000
+|1x
+|-
+|Wave 28
+|49,000 HP and 50,500 HP
+|2x
+|-
+|Wave 29
+|52,000 HP
+|1x
+|-
+|Wave 30
+|53,500 HP
+|1x
+|}
+
+=== Hard Mode ===
+Wave 10: ? HP x1
+
+Wave  14: ? HP x?
+
+Wave 17: ? HP x?
+
+Wave 48:|? HP x?
+
+Wave 49:|? HP x?
+
+Wave 50:|? HP x?
+
+=== Nightmare Mode ===
+{| class="fandom-table"
+|+
+!Wave
+!Health
+!Amount
+|-
+|Wave 5
+|14,500 HP
+|1x
+|-
+|Wave 6
+|16,000 HP
+|1x
+|-
+|Wave 10
+|23,500
+|3x
+|-
+|Wave 14
+|29,500
+|5x
+|}
+
+=== Abysmal Mode ===
+
+== Strategy ==
+* The Boss Toilet has a very high amount of health for when it appears, so with normal defenses it will not be able to be taken out.
+* Use units like [[Ninja Cameraman]], [[Dark Speakerman]], or possibly [[Camera Helicopter]] to defeat this enemy.
+* You can tank one Boss Toilet, as it does 250 damage to the base, but this means that you cannot take any more damage from bosses unless your base is healed by [[Large Scientist Cameraman]] or [[Healer TV Woman]].
+* In Easy Mode, the Boss Toilet is the final boss. It has about 40,000 HP, which you can defeat with the normal Speakerman if you sell and replace your units to attack the Boss Toilet. 
+
+== Gallery ==
+<gallery>
+Bosstoiletthumbnail.png
+File:Boss toilet no bg.png|boss toilet
+File:Boss toilet boss toilet.png|noob players worst fears
+</gallery>
+
+== Trivia ==
+
+* His old damage was 50 before New Lobby update.
+* Most people lose the game in [[Nightmare Mode]] due to the boss toilet and [[Flying Buzzsaw Toilet]].
+* It is most likely based off of the [https://skibidi-toilet.fandom.com/wiki/G-Toilet G-Toilet], like the other Boss Toilets. However, we do not know if it is actually based off of it. This was later confirmed when [[Boss Toilet 2.0]] and [[Boss Toilet 3.0]] were added in the [[Episode 57 Update]].
+* It only deals 250 damage, despite being a 'boss' toilet because players with only the Speakerman unit can't beat the Boss Toilet in Easy Mode. Meaning in Toilet City, as long as you have over 250 health, you can still win the match, even if it still reaches the end.
+* In [[Hard Mode|har]][[Nightmare Mode|der]] [[Abysmal Mode (Halloween Event)|gam]][[Christmas Mode|emo]][[Endless Mode|des]], the Boss Toilet is very common, being spammed in quick succession for later waves so you might need AoE units.
+* A Wave 1 Boss Toilet have 10000HP, adding 1500HP for it per round.
+
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Boss Toilets]]
+[[Category:Slow Toilets]]
+[[Category:Characters]]
+[[Category:Toilet]]
+[[Category:Non-Stun Toilets]]
+[[Category:Bosses]]
+[[Category:Male]]
+[[Category:Man Face]]
+[[Category:Valentines Event 2025]]

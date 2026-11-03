@@ -1,0 +1,41 @@
+{{Toilet_Infobox|image1=HelicopterBombToilet.png|caption-image1=Toilet.|description=|species=Toilet|health=???|speed=Slow|wave_debut=???|modes=Nightmare, endless|ability_1=Bomb Drop: Drops a bomb, creating an explosion which will stun all units near it.}}
+== Overview ==
+The '''Helicopter Bomb Toilet''' is an [[Enemies|enemy]] that released in the [[Episode 62 Update]]. It drops a bomb every 15 seconds, creating an explosion that has a splash effect, stunning [[units]] near the bomb.
+== Waves ==
+=== [[Nightmare Mode]] ===
+* Wave 43: x1
+* Wave 50: x1
+== Health ==
+
+=== [[Nightmare Mode]] ===
+Wave 43: 876,000 HP
+
+Wave 50: TBA
+== Stratgy ==
+* The [[Helicopter Bomb Toilet]] is very strong, so you should use high DPS [[units]] to take this down.
+* It's specialty is that it can drop a bomb every 15 seconds, stunning all units in range. As it does not stun frequently, you can use [[Medic Cameraman]] or [[Camera Repair Drone]] to unstun units that are stunned from the bomb it drops.
+* You can use Level 5/6 [[Upgraded Titan Cameraman]], [[TV Woman]], or [[Mech Cameraman]] to slow this enemy down, making it an easier target.
+* [[Upgraded Titan Speakerman]] at max level can block 2 stuns from this and other [[enemies]]. However, this will not protect your other [[units]], as '''Helicopter Bomb Toilet''' will stun all units in a certain radius.
+
+== Trivia ==
+
+* It is currently the one of the [[enemies]] that do splash stunning.
+* It was based off the [https://skibidi-toilet.fandom.com/wiki/Bomber_Plane_Skibidi_Toilet?so=search Bomber Plane Skibidi Toilet].
+* It was on the cover of the game during the [[Toilet Tower Defense Back Update]] and the [[Episode 62 Update]]
+*
+
+== Gallery ==
+<gallery>
+File:HelicopterBombToilet.png|transparent
+File:Helicopterbombtoilet.png|in-game
+</gallery>
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:Stunners]]
+[[Category:Characters]]
+[[Category:Splash]]
+[[Category:Helicopters]]
+
+
+[[Category:Rocket]]
+[[Category:Rockets]]

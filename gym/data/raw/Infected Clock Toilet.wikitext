@@ -1,0 +1,9 @@
+{{PageNotFinished|reason=Information}}{{Toilet_Infobox|image1=InfectedClockToiletManoftaj2.png|species=[[Enemies|Toilets]]|appearances=[[Endless Mode]]|wave_debut=200|modes=[[Endless Mode]]|health=85,397,954,560|ability_1=Immune to timestops from clockmen}}
+
+== Overview ==
+The Infected Clock Toilet was added in the [[Infected Crate Update]]. (most likely)
+
+It spawns on wave 200 and has 85,397,954,560 health. This toilet doesn't have much information yet as its seen in [https://www.youtube.com/watch?v=4bHjzCon4vM Manoftaj's video.]
+[[Category:Toilets]]
+[[Category:Enemies]]
+[[Category:2025]]

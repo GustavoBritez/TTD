@@ -1,0 +1,32 @@
+{{Toilet_Infobox|image1=Forklift_toilet.png|species=Toilets|health=279,500|speed=Average|wave_debut=Wave 22|modes=Nightmare, endless, event mode, [[Mount Fuji]] nightmare mode|ability_1=Forklift Carry: Carries a toilet that has less health and is slower than it. If this enemy dies, the Forklift Toilet can grab another one with a cooldown of 1 second.}}
+== Overview ==
+The '''Forklift Toilet''' is a toilet. It has a hard hat and can grab other units and use them as a shield. 
+
+== Appearance ==
+It is a medium sized toilet with long arms which can hold toilets.
+
+== Waves ==
+Usually seen in [[North Pole]] ([[Christmas Mode]]) around wave 30 and Wave 22  in [[Nightmare Mode]].
+
+== Abilities ==
+Pick-up: Picks up a toilet with less Health and less Speed and carries it until it or itself dies. If the toilet it picked up dies it can pick up another [[Toilet]] in 1 second.
+
+== Strategy ==
+If using strong units, make one of the strong unit attack “strongest” then it will attack the fork toilet rather than the toilet in the arms, but if another toilet like the scientist is behind that would pose a problem. AoE units are recommended.
+
+== Trivia ==
+its based on the [https://skibidi-toilet.fandom.com/wiki/Forklift_Constructor_Skibidi_Toilet Forklift Constructor Skibidi Toilet]
+
+== Gallery ==
+<gallery>
+File:Fork lift toilet.png|Forklift toilet carries frost toilet
+</gallery>
+
+== Update Log ==
+[[Category:Toilets]]
+[[Category:Toilet]]
+[[Category:Enemies]]
+[[Category:Jetpack]]
+[[Category:Mid-air]]
+[[Category:Flying]]
+[[Category:Holdable Toilets]]

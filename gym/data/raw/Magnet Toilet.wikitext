@@ -1,0 +1,38 @@
+{{Toilet_Infobox|species=[[Enemies|Toilets]]|health=192,500|title1=Magnet Toilet|image1=<gallery>
+MagnetToiletBossIcon.png|Boss Icon
+Magnet Toilet.png|In-Game
+</gallery>|modes=[[Time Factory]]
+[[Drill World (Map)]]
+[[Drill Forest]]|abilities=Stun|ability_1=Stun|ability_2=}}
+
+== Overview ==
+The Magnet Toilet is a small red flying toilet that can stun [[units]]. It appears in the map [[Time Factory]] in the [[Episode 73 Part 2 Update|Clock Event]].
+
+== Appearance ==
+The Magnet Toilet is a bright red toilet with helicopter blades attached to its tank. It's smiling, with its eyes covered with a metallic helmet, and a horseshoe magnet attached to its forehead.
+
+== Strategies ==
+This [[Enemies|toilet]] is really easy to defeat, you can use any high DPS unit such as the [[Clock Spider]].
+
+Alternatively, use stun bait units such as [[Leprechaun Cameraman]] or [[Shield Cameraman]].
+
+== Trivia ==
+
+* This toilet is from the Dom Studio's Skibidi Toilet Multiverse fan series.
+* This is the first toilet added to the game from Dom Studio's Multiverse Series
+
+[[Category:Helicopters]]
+[[Category:Magnet users]]
+[[Category:Magnet toilets]]
+[[Category:Red toilets]]
+[[Category:Multiverse toilets]]
+[[Category:Toilets]]
+[[Category:Characters]]
+
+[[Category:Enemies]]
+
+[[Category:Magnet]]
+[[Category:Mid-air]]
+[[Category:Event Enemies]]
+[[Category:Flying]]
+[[Category:Off-Track Enemies]]

@@ -1,0 +1,34 @@
+{{Stub}}{{SeeAlsoNotice|Note1=[[IamEvan]] , the unit version}}{{Toilet_Infobox|title1=iamEvan|image1=evan.png|description=Description|species=Robloxian|health=10 (base; can be changed by [[Developers|admins]]) (watch LTkrazy’s vid)|speed=Extremely Fast|appearances=N/A (Spawned by Commands)|wave_debut=N/A (Spawned by Commands)|modes=N/A (Spawned by Commands)}}
+
+== Overview ==
+'''iamEvan''' is a secret [[Enemies|enemy]] that can only be spawned by admins, and when spawned it has a base health of 10. It is based off of Toilet Tower Defense's [[Developers|programmer]] iamEvan.
+
+== Appearance ==
+'''IamEvan''' looks exactly like his [https://www.roblox.com/users/1391475335/profile Roblox Avatar], and his legs are bent to the back and floating.
+
+== Waves ==
+This enemy does not spawn anywhere and only can be spawned by an admin.
+== Strategy ==
+*This enemy's base health is very weak, being only 10. 
+*The admin who spawned this enemy can change the wave health it will spawn at, possibly making it have infinite health.
+== Trivia ==
+
+* This enemy is based off of Toilet Tower Defense's code scripter [https://www.youtube.com/@iamEvan_/featured iamEvan].
+*This enemy was showcased in one of iamEvan's videos and one of Telanthric's videos.
+*Since the admins can change its health, it could possibly have negative health.
+*
+
+== Gallery ==
+<gallery>
+File:IamEvan enemie.png|iamEvan in the Green Toilet Fortress Map.
+File:Green evan.png|Green iamEvan
+File:IamEvan with 1000 health Behind 2 Mutant Toilet.png|iamEvan with 1000 health Behind 2 Mutant Toilet
+</gallery>
+{{DISPLAYTITLE:iamEvan}}
+[[Category:Enemies]]
+[[Category:Human]]
+[[Category:Humans]]
+[[Category:Incomplete pages]]
+[[Category:Outdated pages]]
+[[Category:Stub]]
+[[Category:Fast]]

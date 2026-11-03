@@ -1,0 +1,27 @@
+{{Stub}}
+
+== Overview ==
+{{Toilet Infobox|title1=Angelic Toilet|image1=Angelic_Toilet.png|species=Toilet|health=286|speed=Moderately Slow|wave_debut=N/A|modes=Drill Event
+Halloween graveyard 2024|ability_1=Stun the units}}
+The Angelic Toilet is a hidden [[Enemies|Toilet]] that has not been used in the game, it has recently been added to the game after an update. It has 286 HP. it also stuns. 
+
+== Appearance ==
+The Angelic Toilet has a white toilet, a halo and a grey torso.
+
+== Waves ==
+This unit spawns only in Drill World Easy, Drill World Hard and Halloween Graveyard 2024. 
+
+== Strategy ==
+The '''Angelic Toilet''' is a very easy [[Enemies|enemy]] to defeat, being both low health and kind of slow. Any unit can be used to defeat this enemy except for money troops.
+
+== Trivia ==
+
+* This enemy is based off of the [https://skibidi-toilet.fandom.com/wiki/Saint_Skibidi_Toilet Saint Skibidi Toilet] from the Skibidi Toilet Series.
+* The Angelic Toilet was discovered by a Youtuber Name '''Hoplas2.'''
+
+[[Category:Toilets]]
+[[Category:Slow Toilets]]
+[[Category:Enemies]]
+[[Category:Large]]
+[[Category:Male Characters]]
+[[Category:Incomplete pages]]

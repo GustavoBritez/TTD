@@ -1,0 +1,37 @@
+{{Toilet_Infobox|title1=1x1x1x1|image1=<gallery>
+1x1x1x1Icon.png|Boss Icon
+1x1x1x1.png|In-Game
+</gallery>|species=Robloxian|health=623,103 HP|speed=Fast|modes=All|wave_debut=[[Evil Wave]]|appearances=Classic Event}}
+
+==Overview ==
+'''1x1x1x1''' was an [[IamEvan (Enemy)|enemy]] that would spawn after the final wave in the [[Crossroads]] [[Maps|map]]. The wave will say ‘[[Evil Wave|evil wave]]’ but there will sadly not be a reward of 1,000 [[Coins|coins]]. The wave shows a cutscene of the 1x1x1x1 turning into [[Classic 1x1x1x1]] and holding a Tix. (Confusing) '''1x1x1x1'''  is weak, being able to kill him with a few shots.
+
+==Appearance==
+The 1x1x1x1 is an entity with transparent body, you can see his bone through his body. He looks angry and wears a domino. He has pitch black skin and a green torso.
+
+==Strategy==
+This [[Enemies|enemy]] does not have high health, so the easiest method is to use [[Classic Cameraman]]. 
+You can also use [[Mythic|Mythics]] or [[Godly|Godlies]]. [[Clock Spider]] can also be very useful because of the high damage.
+
+== Trivia ==
+
+* People used to think that 1x1x1x1 was a hacker, but Roblox soon debunked this theory.
+* 1x1x1x1 was the main character of The Roblox Classic event.
+* 1x1x1x1 can only appear on [[Crossroads]].
+* You can 3 shot him with 15 maxed out [[Classic Cameraman]].
+* He used to be easy to kill, and is one of the most weakest bosses in the game.
+* He used to come on any gamemode.
+* He was about 2.3 times weaker than the [[Classic 1x1x1x1]].
+
+== Gallery ==
+<gallery>
+File:1x1x1x1Icon.png|Boss icon.
+File:Moments away from death.png|moments before disaster
+File:CutsceneEventClassic.png|Him in the cutscene.
+File:Normal?.png|Him in his Robloxian old form
+File:AngryFace.png|His old version angry and holding a tix
+</gallery>
+[[Category:Characters]]
+[[Category:Enemies]]
+[[Category:Event Enemies]]
+[[Category:Bosses]]
