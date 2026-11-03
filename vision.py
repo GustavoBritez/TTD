@@ -100,11 +100,67 @@ class VisionSystem:
         return -1
 
     def find_skip_button(self):
-        """Busca el botn 'Saltar' en la barra superior (soporta clean y normal)."""
+        """Busca el botón 'Saltar' en la barra superior (soporta clean y normal)."""
         res = self.find_template("btn_saltar_clean.png", threshold=0.70)
         if res is None:
             res = self.find_template("btn_saltar_oleada.png", threshold=0.65)
         return res
+
+    def find_autoskip_red_button(self, screen=None):
+        """
+        Detecta específicamente el botón cuadrado ROJO de 'Saltar automáticamente'
+        en la parte superior central de la pantalla.
+        Si ya está en VERDE (activado), devuelve None para no desactivarlo.
+        """
+        try:
+            if screen is None:
+                screen = self.grab_screen()
+            h, w = screen.shape[:2]
+
+            # Zona superior central del HUD donde aparece 'Saltar automáticamente'
+            x1, x2 = int(w * 0.38), int(w * 0.66)
+            y1, y2 = int(h * 0.02), int(h * 0.15)
+            roi = screen[y1:y2, x1:x2]
+
+            # 1. Búsqueda por plantilla multi-escala del recuadro rojo + validación estricta de color rojo
+            tpl_path = os.path.join(TEMPLATES_DIR, "btn_autoskip_red_box.png")
+            if os.path.exists(tpl_path):
+                tpl_box = cv2.imread(tpl_path, cv2.IMREAD_COLOR)
+                if tpl_box is not None:
+                    for scale in (1.0, 0.85, 1.15):
+                        th = int(tpl_box.shape[0] * scale)
+                        tw = int(tpl_box.shape[1] * scale)
+                        if roi.shape[0] < th or roi.shape[1] < tw:
+                            continue
+                        tpl_s = cv2.resize(tpl_box, (tw, th)) if scale != 1.0 else tpl_box
+                        res = cv2.matchTemplate(roi, tpl_s, cv2.TM_CCOEFF_NORMED)
+                        _, max_val, _, max_loc = cv2.minMaxLoc(res)
+                        if max_val >= 0.62:
+                            cx = x1 + max_loc[0] + tw // 2
+                            cy = y1 + max_loc[1] + th // 2
+                            patch = screen[max(0, cy - 5):min(h, cy + 5), max(0, cx - 5):min(w, cx + 5)]
+                            if patch.size > 0:
+                                b, g, r = patch.mean(axis=(0, 1))
+                                if r > 180 and g < 70 and b < 70:
+                                    return (cx, cy)
+
+            # 2. Respaldo por contorno cuadrado rojo sólido en HSV dentro del HUD superior
+            hsv = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
+            m1 = cv2.inRange(hsv, np.array([0, 160, 160]), np.array([8, 255, 255]))
+            m2 = cv2.inRange(hsv, np.array([172, 160, 160]), np.array([180, 255, 255]))
+            red_mask = cv2.bitwise_or(m1, m2)
+            contours, _ = cv2.findContours(red_mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+            for c in sorted(contours, key=cv2.contourArea, reverse=True):
+                area = cv2.contourArea(c)
+                if 150 <= area <= 1200:
+                    bx, by, bw, bh = cv2.boundingRect(c)
+                    aspect = float(min(bw, bh)) / max(bw, bh) if max(bw, bh) > 0 else 0
+                    solidity = area / float(bw * bh) if (bw * bh) > 0 else 0
+                    if aspect >= 0.75 and solidity >= 0.75:
+                        return (x1 + bx + bw // 2, y1 + by + bh // 2)
+        except Exception:
+            pass
+        return None
 
     def find_book_icon(self):
         """Busca el icono azul del libro 'Unidades' para abrir el Gerente de Unidad."""
@@ -114,15 +170,43 @@ class VisionSystem:
         return res
 
     def find_upgrade_button(self):
-        """Busca el botn verde 'Mejora' del Gerente de Unidad automticamente con OpenCV"""
-        return self.find_template("btn_mejora.png", threshold=0.70)
+        """
+        Busca el botón verde 'Mejora' del Gerente de Unidad automáticamente con OpenCV.
+        Usa primero la cabecera sin precio fijo ('btn_mejora_header.png') para soportar
+        mejoras de cualquier costo ($200, $400, $1200, etc.) y verifica que sea color VERDE activo.
+        """
+        try:
+            screen = self.grab_screen()
+            h, w = screen.shape[:2]
+            for tpl_name in ("btn_mejora_header.png", "btn_mejora.png"):
+                path = os.path.join(TEMPLATES_DIR, tpl_name)
+                if not os.path.exists(path):
+                    continue
+                tpl = cv2.imread(path, cv2.IMREAD_COLOR)
+                if tpl is None:
+                    continue
+                th, tw = tpl.shape[:2]
+                res = cv2.matchTemplate(screen, tpl, cv2.TM_CCOEFF_NORMED)
+                _, max_val, _, max_loc = cv2.minMaxLoc(res)
+                if max_val >= 0.70:
+                    cx = max_loc[0] + tw // 2
+                    cy = max_loc[1] + th // 2
+                    patch = screen[max(0, max_loc[1]):min(h, max_loc[1] + min(20, th)), max(0, max_loc[0]):min(w, max_loc[0] + tw)]
+                    if patch.size > 0:
+                        b, g, r = patch.mean(axis=(0, 1))
+                        if g > 110 and g > r * 1.15:
+                            return (cx, cy)
+        except Exception:
+            pass
+        return None
 
     def find_close_button(self):
-        """Busca el botn rojo 'Salida' del Gerente de Unidad automticamente con OpenCV"""
-        res = self.find_template("btn_salida_clean.png", threshold=0.70)
-        if res is None:
-            res = self.find_template("btn_salida.png", threshold=0.65)
-        return res
+        """
+        El botón rojo del Gerente de Unidad corresponde a 'VENDER', no a 'Salida'.
+        Para evitar vender unidades por error, el menú se cierra alternando
+        el icono del libro ('find_book_icon'). Retorna None.
+        """
+        return None
 
     def get_lava_center_from_image(self, bgr_img, save_debug: bool = False):
         """

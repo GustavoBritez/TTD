@@ -4,89 +4,69 @@
         "slot": 1,
         "name": "Granja",
         "cost": 200,
-        "canvas_x": 495,
-        "canvas_y": 360,
-        "game_x": 901,
-        "game_y": 578
-    },
-    {
-        "id": 2,
-        "slot": 1,
-        "name": "Granja",
-        "cost": 200,
-        "canvas_x": 525,
-        "canvas_y": 345,
-        "game_x": 956,
-        "game_y": 554
+        "canvas_x": 545,
+        "canvas_y": 189,
+        "game_x": 992,
+        "game_y": 303
     },
     {
         "id": 3,
         "slot": 1,
         "name": "Granja",
         "cost": 200,
-        "canvas_x": 545,
-        "canvas_y": 310,
-        "game_x": 992,
-        "game_y": 498
+        "canvas_x": 583,
+        "canvas_y": 334,
+        "game_x": 1061,
+        "game_y": 536
     },
     {
         "id": 4,
         "slot": 1,
         "name": "Granja",
         "cost": 200,
-        "canvas_x": 555,
-        "canvas_y": 270,
-        "game_x": 1011,
-        "game_y": 433
+        "canvas_x": 465,
+        "canvas_y": 239,
+        "game_x": 846,
+        "game_y": 384
     },
     {
         "id": 5,
         "slot": 2,
         "name": "Mejor Guerrero",
         "cost": 1200,
-        "canvas_x": 385,
-        "canvas_y": 275,
-        "game_x": 701,
-        "game_y": 442
+        "canvas_x": 473,
+        "canvas_y": 361,
+        "game_x": 861,
+        "game_y": 580
     },
     {
         "id": 6,
         "slot": 3,
         "name": "Titanes",
         "cost": 1050,
-        "canvas_x": 335,
-        "canvas_y": 245,
-        "game_x": 610,
-        "game_y": 393
+        "canvas_x": 569,
+        "canvas_y": 269,
+        "game_x": 1036,
+        "game_y": 432
     },
     {
         "id": 7,
         "slot": 3,
         "name": "Titanes",
         "cost": 1050,
-        "canvas_x": 330,
-        "canvas_y": 295,
-        "game_x": 601,
-        "game_y": 474
+        "canvas_x": 434,
+        "canvas_y": 291,
+        "game_x": 790,
+        "game_y": 467
     },
     {
-        "id": 8,
-        "slot": 3,
-        "name": "Titanes",
-        "cost": 1050,
-        "canvas_x": 420,
-        "canvas_y": 215,
-        "game_x": 765,
-        "game_y": 345
-    },
-    {
-        "id": 9,
-        "slot": 4,
-        "name": "Soporte",
-        "cost": 1000,
-        "canvas_x": 370,
-        "canvas_y": 295,
-        "game_x": 674,
-        "game_y": 474
+        "id": 7,
+        "slot": 1,
+        "name": "Granja",
+        "cost": 200,
+        "canvas_x": 491,
+        "canvas_y": 148,
+        "game_x": 894,
+        "game_y": 237
     }
 ]

@@ -1050,59 +1050,34 @@ class TTDGuiApp(ctk.CTk):
 
 
 
-            # 3. Auto-Skip Inteligente: Detección automática por plantilla o configuración
-
+            # 3. Auto-Skip Inteligente: Garantizar que 'Saltar automáticamente' esté en VERDE
             self.current_objective = "VERIFICAR AUTO-SKIP"
-
-            skip_pt = self.vision.find_skip_button()
-
-            if skip_pt:
-
-                askip_x, askip_y = skip_pt
-
-            elif pos.get("autoskip_button"):
-
-                askip_x = pos["autoskip_button"]["x"]
-
-                askip_y = pos["autoskip_button"]["y"]
-
+            red_skip_pt = self.vision.find_autoskip_red_button()
+            if red_skip_pt:
+                self.controller.click_at(red_skip_pt[0], red_skip_pt[1], delay=0.25)
+                self.log(f"Auto-Skip detectado en ROJO -> Clic en ({red_skip_pt[0]}, {red_skip_pt[1]}) para ponerlo en VERDE.")
+            elif pos.get("autoskip_button") and self.vision.is_autoskip_red(pos["autoskip_button"]["x"], pos["autoskip_button"]["y"]):
+                ax, ay = pos["autoskip_button"]["x"], pos["autoskip_button"]["y"]
+                self.controller.click_at(ax, ay, delay=0.25)
+                self.log(f"Auto-Skip (config) en ROJO -> Clic en ({ax}, {ay}) para ponerlo en VERDE.")
             else:
-
-                askip_x, askip_y = 785, 32
-
-
-
-            if self.vision.is_autoskip_red(askip_x, askip_y):
-
-                self.controller.click_at(askip_x, askip_y)
-
-                self.log(f"Auto-Skip desactivado (rojo) -> Clic para activarlo en ({askip_x}, {askip_y}).")
-
-            else:
-
-                self.log("Auto-Skip ya estaba activado (verde). No se toca.")
-
+                self.log("Auto-Skip ya está en VERDE (oleadas rápidas activas).")
             time.sleep(0.5)
 
-
-
             # 4. Réplica del Plano Visual (Blueprint)
-
             pending_units = [dict(item) for item in self.blueprint_items]
 
-
-
             self.current_objective = "EJECUTANDO PLANO DE TROPAS"
-
             match_loop_start = time.time()
 
-
-
             while self.is_running:
-
                 elapsed = time.time() - match_loop_start
 
-
+                # A0. Vigilancia continua: si el botón 'Saltar automáticamente' está en ROJO, pasarlo a VERDE inmediatamente
+                red_skip_pt = self.vision.find_autoskip_red_button()
+                if red_skip_pt:
+                    self.controller.click_at(red_skip_pt[0], red_skip_pt[1], delay=0.2)
+                    self.log(f"⚡ Auto-Skip estaba en ROJO -> Activado a VERDE en ({red_skip_pt[0]}, {red_skip_pt[1]}).")
 
                 # A. Leer Dinero actual con OCR
 
@@ -1162,7 +1137,7 @@ class TTDGuiApp(ctk.CTk):
 
                     self.current_objective = "MEJORAS & COMBATE"
 
-                    if money >= 200 or money == 0:
+                    if money >= 200 or money <= 0:
 
                         book_pt = self.vision.find_book_icon()
 
@@ -1186,15 +1161,9 @@ class TTDGuiApp(ctk.CTk):
 
 
 
-                            close_pt = self.vision.find_close_button()
-
-                            if close_pt:
-
-                                self.controller.click_at(close_pt[0], close_pt[1], delay=0.2)
-
-                            else:
-
-                                self.controller.click_at(book_pt[0], book_pt[1], delay=0.2)
+                            # Cerrar el Gerente de Unidad haciendo clic nuevamente en el icono del libro.
+                            # Se evita buscar o hacer clic en el boton rojo porque corresponde a VENDER.
+                            self.controller.click_at(book_pt[0], book_pt[1], delay=0.2)
 
 
 

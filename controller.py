@@ -48,16 +48,17 @@ class GameController:
         pydirectinput.press('x')
         time.sleep(0.05)
 
-    def upgrade_via_manager(self, book_x: int, book_y: int, upgrade_x: int, upgrade_y: int, close_x: int, close_y: int):
+    def upgrade_via_manager(self, book_x: int, book_y: int, upgrade_x: int, upgrade_y: int, close_x: int = None, close_y: int = None):
         """
         Flujo de mejora oficial mediante el Gerente de Unidad:
-        1. Clic en el libro azul 'Unidades'
-        2. Clic en el botn verde 'Mejora'
-        3. Clic en el botn rojo 'Salir' para volver al modo normal
+        1. Clic en el libro azul 'Unidades' para abrir
+        2. Clic en el botón verde 'Mejora'
+        3. Clic nuevamente en el libro azul para cerrar (evitando el botón rojo de Vender)
         """
         self.click_at(book_x, book_y, delay=0.3)
         self.click_at(upgrade_x, upgrade_y, delay=0.2)
-        self.click_at(close_x, close_y, delay=0.2)
+        # Se cierra alternando el icono del libro para evitar presionar 'Vender'
+        self.click_at(book_x, book_y, delay=0.2)
 
     def calibrate_camera(self):
         """
