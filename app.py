@@ -32,7 +32,18 @@ BLUEPRINT_FILE = "blueprint.json"
 
 STRATEGIES_DIR = os.path.join(os.path.dirname(__file__), "strategies")
 
-MAP_ASSET_PATH = os.path.join(os.path.dirname(__file__), "assets", "map_endless.jpg")
+_POINTS_MAP_PATH = os.path.join(
+    os.path.dirname(__file__),
+    "templates",
+    "Mapa_Endless",
+    "Puntos_De_Colocacion",
+    "Puntos_de_unidades_Colocacion.png",
+)
+MAP_ASSET_PATH = (
+    _POINTS_MAP_PATH
+    if os.path.exists(_POINTS_MAP_PATH)
+    else os.path.join(os.path.dirname(__file__), "assets", "map_endless.jpg")
+)
 
 
 
@@ -106,7 +117,8 @@ class TTDGuiApp(ctk.CTk):
 
         self.selected_slot = tk.IntVar(value=1)
 
-        self.blueprint_items = self.load_blueprint()
+        self.blueprint_items = self._ensure_point_ids(self.load_blueprint())
+        self.placement_anchor = None  # Posición en vivo del pozo central tras llegar a la Zona Segura
 
         self.canvas_width = 750
 
@@ -127,6 +139,10 @@ class TTDGuiApp(ctk.CTk):
         self.setup_ui()
 
 
+
+        # Parada de emergencia global (F12)
+        self.setup_hotkeys()
+        self.last_placement_time = time.time()
 
         # Actualizador de UI en segundo plano
 
@@ -195,6 +211,35 @@ class TTDGuiApp(ctk.CTk):
         return []
 
 
+
+    def _ensure_point_ids(self, items):
+        """
+        Garantiza que cada unidad del plano use un Punto oficial del usuario (point_id).
+        Planos antiguos/sin point_id se ajustan al punto oficial libre más cercano.
+        """
+        try:
+            from placement_points import nearest_point_id
+            cfg = self.vision.get_placement_config()
+            valid_ids = {int(p["id"]) for p in cfg["points"]}
+            by_id = {int(p["id"]): p for p in cfg["points"]}
+            used = set()
+            for it in items:
+                pid = it.get("point_id")
+                if pid is not None and int(pid) in valid_ids and int(pid) not in used:
+                    it["point_id"] = int(pid)
+                else:
+                    pid = nearest_point_id(it.get("game_x", 683), it.get("game_y", 384), cfg, exclude=used)
+                    it["point_id"] = pid
+                if it["point_id"] is not None:
+                    used.add(it["point_id"])
+                    p = by_id[it["point_id"]]
+                    if p.get("map"):
+                        it["game_x"], it["game_y"] = int(p["map"][0]), int(p["map"][1])
+                        it["canvas_x"] = int(round(p["map"][0] * 750 / 1366.0))
+                        it["canvas_y"] = int(round(p["map"][1] * 478 / 768.0))
+        except Exception:
+            pass
+        return items
 
     def save_blueprint(self):
 
@@ -624,49 +669,51 @@ class TTDGuiApp(ctk.CTk):
 
 
 
+    def _official_points(self):
+        """Puntos oficiales del usuario (Puntos_de_unidades_Colocacion.png) en el marco del mapa del plano."""
+        cfg = self.vision.get_placement_config()
+        return [p for p in cfg["points"] if p.get("map")]
+
+    def _point_to_canvas(self, p):
+        return (int(round(p["map"][0] * self.canvas_width / 1366.0)),
+                int(round(p["map"][1] * self.canvas_height / 768.0)))
+
     def on_map_click(self, event):
-
+        """Solo se permite colocar sobre los puntos oficiales: el clic se ajusta al punto libre más cercano."""
         cx, cy = event.x, event.y
-
         slot = self.selected_slot.get()
-
         info = UNIT_PRESETS[slot]
 
+        used = {it.get("point_id") for it in self.blueprint_items}
+        best, best_d = None, None
+        for p in self._official_points():
+            if p["id"] in used:
+                continue
+            pcx, pcy = self._point_to_canvas(p)
+            d = (pcx - cx) ** 2 + (pcy - cy) ** 2
+            if best_d is None or d < best_d:
+                best, best_d = p, d
+        if best is None:
+            self.log("⚠️ Todos los puntos oficiales ya están ocupados en el plano.")
+            return
 
-
-        game_x = int(cx * (1366 / self.canvas_width))
-
-        game_y = int(cy * (768 / self.canvas_height))
-
-
-
+        pcx, pcy = self._point_to_canvas(best)
         item = {
-
             "id": len(self.blueprint_items) + 1,
-
             "slot": slot,
-
             "name": info["name"],
-
             "cost": info["cost"],
-
-            "canvas_x": cx,
-
-            "canvas_y": cy,
-
-            "game_x": game_x,
-
-            "game_y": game_y
-
+            "canvas_x": pcx,
+            "canvas_y": pcy,
+            "game_x": int(best["map"][0]),
+            "game_y": int(best["map"][1]),
+            "point_id": int(best["id"]),
         }
 
         self.blueprint_items.append(item)
-
         self.redraw_blueprint_pins()
-
         self.save_blueprint()
-
-        self.log(f"Pin añadido: {info['name']} (Slot {slot}) en ({cx}, {cy})")
+        self.log(f"Pin añadido: {info['name']} (Slot {slot}) en Punto oficial P{best['id']}")
 
 
 
@@ -778,7 +825,7 @@ class TTDGuiApp(ctk.CTk):
 
                 with open(filename, "r") as f:
 
-                    self.blueprint_items = json.load(f)
+                    self.blueprint_items = self._ensure_point_ids(json.load(f))
 
                 self.redraw_blueprint_pins()
 
@@ -801,6 +848,17 @@ class TTDGuiApp(ctk.CTk):
     def redraw_blueprint_pins(self):
 
         self.canvas.delete("pin")
+
+        # Puntos oficiales del usuario (únicos lugares permitidos)
+        try:
+            for p in self._official_points():
+                pcx, pcy = self._point_to_canvas(p)
+                self.canvas.create_oval(pcx - 7, pcy - 7, pcx + 7, pcy + 7,
+                                        outline="#7bed9f", width=2, dash=(2, 2), tags="pin")
+                self.canvas.create_text(pcx + 13, pcy - 10, text=f"P{p['id']}",
+                                        fill="#7bed9f", font=("Arial", 8, "bold"), tags="pin")
+        except Exception:
+            pass
 
         for idx, item in enumerate(self.blueprint_items):
 
@@ -840,9 +898,26 @@ class TTDGuiApp(ctk.CTk):
 
     def log(self, text: str):
         timestamp = time.strftime("%H:%M:%S")
-        if hasattr(self, "log_textbox"):
+        self.after(0, lambda: self._append_log(timestamp, text))
+
+    def _append_log(self, timestamp: str, text: str):
+        if hasattr(self, "log_textbox") and self.log_textbox.winfo_exists():
             self.log_textbox.insert("end", f"[{timestamp}] {text}\n")
             self.log_textbox.see("end")
+
+    def setup_hotkeys(self):
+        try:
+            keyboard.add_hotkey("f12", self.emergency_stop)
+        except Exception:
+            pass
+
+    def emergency_stop(self):
+        if self.is_running:
+            self.is_running = False
+            self.status_badge.configure(text="● DETENIDO (F12)", text_color="#ff4757")
+            self.btn_toggle.configure(text="▶ INICIAR AGENTE (BUCLE INFINITO)", fg_color="#2ed573", hover_color="#26af5f")
+            self.current_objective = "DETENIDO"
+            self.log("🛑 ¡PARADA DE EMERGENCIA (F12) ACTIVADA! Agente detenido inmediatamente.")
 
     def open_gym_window(self):
         try:
@@ -857,7 +932,7 @@ class TTDGuiApp(ctk.CTk):
             messagebox.showerror("Error al abrir GYM", f"No se pudo abrir la interfaz del GYM:\n{e}")
 
     def _on_gym_blueprint_exported(self, new_blueprint):
-        self.blueprint_items = self.load_blueprint()
+        self.blueprint_items = self._ensure_point_ids(self.load_blueprint())
         self.redraw_blueprint_pins()
         self.log(f"🏆 ¡Estrategia Campeona del GYM cargada en el Bot ({len(self.blueprint_items)} unidades)!")
 
@@ -916,59 +991,69 @@ class TTDGuiApp(ctk.CTk):
 
 
     def _run_test_autocenter(self):
-
         time.sleep(3)
-
-        self.auto_center_character()
-
+        self.auto_center_character(max_steps=12, require_running=False)
         self.log("Prueba de centrado WASD completada.")
 
-
-
-    def auto_center_character(self, max_steps: int = 12):
-        self.log("🧭 Centrando personaje hacia la zona central de lava con WASD...")
+    def auto_center_character(self, max_steps: int = 16, require_running: bool = True):
+        """
+        Camina con WASD hasta la Zona Segura (mancha violeta de 'Zona Segura.png').
+        La meta es que el pozo central de lava se vea en pantalla exactamente donde estaba
+        en 'Puntos_de_unidades_Colocacion.png' (captura tomada con el personaje en la Zona Segura).
+        Al terminar guarda self.placement_anchor (pozo en vivo) para proyectar los puntos oficiales.
+        """
+        self.log("🧭 Caminando hacia la Zona Segura (violeta) junto al pozo central de lava...")
+        self.placement_anchor = None
         target_x, target_y = self.vision.get_base_map_lava_target()
-        tolerance = 18  # Píxeles de margen aceptable
+        tolerance = 14  # Píxeles de margen aceptable
+        last_pt = None
 
         for step in range(max_steps):
-            if not self.is_running and not threading.current_thread().name.startswith("Thread"):
+            if require_running and not self.is_running:
                 break
 
-            pt = self.vision.find_reference_landmark()
+            pt = self.vision.find_reference_landmark(save_debug=(step == 0))
             if not pt:
-                self.log("⚠️ No se detectó la lava central en este ángulo.")
+                self.log("⚠️ No se detectó el pozo central de lava en este ángulo.")
                 break
+            last_pt = pt
 
             px, py = pt
             dx = px - target_x
             dy = py - target_y
 
-            self.log(f"Paso {step+1}: Lava en ({px}, {py}) vs Meta ({target_x}, {target_y}) | Error: dx={dx}px, dy={dy}px")
+            self.log(f"Paso {step+1}: Pozo central en ({px}, {py}) vs Meta ({target_x}, {target_y}) | Error: dx={dx}px, dy={dy}px")
 
             if abs(dx) <= tolerance and abs(dy) <= tolerance:
-                self.log("✅ ¡Personaje alineado en el centro del mapa!")
                 break
 
-            # Duración de caminata proporcional a la distancia en píxeles (entre 0.06s y 0.28s)
+            # Duración de caminata proporcional a la distancia en píxeles (entre 0.05s y 0.40s)
             if abs(dx) > tolerance:
-                dur_x = max(0.06, min(0.28, abs(dx) / 450.0))
-                if dx > tolerance:
-                    # La lava está a la derecha -> caminar a la derecha ('d')
-                    self.controller.walk('d', duration=dur_x)
-                else:
-                    # La lava está a la izquierda -> caminar a la izquierda ('a')
-                    self.controller.walk('a', duration=dur_x)
+                dur_x = max(0.05, min(0.40, abs(dx) / 450.0))
+                # Pozo a la derecha de la meta -> caminar a la derecha ('d'); si no, a la izquierda ('a')
+                self.controller.walk('d' if dx > 0 else 'a', duration=dur_x)
 
             if abs(dy) > tolerance:
-                dur_y = max(0.06, min(0.28, abs(dy) / 450.0))
-                if dy > tolerance:
-                    # La lava está abajo -> caminar hacia abajo ('s')
-                    self.controller.walk('s', duration=dur_y)
-                else:
-                    # La lava está arriba -> caminar hacia arriba ('w')
-                    self.controller.walk('w', duration=dur_y)
+                dur_y = max(0.05, min(0.40, abs(dy) / 450.0))
+                # Pozo debajo de la meta -> caminar hacia abajo ('s'); si no, hacia arriba ('w')
+                self.controller.walk('s' if dy > 0 else 'w', duration=dur_y)
 
             time.sleep(0.15)
+
+        # Lectura final estable del ancla (pozo central) al inicio de la partida (sin unidades ni auras brillantes)
+        time.sleep(0.2)
+        final_pt = self.vision.find_reference_landmark(save_debug=True) or last_pt
+        if final_pt and abs(final_pt[0] - target_x) <= 60 and abs(final_pt[1] - target_y) <= 60:
+            self.placement_anchor = final_pt
+            inside, dist = self.vision.get_safe_zone_status(final_pt)
+            if inside:
+                self.log(f"✅ ¡Personaje en la ZONA SEGURA! (ancla pozo fijada en {final_pt}, dist={dist:.0f}px)")
+            else:
+                self.log(f"⚠️ Personaje cerca de Zona Segura ({dist:.0f}px). Ancla pozo fijada en {final_pt}.")
+        else:
+            self.placement_anchor = (target_x, target_y)
+            self.log(f"🔒 Ancla de colocación fijada en la meta de Zona Segura {(target_x, target_y)}.")
+        return self.placement_anchor
 
     def wait_for_loading_screen(self, timeout=60):
 
@@ -1059,15 +1144,9 @@ class TTDGuiApp(ctk.CTk):
             self.controller.calibrate_camera()
             time.sleep(0.8)
 
-            # 1.5 ¡NUEVO! Caminar con WASD hacia el centro del mapa (Lava)
-            self.current_objective = "CENTRANDO PERSONAJE (WASD)"
-            self.auto_center_character(max_steps=10)
-            time.sleep(0.5)
-
-            # 2. Calcular Desfase residual con ORB (ya con el personaje en el centro)
-            self.current_objective = "CALIBRANDO OFFSET FINO (ORB)"
-            dx, dy = self.vision.get_map_offset()
-            self.log(f"🎯 Offset fino post-WASD: dx={dx}px, dy={dy}px")
+            # 1.5 Caminar con WASD hacia la Zona Segura (mancha violeta en Zona Segura.png)
+            self.current_objective = "CAMINANDO A ZONA SEGURA (WASD)"
+            self.auto_center_character(max_steps=16)
             time.sleep(0.5)
 
 
@@ -1086,13 +1165,20 @@ class TTDGuiApp(ctk.CTk):
                 self.log("Auto-Skip ya está en VERDE (oleadas rápidas activas).")
             time.sleep(0.5)
 
-            # 4. Réplica del Plano Visual (Blueprint)
+            # 4. Réplica del Plano Visual (recargar los 19 puntos oficiales y el plano actualizado)
+            self.vision.reload_placement_config()
+            self.blueprint_items = self._ensure_point_ids(self.load_blueprint())
             pending_units = [dict(item) for item in self.blueprint_items]
 
             self.current_objective = "EJECUTANDO PLANO DE TROPAS"
             match_loop_start = time.time()
 
             while self.is_running:
+                if not self.controller.is_roblox_active():
+                    self.log("⚠️ Roblox no está en primer plano. Esperando foco para interactuar...")
+                    time.sleep(2.0)
+                    continue
+
                 elapsed = time.time() - match_loop_start
 
                 # A0. Vigilancia continua: si el botón 'Saltar automáticamente' está en ROJO, pasarlo a VERDE inmediatamente
@@ -1122,34 +1208,44 @@ class TTDGuiApp(ctk.CTk):
                     # Solo permitir colocación sin OCR para la PRIMERA granja al inicio de la partida (cuando empiezas con $200)
 
                     is_first_starter_farm = (len(pending_units) == len(self.blueprint_items) and next_unit["cost"] <= 200 and elapsed < 12)
-
-                    can_place = (money >= next_unit["cost"]) or (money == -1 and is_first_starter_farm)
-
-
+                    time_since_last_place = time.time() - getattr(self, "last_placement_time", match_loop_start)
+                    # Fallback si OCR no detecta dinero o si Tesseract no está presente: colocar tras espera económica
+                    can_place = (money >= next_unit["cost"]) or (money == -1 and (is_first_starter_farm or time_since_last_place > 22.0))
 
                     if can_place:
-                        # Transforma la coordenada del plano corrigiendo desfase y rotación de cámara
-                        raw_x, raw_y = self.vision.transform_blueprint_point(next_unit["game_x"], next_unit["game_y"])
-                        target_x = max(50, min(1316, raw_x))
-                        target_y = max(80, min(650, raw_y))
-
-                        if next_unit["slot"] != 1:
-                            safe_x, safe_y = self.vision.snap_to_safe_strip(target_x, target_y)
+                        # Usar EXCLUSIVAMENTE los 19 puntos oficiales del usuario con el ancla fijada en el inicio
+                        # (NO recalcular el pozo en medio del combate porque el aura dorada del Warlord altera el color de la lava)
+                        pid = next_unit.get("point_id")
+                        if pid is None:
+                            from placement_points import nearest_point_id
+                            pid = nearest_point_id(next_unit.get("game_x", 640), next_unit.get("game_y", 360))
+                        pt_screen = self.vision.get_placement_point_screen(pid, anchor_pool=self.placement_anchor)
+                        if pt_screen:
+                            safe_x, safe_y = pt_screen
                         else:
-                            safe_x, safe_y = target_x, target_y
+                            safe_x, safe_y = int(next_unit.get("game_x", 640)), int(next_unit.get("game_y", 360))
 
-                        self.log(f"Colocando {next_unit['name']} (Slot {next_unit['slot']}) en ({safe_x}, {safe_y}) | Dinero: ${money} / Costo: ${next_unit['cost']}")
-                        self.controller.place_unit(next_unit["slot"], safe_x, safe_y)
-                        
-                        # Si por algún motivo un obstáculo impidió el primer clic, intentar 2 micro-posiciones vecinas y limpiar selección
-                        time.sleep(0.15)
-                        self.controller.click_at(safe_x + 18, safe_y, delay=0.1)
-                        self.controller.click_at(safe_x - 18, safe_y, delay=0.1)
-                        self.controller.cancel_placement()
+                        self.log(f"Intentando colocar {next_unit['name']} (Slot {next_unit['slot']}) en Punto Oficial P{pid} -> ({safe_x}, {safe_y}) con R+CLICK | Dinero: ${money} / Costo: ${next_unit['cost']}")
+                        placed_ok, new_money, attempts = self.controller.place_unit(
+                            next_unit["slot"],
+                            safe_x,
+                            safe_y,
+                            auto_scale=True,
+                            read_money_fn=self.vision.read_money,
+                            initial_money=money,
+                            max_r_clicks=6,
+                            is_running_fn=lambda: self.is_running,
+                        )
 
-                        self.current_money = max(0, self.current_money - next_unit["cost"])
-                        pending_units.pop(0)
-                        time.sleep(1.2)
+                        if placed_ok:
+                            self.log(f"✅ {next_unit['name']} (Slot {next_unit['slot']}) colocada en P{pid} ({safe_x}, {safe_y}) en {attempts}x R+CLICK | Dinero: ${money} -> ${new_money}")
+                            self.last_placement_time = time.time()
+                            self.current_money = new_money if new_money >= 0 else max(0, self.current_money - next_unit["cost"])
+                            pending_units.pop(0)
+                            time.sleep(0.8)
+                        else:
+                            self.log(f"⏳ {next_unit['name']} en P{pid} ({safe_x}, {safe_y}): el dinero no disminuyó tras {attempts}x R+CLICK (Dinero: ${new_money}). Reintentando...")
+                            time.sleep(0.5)
 
 
 

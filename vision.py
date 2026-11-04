@@ -7,20 +7,59 @@ import pytesseract
 
 TEMPLATES_DIR = os.path.join(os.path.dirname(__file__), "templates")
 
-# Asegurar ruta de Tesseract en Windows si no est en PATH
+import shutil
+
+# Asegurar ruta de Tesseract en Windows si no está en PATH
 TESSERACT_PATHS = [
+    os.path.expanduser(r"~\AppData\Local\Programs\Tesseract-OCR\tesseract.exe"),
     r"C:\Program Files\Tesseract-OCR\tesseract.exe",
     r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe",
-    os.path.expanduser(r"~\AppData\Local\Programs\Tesseract-OCR\tesseract.exe")
 ]
+HAS_TESSERACT = False
 for t_path in TESSERACT_PATHS:
     if os.path.exists(t_path):
         pytesseract.pytesseract.tesseract_cmd = t_path
+        HAS_TESSERACT = True
         break
+if not HAS_TESSERACT and shutil.which("tesseract"):
+    HAS_TESSERACT = True
 
 class VisionSystem:
     def __init__(self):
         self.sct = mss.mss()
+        self.has_tesseract = HAS_TESSERACT
+        self._template_cache = {}
+        self._base_orb_kp = None
+        self._base_orb_desc = None
+        self._lava_ref_patches = self._load_lava_ref_patches()
+
+    def _load_lava_ref_patches(self):
+        """
+        Pre-carga parches multiescala del pozo central triangular de lava con rocas
+        para distinguir al 100% el pozo central (zona violeta) de la ranura izquierda y del mar exterior.
+        """
+        patches = []
+        try:
+            ref_candidates = [
+                (os.path.join(TEMPLATES_DIR, "Mapa_Endless", "RobloxScreenShot20261101_231345796.png"), 643, 352),
+                (os.path.join(os.path.dirname(__file__), "assets", "map_endless.jpg"), 937, 487),
+            ]
+            for path, cx, cy in ref_candidates:
+                if os.path.exists(path):
+                    img = cv2.imread(path, cv2.IMREAD_COLOR)
+                    if img is not None:
+                        img_r = cv2.resize(img, (1366, 768))
+                        hw, hh = 95, 95
+                        patch = img_r[max(0, cy - hh):min(768, cy + hh), max(0, cx - hw):min(1366, cx + hw)]
+                        if patch.size > 0:
+                            for s in (0.70, 0.80, 0.90, 1.0, 1.10):
+                                tw = max(16, int(patch.shape[1] * s))
+                                th = max(16, int(patch.shape[0] * s))
+                                patches.append(cv2.resize(patch, (tw, th)))
+                            break
+        except Exception:
+            pass
+        return patches
 
     def grab_screen(self):
         """Captura toda la pantalla de forma ultrarrpida en formato OpenCV BGR"""
@@ -42,7 +81,12 @@ class VisionSystem:
             return None
 
         screen = self.grab_screen()
-        template = cv2.imread(path, cv2.IMREAD_COLOR)
+        if path not in self._template_cache:
+            template = cv2.imread(path, cv2.IMREAD_COLOR)
+            if template is not None:
+                self._template_cache[path] = template
+        else:
+            template = self._template_cache[path]
         if template is None:
             return None
 
@@ -56,7 +100,7 @@ class VisionSystem:
             return (center_x, center_y)
         return None
 
-    def read_money_from_crop(self, crop) -> int:
+    def read_money_from_crop(self, crop, save_debug: bool = False) -> int:
         """
         Extrae el valor numérico exacto de un recorte con el texto '$XXXX' de TTD:
         1. Usa el contorno verde para localizar la caja exacta del dinero (ignorando lava y carteles).
@@ -110,14 +154,17 @@ class VisionSystem:
             digits_bw = cv2.bitwise_not(clean_white)
             padded = cv2.copyMakeBorder(digits_bw, 20, 20, 20, 20, cv2.BORDER_CONSTANT, value=255)
 
-            debug_path = os.path.join(os.path.dirname(__file__), "debug_money_ocr.png")
-            cv2.imwrite(debug_path, padded)
+            if save_debug:
+                debug_path = os.path.join(os.path.dirname(__file__), "debug_money_ocr.png")
+                cv2.imwrite(debug_path, padded)
 
             custom_config = r'--psm 7 -c tessedit_char_whitelist=0123456789'
             text = pytesseract.image_to_string(padded, config=custom_config)
             nums = re.findall(r'\d+', text)
             if nums:
                 return int("".join(nums))
+            if len(char_boxes) == 2:
+                return 0
         except Exception:
             pass
         return -1
@@ -293,103 +340,211 @@ class VisionSystem:
 
     def get_lava_center_from_image(self, bgr_img, save_debug: bool = False):
         """
-        Detecta EXCLUSIVAMENTE el pozo central de lava con rocas dentro de la isla de piedra,
-        ignorando por completo el mar de lava gigante que rodea el mapa exterior.
+        Detecta EXCLUSIVAMENTE el pozo central triangular de lava con rocas (zona violeta)
+        dentro de la isla de piedra, descartando el mar de lava exterior y la ranura izquierda fina.
         """
         h, w = bgr_img.shape[:2]
         hsv = cv2.cvtColor(bgr_img, cv2.COLOR_BGR2HSV)
         gray = cv2.cvtColor(bgr_img, cv2.COLOR_BGR2GRAY)
 
-        # 1. Aislar la plataforma central de piedra oscura + camino negro
-        # La piedra y pista tienen brillo bajo/medio y saturación baja (a diferencia de la lava brillante)
-        stone_mask = ((hsv[:, :, 1] < 110) & (gray > 10) & (gray < 135)).astype(np.uint8) * 255
-        stone_mask[:int(h * 0.10), :] = 0
-        stone_mask[int(h * 0.84):, :] = 0
+        # 1. Máscara de lava brillante amarilla/naranja
+        lava = cv2.inRange(hsv, np.array([12, 130, 150]), np.array([38, 255, 255]))
 
-        # Cerrar huecos pequeños para obtener el polígono envolvente (Convex Hull) de toda la isla de piedra
-        kernel_close = np.ones((21, 21), np.uint8)
-        stone_closed = cv2.morphologyEx(stone_mask, cv2.MORPH_CLOSE, kernel_close)
-        contours_stone, _ = cv2.findContours(stone_closed, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+        # 2. Piso de la isla (piedra oscura + camino negro) y pista negra pura
+        island_floor = ((bgr_img[:, :, 2] < 100) & (gray < 115)).astype(np.uint8)
+        black_track = ((bgr_img[:, :, 2] < 25) & (gray < 28)).astype(np.uint8)
 
-        island_interior_mask = np.zeros((h, w), dtype=np.uint8)
-        if contours_stone:
-            # Tomar el contorno más grande (la isla principal del mapa) y su Convex Hull
-            largest_stone = max(contours_stone, key=cv2.contourArea)
-            hull = cv2.convexHull(largest_stone)
-            cv2.drawContours(island_interior_mask, [hull], -1, 255, thickness=cv2.FILLED)
-            # Erodir 35px hacia adentro para cortar cualquier contacto con el mar de lava exterior
-            island_interior_mask = cv2.erode(island_interior_mask, np.ones((35, 35), np.uint8), iterations=1)
+        num_labels, labels, stats, centroids = cv2.connectedComponentsWithStats(lava)
+        candidates = []
 
-        # 2. Detectar píxeles de lava amarilla/naranja brillante
-        lower_lava = np.array([12, 130, 150])
-        upper_lava = np.array([38, 255, 255])
-        lava_mask = cv2.inRange(hsv, lower_lava, upper_lava)
+        for i in range(1, num_labels):
+            area = stats[i, cv2.CC_STAT_AREA]
+            if not (1500 <= area <= 15000):
+                continue
 
-        # Quédate SOLO con la lava que está ADENTRO de la isla de piedra
-        inner_lava = cv2.bitwise_and(lava_mask, island_interior_mask)
-        inner_lava = cv2.morphologyEx(inner_lava, cv2.MORPH_CLOSE, np.ones((15, 15), np.uint8))
+            x = stats[i, cv2.CC_STAT_LEFT]
+            y = stats[i, cv2.CC_STAT_TOP]
+            cw = stats[i, cv2.CC_STAT_WIDTH]
+            ch = stats[i, cv2.CC_STAT_HEIGHT]
 
-        # 3. Buscar los parches internos de lava (el pozo central con rocas y la ranura izquierda)
-        contours_lava, _ = cv2.findContours(inner_lava, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-        valid_patches = []
-        img_cx, img_cy = w // 2, h // 2
+            # Descartar lava que toca los bordes de la pantalla (mar de lava exterior)
+            if x <= 8 or y <= 8 or (x + cw) >= w - 8 or (y + ch) >= h - 8:
+                continue
 
-        for c in contours_lava:
-            area = cv2.contourArea(c)
-            # El pozo central de lava con rocas mide entre 1500 y 35000 px en 1366x768
-            if 1200 < area < 40000:
-                M = cv2.moments(c)
-                if M["m00"] > 0:
-                    cx = int(M["m10"] / M["m00"])
-                    cy = int(M["m01"] / M["m00"])
-                    # Priorizar el pozo que es más ancho/cuadrado (el central con rocas) sobre la ranura fina
-                    x, y, cw, ch = cv2.boundingRect(c)
-                    aspect_ratio = float(min(cw, ch)) / max(cw, ch) if max(cw, ch) > 0 else 0
-                    dist_to_center = np.hypot(cx - img_cx, cy - img_cy)
-                    score = (aspect_ratio * 2.0) - (dist_to_center / 500.0)
-                    valid_patches.append((score, cx, cy, c))
+            cx, cy = int(centroids[i][0]), int(centroids[i][1])
+            if not (200 < cx < 1160 and 85 < cy < 660):
+                continue
 
-        if valid_patches:
-            valid_patches.sort(key=lambda item: item[0], reverse=True)
-            _, best_cx, best_cy, best_c = valid_patches[0]
+            # Verificar en una ventana expandida 45px alrededor del pozo que esté rodeado por piso de isla y pista
+            bx1, by1 = max(0, x - 45), max(0, y - 45)
+            bx2, by2 = min(w, x + cw + 45), min(h, y + ch + 45)
+            non_lava_box = (lava[by1:by2, bx1:bx2] == 0)
+            total_non_lava = max(1, np.count_nonzero(non_lava_box))
+
+            floor_ratio = np.count_nonzero(island_floor[by1:by2, bx1:bx2] * non_lava_box) / float(total_non_lava)
+            track_ratio = np.count_nonzero(black_track[by1:by2, bx1:bx2] * non_lava_box) / float(total_non_lava)
+
+            if floor_ratio < 0.82 or not (0.06 <= track_ratio <= 0.42):
+                continue
+
+            # Evaluar similitud con el parche del pozo central triangular con rocas
+            best_tm = 0.0
+            if self._lava_ref_patches:
+                roi_half = 125
+                rx1, ry1 = max(0, cx - roi_half), max(0, cy - roi_half)
+                rx2, ry2 = min(w, cx + roi_half), min(h, cy + roi_half)
+                roi = bgr_img[ry1:ry2, rx1:rx2]
+                best_tm = -1.0
+                for sp in self._lava_ref_patches:
+                    if roi.shape[0] >= sp.shape[0] and roi.shape[1] >= sp.shape[1]:
+                        res = cv2.matchTemplate(roi, sp, cv2.TM_CCOEFF_NORMED)
+                        _, max_val, _, _ = cv2.minMaxLoc(res)
+                        if max_val > best_tm:
+                            best_tm = float(max_val)
+
+            wh = float(cw) / float(ch) if ch > 0 else 0.0
+            # El pozo central triangular tiene wh ~ 0.72-1.05; la ranura izquierda fina tiene wh ~ 0.40-0.53
+            aspect_bonus = 0.22 if (0.65 <= wh <= 1.15) else -0.22
+            score = best_tm + aspect_bonus
+            candidates.append((score, cx, cy, i))
+
+        if candidates:
+            # Si están visibles ambos pozos internos, dar bonus adicional al que está más a la derecha y arriba
+            if len(candidates) >= 2:
+                max_cx_minus_cy = max(c[1] - c[2] for c in candidates)
+                candidates = [
+                    (c[0] + (0.12 if (c[1] - c[2]) == max_cx_minus_cy else 0.0), c[1], c[2], c[3])
+                    for c in candidates
+                ]
+            candidates.sort(key=lambda item: item[0], reverse=True)
+            _, best_cx, best_cy, best_label = candidates[0]
 
             if save_debug:
                 dbg = bgr_img.copy()
-                cv2.drawContours(dbg, [best_c], -1, (0, 255, 0), 3)
+                comp_mask = (labels == best_label).astype(np.uint8) * 255
+                cnts, _ = cv2.findContours(comp_mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+                cv2.drawContours(dbg, cnts, -1, (0, 255, 0), 3)
                 cv2.circle(dbg, (best_cx, best_cy), 8, (0, 0, 255), -1)
-                cv2.circle(dbg, (img_cx, img_cy), 8, (255, 0, 255), 2)
-                cv2.line(dbg, (img_cx, img_cy), (best_cx, best_cy), (0, 255, 255), 2)
+                tx, ty = self.get_base_map_lava_target()
+                cv2.circle(dbg, (tx, ty), 8, (255, 0, 255), 2)
+                cv2.line(dbg, (tx, ty), (best_cx, best_cy), (0, 255, 255), 2)
                 cv2.imwrite(os.path.join(os.path.dirname(__file__), "debug_lava_center.png"), dbg)
 
             return (best_cx, best_cy)
         return None
 
-    def find_reference_landmark(self):
-        """Detecta en vivo el pozo central de lava con rocas y guarda debug_lava_center.png"""
+    def find_reference_landmark(self, save_debug: bool = False):
+        """Detecta en vivo el pozo central de lava con rocas y guarda debug_lava_center.png si se solicita"""
         try:
             screen = self.grab_screen()
             if screen.shape[:2] != (768, 1366):
                 screen = cv2.resize(screen, (1366, 768))
-            return self.get_lava_center_from_image(screen, save_debug=True)
+            return self.get_lava_center_from_image(screen, save_debug=save_debug)
         except Exception:
             return None
 
+    # ------------------------------------------------------------------
+    # Zona Segura + Puntos de colocación oficiales del usuario
+    # ------------------------------------------------------------------
+    def get_placement_config(self):
+        """Config de placement_points.py (puntos verdes + zona violeta), cacheada."""
+        if getattr(self, "_placement_cfg", None) is None:
+            try:
+                from placement_points import load_placement_config
+                self._placement_cfg = load_placement_config(auto_rebuild=True, vision=self)
+            except Exception:
+                from placement_points import _fallback_config
+                self._placement_cfg = _fallback_config()
+        return self._placement_cfg
+
+    def reload_placement_config(self):
+        self._placement_cfg = None
+        return self.get_placement_config()
+
+    def get_roblox_viewport(self):
+        """
+        Rectángulo (x, y, w, h) del área de juego de Roblox (client area, sin barra de título)
+        en el espacio canónico 1366x768 de la captura. Si no se encuentra la ventana,
+        se asume pantalla completa.
+        """
+        try:
+            import win32gui
+            mon = self.sct.monitors[1]
+            sx = 1366.0 / float(mon["width"])
+            sy = 768.0 / float(mon["height"])
+            hwnds = []
+
+            def _cb(hwnd, acc):
+                if win32gui.IsWindowVisible(hwnd) and not win32gui.IsIconic(hwnd):
+                    title = win32gui.GetWindowText(hwnd)
+                    if title.strip().lower() == "roblox":
+                        acc.append(hwnd)
+            win32gui.EnumWindows(_cb, hwnds)
+            if hwnds:
+                fg = win32gui.GetForegroundWindow()
+                hwnd = fg if fg in hwnds else hwnds[0]
+                l, t, r, b = win32gui.GetClientRect(hwnd)
+                x0, y0 = win32gui.ClientToScreen(hwnd, (0, 0))
+                w, h = r - l, b - t
+                if w > 200 and h > 200:
+                    return ((x0 - mon["left"]) * sx, (y0 - mon["top"]) * sy, w * sx, h * sy)
+        except Exception:
+            pass
+        return (0.0, 0.0, 1366.0, 768.0)
+
+    def ref_to_screen(self, ref_x: float, ref_y: float, anchor_pool=None):
+        """
+        Convierte un punto del marco de referencia (captura Puntos_de_unidades_Colocacion.png)
+        a la pantalla en vivo (espacio canónico 1366x768).
+          - Con anchor_pool (posición en vivo del pozo central): punto = ancla + (p - pozo_ref) * k
+          - Sin ancla: se usa el centro del viewport (el personaje siempre está en el centro).
+        k = alto_viewport_vivo / alto_viewport_ref (el FOV vertical de Roblox es fijo).
+        """
+        cfg = self.get_placement_config()
+        vx, vy, vw, vh = self.get_roblox_viewport()
+        k = vh / float(cfg["ref_viewport"][1])
+        if anchor_pool is not None:
+            px, py = cfg["ref_pool"]
+            return (int(round(anchor_pool[0] + (ref_x - px) * k)), int(round(anchor_pool[1] + (ref_y - py) * k)))
+        cx, cy = cfg["ref_center"]
+        return (int(round(vx + vw / 2.0 + (ref_x - cx) * k)), int(round(vy + vh / 2.0 + (ref_y - cy) * k)))
+
+    def get_placement_point_screen(self, point_id: int, anchor_pool=None):
+        """Coordenada de pantalla de un punto oficial (1..N)."""
+        cfg = self.get_placement_config()
+        for p in cfg["points"]:
+            if int(p["id"]) == int(point_id):
+                return self.ref_to_screen(p["ref"][0], p["ref"][1], anchor_pool)
+        return None
+
+    def get_safe_zone_status(self, pool_pt):
+        """
+        Indica si el personaje (centro del viewport) está dentro de la Zona Segura violeta,
+        definida en 'Zona Segura.png' como offset+radio respecto al pozo central.
+        Devuelve (dentro: bool, distancia_px: float).
+        """
+        cfg = self.get_placement_config()
+        vx, vy, vw, vh = self.get_roblox_viewport()
+        k = vh / float(cfg["ref_viewport"][1])
+        sz = cfg.get("safe_zone", {})
+        off = sz.get("offset_from_pool", [0.0, 0.0])
+        radius = float(sz.get("radius", 43.0)) * k
+        zx, zy = pool_pt[0] + off[0] * k, pool_pt[1] + off[1] * k
+        d = float(np.hypot(vx + vw / 2.0 - zx, vy + vh / 2.0 - zy))
+        # +15px: el personaje no puede pisar la lava, se para en el borde de la mancha violeta
+        return d <= radius + 15.0 * k, d
+
     def get_base_map_lava_target(self):
         """
-        Punto exacto de la pantalla (x, y) donde debe quedar ubicado el pozo central de lava
-        para que el jugador quede parado justo al lado del centro de lava con rocas (como en la Foto 1).
+        Posición de pantalla (espacio 1366x768) donde debe verse el pozo central de lava
+        cuando el personaje está parado en la Zona Segura, exactamente igual que en la
+        captura de los Puntos de colocación del usuario.
         """
-        default_map = os.path.join(os.path.dirname(__file__), "assets", "map_endless.jpg")
-        if os.path.exists(default_map):
-            base_img = cv2.imread(default_map, cv2.IMREAD_COLOR)
-            if base_img is not None:
-                base_resized = cv2.resize(base_img, (1366, 768))
-                pt = self.get_lava_center_from_image(base_resized, save_debug=False)
-                if pt:
-                    return pt
-        # En 1366x768, cuando el jugador está parado junto al pozo central con rocas (Foto 1),
-        # el centroide del pozo de lava queda justo encima del personaje en (650, 350):
-        return (650, 350)
+        try:
+            cfg = self.get_placement_config()
+            return self.ref_to_screen(cfg["ref_pool"][0], cfg["ref_pool"][1], anchor_pool=None)
+        except Exception:
+            return (645, 350)
 
     def is_in_game(self) -> bool:
         """
@@ -524,73 +679,43 @@ class VisionSystem:
 
     def get_map_offset(self, base_map_path=None) -> tuple:
         """
-        Calcula el desplazamiento (dx, dy) del mapa actual en pantalla respecto al mapa base de referencia
-        debido al spawn aleatorio del personaje, utilizando OpenCV ORB Feature Matching.
-        Soporta galera multi-ngulo de Mapa_Endless para mxima robustez ante diferentes rotaciones de cmara.
-        Retorna (dx, dy) en pixeles.
+        Calcula el desplazamiento (dx, dy) del mapa actual en pantalla respecto a assets/map_endless.jpg
+        (sobre el cual están definidas las coordenadas de blueprint.json).
+        Combina detección directa del pozo central triangular (937, 487 en map_endless.jpg) con ORB.
         """
         try:
             screen = self.grab_screen()
-            screen_gray = cv2.cvtColor(screen, cv2.COLOR_BGR2GRAY)
-            if screen_gray.shape[:2] != (768, 1366):
-                screen_gray = cv2.resize(screen_gray, (1366, 768))
+            if screen.shape[:2] != (768, 1366):
+                screen = cv2.resize(screen, (1366, 768))
 
-            orb = cv2.ORB_create(2000)
-            kp_s, desc_s = orb.detectAndCompute(screen_gray, None)
-            if desc_s is None:
-                return (0, 0)
+            # 1. Desplazamiento exacto usando el pozo central triangular de lava (en map_endless.jpg está en 937, 487)
+            live_lava = self.get_lava_center_from_image(screen, save_debug=False)
+            if live_lava is not None:
+                return (int(live_lava[0] - 937), int(live_lava[1] - 487))
 
-            matcher = cv2.BFMatcher(cv2.NORM_HAMMING, crossCheck=True)
-
-            candidates = []
-            if base_map_path and os.path.exists(base_map_path):
-                candidates.append(base_map_path)
-            
-            endless_dir = os.path.join(TEMPLATES_DIR, "Mapa_Endless")
-            if os.path.exists(endless_dir):
-                import glob
-                angle_files = sorted(glob.glob(os.path.join(endless_dir, "*.png")))
-                candidates.extend(angle_files[:5])
-            
-            default_map = os.path.join(os.path.dirname(__file__), "assets", "map_endless.jpg")
-            if os.path.exists(default_map) and default_map not in candidates:
-                candidates.append(default_map)
-
-            best_overall_inliers = 0
-            best_final_dx = 0
-            best_final_dy = 0
-
-            for cand_path in candidates:
-                base_img = cv2.imread(cand_path, cv2.IMREAD_GRAYSCALE)
-                if base_img is None:
-                    continue
-                base_resized = cv2.resize(base_img, (1366, 768))
-                kp_b, desc_b = orb.detectAndCompute(base_resized, None)
-                if desc_b is None:
-                    continue
-
-                matches = matcher.match(desc_s, desc_b)
-                if len(matches) < 15:
-                    continue
-
-                matches = sorted(matches, key=lambda x: x.distance)
-                top_matches = matches[:min(80, len(matches))]
-
-                pts_s = np.float32([kp_s[m.queryIdx].pt for m in top_matches])
-                pts_b = np.float32([kp_b[m.trainIdx].pt for m in top_matches])
-
-                diffs = pts_s - pts_b
-                median_dx = np.median(diffs[:, 0])
-                median_dy = np.median(diffs[:, 1])
-
-                inliers = np.sum((np.abs(diffs[:, 0] - median_dx) < 25) & (np.abs(diffs[:, 1] - median_dy) < 25))
-                if inliers > best_overall_inliers:
-                    best_overall_inliers = inliers
-                    best_final_dx = int(median_dx)
-                    best_final_dy = int(median_dy)
-
-            if best_overall_inliers >= 10:
-                return (best_final_dx, best_final_dy)
+            # 2. Fallback con ORB respecto a assets/map_endless.jpg
+            default_map = base_map_path or os.path.join(os.path.dirname(__file__), "assets", "map_endless.jpg")
+            if os.path.exists(default_map):
+                screen_gray = cv2.cvtColor(screen, cv2.COLOR_BGR2GRAY)
+                base_img = cv2.imread(default_map, cv2.IMREAD_GRAYSCALE)
+                if base_img is not None:
+                    base_resized = cv2.resize(base_img, (1366, 768))
+                    orb = cv2.ORB_create(2000)
+                    kp_s, desc_s = orb.detectAndCompute(screen_gray, None)
+                    kp_b, desc_b = orb.detectAndCompute(base_resized, None)
+                    if desc_s is not None and desc_b is not None:
+                        matcher = cv2.BFMatcher(cv2.NORM_HAMMING, crossCheck=True)
+                        matches = matcher.match(desc_s, desc_b)
+                        if len(matches) >= 15:
+                            matches = sorted(matches, key=lambda x: x.distance)[:80]
+                            pts_s = np.float32([kp_s[m.queryIdx].pt for m in matches])
+                            pts_b = np.float32([kp_b[m.trainIdx].pt for m in matches])
+                            diffs = pts_s - pts_b
+                            median_dx = np.median(diffs[:, 0])
+                            median_dy = np.median(diffs[:, 1])
+                            inliers = np.sum((np.abs(diffs[:, 0] - median_dx) < 25) & (np.abs(diffs[:, 1] - median_dy) < 25))
+                            if inliers >= 10:
+                                return (int(median_dx), int(median_dy))
         except Exception:
             pass
 
@@ -599,7 +724,7 @@ class VisionSystem:
     def transform_blueprint_point(self, game_x: int, game_y: int) -> tuple:
         """
         Transforma una coordenada (game_x, game_y) del Blueprint (map_endless.jpg)
-        a la pantalla en vivo actual corrigiendo TANTO traslación (dx, dy) COMO rotación de cámara.
+        a la pantalla en vivo actual corrigiendo TANTO traslación (dx, dy) COMO rotación/escala de cámara.
         """
         try:
             default_map = os.path.join(os.path.dirname(__file__), "assets", "map_endless.jpg")
@@ -608,19 +733,21 @@ class VisionSystem:
                 return (game_x + dx, game_y + dy)
 
             screen = self.grab_screen()
+            if screen.shape[:2] != (768, 1366):
+                screen = cv2.resize(screen, (1366, 768))
             screen_gray = cv2.cvtColor(screen, cv2.COLOR_BGR2GRAY)
-            if screen_gray.shape[:2] != (768, 1366):
-                screen_gray = cv2.resize(screen_gray, (1366, 768))
 
-            base_img = cv2.imread(default_map, cv2.IMREAD_GRAYSCALE)
-            base_gray = cv2.resize(base_img, (1366, 768))
-
-            # Enmascarar la UI para que ORB solo compare las rocas y el camino del mapa
+            orb = cv2.ORB_create(3000)
             mask = np.zeros((768, 1366), dtype=np.uint8)
             mask[95:630, 120:1240] = 255
 
-            orb = cv2.ORB_create(3000)
-            kp_b, desc_b = orb.detectAndCompute(base_gray, mask)
+            if self._base_orb_kp is None or self._base_orb_desc is None:
+                base_img = cv2.imread(default_map, cv2.IMREAD_GRAYSCALE)
+                if base_img is not None:
+                    base_gray = cv2.resize(base_img, (1366, 768))
+                    self._base_orb_kp, self._base_orb_desc = orb.detectAndCompute(base_gray, mask)
+
+            kp_b, desc_b = self._base_orb_kp, self._base_orb_desc
             kp_s, desc_s = orb.detectAndCompute(screen_gray, mask)
 
             if desc_b is not None and desc_s is not None and len(kp_b) > 20 and len(kp_s) > 20:
@@ -631,12 +758,12 @@ class VisionSystem:
                     pts_b = np.float32([kp_b[m.queryIdx].pt for m in matches]).reshape(-1, 1, 2)
                     pts_s = np.float32([kp_s[m.trainIdx].pt for m in matches]).reshape(-1, 1, 2)
 
-                    # Estimar matriz de Rotación + Traslación con RANSAC
+                    # Estimar matriz de Rotación + Escala + Traslación con RANSAC
                     M, inliers = cv2.estimateAffinePartial2D(pts_b, pts_s, method=cv2.RANSAC, ransacReprojThreshold=15.0)
-                    if M is not None and np.sum(inliers) >= 8:
+                    if M is not None and np.sum(inliers) >= 12:
                         pt = np.array([[[float(game_x), float(game_y)]]], dtype=np.float32)
                         transformed = cv2.transform(pt, M)[0][0]
-                        return (int( transformed[0] ), int( transformed[1] ))
+                        return (int(transformed[0]), int(transformed[1]))
         except Exception:
             pass
 

@@ -28,7 +28,15 @@ import numpy as np
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(ROOT, "data")
 PROJECT_ROOT = os.path.dirname(ROOT)
-MAP_PATH = os.path.join(PROJECT_ROOT, "assets", "map_endless.jpg")
+import sys as _sys
+if PROJECT_ROOT not in _sys.path:
+    _sys.path.insert(0, PROJECT_ROOT)
+from placement_points import map_spots as _load_official_map_spots
+
+_POINTS_PNG = os.path.join(
+    PROJECT_ROOT, "templates", "Mapa_Endless", "Puntos_De_Colocacion", "Puntos_de_unidades_Colocacion.png"
+)
+MAP_PATH = _POINTS_PNG if os.path.exists(_POINTS_PNG) else os.path.join(PROJECT_ROOT, "assets", "map_endless.jpg")
 
 # Velocidades calibradas en píxeles/segundo sobre vista cenital 1366x768
 SPEED_PX_PER_SEC: Dict[str, float] = {
@@ -46,65 +54,38 @@ STUDS_TO_PX = 3.5
 
 # Límites estrictos de colocación por Slot definidos por el inventario del usuario
 MAX_BY_SLOT: Dict[int, int] = {
-    1: 4,  # Casa de jengibre (Granja)
+    1: 4,  # Casa de jengibre (Granja + DPS)
     2: 1,  # Reloj de señor de guerra titán resplandeciente (Definitivo / Ultimate: Solo 1)
     3: 5,  # Camarógrafo Z1MP resplandeciente
     4: 4,  # Camarógrafo del jefe de la mafia
 }
 MAX_TOTAL_UNITS = 20  # Tope global del mapa; con MAX_BY_SLOT colocamos hasta 14 unidades (4+1+5+4)
 
-# Polilínea exacta de 16 waypoints del camino de los inodoros sobre assets/map_endless.jpg (1366x768)
+# Polilínea exacta de 16 waypoints del camino de los inodoros sobre Puntos_de_unidades_Colocacion.png (1366x768)
 TRACK_WAYPOINTS: List[Tuple[int, int]] = [
-    (950, 185),  # 0: Spawn (portal morado superior derecho)
-    (944, 280),  # 1: Bajada inicial
-    (895, 280),  # 2: Escalón izquierdo superior
-    (895, 360),  # 3: Giro hacia la derecha
-    (1082, 375), # 4: Esquina derecha media
-    (1076, 480), # 5: Bajada derecha media
-    (1152, 485), # 6: Extensión bucle exterior derecho
-    (1150, 567), # 7: Esquina inferior exterior derecha
-    (990, 567),  # 8: Retorno interior derecho
-    (988, 653),  # 9: Esquina inferior derecha
-    (764, 643),  # 10: Esquina inferior central
-    (778, 510),  # 11: Subida central
-    (848, 510),  # 12: Bucle central derecho
-    (848, 435),  # 13: Tope bucle central
-    (585, 418),  # 14: Recta hacia la izquierda
-    (547, 655),  # 15: Base / Salida final inferior izquierda
+    (640, 109),  # 0: Spawn (portal superior)
+    (640, 202),  # 1: Bajada inicial
+    (597, 205),  # 2: Escalón izquierdo superior
+    (602, 283),  # 3: Giro hacia la derecha
+    (765, 285),  # 4: Esquina derecha media
+    (766, 388),  # 5: Bajada derecha media
+    (832, 388),  # 6: Extensión bucle exterior derecho
+    (835, 468),  # 7: Esquina inferior exterior derecha
+    (696, 478),  # 8: Retorno interior derecho
+    (699, 562),  # 9: Esquina inferior derecha
+    (504, 566),  # 10: Esquina inferior central
+    (508, 436),  # 11: Subida central
+    (569, 431),  # 12: Bucle central derecho
+    (565, 359),  # 13: Tope bucle central
+    (335, 359),  # 14: Recta hacia la izquierda
+    (316, 591),  # 15: Base / Salida final inferior izquierda
 ]
 
-# 4 Nodos de piedra exteriores para Granjas (Slot 1)
-FARM_SPOTS: List[Tuple[int, int]] = [
-    (995, 305),   # idx 0 (F1)
-    (845, 235),   # idx 1 (F2)
-    (1120, 615),  # idx 2 (F3)
-    (1045, 305),  # idx 3 (F4)
-]
-
-# Nodos de piedra estratégicos sobre plataformas alrededor de la pista para Combate/Soporte (Slots 2, 3, 4)
-COMBAT_SPOTS: List[Tuple[int, int]] = [
-    (935, 410),   # C1 - isla superior central
-    (1035, 515),  # C2 - isla derecha media
-    (935, 515),   # C3 - corazón del mapa
-    (935, 600),   # C4 - isla inferior derecha
-    (885, 585),   # C5 - curva inferior central-derecha
-    (825, 585),   # C6 - curva inferior central-izquierda
-    (820, 545),   # C7 - interior bucle central
-    (890, 470),   # C8 - cruce central
-    (805, 470),   # C9 - plataforma central-izquierda
-    (735, 470),   # C10 - subida central exterior
-    (730, 545),   # C11 - pared izquierda de subida central
-    (730, 600),   # C12 - esquina inferior central-izquierda
-    (795, 390),   # C13 - recta superior central
-    (715, 385),   # C14 - recta superior media
-    (645, 380),   # C15 - esquina superior izquierda
-    (640, 455),   # C16 - interior curva final
-    (630, 520),   # C17 - bajada final interior
-    (620, 585),   # C18 - bajada final baja
-    (525, 485),   # C19 - guardia exterior izquierda
-]
-
-ALL_CANDIDATE_SPOTS: List[Tuple[int, int]] = FARM_SPOTS + COMBAT_SPOTS
+# ÚNICAMENTE los 17 puntos oficiales pintados en verde por el usuario en Puntos_de_unidades_Colocacion.png (P1..P17).
+# La IA puede alternar libremente cualquier unidad (Granja, Warlord, Z1MP, Mafia) entre estos 17 puntos.
+ALL_CANDIDATE_SPOTS: List[Tuple[int, int]] = _load_official_map_spots()
+FARM_SPOTS: List[Tuple[int, int]] = ALL_CANDIDATE_SPOTS
+COMBAT_SPOTS: List[Tuple[int, int]] = ALL_CANDIDATE_SPOTS
 
 
 class TTDEndlessGymEnv(gym.Env):
@@ -247,7 +228,7 @@ class TTDEndlessGymEnv(gym.Env):
         ], dtype=np.float32)
 
     def can_place_unit(self, slot: int, spot_idx: int) -> bool:
-        """Verifica límites por unidad (4 Granjas, 4 Warlord, 5 Z1MP, 4 Mafia Boss), dinero y nodo libre."""
+        """Verifica límites por unidad (4 Granjas, 1 Warlord, 5 Z1MP, 4 Mafia Boss), dinero y punto oficial libre (0..16)."""
         if slot not in self.units_catalog:
             return False
         if spot_idx < 0 or spot_idx >= self.num_spots or spot_idx in self.used_spots:
@@ -255,11 +236,6 @@ class TTDEndlessGymEnv(gym.Env):
         if len(self.placed_units) >= self.max_total_units:
             return False
         if self.slot_counts.get(slot, 0) >= self.max_by_slot.get(slot, 4):
-            return False
-        # Granjas (Slot 1) en nodos de granja (0..3); Combate/Soporte (2,3,4) en nodos de combate (4..23)
-        if slot == 1 and spot_idx >= len(FARM_SPOTS):
-            return False
-        if slot != 1 and spot_idx < len(FARM_SPOTS):
             return False
         cost = self.units_catalog[slot]["levels"][0]["cost"]
         return self.money >= cost
@@ -314,6 +290,7 @@ class TTDEndlessGymEnv(gym.Env):
             "game_x": int(x),
             "game_y": int(y),
             "spot_idx": spot_idx,
+            "point_id": int(spot_idx + 1),
             "wave_placed": self.wave,
         })
         return True
@@ -688,7 +665,7 @@ class TTDEndlessGymEnv(gym.Env):
         return "running"
 
     def export_blueprint_json(self, filepath: str):
-        """Exporta el plan de colocación en el formato exacto que consume 'app.py'."""
+        """Exporta el plan de colocación en el formato exacto que consume 'app.py' (con point_id 1..17)."""
         clean_bp = [
             {
                 "id": item["id"],
@@ -699,6 +676,7 @@ class TTDEndlessGymEnv(gym.Env):
                 "canvas_y": item["canvas_y"],
                 "game_x": item["game_x"],
                 "game_y": item["game_y"],
+                "point_id": int(item.get("point_id", item.get("spot_idx", 0) + 1)),
             }
             for item in self.placement_history
         ]

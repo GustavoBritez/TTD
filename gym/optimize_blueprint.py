@@ -8,10 +8,10 @@ Integra:
 
 Respeta estrictamente las restricciones de inventario del jugador:
   - Máximo 4 Granjas (Slot 1 - Casa de jengibre) en los nodos de piedra exteriores (0..3).
-  - Máximo 4 Señor de la Guerra (Slot 2 - Reloj de señor de guerra titán resplandeciente) en nodos de combate (4..23).
+  - Máximo 1 Señor de la Guerra (Slot 2 - Reloj de señor de guerra titán resplandeciente) en nodos de combate (4..23).
   - Máximo 5 Z1MP (Slot 3 - Camarógrafo Z1MP resplandeciente) en nodos de combate (4..23).
   - Máximo 4 Camarógrafo Jefe Mafia (Slot 4 - Camarógrafo del jefe de la mafia) en nodos de combate (4..23).
-  Total = 17 unidades colocadas (dentro del límite máximo de 20 del juego).
+  Total = 14 unidades colocadas (4 Granjas, 1 Señor de la Guerra, 5 Z1MP, 4 Mafia Boss) (dentro del límite máximo de 20 del juego).
 """
 import copy
 import json
@@ -35,6 +35,7 @@ if ROOT not in sys.path:
     sys.path.insert(0, ROOT)
 
 from ttd_env import (
+    ALL_CANDIDATE_SPOTS,
     COMBAT_SPOTS,
     DATA_DIR,
     FARM_SPOTS,
@@ -53,53 +54,45 @@ if not hasattr(deap_creator, "IndividualTTD"):
 
 def validate_and_repair_genome(genome: List[Tuple[int, int]]) -> List[Tuple[int, int]]:
     """
-    Garantiza que cualquier genoma cumpla al 100% las reglas de negocio:
-      - Exactamente hasta 4 de Slot 1 (en spots 0..3)
-      - Exactamente hasta 4 de Slot 2 (en spots 4..23)
-      - Exactamente hasta 5 de Slot 3 (en spots 4..23)
-      - Exactamente hasta 4 de Slot 4 (en spots 4..23)
-      - Sin repetir ningún spot_idx.
+    Garantiza que cualquier genoma use EXCLUSIVAMENTE los 17 puntos oficiales del usuario (0..16):
+      - Exactamente 4 de Slot 1 (Casa de jengibre)
+      - Exactamente 1 de Slot 2 (Warlord)
+      - Exactamente 5 de Slot 3 (Z1MP)
+      - Exactamente 4 de Slot 4 (Mafia Boss)
+      - Cualquier unidad puede alternar en cualquiera de los 17 puntos (sin repetir spot_idx).
     """
+    num_spots = len(ALL_CANDIDATE_SPOTS)
     counts = {1: 0, 2: 0, 3: 0, 4: 0}
     used_spots = set()
     repaired: List[Tuple[int, int]] = []
 
-    free_farm_spots = list(range(len(FARM_SPOTS)))
-    random.shuffle(free_farm_spots)
-    free_combat_spots = list(range(len(FARM_SPOTS), len(FARM_SPOTS) + len(COMBAT_SPOTS)))
-    random.shuffle(free_combat_spots)
+    free_spots = list(range(num_spots))
+    random.shuffle(free_spots)
 
     for slot, spot_idx in genome:
         if slot not in MAX_BY_SLOT:
             continue
         if counts[slot] >= MAX_BY_SLOT[slot]:
             continue
-        if slot == 1:
-            if spot_idx not in range(len(FARM_SPOTS)) or spot_idx in used_spots:
-                spot_idx = next((s for s in free_farm_spots if s not in used_spots), -1)
-        else:
-            if spot_idx not in range(len(FARM_SPOTS), len(FARM_SPOTS) + len(COMBAT_SPOTS)) or spot_idx in used_spots:
-                spot_idx = next((s for s in free_combat_spots if s not in used_spots), -1)
+        if spot_idx not in range(num_spots) or spot_idx in used_spots:
+            spot_idx = next((s for s in free_spots if s not in used_spots), -1)
         if spot_idx == -1:
             continue
         used_spots.add(spot_idx)
         counts[slot] += 1
         repaired.append((slot, spot_idx))
 
-    # Completar unidades faltantes hasta llegar a las 17 unidades (4, 4, 5, 4)
+    # Completar unidades faltantes hasta llegar a las 14 unidades (4, 1, 5, 4)
     for slot, max_cnt in MAX_BY_SLOT.items():
         while counts[slot] < max_cnt:
-            if slot == 1:
-                spot_idx = next((s for s in free_farm_spots if s not in used_spots), -1)
-            else:
-                spot_idx = next((s for s in free_combat_spots if s not in used_spots), -1)
+            spot_idx = next((s for s in free_spots if s not in used_spots), -1)
             if spot_idx == -1:
                 break
             used_spots.add(spot_idx)
             counts[slot] += 1
             repaired.append((slot, spot_idx))
 
-    # Asegurar que el inicio tenga al menos 1 granja o 1 defensa costeable para no bloquear la oleada 1-3
+    # Asegurar que el inicio tenga una Casa de jengibre ($200) para arrancar en la oleada 1
     if repaired and repaired[0][0] != 1:
         first_farm_idx = next((i for i, (sl, _) in enumerate(repaired) if sl == 1), None)
         if first_farm_idx is not None:
@@ -110,30 +103,26 @@ def validate_and_repair_genome(genome: List[Tuple[int, int]]) -> List[Tuple[int,
 
 def create_random_genome() -> List[Tuple[int, int]]:
     """
-    Crea un genoma aleatorio válido de 17 unidades:
-      - 4 Granjas (Slot 1)
-      - 4 Señor de la Guerra (Slot 2)
+    Crea un genoma aleatorio válido de 14 unidades alternadas entre los 17 puntos oficiales (0..16):
+      - 4 Casa de jengibre (Slot 1)
+      - 1 Señor de la Guerra (Slot 2)
       - 5 Z1MP (Slot 3)
       - 4 Camarógrafo Jefe Mafia (Slot 4)
     """
-    farm_spots = list(range(len(FARM_SPOTS)))
-    random.shuffle(farm_spots)
-    farms = [(1, sp) for sp in farm_spots[: MAX_BY_SLOT[1]]]
+    num_spots = len(ALL_CANDIDATE_SPOTS)
+    total_units = sum(MAX_BY_SLOT.values())
+    chosen_spots = random.sample(range(num_spots), total_units)
 
-    total_combat = MAX_BY_SLOT[2] + MAX_BY_SLOT[3] + MAX_BY_SLOT[4]
-    combat_pool_spots = random.sample(
-        range(len(FARM_SPOTS), len(FARM_SPOTS) + len(COMBAT_SPOTS)),
-        total_combat,
-    )
+    farms = [(1, sp) for sp in chosen_spots[: MAX_BY_SLOT[1]]]
+    combat_spots = chosen_spots[MAX_BY_SLOT[1] :]
     combat_slots = (
         [2] * MAX_BY_SLOT[2]
         + [3] * MAX_BY_SLOT[3]
         + [4] * MAX_BY_SLOT[4]
     )
     random.shuffle(combat_slots)
-    combat_genes = list(zip(combat_slots, combat_pool_spots))
+    combat_genes = list(zip(combat_slots, combat_spots))
 
-    # Apertura inteligente: intercalar granjas con las primeras defensas
     opening = [
         farms[0],
         farms[1],
@@ -218,7 +207,7 @@ def _eval_worker(genome: List[Tuple[int, int]]) -> Tuple[float, float, int, List
 
 
 def cx_ttd_genomes(ind1, ind2):
-    """Operador de cruce genético DEAP con preservación de restricciones (4, 4, 5, 4)."""
+    """Operador de cruce genético DEAP con preservación de restricciones (4, 1, 5, 4)."""
     cut = random.randint(3, len(ind1) - 3)
     child1_raw = list(ind1[:cut]) + [g for g in ind2 if g not in ind1[:cut]]
     child2_raw = list(ind2[:cut]) + [g for g in ind1 if g not in ind2[:cut]]
@@ -231,31 +220,27 @@ def cx_ttd_genomes(ind1, ind2):
 
 def mut_ttd_genome(individual, indpb: float = 0.35):
     """
-    Operador de mutación DEAP:
+    Operador de mutación DEAP sobre los 17 puntos oficiales (0..16):
       - Intercambia el orden de colocación en la cola.
-      - Cambia las coordenadas (spot_idx) de unidades de combate hacia otros nodos libres de piedra.
-      - Intercambia las coordenadas de dos unidades de combate (ej. permutar Warlord y Mafia Boss).
+      - Mueve cualquier unidad a uno de los 3 puntos oficiales libres restantes.
+      - Alterna los puntos (spot_idx) entre dos unidades cualesquiera (incluyendo Granjas, Warlord, Z1MP y Mafia).
     """
+    num_spots = len(ALL_CANDIDATE_SPOTS)
     g = list(individual)
     r = random.random()
-    if r < 0.40 and len(g) > 4:
-        # Permutar el orden de dos unidades (manteniendo la primera granja al inicio)
+    if r < 0.35 and len(g) > 4:
         i, j = random.sample(range(1, len(g)), 2)
         g[i], g[j] = g[j], g[i]
-    elif r < 0.75:
-        # Mover una unidad de combate a un nodo de piedra libre (4..23)
+    elif r < 0.70:
         used = {sp for _, sp in g}
-        free_combat = [sp for sp in range(len(FARM_SPOTS), len(FARM_SPOTS) + len(COMBAT_SPOTS)) if sp not in used]
-        combat_indices = [idx for idx, (sl, _) in enumerate(g) if sl != 1]
-        if free_combat and combat_indices:
-            idx = random.choice(combat_indices)
+        free_spots = [sp for sp in range(num_spots) if sp not in used]
+        if free_spots and g:
+            idx = random.randrange(len(g))
             sl, _ = g[idx]
-            g[idx] = (sl, random.choice(free_combat))
+            g[idx] = (sl, random.choice(free_spots))
     else:
-        # Intercambiar los nodos (spots) entre dos unidades de combate de distinto tipo
-        combat_indices = [idx for idx, (sl, _) in enumerate(g) if sl != 1]
-        if len(combat_indices) >= 2:
-            i, j = random.sample(combat_indices, 2)
+        if len(g) >= 2:
+            i, j = random.sample(range(len(g)), 2)
             sl_i, sp_i = g[i]
             sl_j, sp_j = g[j]
             g[i] = (sl_i, sp_j)
@@ -328,34 +313,32 @@ class TTDOptimizerTrainer:
         return False
 
     def _optuna_trial_to_genome(self, trial: optuna.Trial) -> List[Tuple[int, int]]:
-        """Construye un genoma guiado por el modelo probabilístico TPE de Optuna."""
-        farms = [(1, i) for i in range(MAX_BY_SLOT[1])]
-        total_combat = MAX_BY_SLOT[2] + MAX_BY_SLOT[3] + MAX_BY_SLOT[4]
+        """Construye un genoma guiado por Optuna alternando las 14 unidades entre los 17 puntos oficiales."""
+        num_spots = len(ALL_CANDIDATE_SPOTS)
+        total_units = sum(MAX_BY_SLOT.values())
 
-        # Seleccionar prioridades para cada uno de los nodos de combate
         spot_priorities = []
-        for sp in range(len(FARM_SPOTS), len(FARM_SPOTS) + len(COMBAT_SPOTS)):
+        for sp in range(num_spots):
             prio = trial.suggest_float(f"spot_prio_{sp}", 0.0, 1.0)
             spot_priorities.append((prio, sp))
         spot_priorities.sort(reverse=True)
-        chosen_combat_spots = [sp for _, sp in spot_priorities[:total_combat]]
+        chosen_spots = [sp for _, sp in spot_priorities[:total_units]]
 
-        # Asignar qué rol va en cada nodo elegido
-        role_weights = []
-        for idx in range(total_combat):
+        rem = {1: MAX_BY_SLOT[1], 2: MAX_BY_SLOT[2], 3: MAX_BY_SLOT[3], 4: MAX_BY_SLOT[4]}
+        farms = []
+        combat_genes = []
+        for idx, sp in enumerate(chosen_spots):
+            w1 = trial.suggest_float(f"w_slot1_pos{idx}", 0.0, 1.0)
             w2 = trial.suggest_float(f"w_slot2_pos{idx}", 0.0, 1.0)
             w3 = trial.suggest_float(f"w_slot3_pos{idx}", 0.0, 1.0)
             w4 = trial.suggest_float(f"w_slot4_pos{idx}", 0.0, 1.0)
-            role_weights.append((idx, w2, w3, w4))
-
-        rem = {2: MAX_BY_SLOT[2], 3: MAX_BY_SLOT[3], 4: MAX_BY_SLOT[4]}
-        combat_genes = []
-        for idx, w2, w3, w4 in role_weights:
-            options = [(w2, 2), (w3, 3), (w4, 4)]
-            options.sort(reverse=True)
+            options = sorted([(w1, 1), (w2, 2), (w3, 3), (w4, 4)], reverse=True)
             picked_slot = next((sl for _, sl in options if rem[sl] > 0), 3)
             rem[picked_slot] -= 1
-            combat_genes.append((picked_slot, chosen_combat_spots[idx]))
+            if picked_slot == 1:
+                farms.append((1, sp))
+            else:
+                combat_genes.append((picked_slot, sp))
 
         genome = [
             farms[0],
@@ -489,6 +472,7 @@ class TTDOptimizerTrainer:
                 "canvas_y": item["canvas_y"],
                 "game_x": item["game_x"],
                 "game_y": item["game_y"],
+                "point_id": int(item.get("point_id", item.get("spot_idx", 0) + 1)),
             }
             for item in self.best_blueprint
         ]

@@ -49,7 +49,7 @@ def main():
         t.add_row("F6", "Botón 'Auto-Skip' / Acelerar", str(positions["autoskip_button"]))
         t.add_row("F7", "Libro azul 'Unidades' (Abajo a la derecha)", str(positions["book_units_button"]))
         t.add_row("F8", "Botón Verde 'Mejora' (Dentro del Gerente)", str(positions["upgrade_button"]))
-        t.add_row("F9", "Botón Rojo 'Salir' (Cerrar Gerente)", str(positions["close_manager_button"]))
+        t.add_row("F9", "Botón Rojo (¡Ojo! En TTD es 'Vender', cerrar con F7 Libro)", str(positions["close_manager_button"]))
         t.add_row("F10", "Botón 'Play Again' / Reintentar", str(positions["play_again_button"]))
         t.add_row("ESC", "[bold red]FINALIZAR Y GUARDAR[/bold red]", "")
         console.print(t)

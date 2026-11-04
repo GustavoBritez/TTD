@@ -51,6 +51,148 @@ SLOT_STYLE = {
 }
 
 
+class GymConsoleWindow(ctk.CTkToplevel):
+    """
+    Ventana de Consola Dedicada para visualizar en tiempo real y con gran tamaño
+    la bitácora de evolución genética (DEAP), optimización bayesiana (Optuna)
+    y eventos de simulación del modo Endless.
+    """
+    def __init__(self, master=None, history=None):
+        super().__init__(master=master)
+        self.title("🖥️ Consola de Evolución & Eventos GYM (DEAP + Optuna)")
+        self.geometry("960x540")
+        self.minsize(720, 380)
+
+        self.history = list(history or [])
+        self.autoscroll = tk.BooleanVar(value=True)
+        self.filter_var = tk.StringVar(value="")
+
+        self._build_ui()
+        self._populate_history()
+
+    def _build_ui(self):
+        # Header Toolbar
+        tb = ctk.CTkFrame(self, corner_radius=8, fg_color="#181c26")
+        tb.pack(fill="x", padx=10, pady=(10, 6))
+
+        title = ctk.CTkLabel(
+            tb,
+            text="🖥️ CONSOLA DE EVOLUCIÓN (DEAP + OPTUNA) & EVENTOS",
+            font=ctk.CTkFont(size=14, weight="bold"),
+            text_color="#00d2ff"
+        )
+        title.pack(side="left", padx=12, pady=8)
+
+        self.lbl_count = ctk.CTkLabel(
+            tb,
+            text="Total: 0 logs",
+            font=ctk.CTkFont(size=12),
+            text_color="#a4b0be"
+        )
+        self.lbl_count.pack(side="left", padx=8)
+
+        # Controles
+        chk_scroll = ctk.CTkCheckBox(
+            tb,
+            text="Auto-scroll",
+            variable=self.autoscroll,
+            font=ctk.CTkFont(size=11),
+            width=90
+        )
+        chk_scroll.pack(side="right", padx=10)
+
+        btn_copy = ctk.CTkButton(
+            tb,
+            text="📋 Copiar Todo",
+            width=90,
+            height=28,
+            font=ctk.CTkFont(size=11, weight="bold"),
+            fg_color="#3742fa",
+            hover_color="#2f3542",
+            command=self.copy_all
+        )
+        btn_copy.pack(side="right", padx=4)
+
+        btn_clear = ctk.CTkButton(
+            tb,
+            text="🗑️ Limpiar",
+            width=80,
+            height=28,
+            font=ctk.CTkFont(size=11, weight="bold"),
+            fg_color="#ff4757",
+            hover_color="#d63031",
+            command=self.clear_logs
+        )
+        btn_clear.pack(side="right", padx=4)
+
+        # Barra de búsqueda / filtro
+        filter_box = ctk.CTkFrame(self, corner_radius=6, fg_color="#12151e")
+        filter_box.pack(fill="x", padx=10, pady=(0, 6))
+
+        ctk.CTkLabel(filter_box, text="🔍 Filtrar:", font=ctk.CTkFont(size=11, weight="bold"), text_color="#70a1ff").pack(side="left", padx=(10, 4), pady=4)
+        self.ent_filter = ctk.CTkEntry(
+            filter_box,
+            placeholder_text="Escribe para filtrar en vivo (ej. 'Gen', 'Campeón', 'Warlord', 'DPS', '115')...",
+            textvariable=self.filter_var,
+            height=28,
+            font=ctk.CTkFont(family="Consolas", size=11)
+        )
+        self.ent_filter.pack(side="left", fill="x", expand=True, padx=4, pady=4)
+        self.ent_filter.bind("<KeyRelease>", lambda e: self._apply_filter())
+
+        # Área de Texto principal estilo Terminal
+        self.txt_console = ctk.CTkTextbox(
+            self,
+            font=ctk.CTkFont(family="Consolas", size=12),
+            fg_color="#0a0c10",
+            text_color="#e0e6ed",
+            wrap="word"
+        )
+        self.txt_console.pack(fill="both", expand=True, padx=10, pady=(0, 10))
+
+    def _populate_history(self):
+        self.txt_console.delete("1.0", "end")
+        for ts, msg in self.history:
+            self._write_line(ts, msg)
+        self.lbl_count.configure(text=f"Total: {len(self.history)} logs")
+
+    def _write_line(self, ts: str, msg: str):
+        line = f"[{ts}] {msg}\n"
+        self.txt_console.insert("end", line)
+        if self.autoscroll.get():
+            self.txt_console.see("end")
+
+    def append_log(self, ts: str, msg: str):
+        self.history.append((ts, msg))
+        filt = self.filter_var.get().strip().lower()
+        if not filt or filt in msg.lower() or filt in ts.lower():
+            self._write_line(ts, msg)
+        self.lbl_count.configure(text=f"Total: {len(self.history)} logs")
+
+    def _apply_filter(self):
+        filt = self.filter_var.get().strip().lower()
+        self.txt_console.delete("1.0", "end")
+        count = 0
+        for ts, msg in self.history:
+            if not filt or filt in msg.lower() or filt in ts.lower():
+                self.txt_console.insert("end", f"[{ts}] {msg}\n")
+                count += 1
+        if self.autoscroll.get():
+            self.txt_console.see("end")
+        self.lbl_count.configure(text=f"Filtrados: {count}/{len(self.history)} logs")
+
+    def copy_all(self):
+        content = self.txt_console.get("1.0", "end")
+        self.clipboard_clear()
+        self.clipboard_append(content)
+        messagebox.showinfo("Copiado", "¡Historial copiado al portapapeles con éxito!")
+
+    def clear_logs(self):
+        self.history.clear()
+        self.txt_console.delete("1.0", "end")
+        self.lbl_count.configure(text="Total: 0 logs")
+
+
 class TTDGymWindow(ctk.CTkToplevel):
     """
     Ventana del Simulador Gymnasium & Entrenamiento Evolutivo (DEAP + Optuna).
@@ -81,6 +223,8 @@ class TTDGymWindow(ctk.CTkToplevel):
         self.show_ranges = tk.BooleanVar(value=True)
         self.show_track_nodes = tk.BooleanVar(value=True)
         self.engine_mode = tk.StringVar(value="hybrid")
+        self.log_history = []
+        self.console_win: Optional[GymConsoleWindow] = None
 
         # Inicializar un primer genoma base para que el mapa tenga una estrategia lista desde el segundo 0
         init_genome = create_random_genome()
@@ -93,6 +237,8 @@ class TTDGymWindow(ctk.CTkToplevel):
         self._build_ui()
         self._draw_static_map()
         self.redraw_dynamic_layer()
+        # Abrir automáticamente la ventana de consola dedicada para máxima visibilidad
+        self.after(350, self.open_console_window)
 
     def _game_to_canvas(self, gx: float, gy: float):
         return gx * self.scale_x, gy * self.scale_y
@@ -125,6 +271,18 @@ class TTDGymWindow(ctk.CTkToplevel):
             pady=4,
         )
         self.lbl_status.pack(side="right", padx=15, pady=10)
+
+        self.btn_top_console = ctk.CTkButton(
+            header,
+            text="🖥️ ABRIR CONSOLA FLOTANTE",
+            font=ctk.CTkFont(size=12, weight="bold"),
+            fg_color="#3742fa",
+            hover_color="#2f3542",
+            height=32,
+            width=190,
+            command=self.open_console_window,
+        )
+        self.btn_top_console.pack(side="right", padx=(0, 10), pady=10)
 
         # --- COLUMNA IZQUIERDA: MAPA INTERACTIVO + MÉTRICAS EN VIVO ---
         left_col = ctk.CTkFrame(self, corner_radius=10, fg_color="#12151e")
@@ -185,12 +343,26 @@ class TTDGymWindow(ctk.CTkToplevel):
         log_frame.grid_rowconfigure(1, weight=1)
         log_frame.grid_columnconfigure(0, weight=1)
 
+        log_head = ctk.CTkFrame(log_frame, fg_color="transparent")
+        log_head.grid(row=0, column=0, sticky="ew", padx=10, pady=(6, 2))
+        log_head.grid_columnconfigure(0, weight=1)
+
         ctk.CTkLabel(
-            log_frame,
-            text="📈 HISTORIAL DE EVOLUCIÓN (DEAP + OPTUNA) & EVENTOS DE PARTIDA",
+            log_head,
+            text="📈 HISTORIAL DE EVOLUCIÓN (DEAP + OPTUNA) & EVENTOS",
             font=ctk.CTkFont(size=12, weight="bold"),
             text_color="#a4b0be",
-        ).grid(row=0, column=0, sticky="w", padx=10, pady=(6, 2))
+        ).pack(side="left")
+
+        ctk.CTkButton(
+            log_head,
+            text="🖥️ Abrir Ventana de Consola",
+            font=ctk.CTkFont(size=11, weight="bold"),
+            fg_color="#3742fa",
+            hover_color="#2f3542",
+            height=24,
+            command=self.open_console_window,
+        ).pack(side="right")
 
         self.txt_log = ctk.CTkTextbox(log_frame, font=ctk.CTkFont(family="Consolas", size=11), fg_color="#0f1118", height=140)
         self.txt_log.grid(row=1, column=0, padx=10, pady=(0, 8), sticky="nsew")
@@ -355,15 +527,58 @@ class TTDGymWindow(ctk.CTkToplevel):
         )
         self.btn_export.pack(fill="x", padx=12, pady=(4, 10))
 
+        champ_w = f"{self.trainer.best_wave:.1f}" if isinstance(self.trainer.best_wave, float) else f"{self.trainer.best_wave}"
         self.log(
-            f"GYM Endless Mode inicializado. Campeón base: Oleada {self.trainer.best_wave} "
-            f"(DPS: {self.trainer.best_dps:,.0f}) con 17 unidades (4 Granjas, 4 Warlord, 5 Z1MP, 4 Mafia)."
+            f"GYM Endless Mode inicializado. Campeón base: Oleada {champ_w} "
+            f"(DPS: {self.trainer.best_dps:,.0f}) con 14 unidades (4 Granjas, 1 Warlord, 5 Z1MP, 4 Mafia)."
         )
+
+    def open_console_window(self):
+        """Abre o enfoca la ventana de consola dedicada"""
+        if hasattr(self, "console_win") and self.console_win is not None and self.console_win.winfo_exists():
+            self.console_win.focus()
+            self.console_win.lift()
+            return
+        self.console_win = GymConsoleWindow(master=self, history=self.log_history)
+        self.console_win.focus()
 
     def log(self, msg: str):
         ts = time.strftime("%H:%M:%S")
-        self.txt_log.insert("end", f"[{ts}] {msg}\n")
-        self.txt_log.see("end")
+        self.log_history.append((ts, msg))
+
+        # 1. Imprimir en la consola / terminal del sistema (PowerShell / CMD) con formato limpio
+        try:
+            print(f"\033[96m[{ts}]\033[0m {msg}", flush=True)
+        except UnicodeEncodeError:
+            try:
+                clean_msg = msg.encode("ascii", errors="replace").decode("ascii")
+                print(f"[{ts}] {clean_msg}", flush=True)
+            except Exception:
+                pass
+        except Exception:
+            try:
+                print(f"[{ts}] {msg}", flush=True)
+            except Exception:
+                pass
+
+        # 2. Despachar a la Ventana de Consola Dedicada si está abierta
+        if hasattr(self, "console_win") and self.console_win is not None and self.console_win.winfo_exists():
+            try:
+                self.after(0, lambda t=ts, m=msg: self.console_win.append_log(t, m))
+            except Exception:
+                pass
+
+        # 3. Despachar a la caja de texto embebida en la UI principal
+        if hasattr(self, "txt_log") and self.txt_log.winfo_exists():
+            try:
+                self.after(0, lambda t=ts, m=msg: self._append_embedded_log(t, m))
+            except Exception:
+                pass
+
+    def _append_embedded_log(self, ts: str, msg: str):
+        if hasattr(self, "txt_log") and self.txt_log.winfo_exists():
+            self.txt_log.insert("end", f"[{ts}] {msg}\n")
+            self.txt_log.see("end")
 
     def _draw_static_map(self):
         self.canvas.delete("all")
@@ -397,12 +612,11 @@ class TTDGymWindow(ctk.CTkToplevel):
             self.canvas.create_oval(ex - 9, ey - 9, ex + 9, ey + 9, fill="#ff4757", outline="#ffffff", width=2, tags="dyn")
             self.canvas.create_text(ex, ey + 15, text="BASE", fill="#ff6b81", font=("Arial", 8, "bold"), tags="dyn")
 
-            # Nodos libres de piedra
+            # 17 Puntos oficiales del usuario (P1..P17)
             for idx, (gx, gy) in enumerate(ALL_CANDIDATE_SPOTS):
                 cx, cy = self._game_to_canvas(gx, gy)
-                is_farm = idx < len(FARM_SPOTS)
-                col = "#2ed573" if is_farm else "#747d8c"
-                self.canvas.create_oval(cx - 4, cy - 4, cx + 4, cy + 4, fill=col, outline="#1e272e", tags="dyn")
+                self.canvas.create_oval(cx - 5, cy - 5, cx + 5, cy + 5, fill="#2ed573", outline="#ffffff", width=1, tags="dyn")
+                self.canvas.create_text(cx + 12, cy - 8, text=f"P{idx+1}", fill="#7bed9f", font=("Arial", 8, "bold"), tags="dyn")
 
         # 2. Dibujar círculos de rango de las unidades colocadas
         units_to_draw = self.play_env.placed_units if self.is_playing else self.displayed_units
@@ -665,50 +879,21 @@ class TTDGymWindow(ctk.CTkToplevel):
         )
 
     def on_canvas_right_click(self, event):
-        """Permite borrar cualquier punto candidato o tropa haciendo clic derecho sobre él."""
+        """Los 17 puntos son fijos (definidos en Puntos_de_unidades_Colocacion.png); clic derecho alterna/permuta las unidades entre ellos."""
         cx, cy = event.x, event.y
-        # Convertir a coordenadas de juego
         gx = int(round(cx / self.scale_x))
         gy = int(round(cy / self.scale_y))
 
-        # Buscar el punto más cercano dentro de un radio de tolerancia
         best_dist = 9999.0
         best_idx = None
-        best_spot = None
-
         for idx, (sx, sy) in enumerate(self.trainer.env.candidate_spots):
             d = math.hypot(gx - sx, gy - sy)
             if d < best_dist:
                 best_dist = d
                 best_idx = idx
-                best_spot = (sx, sy)
 
         if best_idx is not None and best_dist <= 30.0:
-            removed_gx, removed_gy = best_spot
-            # No permitir borrar si quedan menos de 14 puntos
-            if len(self.trainer.env.candidate_spots) <= 14:
-                messagebox.showwarning("Límite mínimo", "No puedes borrar más puntos: se necesitan al menos 14 para las tropas.")
-                return
-
-            # Eliminar el punto de ambos entornos
-            self.trainer.env.candidate_spots.pop(best_idx)
-            self.play_env.candidate_spots = list(self.trainer.env.candidate_spots)
-            self.trainer.env.num_spots = len(self.trainer.env.candidate_spots)
-            self.play_env.num_spots = len(self.play_env.candidate_spots)
-
-            # Re-generar un genoma válido sin ese punto
-            new_g = create_random_genome()
-            w, dps, money, bp, placed = evaluate_genome(self.trainer.env, new_g)
-            self.trainer.best_wave = w
-            self.trainer.best_dps = dps
-            self.trainer.best_money = money
-            self.trainer.best_genome = new_g
-            self.trainer.best_blueprint = bp
-            self.trainer.best_placed_units = placed
-            self.displayed_units = copy.deepcopy(placed)
-
-            self.log(f"❌ Nodo ({removed_gx}, {removed_gy}) ELIMINADO del mapa con clic derecho. Quedan {len(self.trainer.env.candidate_spots)} puntos.")
-            self.redraw_dynamic_layer()
+            self.log(f"ℹ️ Punto Oficial P{best_idx+1} ({self.trainer.env.candidate_spots[best_idx][0]}, {self.trainer.env.candidate_spots[best_idx][1]}): fijo (solo se usan los 17 puntos oficiales).")
 
 
 def main():

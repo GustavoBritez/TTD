@@ -4,139 +4,153 @@
         "slot": 1,
         "name": "Casa de jengibre",
         "cost": 200,
-        "canvas_x": 546,
-        "canvas_y": 190,
-        "game_x": 995,
-        "game_y": 305
+        "canvas_x": 282,
+        "canvas_y": 386,
+        "game_x": 513,
+        "game_y": 620,
+        "point_id": 18
     },
     {
         "id": 2,
         "slot": 1,
         "name": "Casa de jengibre",
         "cost": 200,
-        "canvas_x": 464,
-        "canvas_y": 146,
-        "game_x": 845,
-        "game_y": 235
+        "canvas_x": 359,
+        "canvas_y": 137,
+        "game_x": 653,
+        "game_y": 220,
+        "point_id": 2
     },
     {
         "id": 3,
         "slot": 4,
         "name": "Camarografo del jefe de la mafia",
         "cost": 1000,
-        "canvas_x": 401,
-        "canvas_y": 373,
-        "game_x": 730,
-        "game_y": 600
+        "canvas_x": 209,
+        "canvas_y": 358,
+        "game_x": 381,
+        "game_y": 576,
+        "point_id": 17
     },
     {
         "id": 4,
         "slot": 1,
         "name": "Casa de jengibre",
         "cost": 200,
-        "canvas_x": 615,
-        "canvas_y": 383,
-        "game_x": 1120,
-        "game_y": 615
+        "canvas_x": 217,
+        "canvas_y": 303,
+        "game_x": 395,
+        "game_y": 487,
+        "point_id": 12
     },
     {
         "id": 5,
-        "slot": 3,
-        "name": "Camarografo Z1MP resplandeciente",
-        "cost": 1050,
-        "canvas_x": 442,
-        "canvas_y": 293,
-        "game_x": 805,
-        "game_y": 470
+        "slot": 1,
+        "name": "Casa de jengibre",
+        "cost": 200,
+        "canvas_x": 421,
+        "canvas_y": 274,
+        "game_x": 767,
+        "game_y": 440,
+        "point_id": 11
     },
     {
         "id": 6,
-        "slot": 3,
-        "name": "Camarografo Z1MP resplandeciente",
-        "cost": 1050,
-        "canvas_x": 568,
-        "canvas_y": 321,
-        "game_x": 1035,
-        "game_y": 515
+        "slot": 4,
+        "name": "Camarografo del jefe de la mafia",
+        "cost": 1000,
+        "canvas_x": 395,
+        "canvas_y": 240,
+        "game_x": 719,
+        "game_y": 386,
+        "point_id": 9
     },
     {
         "id": 7,
         "slot": 2,
         "name": "Reloj de senor de guerra titan resplandeciente",
         "cost": 1200,
-        "canvas_x": 489,
-        "canvas_y": 293,
-        "game_x": 890,
-        "game_y": 470
+        "canvas_x": 329,
+        "canvas_y": 249,
+        "game_x": 599,
+        "game_y": 400,
+        "point_id": 8
     },
     {
         "id": 8,
-        "slot": 1,
-        "name": "Casa de jengibre",
-        "cost": 200,
-        "canvas_x": 574,
-        "canvas_y": 190,
-        "game_x": 1045,
-        "game_y": 305
+        "slot": 3,
+        "name": "Camarografo Z1MP resplandeciente",
+        "cost": 1050,
+        "canvas_x": 328,
+        "canvas_y": 288,
+        "game_x": 597,
+        "game_y": 462,
+        "point_id": 13
     },
     {
         "id": 9,
-        "slot": 4,
-        "name": "Camarografo del jefe de la mafia",
-        "cost": 1000,
-        "canvas_x": 450,
-        "canvas_y": 339,
-        "game_x": 820,
-        "game_y": 545
+        "slot": 3,
+        "name": "Camarografo Z1MP resplandeciente",
+        "cost": 1050,
+        "canvas_x": 395,
+        "canvas_y": 197,
+        "game_x": 719,
+        "game_y": 317,
+        "point_id": 5
     },
     {
         "id": 10,
         "slot": 4,
         "name": "Camarografo del jefe de la mafia",
         "cost": 1000,
-        "canvas_x": 513,
-        "canvas_y": 373,
-        "game_x": 935,
-        "game_y": 600
+        "canvas_x": 283,
+        "canvas_y": 246,
+        "game_x": 516,
+        "game_y": 396,
+        "point_id": 7
     },
     {
         "id": 11,
         "slot": 3,
         "name": "Camarografo Z1MP resplandeciente",
         "cost": 1050,
-        "canvas_x": 513,
-        "canvas_y": 255,
-        "game_x": 935,
-        "game_y": 410
+        "canvas_x": 382,
+        "canvas_y": 270,
+        "game_x": 695,
+        "game_y": 434,
+        "point_id": 10
     },
     {
         "id": 12,
         "slot": 3,
         "name": "Camarografo Z1MP resplandeciente",
         "cost": 1050,
-        "canvas_x": 486,
-        "canvas_y": 364,
-        "game_x": 885,
-        "game_y": 585
+        "canvas_x": 302,
+        "canvas_y": 319,
+        "game_x": 550,
+        "game_y": 513,
+        "point_id": 14
     },
     {
         "id": 13,
         "slot": 4,
         "name": "Camarografo del jefe de la mafia",
         "cost": 1000,
-        "canvas_x": 404,
-        "canvas_y": 293,
-        "game_x": 735,
-        "game_y": 470
+        "canvas_x": 348,
+        "canvas_y": 321,
+        "game_x": 633,
+        "game_y": 516,
+        "point_id": 15
     },
     {
         "id": 14,
         "slot": 3,
         "name": "Camarografo Z1MP resplandeciente",
         "cost": 1050,
-        "canvas_x": 513,
-        "canvas_y": 321,
-        "game_x": 935,
-        "game_y": 515
+        "canvas_x": 323,
+        "canvas_y": 194,
+        "game_x": 588,
+        "game_y": 312,
+        "point_id": 4
     }
 ]
