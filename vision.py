@@ -245,19 +245,113 @@ class VisionSystem:
             pass
         return None
 
-    def find_book_icon(self):
-        """Busca el icono azul del libro 'Unidades' para abrir el Gerente de Unidad."""
-        res = self.find_template("book_unidades_clean.png", threshold=0.70)
-        if res is None:
-            res = self.find_template("book_unidades.png", threshold=0.65)
-        return res
+    def find_book_icon(self, screen=None):
+        """
+        Busca el icono azul del libro 'Unidades' para abrir/cerrar el Gerente de Unidad.
+        Combina:
+        1. Plantilla multiescala del interior limpio del libro ('book_unidades_clean.png', inmune al fondo de lava o cadenas).
+        2. Plantilla completa ('book_unidades.png').
+        3. Respaldo por contorno azul celeste del libro en la zona inferior derecha del HUD.
+        """
+        try:
+            if screen is None:
+                screen = self.grab_screen()
+            h, w = screen.shape[:2]
+
+            # Restringir a la mitad inferior derecha donde reside el icono 'Unidades' (evita barra de tareas y chat superior)
+            vx, vy, vw, vh = self.get_roblox_viewport()
+            rx1 = max(0, int(vx + vw * 0.54))
+            rx2 = min(w, int(vx + vw * 0.78))
+            ry1 = max(0, int(vy + vh * 0.78))
+            ry2 = min(h, int(vy + vh * 0.99))
+            if rx2 <= rx1 + 40 or ry2 <= ry1 + 40:
+                rx1, rx2 = int(w * 0.54), int(w * 0.78)
+                ry1, ry2 = int(h * 0.78), int(h * 0.98)
+
+            roi = screen[ry1:ry2, rx1:rx2]
+
+            # 1. Búsqueda multiescala con book_unidades_clean.png (solo interior azul del libro, sin fondo exterior)
+            clean_path = os.path.join(TEMPLATES_DIR, "book_unidades_clean.png")
+            if os.path.exists(clean_path):
+                if clean_path not in self._template_cache:
+                    self._template_cache[clean_path] = cv2.imread(clean_path, cv2.IMREAD_COLOR)
+                tpl_clean = self._template_cache[clean_path]
+                if tpl_clean is not None:
+                    best_val, best_pt = -1.0, None
+                    for scale in (1.0, 1.10, 1.15, 1.20, 1.25, 0.90):
+                        tw = max(12, int(round(tpl_clean.shape[1] * scale)))
+                        th = max(12, int(round(tpl_clean.shape[0] * scale)))
+                        if roi.shape[0] < th or roi.shape[1] < tw:
+                            continue
+                        tpl_s = cv2.resize(tpl_clean, (tw, th)) if scale != 1.0 else tpl_clean
+                        res = cv2.matchTemplate(roi, tpl_s, cv2.TM_CCOEFF_NORMED)
+                        _, max_val, _, max_loc = cv2.minMaxLoc(res)
+                        if max_val > best_val:
+                            best_val = float(max_val)
+                            best_pt = (rx1 + max_loc[0] + tw // 2, ry1 + max_loc[1] + th // 2)
+                    if best_val >= 0.64 and best_pt is not None:
+                        return best_pt
+
+            # 2. Plantilla completa book_unidades.png en la ROI
+            full_path = os.path.join(TEMPLATES_DIR, "book_unidades.png")
+            if os.path.exists(full_path):
+                if full_path not in self._template_cache:
+                    self._template_cache[full_path] = cv2.imread(full_path, cv2.IMREAD_COLOR)
+                tpl_full = self._template_cache[full_path]
+                if tpl_full is not None and roi.shape[0] >= tpl_full.shape[0] and roi.shape[1] >= tpl_full.shape[1]:
+                    res = cv2.matchTemplate(roi, tpl_full, cv2.TM_CCOEFF_NORMED)
+                    _, max_val, _, max_loc = cv2.minMaxLoc(res)
+                    if max_val >= 0.62:
+                        return (rx1 + max_loc[0] + tpl_full.shape[1] // 2, ry1 + max_loc[1] + tpl_full.shape[0] // 2)
+
+            # 3. Respaldo por contorno azul celeste del libro 'Unidades' dentro del HUD inferior derecho
+            hsv = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
+            blue_mask = cv2.inRange(hsv, np.array([95, 130, 160]), np.array([112, 255, 255]))
+            cnts, _ = cv2.findContours(blue_mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+            for c in sorted(cnts, key=cv2.contourArea, reverse=True):
+                area = cv2.contourArea(c)
+                if 320 <= area <= 2500:
+                    bx, by, bw, bh = cv2.boundingRect(c)
+                    aspect = bw / float(bh) if bh > 0 else 0.0
+                    if 0.65 <= aspect <= 1.35:
+                        return (rx1 + bx + bw // 2, ry1 + by + bh // 2)
+        except Exception:
+            pass
+        return None
+
+    def is_unit_manager_open(self, screen=None) -> bool:
+        """
+        Verifica si la ventana central 'Gerente de unidad' está actualmente abierta en pantalla,
+        detectando su barra horizontal blanca superior de separación o sus botones 'Mejora' activos.
+        """
+        try:
+            if screen is None:
+                screen = self.grab_screen()
+            sh, sw = screen.shape[:2]
+            if sw > 600 and sh > 500:
+                rx1, rx2 = int(sw * 0.20), int(sw * 0.80)
+                ry1, ry2 = int(sh * 0.08), int(sh * 0.35)
+            else:
+                rx1, rx2, ry1, ry2 = 0, sw, 0, int(sh * 0.25)
+
+            roi = screen[ry1:ry2, rx1:rx2]
+            hsv = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
+            white_bar = ((hsv[:, :, 1] < 35) & (hsv[:, :, 2] > 215)).astype(np.uint8) * 255
+            cnts, _ = cv2.findContours(white_bar, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+            for c in cnts:
+                _, _, w, h = cv2.boundingRect(c)
+                if w >= 200 and 2 <= h <= 14 and (w / float(h)) >= 22.0:
+                    return True
+        except Exception:
+            pass
+        return False
 
     def find_all_upgrade_buttons(self, screen=None) -> list:
         """
         Detecta TODOS los botones verdes 'Mejora' visibles dentro del Gerente de Unidad,
-        lee el costo aproximado debajo de cada botón ($200, $1300, $3000, etc.) y devuelve
-        una lista de diccionarios [{'x': cx, 'y': cy, 'cost': cost}, ...] ordenada de menor
-        a mayor costo para mejorar todas las unidades disponibles de forma distribuida.
+        valida que tengan a su derecha el botón rojo 'Vender' (descartando barras de vida del mapa),
+        lee el costo debajo de cada botón en una sola llamada OCR por lotes y devuelve
+        una lista [{'x': cx, 'y': cy, 'cost': cost}, ...] ordenada de menor a mayor costo.
         Ignora por completo los botones rojos ('Vender') y las unidades en nivel máximo (Nivel 8).
         """
         upgrades = []
@@ -267,56 +361,97 @@ class VisionSystem:
             sh, sw = screen.shape[:2]
             if sw > 600 and sh > 500:
                 rx1, rx2 = int(sw * 0.15), int(sw * 0.85)
-                ry1, ry2 = int(sh * 0.14), int(sh * 0.85)
+                ry1, ry2 = int(sh * 0.12), int(sh * 0.88)
             else:
                 rx1, rx2, ry1, ry2 = 0, sw, 0, sh
 
             roi = screen[ry1:ry2, rx1:rx2]
             hsv = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
-            green_mask = cv2.inRange(hsv, np.array([38, 110, 110]), np.array([85, 255, 255]))
+            green_mask = cv2.inRange(hsv, np.array([38, 100, 100]), np.array([85, 255, 255]))
+            m1 = cv2.inRange(hsv, np.array([0, 110, 100]), np.array([10, 255, 255]))
+            m2 = cv2.inRange(hsv, np.array([170, 110, 100]), np.array([180, 255, 255]))
+            red_mask = cv2.bitwise_or(m1, m2)
             cnts, _ = cv2.findContours(green_mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+
+            strips = []
+            strip_h = 72
 
             for c in cnts:
                 area = cv2.contourArea(c)
-                if 350 <= area <= 5000:
+                if 250 <= area <= 14000:
                     x, y, w, h = cv2.boundingRect(c)
-                    btn_h = min(h, 27)
-                    aspect = w / float(btn_h) if btn_h > 0 else 0
-                    if 1.6 <= aspect <= 3.5:
+                    # Altura proporcional al ancho del botón (inmune a la resolución/escala de la ventana)
+                    btn_h = max(12, min(h, int(round(w * 0.38))))
+                    aspect = w / float(btn_h) if btn_h > 0 else 0.0
+                    if 1.6 <= aspect <= 3.6:
                         btn_hsv = hsv[y:y + btn_h, x:x + w]
-                        white_in_btn = np.count_nonzero((btn_hsv[:, :, 1] < 70) & (btn_hsv[:, :, 2] > 190))
+                        white_in_btn = np.count_nonzero((btn_hsv[:, :, 1] < 80) & (btn_hsv[:, :, 2] > 180))
                         white_ratio = white_in_btn / float(w * btn_h)
-                        if 0.12 <= white_ratio <= 0.65:
-                            cy1 = max(0, y + btn_h - 3)
-                            cy2 = min(roi.shape[0], y + btn_h + 14)
-                            cx1 = max(0, x + 3)
-                            cx2 = min(roi.shape[1], x + w - 14)
-                            cost_val = 200
-                            if cy2 > cy1 and cx2 > cx1:
+
+                        # Todo botón 'Mejora' dentro del Gerente de Unidad tiene su botón rojo 'Vender' a la derecha
+                        rx_start = min(roi.shape[1], x + w)
+                        rx_end = min(roi.shape[1], x + int(w * 2.3))
+                        red_right = np.count_nonzero(red_mask[y:min(roi.shape[0], y + btn_h), rx_start:rx_end])
+
+                        if 0.10 <= white_ratio <= 0.65 and red_right >= int(w * btn_h * 0.15):
+                            cy1 = max(0, y + int(round(w * 0.34)))
+                            cy2 = min(roi.shape[0], y + int(round(w * 0.56)))
+                            cx1 = max(0, x + int(round(w * 0.04)))
+                            cx2 = min(roi.shape[1], x + int(round(w * 0.78)))
+
+                            if cy2 > cy1 and cx2 > cx1 and self.has_tesseract:
                                 cost_roi = roi[cy1:cy2, cx1:cx2]
-                                cost_large = cv2.resize(cost_roi, None, fx=4, fy=4, interpolation=cv2.INTER_CUBIC)
-                                chsv = cv2.cvtColor(cost_large, cv2.COLOR_BGR2HSV)
-                                cwhite = ((chsv[:, :, 1] < 80) & (chsv[:, :, 2] > 165)).astype(np.uint8) * 255
+                                f_sc = 48.0 / float(max(1, cost_roi.shape[0]))
+                                clarge = cv2.resize(cost_roi, None, fx=f_sc, fy=f_sc, interpolation=cv2.INTER_CUBIC)
+                                if clarge.shape[0] != 48:
+                                    clarge = cv2.resize(clarge, (clarge.shape[1], 48))
+                                if clarge.shape[1] < 240:
+                                    clarge = cv2.copyMakeBorder(
+                                        clarge, 0, 0, 0, 240 - clarge.shape[1], cv2.BORDER_CONSTANT, value=(0, 0, 0)
+                                    )
+                                else:
+                                    clarge = clarge[:, :240]
+                                chsv = cv2.cvtColor(clarge, cv2.COLOR_BGR2HSV)
+                                cwhite = ((chsv[:, :, 1] < 85) & (chsv[:, :, 2] > 160)).astype(np.uint8) * 255
                                 nl, lbls, stats, _ = cv2.connectedComponentsWithStats(cwhite)
-                                comps = [(stats[i, cv2.CC_STAT_LEFT], stats[i, cv2.CC_STAT_WIDTH], i) for i in range(1, nl) if stats[i, cv2.CC_STAT_AREA] >= 10]
+                                comps = [
+                                    (stats[i, cv2.CC_STAT_LEFT], stats[i, cv2.CC_STAT_WIDTH], i)
+                                    for i in range(1, nl)
+                                    if stats[i, cv2.CC_STAT_AREA] >= 12
+                                ]
                                 comps.sort()
                                 if comps:
                                     fx, fw, flbl = comps[0]
-                                    if fw <= 22 and len(comps) >= 2:
+                                    if fw <= 26 and len(comps) >= 2:
                                         cwhite[lbls == flbl] = 0
                                     else:
                                         cwhite[:, :fx + 16] = 0
                                 cbw = cv2.bitwise_not(cwhite)
-                                cpad = cv2.copyMakeBorder(cbw, 15, 15, 15, 15, cv2.BORDER_CONSTANT, value=255)
-                                txt = pytesseract.image_to_string(cpad, config=r'--psm 7 -c tessedit_char_whitelist=0123456789')
-                                nums = re.findall(r'\d+', txt)
-                                if nums:
-                                    parsed = int("".join(nums))
-                                    if 50 <= parsed <= 100000:
-                                        cost_val = parsed
+                                cpad = cv2.copyMakeBorder(cbw, 12, 12, 16, 16, cv2.BORDER_CONSTANT, value=255)
+                                strips.append(cpad)
+
                             real_cx = rx1 + x + w // 2
                             real_cy = ry1 + y + btn_h // 2
-                            upgrades.append({"x": real_cx, "y": real_cy, "cost": cost_val})
+                            # Costo por defecto 1500 si OCR no distingue texto pequeño ($3000+), para que las granjas de $200 vayan primero
+                            upgrades.append({"x": real_cx, "y": real_cy, "cost": 1500})
+
+            if strips and len(strips) == len(upgrades) and self.has_tesseract:
+                batch_img = np.vstack(strips)
+                data = pytesseract.image_to_data(
+                    batch_img,
+                    config=r'--psm 6 -c tessedit_char_whitelist=0123456789',
+                    output_type=pytesseract.Output.DICT,
+                )
+                by_idx = {}
+                for txt, top in zip(data.get("text", []), data.get("top", [])):
+                    nums = re.findall(r'\d+', str(txt))
+                    if nums:
+                        idx = min(len(upgrades) - 1, max(0, int(top) // strip_h))
+                        by_idx.setdefault(idx, []).append("".join(nums))
+                for idx, parts in by_idx.items():
+                    parsed = int("".join(parts))
+                    if 50 <= parsed <= 100000:
+                        upgrades[idx]["cost"] = parsed
 
             upgrades.sort(key=lambda u: (u["cost"], u["y"] // 60, u["x"]))
         except Exception:

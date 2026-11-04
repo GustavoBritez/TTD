@@ -448,12 +448,13 @@ class TTDGuiApp(ctk.CTk):
 
 
 
-        ctk.CTkButton(tool_btn_box, text="Cámara Cenital", width=110, height=28, command=self.test_camera).pack(side="left", padx=3, pady=4)
+        ctk.CTkButton(tool_btn_box, text="Cámara Cenital", width=102, height=28, command=self.test_camera).pack(side="left", padx=3, pady=4)
 
-        ctk.CTkButton(tool_btn_box, text="Probar Offset ORB", width=120, height=28, command=self.test_orb_offset).pack(side="left", padx=3, pady=4)
+        ctk.CTkButton(tool_btn_box, text="Offset ORB", width=92, height=28, command=self.test_orb_offset).pack(side="left", padx=3, pady=4)
 
-        ctk.CTkButton(tool_btn_box, text="Centrar WASD", width=100, height=28, command=self.test_autocenter).pack(side="left", padx=3, pady=4)
-        ctk.CTkButton(tool_btn_box, text="Anti-AFK", width=80, height=28, command=self.controller.anti_afk_jiggle).pack(side="left", padx=3, pady=4)
+        ctk.CTkButton(tool_btn_box, text="Centrar WASD", width=98, height=28, command=self.test_autocenter).pack(side="left", padx=3, pady=4)
+        ctk.CTkButton(tool_btn_box, text="Probar Mejora", width=102, height=28, fg_color="#2ed573", hover_color="#26af5f", text_color="#000000", command=self.test_unit_manager).pack(side="left", padx=3, pady=4)
+        ctk.CTkButton(tool_btn_box, text="Anti-AFK", width=72, height=28, command=self.controller.anti_afk_jiggle).pack(side="left", padx=3, pady=4)
 
 
 
@@ -995,6 +996,76 @@ class TTDGuiApp(ctk.CTk):
         self.auto_center_character(max_steps=12, require_running=False)
         self.log("Prueba de centrado WASD completada.")
 
+    def test_unit_manager(self):
+        self.log("Probando Gerente de Unidad + botón 'Mejora' en 3 segundos... ¡Cambia a Roblox!")
+        threading.Thread(target=self._run_test_unit_manager, daemon=True).start()
+
+    def _run_test_unit_manager(self):
+        time.sleep(3)
+        money = self.vision.read_money()
+        self.run_unit_manager_upgrades(money=money, max_clicks=None, require_running=False)
+
+    def run_unit_manager_upgrades(self, money: int = -1, max_clicks=None, require_running: bool = True) -> int:
+        """
+        Flujo verificado del Gerente de Unidad:
+        1. Cancela cualquier fantasma de colocación ('X') y localiza el libro azul 'Unidades'.
+        2. Abre el Gerente de Unidad y verifica con visión que realmente se abrió (reintenta si no abrió).
+        3. Detecta todos los botones verdes 'Mejora' (validando el botón rojo 'Vender' a su derecha) y hace clic.
+        4. Cierra el Gerente de Unidad alternando el libro azul y verifica que haya quedado cerrado.
+        """
+        if require_running and not self.is_running:
+            return 0
+
+        self.controller.cancel_placement()
+        book_pt = self.vision.find_book_icon()
+        if not book_pt:
+            self.log("⚠️ No se detectó el icono azul 'Unidades' en pantalla para abrir el Gerente.")
+            return 0
+
+        # 1. Abrir el Gerente de Unidad si aún no está abierto
+        if not self.vision.is_unit_manager_open():
+            self.controller.click_at(book_pt[0], book_pt[1], delay=0.35)
+            time.sleep(0.25)
+            if not self.vision.is_unit_manager_open():
+                # Reintento por si Roblox ignoró el primer clic
+                self.controller.click_at(book_pt[0], book_pt[1], delay=0.35)
+                time.sleep(0.25)
+
+        total_clicked = 0
+        passes = 2 if (max_clicks is None and (money < 0 or money >= 800)) else 1
+
+        for p_idx in range(passes):
+            if require_running and not self.is_running:
+                break
+            upgrades = self.vision.find_all_upgrade_buttons()
+            if not upgrades:
+                if p_idx == 0:
+                    self.log(f"ℹ️ Gerente de Unidad abierto en ({book_pt[0]}, {book_pt[1]}), sin botones verdes 'Mejora' visibles.")
+                break
+
+            target_list = upgrades[:max_clicks] if max_clicks is not None else upgrades
+            for u in target_list:
+                if require_running and not self.is_running:
+                    break
+                self.controller.click_at(u["x"], u["y"], delay=0.18)
+                total_clicked += 1
+
+            if max_clicks is not None or len(upgrades) == 0:
+                break
+            time.sleep(0.15)
+
+        if total_clicked > 0:
+            self.log(f"⬆️ Gerente de Unidad: {total_clicked} clic(s) en botones verdes 'Mejora' (Dinero: ${money}).")
+            time.sleep(0.15)
+
+        # 2. Cerrar el Gerente de Unidad haciendo clic nuevamente en el libro azul
+        self.controller.click_at(book_pt[0], book_pt[1], delay=0.25)
+        time.sleep(0.20)
+        if self.vision.is_unit_manager_open():
+            self.controller.click_at(book_pt[0], book_pt[1], delay=0.25)
+
+        return total_clicked
+
     def auto_center_character(self, max_steps: int = 16, require_running: bool = True):
         """
         Camina con WASD hasta la Zona Segura (mancha violeta de 'Zona Segura.png').
@@ -1169,6 +1240,8 @@ class TTDGuiApp(ctk.CTk):
             self.vision.reload_placement_config()
             self.blueprint_items = self._ensure_point_ids(self.load_blueprint())
             pending_units = [dict(item) for item in self.blueprint_items]
+            total_blueprint_units = len(pending_units)
+            last_mid_upgrade_time = time.time()
 
             self.current_objective = "EJECUTANDO PLANO DE TROPAS"
             match_loop_start = time.time()
@@ -1188,26 +1261,17 @@ class TTDGuiApp(ctk.CTk):
                     self.log(f"⚡ Auto-Skip estaba en ROJO -> Activado a VERDE en ({red_skip_pt[0]}, {red_skip_pt[1]}).")
 
                 # A. Leer Dinero actual con OCR
-
                 money = self.vision.read_money()
-
                 if money >= 0:
-
                     self.current_money = money
 
-
-
                 # B. Colocar tropas pendientes SOLO cuando el dinero leído alcanza realmente
-
                 if pending_units:
-
                     next_unit = pending_units[0]
-
-
+                    placed_so_far = total_blueprint_units - len(pending_units)
 
                     # Solo permitir colocación sin OCR para la PRIMERA granja al inicio de la partida (cuando empiezas con $200)
-
-                    is_first_starter_farm = (len(pending_units) == len(self.blueprint_items) and next_unit["cost"] <= 200 and elapsed < 12)
+                    is_first_starter_farm = (len(pending_units) == total_blueprint_units and next_unit["cost"] <= 200 and elapsed < 12)
                     time_since_last_place = time.time() - getattr(self, "last_placement_time", match_loop_start)
                     # Fallback si OCR no detecta dinero o si Tesseract no está presente: colocar tras espera económica
                     can_place = (money >= next_unit["cost"]) or (money == -1 and (is_first_starter_farm or time_since_last_place > 22.0))
@@ -1244,52 +1308,32 @@ class TTDGuiApp(ctk.CTk):
                             pending_units.pop(0)
                             time.sleep(0.8)
                         else:
-                            self.log(f"⏳ {next_unit['name']} en P{pid} ({safe_x}, {safe_y}): el dinero no disminuyó tras {attempts}x R+CLICK (Dinero: ${new_money}). Reintentando...")
+                            next_unit["_fails"] = next_unit.get("_fails", 0) + 1
+                            if next_unit["_fails"] >= 3:
+                                self.log(f"⚠️ {next_unit['name']} en P{pid} falló 3 ciclos seguidos (posible límite o punto ocupado). Avanzando a la siguiente unidad...")
+                                pending_units.pop(0)
+                            else:
+                                self.log(f"⏳ {next_unit['name']} en P{pid} ({safe_x}, {safe_y}): el dinero no disminuyó tras {attempts}x R+CLICK (Intento {next_unit['_fails']}/3). Reintentando...")
                             time.sleep(0.5)
+                    else:
+                        # Mientras ahorramos para una unidad cara (>= $1000) y ya tenemos al menos 2 granjas en pista,
+                        # abrir periódicamente el Gerente de Unidad para mejorar las granjas ($200) y acelerar los ingresos.
+                        if (
+                            placed_so_far >= 2
+                            and next_unit["cost"] >= 1000
+                            and 200 <= money < (next_unit["cost"] - 150)
+                            and (time.time() - last_mid_upgrade_time) >= 18.0
+                        ):
+                            self.current_objective = f"MEJORANDO GRANJAS (AHORRANDO ${next_unit['cost']})"
+                            self.run_unit_manager_upgrades(money=money, max_clicks=2, require_running=True)
+                            last_mid_upgrade_time = time.time()
+                            self.current_objective = "EJECUTANDO PLANO DE TROPAS"
 
-
-
-                # C. Si ya colocó todas las tropas o tiene dinero sobrante -> MEJORAS
-
+                # C. Si ya colocó todas las tropas -> MEJORAS CONTINUAS EN GERENTE DE UNIDAD
                 else:
-
                     self.current_objective = "MEJORAS & COMBATE"
-
                     if money >= 200 or money <= 0:
-
-                        book_pt = self.vision.find_book_icon()
-
-                        if book_pt:
-
-                            self.controller.click_at(book_pt[0], book_pt[1], delay=0.3)
-
-                            time.sleep(0.2)
-
-
-
-                            upgrades = self.vision.find_all_upgrade_buttons()
-                            if upgrades:
-                                applied_count = 0
-                                avail_money = money
-                                for u in upgrades:
-                                    if avail_money <= 0 or avail_money >= u["cost"]:
-                                        self.controller.click_at(u["x"], u["y"], delay=0.18)
-                                        applied_count += 1
-                                        if avail_money > 0:
-                                            avail_money = max(0, avail_money - u["cost"])
-                                            self.current_money = avail_money
-                                if applied_count == 0:
-                                    u0 = upgrades[0]
-                                    self.controller.click_at(u0["x"], u0["y"], delay=0.18)
-                                    applied_count = 1
-                                self.log(f"Gerente de Unidad: {applied_count}/{len(upgrades)} mejoras aplicadas (Dinero: ${money})")
-                                time.sleep(0.2)
-
-
-
-                            # Cerrar el Gerente de Unidad haciendo clic nuevamente en el icono del libro.
-                            # Se evita buscar o hacer clic en el boton rojo porque corresponde a VENDER.
-                            self.controller.click_at(book_pt[0], book_pt[1], delay=0.2)
+                        self.run_unit_manager_upgrades(money=money, max_clicks=None, require_running=True)
 
 
 
