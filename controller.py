@@ -1,6 +1,24 @@
+import ctypes
+import platform
 import time
 import pydirectinput
 import pyautogui
+
+def enable_dpi_awareness():
+    """
+    Activa la compatibilidad DPI en Windows para que las capturas de pantalla
+    y las coordenadas del mouse sean 100% físicas y no se distorsionen con el zoom de Windows (125%, 150%, etc.).
+    """
+    if platform.system() == "Windows":
+        try:
+            ctypes.windll.shcore.SetProcessDpiAwareness(2)  # Per-Monitor DPI aware
+        except Exception:
+            try:
+                ctypes.windll.user32.SetProcessDPIAware()
+            except Exception:
+                pass
+
+enable_dpi_awareness()
 
 # Desactivar pausas artificiales excesivas
 pydirectinput.PAUSE = 0.05
@@ -11,16 +29,54 @@ class GameController:
     BASE_HEIGHT = 768
 
     def __init__(self):
-        pass
+        enable_dpi_awareness()
+
+    def get_roblox_client_rect(self) -> tuple:
+        """
+        Retorna (x, y, w, h) del área cliente de juego de Roblox en píxeles físicos del monitor
+        (excluyendo marcos de ventana, barra de título y sombras de Windows).
+        Si Roblox no está abierto o no se detecta, retorna la pantalla completa.
+        """
+        try:
+            import win32gui
+            hwnds = []
+            def _cb(hwnd, acc):
+                if win32gui.IsWindowVisible(hwnd) and not win32gui.IsIconic(hwnd):
+                    title = win32gui.GetWindowText(hwnd).strip().lower()
+                    if "roblox" in title:
+                        acc.append(hwnd)
+            win32gui.EnumWindows(_cb, hwnds)
+            if hwnds:
+                fg = win32gui.GetForegroundWindow()
+                hwnd = fg if fg in hwnds else hwnds[0]
+                l, t, r, b = win32gui.GetClientRect(hwnd)
+                x0, y0 = win32gui.ClientToScreen(hwnd, (0, 0))
+                w, h = r - l, b - t
+                if w > 200 and h > 200:
+                    return (int(x0), int(y0), int(w), int(h))
+        except Exception:
+            pass
+
+        try:
+            sw, sh = pyautogui.size()
+            return (0, 0, int(sw), int(sh))
+        except Exception:
+            return (0, 0, self.BASE_WIDTH, self.BASE_HEIGHT)
+
+    def canonical_to_screen(self, x: int, y: int) -> tuple:
+        """
+        Convierte coordenadas del plano canónico 1366x768 a la posición física exacta
+        de la pantalla del cliente, adaptándose automáticamente a cualquier resolución
+        (1080p, 1440p, 4K) o modo de ventana de Roblox.
+        """
+        rx, ry, rw, rh = self.get_roblox_client_rect()
+        sx = int(round(rx + x * (rw / float(self.BASE_WIDTH))))
+        sy = int(round(ry + y * (rh / float(self.BASE_HEIGHT))))
+        return sx, sy
 
     def scale_coords(self, x: int, y: int) -> tuple:
-        """Convierte coordenadas del plano canónico 1366x768 a la resolución real del monitor"""
-        sw, sh = pyautogui.size()
-        if sw == self.BASE_WIDTH and sh == self.BASE_HEIGHT:
-            return int(x), int(y)
-        sx = int(round(x * (sw / float(self.BASE_WIDTH))))
-        sy = int(round(y * (sh / float(self.BASE_HEIGHT))))
-        return sx, sy
+        """Alias para compatibilidad hacia atrás: escala coordenadas canónicas a la pantalla real."""
+        return self.canonical_to_screen(x, y)
 
     def is_roblox_active(self) -> bool:
         """Verifica si la ventana activa en primer plano es Roblox"""
@@ -56,10 +112,14 @@ class GameController:
         pydirectinput.keyUp(key.lower())
         time.sleep(0.05)
 
-    def click_at(self, x: int, y: int, delay: float = 0.2, auto_scale: bool = False):
-        """Mueve el mouse con micro-desplazamiento relativo para activar el raycast 3D de Roblox"""
+    def click_at(self, x: int, y: int, delay: float = 0.2, auto_scale: bool = True):
+        """
+        Mueve el mouse con micro-desplazamiento relativo para activar el raycast 3D de Roblox.
+        Por defecto auto_scale=True traduce automáticamente desde el espacio canónico 1366x768
+        a la resolución y posición real del cliente.
+        """
         if auto_scale:
-            x, y = self.scale_coords(x, y)
+            x, y = self.canonical_to_screen(x, y)
         pydirectinput.moveTo(x, y)
         time.sleep(0.04)
         # Micro-jiggle de 2 píxeles: obligatorio en Roblox para que actualice el hover 3D en el suelo
@@ -88,7 +148,7 @@ class GameController:
         slot_number: int,
         x: int,
         y: int,
-        auto_scale: bool = False,
+        auto_scale: bool = True,
         read_money_fn=None,
         initial_money: int = -1,
         max_r_clicks: int = 6,
@@ -146,13 +206,13 @@ class GameController:
         pydirectinput.press('x')
         time.sleep(0.05)
 
-    def upgrade_unit_at(self, unit_x: int, unit_y: int, upgrade_btn_x: int, upgrade_btn_y: int, auto_scale: bool = False):
+    def upgrade_unit_at(self, unit_x: int, unit_y: int, upgrade_btn_x: int, upgrade_btn_y: int, auto_scale: bool = True):
         """Mejora una unidad haciendo clic en su posición en el mapa y luego en el botón de mejora"""
         self.click_at(unit_x, unit_y, delay=0.25, auto_scale=auto_scale)
         self.click_at(upgrade_btn_x, upgrade_btn_y, delay=0.2, auto_scale=auto_scale)
         self.cancel_placement()
 
-    def upgrade_via_manager(self, book_x: int, book_y: int, upgrade_x: int, upgrade_y: int, close_x: int = None, close_y: int = None, auto_scale: bool = False):
+    def upgrade_via_manager(self, book_x: int, book_y: int, upgrade_x: int, upgrade_y: int, close_x: int = None, close_y: int = None, auto_scale: bool = True):
         """
         Flujo de mejora oficial mediante el Gerente de Unidad:
         1. Clic en el libro azul 'Unidades' para abrir
@@ -176,9 +236,10 @@ class GameController:
             time.sleep(0.02)
         time.sleep(0.2)
 
-        # Centrar el mouse y arrastrar hacia arriba con botón derecho
-        sw, sh = pyautogui.size()
-        cx, cy = sw // 2, sh // 2
+        # Centrar el mouse en el centro de la ventana de Roblox y arrastrar hacia arriba con botón derecho
+        rx, ry, rw, rh = self.get_roblox_client_rect()
+        cx = rx + rw // 2
+        cy = ry + rh // 2
         pydirectinput.moveTo(cx, cy)
         time.sleep(0.05)
         # Arrastrar hacia abajo con clic derecho para elevar la cámara y mirar al suelo (vista pájaro)

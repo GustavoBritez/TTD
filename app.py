@@ -1,28 +1,18 @@
 import os
-
 import json
-
 import time
-
 import threading
-
 import tkinter as tk
-
 from tkinter import messagebox, filedialog
-
 from PIL import Image, ImageTk
-
 import customtkinter as ctk
-
 import pyautogui
-
 import keyboard
 
-
-
-from controller import GameController
-
+from controller import GameController, enable_dpi_awareness
 from vision import VisionSystem
+
+enable_dpi_awareness()
 
 
 

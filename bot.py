@@ -7,8 +7,10 @@ from rich.console import Console
 from rich.panel import Panel
 from rich.table import Table
 
-from controller import GameController
+from controller import GameController, enable_dpi_awareness
 from vision import VisionSystem
+
+enable_dpi_awareness()
 
 console = Console()
 CONFIG_FILE = "config.json"

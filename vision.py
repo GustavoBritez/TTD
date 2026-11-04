@@ -4,6 +4,24 @@ import mss
 import os
 import re
 import pytesseract
+import ctypes
+import platform
+
+def enable_dpi_awareness():
+    """
+    Activa la compatibilidad DPI en Windows para que las capturas de pantalla
+    y las coordenadas del mouse sean 100% físicas y no se distorsionen con el zoom de Windows (125%, 150%, etc.).
+    """
+    if platform.system() == "Windows":
+        try:
+            ctypes.windll.shcore.SetProcessDpiAwareness(2)  # Per-Monitor DPI aware
+        except Exception:
+            try:
+                ctypes.windll.user32.SetProcessDPIAware()
+            except Exception:
+                pass
+
+enable_dpi_awareness()
 
 TEMPLATES_DIR = os.path.join(os.path.dirname(__file__), "templates")
 
@@ -26,12 +44,45 @@ if not HAS_TESSERACT and shutil.which("tesseract"):
 
 class VisionSystem:
     def __init__(self):
+        enable_dpi_awareness()
         self.sct = mss.mss()
         self.has_tesseract = HAS_TESSERACT
         self._template_cache = {}
         self._base_orb_kp = None
         self._base_orb_desc = None
         self._lava_ref_patches = self._load_lava_ref_patches()
+
+    def get_roblox_client_rect(self) -> tuple:
+        """
+        Retorna (x, y, w, h) del área cliente de juego de Roblox en píxeles físicos del monitor
+        (excluyendo marcos de ventana, barra de título y sombras de Windows).
+        Si Roblox no está abierto o no se detecta, retorna la pantalla completa del monitor principal.
+        """
+        try:
+            import win32gui
+            hwnds = []
+            def _cb(hwnd, acc):
+                if win32gui.IsWindowVisible(hwnd) and not win32gui.IsIconic(hwnd):
+                    title = win32gui.GetWindowText(hwnd).strip().lower()
+                    if "roblox" in title:
+                        acc.append(hwnd)
+            win32gui.EnumWindows(_cb, hwnds)
+            if hwnds:
+                fg = win32gui.GetForegroundWindow()
+                hwnd = fg if fg in hwnds else hwnds[0]
+                l, t, r, b = win32gui.GetClientRect(hwnd)
+                x0, y0 = win32gui.ClientToScreen(hwnd, (0, 0))
+                w, h = r - l, b - t
+                if w > 200 and h > 200:
+                    return (int(x0), int(y0), int(w), int(h))
+        except Exception:
+            pass
+
+        try:
+            mon = self.sct.monitors[1]
+            return (int(mon.get("left", 0)), int(mon.get("top", 0)), int(mon.get("width", 1366)), int(mon.get("height", 768)))
+        except Exception:
+            return (0, 0, 1366, 768)
 
     def _load_lava_ref_patches(self):
         """
@@ -62,10 +113,28 @@ class VisionSystem:
         return patches
 
     def grab_screen(self):
-        """Captura toda la pantalla de forma ultrarrpida en formato OpenCV BGR"""
-        monitor = self.sct.monitors[1]
-        screenshot = np.array(self.sct.grab(monitor))
-        return cv2.cvtColor(screenshot, cv2.COLOR_BGRA2BGR)
+        """
+        Captura el área de juego de Roblox y la normaliza a espacio canónico 1366x768.
+        Esto garantiza que todas las plantillas, OCR, contornos y posiciones de tropas
+        funcionen exactamente igual en cualquier monitor (1080p, 1440p, 4K, laptops con zoom).
+        """
+        rx, ry, rw, rh = self.get_roblox_client_rect()
+        frame = None
+        try:
+            bbox = {"left": int(rx), "top": int(ry), "width": int(rw), "height": int(rh)}
+            screenshot = np.array(self.sct.grab(bbox))
+            frame = cv2.cvtColor(screenshot, cv2.COLOR_BGRA2BGR)
+        except Exception:
+            try:
+                mon = self.sct.monitors[1]
+                screenshot = np.array(self.sct.grab(mon))
+                frame = cv2.cvtColor(screenshot, cv2.COLOR_BGRA2BGR)
+            except Exception:
+                frame = np.zeros((768, 1366, 3), dtype=np.uint8)
+
+        if frame is not None and frame.shape[:2] != (768, 1366):
+            frame = cv2.resize(frame, (1366, 768), interpolation=cv2.INTER_LINEAR)
+        return frame
 
     def find_template(self, template_name_or_path: str, threshold: float = 0.70):
         """
@@ -198,6 +267,8 @@ class VisionSystem:
         try:
             if screen is None:
                 screen = self.grab_screen()
+            elif screen.shape[:2] != (768, 1366):
+                screen = cv2.resize(screen, (1366, 768), interpolation=cv2.INTER_LINEAR)
             h, w = screen.shape[:2]
 
             # Zona superior central del HUD donde aparece 'Saltar automáticamente'
@@ -256,6 +327,8 @@ class VisionSystem:
         try:
             if screen is None:
                 screen = self.grab_screen()
+            elif screen.shape[:2] != (768, 1366):
+                screen = cv2.resize(screen, (1366, 768), interpolation=cv2.INTER_LINEAR)
             h, w = screen.shape[:2]
 
             # Restringir a la mitad inferior derecha donde reside el icono 'Unidades' (evita barra de tareas y chat superior)
@@ -327,6 +400,8 @@ class VisionSystem:
         try:
             if screen is None:
                 screen = self.grab_screen()
+            elif screen.shape[:2] != (768, 1366):
+                screen = cv2.resize(screen, (1366, 768), interpolation=cv2.INTER_LINEAR)
             sh, sw = screen.shape[:2]
             if sw > 600 and sh > 500:
                 rx1, rx2 = int(sw * 0.20), int(sw * 0.80)
@@ -358,6 +433,8 @@ class VisionSystem:
         try:
             if screen is None:
                 screen = self.grab_screen()
+            elif screen.shape[:2] != (768, 1366):
+                screen = cv2.resize(screen, (1366, 768), interpolation=cv2.INTER_LINEAR)
             sh, sw = screen.shape[:2]
             if sw > 600 and sh > 500:
                 rx1, rx2 = int(sw * 0.15), int(sw * 0.85)
@@ -598,54 +675,31 @@ class VisionSystem:
 
     def get_roblox_viewport(self):
         """
-        Rectángulo (x, y, w, h) del área de juego de Roblox (client area, sin barra de título)
-        en el espacio canónico 1366x768 de la captura. Si no se encuentra la ventana,
-        se asume pantalla completa.
+        Rectángulo (x, y, w, h) del área de juego de Roblox en el espacio canónico 1366x768.
+        Dado que grab_screen() normaliza automáticamente la vista del juego a 1366x768,
+        el viewport canónico siempre abarca exactamente (0, 0, 1366, 768).
         """
-        try:
-            import win32gui
-            mon = self.sct.monitors[1]
-            sx = 1366.0 / float(mon["width"])
-            sy = 768.0 / float(mon["height"])
-            hwnds = []
-
-            def _cb(hwnd, acc):
-                if win32gui.IsWindowVisible(hwnd) and not win32gui.IsIconic(hwnd):
-                    title = win32gui.GetWindowText(hwnd)
-                    if title.strip().lower() == "roblox":
-                        acc.append(hwnd)
-            win32gui.EnumWindows(_cb, hwnds)
-            if hwnds:
-                fg = win32gui.GetForegroundWindow()
-                hwnd = fg if fg in hwnds else hwnds[0]
-                l, t, r, b = win32gui.GetClientRect(hwnd)
-                x0, y0 = win32gui.ClientToScreen(hwnd, (0, 0))
-                w, h = r - l, b - t
-                if w > 200 and h > 200:
-                    return ((x0 - mon["left"]) * sx, (y0 - mon["top"]) * sy, w * sx, h * sy)
-        except Exception:
-            pass
         return (0.0, 0.0, 1366.0, 768.0)
 
     def ref_to_screen(self, ref_x: float, ref_y: float, anchor_pool=None):
         """
         Convierte un punto del marco de referencia (captura Puntos_de_unidades_Colocacion.png)
-        a la pantalla en vivo (espacio canónico 1366x768).
+        al espacio canónico 1366x768 del bot.
           - Con anchor_pool (posición en vivo del pozo central): punto = ancla + (p - pozo_ref) * k
-          - Sin ancla: se usa el centro del viewport (el personaje siempre está en el centro).
-        k = alto_viewport_vivo / alto_viewport_ref (el FOV vertical de Roblox es fijo).
+          - Sin ancla: se usa el centro canónico de la pantalla (683, 384).
+        k = alto_viewport_canónico / alto_viewport_ref (768 / 687, el FOV vertical de Roblox es fijo).
         """
         cfg = self.get_placement_config()
-        vx, vy, vw, vh = self.get_roblox_viewport()
+        vh = 768.0
         k = vh / float(cfg["ref_viewport"][1])
         if anchor_pool is not None:
             px, py = cfg["ref_pool"]
             return (int(round(anchor_pool[0] + (ref_x - px) * k)), int(round(anchor_pool[1] + (ref_y - py) * k)))
         cx, cy = cfg["ref_center"]
-        return (int(round(vx + vw / 2.0 + (ref_x - cx) * k)), int(round(vy + vh / 2.0 + (ref_y - cy) * k)))
+        return (int(round(1366.0 / 2.0 + (ref_x - cx) * k)), int(round(768.0 / 2.0 + (ref_y - cy) * k)))
 
     def get_placement_point_screen(self, point_id: int, anchor_pool=None):
-        """Coordenada de pantalla de un punto oficial (1..N)."""
+        """Coordenada canónica (1366x768) de un punto oficial (1..N)."""
         cfg = self.get_placement_config()
         for p in cfg["points"]:
             if int(p["id"]) == int(point_id):
@@ -654,18 +708,17 @@ class VisionSystem:
 
     def get_safe_zone_status(self, pool_pt):
         """
-        Indica si el personaje (centro del viewport) está dentro de la Zona Segura violeta,
+        Indica si el personaje (centro del viewport canónico 1366x768) está dentro de la Zona Segura violeta,
         definida en 'Zona Segura.png' como offset+radio respecto al pozo central.
         Devuelve (dentro: bool, distancia_px: float).
         """
         cfg = self.get_placement_config()
-        vx, vy, vw, vh = self.get_roblox_viewport()
-        k = vh / float(cfg["ref_viewport"][1])
+        k = 768.0 / float(cfg["ref_viewport"][1])
         sz = cfg.get("safe_zone", {})
         off = sz.get("offset_from_pool", [0.0, 0.0])
         radius = float(sz.get("radius", 43.0)) * k
         zx, zy = pool_pt[0] + off[0] * k, pool_pt[1] + off[1] * k
-        d = float(np.hypot(vx + vw / 2.0 - zx, vy + vh / 2.0 - zy))
+        d = float(np.hypot(1366.0 / 2.0 - zx, 768.0 / 2.0 - zy))
         # +15px: el personaje no puede pisar la lava, se para en el borde de la mancha violeta
         return d <= radius + 15.0 * k, d
 
@@ -688,17 +741,21 @@ class VisionSystem:
         """
         return self.find_book_icon() is not None or self.read_money() > 0
 
-    def find_replay_button(self):
+    def find_replay_button(self, screen=None):
         """
-        Detecta el botn verde 'Jugar de nuevo' en la pantalla de derrota/victoria.
-        Prioriza la plantilla exacta btn_jugar_nuevo.png con fallback a deteccin de contorno verde.
+        Detecta el botón verde 'Jugar de nuevo' en la pantalla de derrota/victoria.
+        Prioriza la plantilla exacta btn_jugar_nuevo.png con fallback a detección de contorno verde.
         """
+        if screen is None:
+            screen = self.grab_screen()
+        elif screen.shape[:2] != (768, 1366):
+            screen = cv2.resize(screen, (1366, 768), interpolation=cv2.INTER_LINEAR)
+
         tpl_pt = self.find_template("btn_jugar_nuevo.png", threshold=0.70)
         if tpl_pt:
             return tpl_pt
 
         try:
-            screen = self.grab_screen()
             h, w = screen.shape[:2]
             hsv = cv2.cvtColor(screen, cv2.COLOR_BGR2HSV)
             lower_green = np.array([35, 150, 150])
